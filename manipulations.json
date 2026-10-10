@@ -1,0 +1,675 @@
+[
+  {
+    "id": "ph",
+    "title": "Titrage pH-métrique",
+    "subtitle": "Lire un saut de pH, trouver l’équivalence.",
+    "category": "Titrages",
+    "time": 8,
+    "image": "ph.webp",
+    "preview": true,
+    "objective": "Déterminer la concentration d’une espèce acide ou basique en mesurant le pH au cours d’un titrage.",
+    "principle": "La réaction doit être rapide, suffisamment totale et unique. L’équivalence correspond aux proportions stœchiométriques ; son pH n’est pas forcément égal à 7.",
+    "equipment": [
+      [
+        "Burette graduée",
+        "Contient le titrant de concentration connue."
+      ],
+      [
+        "Pipette jaugée + propipette",
+        "Fixent précisément le volume de prise d’essai."
+      ],
+      [
+        "Sonde et pH-mètre",
+        "Mesurent le pH ; l’électrode de verre doit rester immergée."
+      ],
+      [
+        "Bécher et agitateur",
+        "Homogénéisent sans heurter la sonde."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer la verrerie",
+        "Rincer la burette avec un peu de solution titrante et la pipette jaugée avec la solution à prélever. Recueillir les rinçages dans le déchet adapté."
+      ],
+      [
+        "Remplir et lire la burette",
+        "Remplir la pointe, chasser toute bulle, retirer l’entonnoir et lire le ménisque à hauteur des yeux. Noter le volume initial ; il n’a pas besoin d’être exactement nul."
+      ],
+      [
+        "Prélever la prise d’essai",
+        "Prélever le volume VA à la pipette jaugée avec une propipette. Laisser couler sans souffler dans une pipette jaugée classique. Verser dans le récipient de titrage."
+      ],
+      [
+        "Préparer la mesure",
+        "Étalonner le pH-mètre avec les solutions tampons prévues, rincer l’électrode à l’eau distillée et la tamponner délicatement. Ajouter si nécessaire de l’eau distillée pour l’immerger : la quantité de soluté titré ne change pas."
+      ],
+      [
+        "Acquérir la courbe",
+        "Agiter doucement. Mesurer le pH initial, puis après chaque ajout et stabilisation. Réduire le pas de volume au voisinage du saut ; poursuivre au-delà de l’équivalence."
+      ],
+      [
+        "Exploiter et ranger",
+        "Tracer pH = f(V), déterminer VE par tangentes parallèles ou extremum de la dérivée. Calculer la concentration, puis rincer et stocker la sonde selon sa notice."
+      ]
+    ],
+    "exploitation": "Pour $aA+bB\\rightarrow\\text{produits}$, à l’équivalence : $$\\frac{C_A V_A}{a}=\\frac{C_B V_E}{b}\\quad\\Rightarrow\\quad C_A=\\frac{a\\,C_B V_E}{b\\,V_A}$$ Utiliser des volumes dans la même unité pour le rapport. Si la solution a été diluée d’un facteur $F$, $C_{\\mathrm{initiale}}=F C_A$.",
+    "errors": [
+      "Confondre le volume lu avec le volume versé : V = Vfinal − Vinitial.",
+      "Conclure automatiquement pHE = 7.",
+      "Oublier le facteur de dilution ou prendre trop peu de points près de VE."
+    ],
+    "question": "Pourquoi peut-on ajouter de l’eau distillée dans le bécher ?",
+    "answer": "Elle permet d’immerger la sonde sans modifier la quantité de matière de l’espèce titrée. Le pH change, mais le volume équivalent idéal reste identique.",
+    "check": [
+      "Je distingue titrant et titré.",
+      "Je sais étalonner et rincer la sonde.",
+      "Je sais repérer VE et justifier le calcul."
+    ],
+    "safety": "Blouse, lunettes et précautions adaptées aux réactifs du sujet ; aucune aspiration à la bouche. Identifier le récipient de déchets avant le titrage.",
+    "originals": [
+      "image (1).webp"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/course/view.php?id=77"
+    ]
+  },
+  {
+    "id": "conducti",
+    "title": "Titrage conductimétrique",
+    "subtitle": "Comprendre les ions, interpréter les pentes.",
+    "category": "Titrages",
+    "time": 9,
+    "image": "conducti.svg",
+    "objective": "Déterminer la concentration d’un soluté en suivant la conductivité pendant la réaction de titrage.",
+    "principle": "La conductivité dépend de la nature et de la concentration de tous les ions présents. L’équivalence se détermine par l’intersection des deux portions linéaires extrapolées ; elle ne correspond pas toujours à un minimum.",
+    "equipment": [
+      [
+        "Cellule conductimétrique",
+        "Deux électrodes soumises à une tension alternative."
+      ],
+      [
+        "Conductimètre",
+        "Mesure σ ; respecter l’unité affichée et les consignes d’étalonnage."
+      ],
+      [
+        "Burette, pipette et bécher",
+        "Préparent et délivrent des volumes connus."
+      ],
+      [
+        "Agitateur magnétique",
+        "Assure une mesure homogène, sans bulle contre la cellule."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer la verrerie",
+        "Rincer la burette avec un peu de solution titrante et la pipette jaugée avec la solution à prélever. Recueillir les rinçages dans le déchet adapté."
+      ],
+      [
+        "Remplir et lire la burette",
+        "Remplir la pointe, chasser toute bulle, retirer l’entonnoir et lire le ménisque à hauteur des yeux. Noter le volume initial ; il n’a pas besoin d’être exactement nul."
+      ],
+      [
+        "Prélever la prise d’essai",
+        "Prélever le volume VA à la pipette jaugée avec une propipette. Laisser couler sans souffler dans une pipette jaugée classique. Verser dans le récipient de titrage."
+      ],
+      [
+        "Installer la cellule",
+        "Rincer la sonde et l’immerger selon sa notice. Régler ou étalonner l’appareil si le protocole le demande. Maintenir la température aussi constante que possible."
+      ],
+      [
+        "Relever les mesures",
+        "Agiter sans chauffer, relever σ après stabilisation à chaque ajout. Acquérir suffisamment de points avant et après VE. Ne pas modifier la profondeur d’immersion."
+      ],
+      [
+        "Déterminer VE",
+        "Tracer σ = f(V). Si la dilution n’est pas négligeable, utiliser la correction prévue : σcorr = σ × (V0 + V)/V0, avec V0 le volume total initial dans le bécher. Ajuster les portions linéaires éloignées du changement de pente."
+      ]
+    ],
+    "exploitation": "Pour $aA+bB\\rightarrow\\text{produits}$, à l’équivalence : $$\\frac{C_A V_A}{a}=\\frac{C_B V_E}{b}\\quad\\Rightarrow\\quad C_A=\\frac{a\\,C_B V_E}{b\\,V_A}$$ Utiliser des volumes dans la même unité pour le rapport. Si la solution a été diluée d’un facteur $F$, $C_{\\mathrm{initiale}}=F C_A$.<p>Pour le montage GBF du document fourni : ampèremètre <b>en série</b>, voltmètre <b>en dérivation aux bornes de la cellule</b>. Dans le modèle résistif : $G=I/U$ et $\\sigma=K_{\\mathrm{cell}}G$.</p>",
+    "errors": [
+      "Chercher systématiquement le minimum de la courbe.",
+      "Oublier les ions spectateurs dans l’explication des pentes.",
+      "Confondre conductance G en S et conductivité σ en S·m⁻¹."
+    ],
+    "question": "Pourquoi utiliser une tension alternative dans la cellule ?",
+    "answer": "Pour limiter la polarisation des électrodes et les réactions d’électrolyse qui perturberaient la mesure.",
+    "check": [
+      "Je sais faire l’inventaire des ions.",
+      "Je distingue G et σ.",
+      "Je sais déterminer l’intersection des droites."
+    ],
+    "safety": "Blouse, lunettes et précautions adaptées aux réactifs du sujet ; aucune aspiration à la bouche. Identifier le récipient de déchets avant le titrage.",
+    "originals": [
+      "image (2).webp",
+      "preview (3).webp"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/course/view.php?id=77"
+    ]
+  },
+  {
+    "id": "potentio",
+    "title": "Titrage potentiométrique",
+    "subtitle": "Suivre un potentiel et reconnaître le saut.",
+    "category": "Titrages",
+    "time": 8,
+    "image": "potentio.webp",
+    "preview": true,
+    "objective": "Déterminer une quantité de matière à partir de l’évolution d’un potentiel au cours d’un titrage, par exemple d’oxydoréduction ou par précipitation.",
+    "principle": "On mesure une différence de potentiel entre une électrode indicatrice adaptée et une électrode de référence. À l’équivalence, l’évolution du signal permet de repérer VE.",
+    "equipment": [
+      [
+        "Électrode indicatrice",
+        "Répond à la composition du milieu ; sa nature dépend du titrage."
+      ],
+      [
+        "Électrode de référence",
+        "Fournit un potentiel stable. Elle peut être intégrée à une sonde combinée."
+      ],
+      [
+        "Millivoltmètre à forte impédance",
+        "Mesure une tension avec un courant négligeable."
+      ],
+      [
+        "Burette, bécher et agitateur",
+        "Permettent l’ajout contrôlé et l’homogénéisation."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer la verrerie",
+        "Rincer la burette avec un peu de solution titrante et la pipette jaugée avec la solution à prélever. Recueillir les rinçages dans le déchet adapté."
+      ],
+      [
+        "Remplir et lire la burette",
+        "Remplir la pointe, chasser toute bulle, retirer l’entonnoir et lire le ménisque à hauteur des yeux. Noter le volume initial ; il n’a pas besoin d’être exactement nul."
+      ],
+      [
+        "Prélever la prise d’essai",
+        "Prélever le volume VA à la pipette jaugée avec une propipette. Laisser couler sans souffler dans une pipette jaugée classique. Verser dans le récipient de titrage."
+      ],
+      [
+        "Installer les électrodes",
+        "Identifier les électrodes prescrites. Les rincer selon la notice, les immerger et éviter le contact avec le barreau. Vérifier les branchements."
+      ],
+      [
+        "Mesurer E",
+        "Relever E initial, puis E après chaque ajout et stabilisation. Faire des ajouts plus fins près du saut. Noter volumes et potentiels avec leurs unités."
+      ],
+      [
+        "Exploiter E = f(V)",
+        "Repérer l’inflexion ou l’extremum de dE/dV selon le sens de variation. Calculer la concentration à partir de la réaction équilibrée ; ranger les électrodes selon leur notice."
+      ]
+    ],
+    "exploitation": "Pour $aA+bB\\rightarrow\\text{produits}$, à l’équivalence : $$\\frac{C_A V_A}{a}=\\frac{C_B V_E}{b}\\quad\\Rightarrow\\quad C_A=\\frac{a\\,C_B V_E}{b\\,V_A}$$ Utiliser des volumes dans la même unité pour le rapport. Si la solution a été diluée d’un facteur $F$, $C_{\\mathrm{initiale}}=F C_A$.",
+    "errors": [
+      "Prendre une électrode de verre pour toutes les réactions.",
+      "Interpréter la tension mesurée comme un potentiel absolu.",
+      "Supposer que le saut est toujours croissant."
+    ],
+    "question": "À quoi sert l’électrode de référence ?",
+    "answer": "Elle apporte un potentiel stable : les variations de la tension mesurée traduisent alors celles de l’électrode indicatrice.",
+    "check": [
+      "Je sais nommer les deux électrodes.",
+      "Je sais expliquer le rôle du millivoltmètre.",
+      "Je sais exploiter E = f(V)."
+    ],
+    "safety": "Blouse, lunettes et précautions adaptées aux réactifs du sujet ; aucune aspiration à la bouche. Identifier le récipient de déchets avant le titrage.",
+    "originals": [
+      "image (3).webp"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/24309/mod_label/intro/SPCL_ECE_C2014.pdf"
+    ]
+  },
+  {
+    "id": "colori",
+    "title": "Titrage colorimétrique",
+    "subtitle": "Choisir l’indicateur et reconnaître le virage.",
+    "category": "Titrages",
+    "time": 7,
+    "image": "colori.svg",
+    "objective": "Déterminer une concentration en repérant visuellement la fin du titrage.",
+    "principle": "Un indicateur adapté change de couleur à proximité de l’équivalence. Pour un titrage acido-basique, sa zone de virage doit se situer dans le saut de pH et contenir le pH à l’équivalence. Certains titrants sont eux-mêmes colorés.",
+    "equipment": [
+      [
+        "Burette graduée",
+        "Ajoute le titrant précisément."
+      ],
+      [
+        "Erlenmeyer",
+        "Permet d’agiter en limitant les projections."
+      ],
+      [
+        "Indicateur adapté",
+        "Signale le point de fin de titrage."
+      ],
+      [
+        "Fond blanc",
+        "Facilite l’observation de la couleur."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer la verrerie",
+        "Rincer la burette avec un peu de solution titrante et la pipette jaugée avec la solution à prélever. Recueillir les rinçages dans le déchet adapté."
+      ],
+      [
+        "Remplir et lire la burette",
+        "Remplir la pointe, chasser toute bulle, retirer l’entonnoir et lire le ménisque à hauteur des yeux. Noter le volume initial ; il n’a pas besoin d’être exactement nul."
+      ],
+      [
+        "Prélever la prise d’essai",
+        "Prélever le volume VA à la pipette jaugée avec une propipette. Laisser couler sans souffler dans une pipette jaugée classique. Verser dans le récipient de titrage."
+      ],
+      [
+        "Préparer le repérage",
+        "Ajouter la quantité d’indicateur prescrite, généralement quelques gouttes. Installer un fond blanc et une agitation douce."
+      ],
+      [
+        "Approcher le virage",
+        "Si demandé, réaliser un premier essai de repérage. Recommencer avec une prise d’essai neuve, puis ajouter goutte à goutte près du virage attendu."
+      ],
+      [
+        "Lire le résultat",
+        "Arrêter à la coloration persistante définie par le sujet. Relever le volume final, calculer le volume versé et déterminer la concentration. Refaire un essai si la répétabilité est demandée."
+      ]
+    ],
+    "exploitation": "Pour $aA+bB\\rightarrow\\text{produits}$, à l’équivalence : $$\\frac{C_A V_A}{a}=\\frac{C_B V_E}{b}\\quad\\Rightarrow\\quad C_A=\\frac{a\\,C_B V_E}{b\\,V_A}$$ Utiliser des volumes dans la même unité pour le rapport. Si la solution a été diluée d’un facteur $F$, $C_{\\mathrm{initiale}}=F C_A$.",
+    "errors": [
+      "Verser trop d’indicateur.",
+      "Dépasser le virage puis prétendre retrouver le volume équivalent.",
+      "Confondre point de fin de titrage observé et équivalence théorique."
+    ],
+    "question": "Pourquoi l’indicateur doit-il être adapté au saut de pH ?",
+    "answer": "Pour que son changement de couleur se produise pour un volume très proche du volume équivalent, avec une faible erreur de repérage.",
+    "check": [
+      "Je sais justifier le choix de l’indicateur.",
+      "Je sais lire la burette sans parallaxe.",
+      "Je sais repérer un virage persistant."
+    ],
+    "safety": "Blouse, lunettes et précautions adaptées aux réactifs du sujet ; aucune aspiration à la bouche. Identifier le récipient de déchets avant le titrage.",
+    "originals": [
+      "image (2).avif"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/course/view.php?id=77"
+    ]
+  },
+  {
+    "id": "reflux",
+    "title": "Chauffage à reflux",
+    "subtitle": "Accélérer une réaction en limitant les pertes.",
+    "category": "Synthèse",
+    "time": 7,
+    "image": "reflux.svg",
+    "objective": "Chauffer un mélange réactionnel à ébullition en renvoyant les vapeurs condensées dans le ballon.",
+    "principle": "Le chauffage accélère généralement la réaction. Le réfrigérant vertical condense les vapeurs, qui retombent dans le mélange : on ne recueille pas de distillat.",
+    "equipment": [
+      [
+        "Ballon",
+        "Contient le mélange réactionnel."
+      ],
+      [
+        "Réfrigérant vertical",
+        "Condense les vapeurs. Eau froide en bas, sortie en haut."
+      ],
+      [
+        "Chauffe-ballon et support élévateur",
+        "Permettent un chauffage contrôlé et son retrait rapide."
+      ],
+      [
+        "Pierre ponce ou agitation adaptée",
+        "Régularise l’ébullition. La pierre ponce est ajoutée à froid."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer le mélange à froid",
+        "Suivre l’ordre d’introduction et les quantités du sujet. Ne pas dépasser le remplissage prescrit. Ajouter le dispositif de régulation de l’ébullition avant chauffage."
+      ],
+      [
+        "Monter et fixer",
+        "Fixer solidement le ballon et le réfrigérant vertical sans contraindre les rodages. Placer le chauffage sur un support élévateur. Garder le montage ouvert vers l’atmosphère."
+      ],
+      [
+        "Mettre en eau",
+        "Raccorder l’arrivée d’eau en bas et l’évacuation en haut. Fixer les tuyaux, ouvrir un débit modéré et vérifier l’absence de fuite."
+      ],
+      [
+        "Chauffer au reflux",
+        "Régler pour obtenir une ébullition régulière et une condensation efficace. Démarrer le chronométrage selon le sujet, souvent au début du reflux."
+      ],
+      [
+        "Refroidir",
+        "Couper et abaisser le chauffage. Laisser l’eau circuler pendant le refroidissement, puis démonter lorsque la verrerie peut être manipulée sans risque."
+      ]
+    ],
+    "exploitation": "Justifier chaque choix : chauffer pour accélérer ; refroidir les vapeurs pour limiter la perte de matière ; garder une ouverture pour éviter la surpression. Le reflux ne déplace pas à lui seul un équilibre comme le ferait le retrait d’un produit.",
+    "errors": [
+      "Fermer hermétiquement le montage.",
+      "Ajouter de la pierre ponce à un liquide déjà chaud.",
+      "Arrêter l’eau alors que le mélange est encore en ébullition."
+    ],
+    "question": "Pourquoi l’eau entre-t-elle par le bas du réfrigérant ?",
+    "answer": "Cela remplit entièrement la double enveloppe d’eau et évite les poches d’air, ce qui rend le refroidissement efficace.",
+    "check": [
+      "Je sais reconnaître un reflux.",
+      "Je sais indiquer le sens de circulation de l’eau.",
+      "Je sais arrêter le chauffage proprement."
+    ],
+    "safety": "Travailler sous hotte si les réactifs le nécessitent. Pas de flamme avec des solvants inflammables. Ne jamais obturer un montage chauffé ; porter blouse et lunettes.",
+    "originals": [
+      "image (3).avif"
+    ],
+    "sources": [
+      "https://tice.ac-montpellier.fr/ABCDORGA/Famille/REFLUX.htm"
+    ]
+  },
+  {
+    "id": "simple",
+    "title": "Distillation simple",
+    "subtitle": "Vaporiser, condenser et recueillir.",
+    "category": "Séparation",
+    "time": 8,
+    "image": "distillation-simple.svg",
+    "objective": "Isoler une fraction plus volatile, notamment d’un constituant peu volatil.",
+    "principle": "Une fraction du mélange s’évapore ; les vapeurs sont liquéfiées dans un réfrigérant incliné et recueillies dans un récipient distinct. Un distillat de mélange n’est pas nécessairement pur.",
+    "equipment": [
+      [
+        "Bouilleur",
+        "Ballon contenant le mélange à séparer."
+      ],
+      [
+        "Thermomètre",
+        "Bulbe placé dans le flux de vapeur, au niveau du départ vers le réfrigérant."
+      ],
+      [
+        "Réfrigérant incliné",
+        "Condense les vapeurs ; eau entrant au point bas et sortant au point haut."
+      ],
+      [
+        "Récipient collecteur",
+        "Recueille le distillat sans fermer le montage."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer à froid",
+        "Introduire le mélange selon le sujet et régulariser l’ébullition. Installer le chauffage sur support élévateur."
+      ],
+      [
+        "Assembler",
+        "Fixer le ballon et le réfrigérant incliné. Positionner le thermomètre au départ des vapeurs. Prévoir une communication avec l’atmosphère pour ce montage à pression ambiante."
+      ],
+      [
+        "Refroidir avant de chauffer",
+        "Raccorder et faire circuler l’eau du point bas vers le point haut du réfrigérant. Vérifier tuyaux et récipient collecteur."
+      ],
+      [
+        "Distiller régulièrement",
+        "Chauffer progressivement et régler une ébullition régulière. Recueillir le distillat au débit demandé."
+      ],
+      [
+        "Suivre la séparation",
+        "Relever la température des vapeurs et les quantités recueillies. Changer de récipient si le protocole prévoit plusieurs fractions. Ne pas chauffer jusqu’à sec."
+      ],
+      [
+        "Terminer et exploiter",
+        "Arrêter le chauffage, laisser refroidir en maintenant l’eau, puis caractériser et peser ou mesurer le distillat selon le sujet."
+      ]
+    ],
+    "exploitation": "Le rendement de récupération d’une espèce X s’écrit : $$r=\\frac{m_{X,\\mathrm{distillat}}}{m_{X,\\mathrm{initial}}}$$ Multiplier par 100 pour l’exprimer en %. Distinguer la masse totale de distillat de la masse de X qu’il contient. À pression réduite, le montage, le contrôle de pression et les précautions doivent être ceux du protocole spécifique.",
+    "errors": [
+      "Plonger le thermomètre dans le liquide du bouilleur.",
+      "Inverser le sens de circulation de l’eau.",
+      "Affirmer qu’une température constante prouve à elle seule la pureté : un azéotrope bout aussi à température constante."
+    ],
+    "question": "Où mesure-t-on la température utile ?",
+    "answer": "Dans les vapeurs à la tête du montage, à proximité de leur départ vers le réfrigérant ; pas dans le liquide chauffé.",
+    "check": [
+      "Je distingue bouilleur et distillat.",
+      "Je sais placer le thermomètre.",
+      "Je distingue rendement et pureté."
+    ],
+    "safety": "Montage à pression ambiante ouvert, verrerie fixée, aucune flamme près de solvants inflammables. Ne pas distiller à sec. Utiliser la hotte si le sujet le requiert.",
+    "originals": [
+      "image.avif"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/19695/mod_label/intro/seq_7_activites.pdf",
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/3361/mod_resource/content/6/CH4%20Separation%20et%20purification_synthese.pdf"
+    ]
+  },
+  {
+    "id": "fractionnee",
+    "title": "Distillation fractionnée",
+    "subtitle": "Séparer grâce aux équilibres successifs.",
+    "category": "Séparation",
+    "time": 9,
+    "image": "distillation-fractionnee.svg",
+    "objective": "Séparer plus efficacement les constituants volatils d’un mélange grâce à une colonne.",
+    "principle": "La colonne réalise des échanges entre vapeur et liquide. Les équilibres successifs enrichissent la vapeur en constituant le plus volatil, dans les limites imposées par le diagramme binaire et un éventuel azéotrope.",
+    "equipment": [
+      [
+        "Bouilleur",
+        "Ballon contenant le mélange à séparer."
+      ],
+      [
+        "Colonne de fractionnement",
+        "Colonne Vigreux ou garnie : améliore la séparation."
+      ],
+      [
+        "Thermomètre",
+        "Bulbe placé dans le flux de vapeur, au niveau du départ vers le réfrigérant."
+      ],
+      [
+        "Réfrigérant incliné",
+        "Condense les vapeurs ; eau entrant au point bas et sortant au point haut."
+      ],
+      [
+        "Récipient collecteur",
+        "Recueille le distillat sans fermer le montage."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer à froid",
+        "Introduire le mélange selon le sujet et régulariser l’ébullition. Installer le chauffage sur support élévateur."
+      ],
+      [
+        "Assembler",
+        "Fixer le ballon, la colonne verticale et le réfrigérant incliné. Positionner le thermomètre au départ des vapeurs. Prévoir une communication avec l’atmosphère pour ce montage à pression ambiante."
+      ],
+      [
+        "Refroidir avant de chauffer",
+        "Raccorder et faire circuler l’eau du point bas vers le point haut du réfrigérant. Vérifier tuyaux et récipient collecteur."
+      ],
+      [
+        "Distiller régulièrement",
+        "Chauffer progressivement pour laisser les échanges s’établir dans la colonne. Régler le débit de distillat selon le sujet, sans engorger la colonne."
+      ],
+      [
+        "Suivre la séparation",
+        "Relever la température des vapeurs et les quantités recueillies. Changer de récipient si le protocole prévoit plusieurs fractions. Ne pas chauffer jusqu’à sec."
+      ],
+      [
+        "Terminer et exploiter",
+        "Arrêter le chauffage, laisser refroidir en maintenant l’eau, puis caractériser et peser ou mesurer le distillat selon le sujet."
+      ]
+    ],
+    "exploitation": "Le rendement de récupération d’une espèce X s’écrit : $$r=\\frac{m_{X,\\mathrm{distillat}}}{m_{X,\\mathrm{initial}}}$$ Multiplier par 100 pour l’exprimer en %. Distinguer la masse totale de distillat de la masse de X qu’il contient. À pression réduite, le montage, le contrôle de pression et les précautions doivent être ceux du protocole spécifique.",
+    "errors": [
+      "Plonger le thermomètre dans le liquide du bouilleur.",
+      "Inverser le sens de circulation de l’eau.",
+      "Affirmer qu’une température constante prouve à elle seule la pureté : un azéotrope bout aussi à température constante."
+    ],
+    "question": "Une colonne peut-elle franchir un azéotrope ?",
+    "answer": "À pression fixée, une distillation simple ou fractionnée ne permet pas de franchir la composition azéotropique. Le distillat ne devient donc pas systématiquement un corps pur.",
+    "check": [
+      "Je distingue bouilleur et distillat.",
+      "Je sais placer le thermomètre.",
+      "Je distingue rendement et pureté."
+    ],
+    "safety": "Montage à pression ambiante ouvert, verrerie fixée, aucune flamme près de solvants inflammables. Ne pas distiller à sec. Utiliser la hotte si le sujet le requiert.",
+    "originals": [
+      "image (1).avif"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/19695/mod_label/intro/seq_7_activites.pdf",
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/3361/mod_resource/content/6/CH4%20Separation%20et%20purification_synthese.pdf"
+    ]
+  },
+  {
+    "id": "dean",
+    "title": "Montage de Dean-Stark",
+    "subtitle": "Retirer l’eau formée pour favoriser la synthèse.",
+    "category": "Synthèse",
+    "time": 9,
+    "image": "dean.webp",
+    "preview": true,
+    "objective": "Extraire progressivement l’eau d’un milieu réactionnel à l’aide d’un solvant entraînant, ici le cyclohexane représenté.",
+    "principle": "Les vapeurs contenant l’eau et le solvant sont condensées puis décantent dans le piège. Dans le montage fourni, le cyclohexane est moins dense que l’eau : il surnage et retourne au ballon ; l’eau reste au fond du tube gradué.",
+    "equipment": [
+      [
+        "Ballon chauffé",
+        "Contient le mélange réactionnel et le solvant prévu."
+      ],
+      [
+        "Piège de Dean-Stark",
+        "Sépare et permet de mesurer l’eau recueillie."
+      ],
+      [
+        "Réfrigérant à boules",
+        "Condense les vapeurs ; eau froide en bas, sortie en haut."
+      ],
+      [
+        "Robinet et retour latéral",
+        "Permettent la collecte de l’eau et le recyclage du solvant."
+      ]
+    ],
+    "steps": [
+      [
+        "Préparer selon le sujet",
+        "Introduire à froid les espèces et le solvant prescrits. Mettre en place la régulation de l’ébullition. N’utiliser que le type de piège compatible avec le solvant."
+      ],
+      [
+        "Assembler le montage",
+        "Fixer le ballon, le piège et le réfrigérant. Vérifier le robinet ; préparer ou remplir le piège si le protocole le prévoit. Garder la partie supérieure ouverte vers l’atmosphère."
+      ],
+      [
+        "Lancer la condensation",
+        "Faire circuler l’eau dans le réfrigérant puis chauffer progressivement pour établir un reflux régulier."
+      ],
+      [
+        "Observer la décantation",
+        "Repérer les deux phases, l’eau au fond et le cyclohexane au-dessus pour ce montage. Vérifier le retour du solvant au ballon."
+      ],
+      [
+        "Suivre l’eau recueillie",
+        "Lire le volume dans les conditions fixées par le sujet et suivre son évolution. Ne soutirer l’eau qu’en respectant le protocole, sans vider le piège par inadvertance."
+      ],
+      [
+        "Terminer",
+        "Arrêter le chauffage, laisser refroidir avec l’eau de réfrigération et relever le volume final. Le travail ultérieur du produit dépend de la synthèse étudiée."
+      ]
+    ],
+    "exploitation": "Si l’eau recueillie provient uniquement de la réaction, on peut estimer $n_{\\mathrm{eau}}=\\rho_{\\mathrm{eau}}V_{\\mathrm{eau}}/M_{\\mathrm{eau}}$. Relier cette quantité à l’avancement avec le coefficient stœchiométrique. L’eau initialement présente et les pertes limitent cette estimation.",
+    "errors": [
+      "Généraliser la position des phases à tous les solvants.",
+      "Confondre la réfrigération extérieure et l’eau produite dans le piège.",
+      "Prendre le volume d’eau recueilli comme rendement sans bilan stœchiométrique."
+    ],
+    "question": "Pourquoi retirer l’eau peut-il améliorer le rendement d’une estérification ?",
+    "answer": "Lorsque l’eau est un produit de la réaction réversible, son retrait peut favoriser l’évolution vers les produits. L’effet dépend de l’équilibre étudié.",
+    "check": [
+      "Je sais suivre les vapeurs et le condensat.",
+      "Je sais identifier les deux phases.",
+      "Je sais expliquer le rôle du retrait de l’eau."
+    ],
+    "safety": "Le cyclohexane est inflammable : pas de flamme, travail sous hotte et chauffage adapté. Ne pas fermer le montage. Les quantités et réglages sont ceux du sujet.",
+    "originals": [
+      "appareil Dean et Stark1.jpg"
+    ],
+    "sources": [
+      "https://culturesciences.chimie.ens.fr/thematiques/revues-de-presse/revue-de-presse-novembre-et-decembre-2020"
+    ]
+  },
+  {
+    "id": "buchner",
+    "title": "Filtration sur Büchner",
+    "subtitle": "Isoler, laver et essorer un solide.",
+    "category": "Séparation",
+    "time": 7,
+    "image": "buchner.webp",
+    "preview": true,
+    "objective": "Séparer un solide d’un liquide plus rapidement grâce à une différence de pression.",
+    "principle": "La dépression dans la fiole aspire le liquide à travers le filtre. Le solide reste sur le papier ; le liquide recueilli est le filtrat.",
+    "equipment": [
+      [
+        "Entonnoir Büchner + papier filtre",
+        "Le papier couvre les perforations sans remonter sur les parois."
+      ],
+      [
+        "Joint et fiole à vide",
+        "Assurent l’étanchéité ; la fiole doit être conçue pour le vide."
+      ],
+      [
+        "Source de vide et tuyau épais",
+        "Créent la dépression sans écraser le tuyau."
+      ],
+      [
+        "Piège de garde, si prévu",
+        "Protège contre l’aspiration de liquide et les retours."
+      ]
+    ],
+    "steps": [
+      [
+        "Installer et fixer",
+        "Vérifier la fiole à vide, la fixer à une potence et emboîter Büchner et joint. Relier au vide selon les consignes du poste."
+      ],
+      [
+        "Préparer le filtre",
+        "Choisir le diamètre adapté, poser le papier à plat et l’humidifier avec le solvant prévu. Mettre l’aspiration pour le plaquer sans plis."
+      ],
+      [
+        "Filtrer",
+        "Verser le mélange progressivement sans déborder ni dépasser la capacité de la fiole. Transférer le solide avec un minimum de liquide approprié."
+      ],
+      [
+        "Laver le solide",
+        "Employer de petites portions de solvant adapté, souvent froid pour limiter la dissolution. Si demandé, casser le vide pour répartir le lavage, puis rétablir l’aspiration."
+      ],
+      [
+        "Essorer puis arrêter",
+        "Maintenir l’aspiration le temps prescrit. Casser le vide avant d’arrêter une trompe à eau pour éviter un retour d’eau."
+      ],
+      [
+        "Récupérer et sécher",
+        "Récupérer le solide, le sécher selon le protocole puis le peser. Conserver le filtrat si demandé ; trier les déchets."
+      ]
+    ],
+    "exploitation": "Un solide humide donne une masse et un rendement surestimés. Pour un produit pur et sec : $$\\eta=\\frac{m_{\\mathrm{obtenue}}}{m_{\\mathrm{théorique}}}\\times100\\,\\%$$ La masse théorique vient du réactif limitant et de l’équation de réaction.",
+    "errors": [
+      "Utiliser une fiole ordinaire qui ne supporte pas le vide.",
+      "Laver abondamment avec un solvant chaud dans lequel le produit se dissout.",
+      "Couper l’eau avant de casser le vide."
+    ],
+    "question": "Pourquoi faut-il sécher les cristaux avant de les peser ?",
+    "answer": "Pour que la masse mesurée corresponde au produit et non au produit additionné de solvant ou d’eaux mères.",
+    "check": [
+      "Je distingue solide et filtrat.",
+      "Je sais installer correctement le papier.",
+      "Je sais casser le vide avant l’arrêt."
+    ],
+    "safety": "Inspecter et fixer la verrerie pour vide, porter blouse et lunettes. Employer une source de vide et un piège adaptés aux solvants utilisés.",
+    "originals": [
+      "image.webp"
+    ],
+    "sources": [
+      "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/3361/mod_resource/content/6/CH4%20Separation%20et%20purification_synthese.pdf"
+    ]
+  }
+]

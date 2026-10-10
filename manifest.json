@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Révise. — STL-SPCL",
+  "short_name": "Révise STL",
+  "description": "Cours, exercices type Bac et manipulations ECE. Objectif 17,5.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5ef",
+  "theme_color": "#345e4e",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

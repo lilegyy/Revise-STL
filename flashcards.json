@@ -1,0 +1,191 @@
+[
+  {
+    "id": "card-1",
+    "chapter": "cdd-ch1",
+    "category": "cdd",
+    "q": "Que prévoit-on lorsque Qr > Ks ?",
+    "a": "La précipitation est favorisée : le système évolue dans le sens de formation du solide pour revenir vers $Q_r=K_s$."
+  },
+  {
+    "id": "card-2",
+    "chapter": "cdd-ch1",
+    "category": "cdd",
+    "q": "Quel est le lien entre Ks et s pour MgF₂ dans l’eau pure ?",
+    "a": "Sans ions communs ni réactions parasites : $[Mg^{2+}]=s$ et $[F^-]=2s$, donc $K_s=4s^3$."
+  },
+  {
+    "id": "card-3",
+    "chapter": "cdd-ch1",
+    "category": "cdd",
+    "q": "Pourquoi un milieu acide peut-il augmenter la solubilité ?",
+    "a": "Si l’anion du solide est une base, il est consommé par protonation. La dissolution est alors favorisée par le déplacement de l’équilibre."
+  },
+  {
+    "id": "card-4",
+    "chapter": "cdd-ch2",
+    "category": "cdd",
+    "q": "Que signifie un pKa plus petit ?",
+    "a": "À conditions comparables, $K_a$ est plus grand et l’acide est plus fort. Sa base conjuguée est plus faible."
+  },
+  {
+    "id": "card-5",
+    "chapter": "cdd-ch2",
+    "category": "cdd",
+    "q": "À pH = pKa, que vaut le rapport base / acide ?",
+    "a": "Dans le modèle des solutions diluées : $[A^-]/[AH]=1$. Les deux formes sont en proportions égales."
+  },
+  {
+    "id": "card-6",
+    "chapter": "cdd-ch2",
+    "category": "cdd",
+    "q": "Quelle relation écrire à l’équivalence ?",
+    "a": "Pour $aA+bB\\rightarrow\\text{produits}$ : $n_A/a=n_B/b$, soit $C_AV_A/a=C_BV_E/b$."
+  },
+  {
+    "id": "card-7",
+    "chapter": "ondes-ch1",
+    "category": "ondes",
+    "q": "Comment passer de la période à la fréquence ?",
+    "a": "$f=1/T$. Utiliser $T$ en secondes pour obtenir $f$ en hertz."
+  },
+  {
+    "id": "card-8",
+    "chapter": "ondes-ch1",
+    "category": "ondes",
+    "q": "Comment reconnaître le régime critique ?",
+    "a": "Il revient à l’équilibre sans oscillations, le plus rapidement parmi les régimes non oscillants de l’oscillateur linéaire amorti."
+  },
+  {
+    "id": "card-9",
+    "chapter": "ondes-ch1",
+    "category": "ondes",
+    "q": "À quoi correspond un grand facteur de qualité ?",
+    "a": "À un faible amortissement et à une résonance étroite. Dans le modèle étudié : $Q\\simeq f_0/\\Delta f$ avec $\\Delta f=f_2-f_1$."
+  },
+  {
+    "id": "card-10",
+    "chapter": "ondes-ch2",
+    "category": "ondes",
+    "q": "Que transporte une onde progressive ?",
+    "a": "Une perturbation et de l’énergie, sans transport global de matière associé à la propagation de l’onde."
+  },
+  {
+    "id": "card-11",
+    "chapter": "ondes-ch2",
+    "category": "ondes",
+    "q": "Quelle est la différence entre transverse et longitudinale ?",
+    "a": "La déformation est perpendiculaire à la propagation pour une onde transversale ; parallèle pour une onde longitudinale."
+  },
+  {
+    "id": "card-12",
+    "chapter": "ondes-ch2",
+    "category": "ondes",
+    "q": "Comment calculer une célérité à partir d’un retard ?",
+    "a": "$v=AB/\\tau$, avec la distance $AB$ en mètres et le retard $\\tau$ en secondes."
+  },
+  {
+    "id": "card-13",
+    "chapter": "sp-ch7",
+    "category": "sp",
+    "q": "Quelle différence entre fraction massique et fraction molaire ?",
+    "a": "$w_A=m_A/m_{\\mathrm{total}}$ et $x_A=n_A/n_{\\mathrm{total}}$. Ce sont deux proportions différentes, sans unité."
+  },
+  {
+    "id": "card-14",
+    "chapter": "sp-ch7",
+    "category": "sp",
+    "q": "Qu’est-ce qu’un azéotrope ?",
+    "a": "Un mélange qui, à une pression donnée, bout avec une vapeur de même composition que le liquide. La distillation ordinaire ne permet pas de franchir cette composition."
+  },
+  {
+    "id": "card-15",
+    "chapter": "sp-ch7",
+    "category": "sp",
+    "q": "Pourquoi distiller sous pression réduite ?",
+    "a": "Pour abaisser la température d’ébullition et limiter la dégradation des composés thermosensibles. Le montage doit être adapté au vide."
+  },
+  {
+    "id": "card-16",
+    "chapter": "sp-ch8",
+    "category": "sp",
+    "q": "Quel bilan en soluté écrire dans un évaporateur ?",
+    "a": "Si le soluté est non volatil et le régime stationnaire : $Q_{m,A}w_A=Q_{m,c}w_c$, car la vapeur de solvant a $w_E=0$."
+  },
+  {
+    "id": "card-17",
+    "chapter": "sp-ch8",
+    "category": "sp",
+    "q": "Comment convertir une solubilité S en fraction massique ?",
+    "a": "Si $S$ est exprimée en grammes de soluté pour 100 g de solvant : $w=S/(S+100)$."
+  },
+  {
+    "id": "card-18",
+    "chapter": "sp-ch8",
+    "category": "sp",
+    "q": "Quand peut-on prendre wc = 1 pour des cristaux ?",
+    "a": "Lorsqu’ils sont purs et anhydres. Des cristaux hydratés ou humides nécessitent une composition adaptée au bilan."
+  },
+  {
+    "id": "card-ece-ph",
+    "chapter": "ph",
+    "category": "ece",
+    "q": "Pourquoi peut-on ajouter de l’eau distillée dans le bécher ?",
+    "a": "Elle permet d’immerger la sonde sans modifier la quantité de matière de l’espèce titrée. Le pH change, mais le volume équivalent idéal reste identique."
+  },
+  {
+    "id": "card-ece-conducti",
+    "chapter": "conducti",
+    "category": "ece",
+    "q": "Pourquoi utiliser une tension alternative dans la cellule ?",
+    "a": "Pour limiter la polarisation des électrodes et les réactions d’électrolyse qui perturberaient la mesure."
+  },
+  {
+    "id": "card-ece-potentio",
+    "chapter": "potentio",
+    "category": "ece",
+    "q": "À quoi sert l’électrode de référence ?",
+    "a": "Elle apporte un potentiel stable : les variations de la tension mesurée traduisent alors celles de l’électrode indicatrice."
+  },
+  {
+    "id": "card-ece-colori",
+    "chapter": "colori",
+    "category": "ece",
+    "q": "Pourquoi l’indicateur doit-il être adapté au saut de pH ?",
+    "a": "Pour que son changement de couleur se produise pour un volume très proche du volume équivalent, avec une faible erreur de repérage."
+  },
+  {
+    "id": "card-ece-reflux",
+    "chapter": "reflux",
+    "category": "ece",
+    "q": "Pourquoi l’eau entre-t-elle par le bas du réfrigérant ?",
+    "a": "Cela remplit entièrement la double enveloppe d’eau et évite les poches d’air, ce qui rend le refroidissement efficace."
+  },
+  {
+    "id": "card-ece-simple",
+    "chapter": "simple",
+    "category": "ece",
+    "q": "Où mesure-t-on la température utile ?",
+    "a": "Dans les vapeurs à la tête du montage, à proximité de leur départ vers le réfrigérant ; pas dans le liquide chauffé."
+  },
+  {
+    "id": "card-ece-fractionnee",
+    "chapter": "fractionnee",
+    "category": "ece",
+    "q": "Une colonne peut-elle franchir un azéotrope ?",
+    "a": "À pression fixée, une distillation simple ou fractionnée ne permet pas de franchir la composition azéotropique. Le distillat ne devient donc pas systématiquement un corps pur."
+  },
+  {
+    "id": "card-ece-dean",
+    "chapter": "dean",
+    "category": "ece",
+    "q": "Pourquoi retirer l’eau peut-il améliorer le rendement d’une estérification ?",
+    "a": "Lorsque l’eau est un produit de la réaction réversible, son retrait peut favoriser l’évolution vers les produits. L’effet dépend de l’équilibre étudié."
+  },
+  {
+    "id": "card-ece-buchner",
+    "chapter": "buchner",
+    "category": "ece",
+    "q": "Pourquoi faut-il sécher les cristaux avant de les peser ?",
+    "a": "Pour que la masse mesurée corresponde au produit et non au produit additionné de solvant ou d’eaux mères."
+  }
+]

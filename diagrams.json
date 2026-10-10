@@ -1,0 +1,55 @@
+{
+  "titles": {
+    "qr": "Comparer le quotient de réaction au produit de solubilité",
+    "pka": "Force des acides et des bases conjuguées",
+    "direct": "Titrage direct et titrage en retour",
+    "tangentes": "Repérer le volume équivalent par les tangentes parallèles",
+    "derivee": "La dérivée atteint un extremum à l’équivalence",
+    "periode": "Période et amplitude d’un signal sinusoïdal",
+    "regimes": "Les quatre régimes d’un oscillateur libre",
+    "energie-libre": "Échanges d’énergie sans amortissement",
+    "energie-amortie": "Énergies avec amortissement",
+    "resonance": "Bande passante et résonance",
+    "qualite": "Influence de l’amortissement sur la résonance",
+    "transversale": "Onde transversale : déformation perpendiculaire à la propagation",
+    "longitudinale": "Onde longitudinale : déformation parallèle à la propagation",
+    "retard": "Une perturbation se propage de A vers B avec un retard tau",
+    "azeotrope": "Diagramme isobare à azéotrope à minimum",
+    "blocage": "La distillation ne permet pas de franchir l’azéotrope",
+    "binaire": "Diagramme binaire sans azéotrope",
+    "evapo": "Bilan de matière d’un évaporateur",
+    "cristal": "Atteindre la saturation par évaporation à température constante",
+    "bilans": "Bilan global évaporation et cristallisation"
+  },
+  "mapping": {
+    "cdd-ch1": [],
+    "cdd-ch2": [
+      "pka",
+      "direct",
+      "tangentes",
+      "derivee"
+    ],
+    "ondes-ch1": [
+      "periode",
+      "regimes",
+      "energie-libre",
+      "energie-amortie",
+      "resonance",
+      "qualite"
+    ],
+    "ondes-ch2": [
+      "transversale",
+      "longitudinale",
+      "retard"
+    ],
+    "sp-ch7": [
+      "azeotrope",
+      "blocage"
+    ],
+    "sp-ch8": [
+      "evapo",
+      "cristal",
+      "bilans"
+    ]
+  }
+}

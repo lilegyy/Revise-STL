@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Ton carnet de révision en Terminale STL-SPCL : cours complets, exercices type Bac et manipulations ECE."
+    />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Révise STL" />
+    <title>Révise. — Objectif 17,5 · STL-SPCL</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="vendor/katex/katex.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        const t =
+          localStorage.getItem('revise-theme') ||
+          (localStorage.getItem('darkMode') === 'true' ? 'dark' : null);
+        document.documentElement.dataset.theme =
+          t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      } catch {}
+    </script>
+    <script defer src="vendor/katex/katex.min.js"></script>
+    <script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Révise, accueil"
+        ><span class="brand-mark" data-icon="spark"></span>révise<span class="brand-dot">.</span></a
+      >
+      <div class="edition">LE CARNET STL · SPCL</div>
+      <nav aria-label="Navigation principale" class="side-nav">
+        <a href="#home" data-nav="home"><span data-icon="home"></span>Mon espace</a
+        ><a href="#courses" data-nav="courses"
+          ><span data-icon="book"></span>Mes cours<span class="nav-count">6</span></a
+        ><a href="#labs" data-nav="labs"
+          ><span data-icon="flask"></span>Manipulations<span class="tiny-tag">ECE</span></a
+        ><a href="#cards" data-nav="cards"><span data-icon="cards"></span>Flashcards</a
+        ><a href="#progress" data-nav="progress"><span data-icon="chart"></span>Ma progression</a>
+      </nav>
+      <div class="side-quote">
+        <span class="eyebrow">UN CAP, À TON RYTHME</span>
+        <div>17,5<span>/20</span></div>
+        <p>Comprendre. S’entraîner.<br />Prendre confiance.</p>
+        <div class="goal-line"><i></i></div>
+        <span class="small muted">Ton objectif au Bac</span>
+      </div>
+      <div class="side-bottom">
+        <button class="text-button" data-action="install">
+          <span data-icon="phone"></span>Installer l’application</button
+        ><button class="text-button" data-action="about">
+          <span data-icon="info"></span>À propos du carnet</button
+        ><span class="local-note"><i></i>Progression sur cet appareil</span>
+      </div>
+    </aside>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="mobile-brand" href="#home">révise<span>.</span></a>
+        <div class="breadcrumb">
+          <span>Terminale STL</span><i>/</i><b id="breadcrumb">Mon espace</b>
+        </div>
+        <div class="top-actions">
+          <span id="network-status" class="network-status" aria-live="polite"></span
+          ><button
+            class="icon-button"
+            id="search-toggle"
+            aria-label="Rechercher un cours ou une manipulation"
+          >
+            <span data-icon="search"></span></button
+          ><button class="icon-button" id="theme-toggle" aria-label="Activer le mode sombre">
+            <span data-icon="moon"></span></button
+          ><span class="avatar" title="Ton espace personnel">STL</span>
+        </div>
+      </header>
+      <main id="main" tabindex="-1">
+        <div class="loading-state"><span class="loading-dot"></span>Préparation de ton carnet…</div>
+      </main>
+      <footer class="footer">
+        <span>Fait pour comprendre, pas seulement retenir.</span
+        ><span>STL–SPCL · Objectif 17,5</span>
+      </footer>
+    </div>
+    <nav class="mobile-nav" aria-label="Navigation mobile">
+      <a href="#home" data-nav="home"><span data-icon="home"></span><span>Accueil</span></a
+      ><a href="#courses" data-nav="courses"><span data-icon="book"></span><span>Cours</span></a
+      ><a href="#labs" data-nav="labs"><span data-icon="flask"></span><span>Labo</span></a
+      ><a href="#cards" data-nav="cards"><span data-icon="cards"></span><span>Cartes</span></a
+      ><a href="#progress" data-nav="progress"
+        ><span data-icon="chart"></span><span>Progrès</span></a
+      >
+    </nav>
+    <dialog id="search-dialog" class="search-dialog">
+      <div class="dialog-heading">
+        <h2>Une notion à retrouver ?</h2>
+        <button class="icon-button" data-close aria-label="Fermer la recherche">×</button>
+      </div>
+      <label class="search-field"
+        ><span data-icon="search"></span
+        ><input
+          id="search-input"
+          type="search"
+          placeholder="Solubilité, pH, distillation…"
+          autocomplete="off"
+          aria-label="Rechercher dans les cours et manipulations"
+      /></label>
+      <div id="search-results" aria-live="polite"></div>
+    </dialog>
+    <dialog id="image-dialog" class="image-dialog">
+      <div class="dialog-heading">
+        <h2 id="image-title">Schéma</h2>
+        <button class="icon-button" data-close aria-label="Fermer le schéma">×</button>
+      </div>
+      <div class="zoom-tools">
+        <button data-action="zoom-out" aria-label="Réduire">−</button
+        ><span id="zoom-value">100 %</span
+        ><button data-action="zoom-in" aria-label="Agrandir">+</button
+        ><a id="image-open" target="_blank" rel="noopener">Ouvrir l’image</a>
+      </div>
+      <div class="zoom-viewport"><img id="zoom-image" alt="" /></div>
+    </dialog>
+    <dialog id="info-dialog">
+      <div class="dialog-heading">
+        <h2 id="info-title"></h2>
+        <button class="icon-button" data-close aria-label="Fermer">×</button>
+      </div>
+      <div id="info-body"></div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <input type="file" id="import-input" accept="application/json,.json" hidden /><noscript
+      ><p>Active JavaScript pour ouvrir les cours, les exercices et les fiches ECE.</p></noscript
+    >
+  </body>
+</html>
