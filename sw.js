@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-maths-log-2";
+const VERSION = "2026-10-11-maths-suites-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -170,7 +170,14 @@ const ASSETS = [
   "./assets/documents/maths-log-applications-source.pdf",
   "./assets/documents/maths-log-diaporama-source.pptx",
   "./assets/documents/maths-log-exercices-source.pdf",
-  "./assets/documents/maths-log-memo-source.docx"
+  "./assets/documents/maths-log-memo-source.docx",
+  "./assets/diagrams/maths-suites-arithmetiques.svg",
+  "./assets/diagrams/maths-suites-geometriques.svg",
+  "./assets/diagrams/maths-suites-sommes.svg",
+  "./assets/diagrams/maths-suites-synthese-moyennes.png",
+  "./assets/diagrams/maths-suites-synthese-sommes.png",
+  "./assets/documents/maths-suites-partie-1-source.pptx",
+  "./assets/documents/maths-suites-partie-2-source.pptx"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
