@@ -1,10 +1,12 @@
-# Révise STL sur iPhone : projet pour fabriquer le .ipa
+# Révise STL sur iPhone : installation et compilation
 
-Ce dossier est le **projet source**, pas encore un fichier .ipa compilé. La génération du projet et les tests des calculs/écrans ont été effectués sur Windows. La compilation Swift avec Xcode, l’installation via AltStore et la connexion réelle à ÉcoleDirecte restent à vérifier sur Mac/iPhone.
+Le **Revise-STL-AltStore.ipa a été compilé avec succès le 11 octobre 2026** sur le Mac de GitHub Actions : https://github.com/lilegyy/Revise-STL/actions/runs/38169040144 . Le paquet a été vérifié : exécutable iPhone arm64, minimum iOS 15, module natif, manifeste de confidentialité, écran des notes et 23 chapitres embarqués. L’installation via AltStore et la connexion réelle à ÉcoleDirecte restent à essayer sur ton iPhone.
 
 La solution de compilation préparée est GitHub Actions : un Mac hébergé compile le projet, puis fournit un fichier **Revise-STL-AltStore.ipa**. Aucun identifiant ÉcoleDirecte ni mot de passe Apple n’est nécessaire pour cette compilation. AltStore signe ensuite l’application sur ton compte Apple.
 
 ## Obtenir le fichier .ipa
+
+Le projet et le workflow sont déjà déposés dans ton dépôt. Pour cette première version, télécharge l’artefact **Revise-STL-AltStore** depuis la compilation réussie ci-dessus, décompresse le ZIP puis importe le fichier `.ipa` dans **AltStore Classic → My Apps → +**. Les étapes suivantes servent à reconstruire l’application ultérieurement ou depuis une copie du projet.
 
 1. Décompresse le ZIP et ouvre ton dépôt : https://github.com/lilegyy/Revise-STL
 2. Ajoute le dossier **iphone-revise-stl/** à la racine du dépôt, en conservant tous ses sous-dossiers. Garde les fichiers du site actuel à leur place.
@@ -52,7 +54,7 @@ Ne pas désinstaller l’application avant d’avoir sauvegardé les progrès qu
 
 Les dix tests de calcul couvrent les zéros, notes absentes, coefficients décimaux et nuls, barèmes, sous-matières, groupes, moyennes de classe manquantes et périodes sans notes. Les écrans et le parcours de connexion ont été testés dans Chrome avec un profil iPhone 12 et **des réponses natives fictives**.
 
-Cela ne valide pas le fonctionnement réel de la couche Swift, du trousseau, de la question de sécurité ÉcoleDirecte ou de la signature AltStore. Le protocole ÉcoleDirecte peut évoluer ; un essai réel sur ton téléphone est nécessaire après compilation. Ne pas publier d’identifiants, de mots de passe ni d’exports de notes sur GitHub ou dans les journaux de compilation.
+La compilation Swift et la structure du paquet iPhone ont été vérifiées. Cela ne valide pas encore le fonctionnement sur appareil du trousseau, de la question de sécurité ÉcoleDirecte ou de la signature AltStore. Le protocole ÉcoleDirecte peut évoluer ; un essai réel sur ton téléphone est nécessaire. Ne pas publier d’identifiants, de mots de passe ni d’exports de notes sur GitHub ou dans les journaux de compilation.
 
 ## Sources techniques
 
