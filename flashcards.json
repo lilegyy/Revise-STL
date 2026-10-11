@@ -187,5 +187,334 @@
     "category": "ece",
     "q": "Pourquoi faut-il sécher les cristaux avant de les peser ?",
     "a": "Pour que la masse mesurée corresponde au produit et non au produit additionné de solvant ou d’eaux mères."
-  }
+  },
+{
+  "id": "pcm-term-ch1-carte-1",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Qu’est-ce qu’une molécule chirale ?",
+  "a": "Elle n’est pas superposable à son image dans un miroir plan."
+},
+{
+  "id": "pcm-term-ch1-carte-2",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que sont deux énantiomères ?",
+  "a": "Deux stéréoisomères images miroir non superposables."
+},
+{
+  "id": "pcm-term-ch1-carte-3",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Qu’est-ce qu’un carbone asymétrique dans les exemples étudiés ?",
+  "a": "Un carbone tétraédrique portant quatre substituants différents, noté C*."
+},
+{
+  "id": "pcm-term-ch1-carte-4",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Un carbone portant deux groupes éthyle identiques est-il asymétrique ?",
+  "a": "Non : ses quatre substituants ne sont pas tous différents."
+},
+{
+  "id": "pcm-term-ch1-carte-5",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que représente un trait simple en Cram ?",
+  "a": "Une liaison située dans le plan de la feuille."
+},
+{
+  "id": "pcm-term-ch1-carte-6",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que représente un coin plein en Cram ?",
+  "a": "Une liaison dirigée vers l’observateur."
+},
+{
+  "id": "pcm-term-ch1-carte-7",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que représente un coin hachuré en Cram ?",
+  "a": "Une liaison dirigée vers l’arrière."
+},
+{
+  "id": "pcm-term-ch1-carte-8",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quelle grandeur compare-t-on d’abord en CIP ?",
+  "a": "Le numéro atomique Z de l’atome directement lié au centre, pas la masse totale du groupe."
+},
+{
+  "id": "pcm-term-ch1-carte-9",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Classer Br, Cl, O, N, C et H par priorité CIP.",
+  "a": "Br &gt; Cl &gt; O &gt; N &gt; C &gt; H."
+},
+{
+  "id": "pcm-term-ch1-carte-10",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment départager deux substituants commençant par C ?",
+  "a": "Comparer les listes d’atomes liés, triées par Z décroissant, jusqu’à la première différence."
+},
+{
+  "id": "pcm-term-ch1-carte-11",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Pourquoi éthyle est-il prioritaire sur méthyle ?",
+  "a": "Au rang suivant : (C,H,H) &gt; (H,H,H)."
+},
+{
+  "id": "pcm-term-ch1-carte-12",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment traite-t-on une double liaison en CIP ?",
+  "a": "Avec des duplications fictives d’atomes pour le classement, sans ajouter réellement d’atomes à la molécule."
+},
+{
+  "id": "pcm-term-ch1-carte-13",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quelle liste compare-t-on pour le carbone de COOH ?",
+  "a": "(O,O,O) : la double liaison C=O compte l’oxygène deux fois."
+},
+{
+  "id": "pcm-term-ch1-carte-14",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Avec le groupe 4 derrière, que donne le sens horaire 1→2→3 ?",
+  "a": "La configuration R."
+},
+{
+  "id": "pcm-term-ch1-carte-15",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Avec le groupe 4 derrière, que donne le sens antihoraire ?",
+  "a": "La configuration S."
+},
+{
+  "id": "pcm-term-ch1-carte-16",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que faire si le groupe 4 est devant ?",
+  "a": "Inverser le résultat de la lecture 1→2→3."
+},
+{
+  "id": "pcm-term-ch1-carte-17",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "R signifie-t-il forcément un pouvoir rotatoire positif ?",
+  "a": "Non. R/S décrit la configuration ; +/− décrit le sens de rotation de la lumière polarisée."
+},
+{
+  "id": "pcm-term-ch1-carte-18",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Que sont deux diastéréoisomères ?",
+  "a": "Des stéréoisomères qui ne sont pas énantiomères."
+},
+{
+  "id": "pcm-term-ch1-carte-19",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quelles sont les configurations miroirs de (R,R) et de (R,S) ?",
+  "a": "Respectivement (S,S) et (S,R), pour des centres correspondants et hors symétrie particulière."
+},
+{
+  "id": "pcm-term-ch1-carte-20",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Deux configurations (R,R) et (S,R) sont-elles énantiomères ?",
+  "a": "Non, un seul des deux centres est inversé : elles sont diastéréoisomères dans l’exemple sans symétrie particulière."
+},
+{
+  "id": "pcm-term-ch1-carte-21",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quel est le maximum de configurations pour n centres indépendants ?",
+  "a": "$N_{max}=2^n$ ; une symétrie peut réduire le nombre réel."
+},
+{
+  "id": "pcm-term-ch1-carte-22",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quelle condition permet une isomérie Z/E autour de C=C ?",
+  "a": "Chaque carbone de la double liaison porte deux substituants différents."
+},
+{
+  "id": "pcm-term-ch1-carte-23",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment reconnaître Z ?",
+  "a": "Les groupes prioritaires CIP, déterminés séparément sur chaque carbone, sont du même côté."
+},
+{
+  "id": "pcm-term-ch1-carte-24",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment reconnaître E ?",
+  "a": "Les groupes prioritaires CIP sont de côtés opposés."
+},
+{
+  "id": "pcm-term-ch1-carte-25",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Un alcène portant deux méthyles sur le même carbone admet-il Z/E ?",
+  "a": "Non : ces deux substituants sont identiques."
+},
+{
+  "id": "pcm-term-ch1-carte-26",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment distinguer aldéhyde et cétone ?",
+  "a": "L’aldéhyde porte C(=O)–H ; la cétone a un carbonyle lié à deux groupes carbonés."
+},
+{
+  "id": "pcm-term-ch1-carte-27",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment distinguer un ester d’un acide carboxylique ?",
+  "a": "Ester : C(=O)–O–R ; acide : C(=O)–OH."
+},
+{
+  "id": "pcm-term-ch1-carte-28",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Comment distinguer une amide d’une amine ?",
+  "a": "Dans une amide, N est directement lié au carbone d’un carbonyle."
+},
+{
+  "id": "pcm-term-ch1-carte-29",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Qu’est-ce qu’un mélange racémique ?",
+  "a": "Un mélange contenant des quantités égales des deux énantiomères."
+},
+{
+  "id": "pcm-term-ch1-carte-30",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Eutomère et distomère sont-ils des noms universels de R et S ?",
+  "a": "Non : ils sont définis relativement à l’activité biologique recherchée."
+},
+{
+  "id": "pcm-term-ch1-carte-31",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Quel est le principe d’une synthèse asymétrique ?",
+  "a": "Favoriser une configuration grâce à un catalyseur, réactif ou auxiliaire chiral."
+},
+{
+  "id": "pcm-term-ch1-carte-32",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Le switch chiral est-il une technique de séparation précise ?",
+  "a": "Non : c’est le passage d’un produit racémique à une forme à un seul énantiomère ; sa préparation nécessite une méthode appropriée."
+},
+{
+  "id": "pcm-term-ch1-carte-33",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Combien d’unités C₅ possède C₁₀H₁₆, le limonène ?",
+  "a": "Deux unités isopréniques ; c’est un monoterpène."
+},
+{
+  "id": "pcm-term-ch1-carte-34",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Combien d’unités C₅ correspondent à un tétraterpène C₄₀ ?",
+  "a": "Huit : 40/5=8, et non sept."
+},
+{
+  "id": "pcm-term-ch1-carte-35",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Combien de stéréoisomères le menthol possède-t-il dans cet exemple ?",
+  "a": "Huit : trois centres et $2^3=8$, sans réduction par symétrie."
+},
+{
+  "id": "pcm-term-ch1-carte-36",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "L’odeur suffit-elle pour attribuer R ou S au limonène ?",
+  "a": "Non. Il faut analyser la structure et les règles CIP ; une huile essentielle est aussi un mélange."
+},
+{
+  "id": "pcm-term-ch1-carte-37",
+  "chapter": "terminale-pcm-ch1",
+  "category": "terminale-pcm",
+  "q": "Pourquoi isoler un énantiomère ne garantit-il pas la stabilité de sa configuration ?",
+  "a": "Certaines molécules s’interconvertissent ; la thalidomide illustre une interconversion R/S dans l’organisme."
+},
+{
+  "id": "maths-puissances-carte-1",
+  "chapter": "maths-puissances-de-deux",
+  "category": "maths",
+  "q": "Que signifie 2³ ?",
+  "a": "2 × 2 × 2 = 8."
+},
+{
+  "id": "maths-puissances-carte-2",
+  "chapter": "maths-puissances-de-deux",
+  "category": "maths",
+  "q": "Quelle est la valeur de 2⁰ ?",
+  "a": "1."
+},
+{
+  "id": "maths-puissances-carte-3",
+  "chapter": "maths-puissances-de-deux",
+  "category": "maths",
+  "q": "2ⁿ est-il égal à 2 × n ?",
+  "a": "Non : puissance et multiplication sont deux opérations différentes."
+},
+{
+  "id": "maths-puissances-carte-4",
+  "chapter": "maths-puissances-de-deux",
+  "category": "maths",
+  "q": "Quatre centres indépendants donnent quel maximum ?",
+  "a": "$2^4=16$ configurations ; vérifier ensuite la symétrie."
+},
+{
+  "id": "maths-puissances-carte-5",
+  "chapter": "maths-puissances-de-deux",
+  "category": "maths",
+  "q": "Pourquoi multiplier les nombres de choix ?",
+  "a": "Chaque choix indépendant se combine avec tous les choix des autres étapes."
+},
+{
+  "id": "hydrodistillation-carte-1",
+  "chapter": "hydrodistillation",
+  "category": "ece",
+  "q": "En hydrodistillation, où sont l’eau et le végétal ?",
+  "a": "Dans le même ballon ; en entraînement à la vapeur strict, la vapeur provient d’un générateur séparé."
+},
+{
+  "id": "hydrodistillation-carte-2",
+  "chapter": "hydrodistillation",
+  "category": "ece",
+  "q": "Comment brancher l’eau du réfrigérant incliné ?",
+  "a": "Entrée au point bas, sortie au point haut."
+},
+{
+  "id": "hydrodistillation-carte-3",
+  "chapter": "hydrodistillation",
+  "category": "ece",
+  "q": "Pourquoi ne pas fermer le montage ?",
+  "a": "Pour éviter la mise sous pression ; le dispositif reste en communication avec l’atmosphère."
+},
+{
+  "id": "hydrodistillation-carte-4",
+  "chapter": "hydrodistillation",
+  "category": "ece",
+  "q": "Une huile essentielle est-elle une espèce pure ?",
+  "a": "Pas nécessairement : c’est généralement un mélange de composés volatils."
+},
+{
+  "id": "hydrodistillation-carte-5",
+  "chapter": "hydrodistillation",
+  "category": "ece",
+  "q": "L’hydrodistillation sépare-t-elle R et S du limonène ?",
+  "a": "Non, pas dans un environnement achiral ; il faut une méthode adaptée à la séparation des énantiomères."
+}
 ]
