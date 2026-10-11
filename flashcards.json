@@ -516,5 +516,299 @@
   "category": "ece",
   "q": "L’hydrodistillation sépare-t-elle R et S du limonène ?",
   "a": "Non, pas dans un environnement achiral ; il faut une méthode adaptée à la séparation des énantiomères."
+},
+{
+  "id": "maths-log-carte-1",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel est le domaine réel de log ?",
+  "a": "$]0;+\\infty[$ : son argument doit être strictement positif."
+},
+{
+  "id": "maths-log-carte-2",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Que signifie y=log(x) ?",
+  "a": "$x=10^y$ ; log est le logarithme de base 10."
+},
+{
+  "id": "maths-log-carte-3",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Combien valent log(1), log(10), log(0,1) ?",
+  "a": "0 ; 1 ; −1."
+},
+{
+  "id": "maths-log-carte-4",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "log est-elle croissante ou décroissante ?",
+  "a": "Strictement croissante sur les réels strictement positifs."
+},
+{
+  "id": "maths-log-carte-5",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quand log(x) est-il négatif ?",
+  "a": "Pour 0&lt;x&lt;1."
+},
+{
+  "id": "maths-log-carte-6",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "log(0) est-il défini ?",
+  "a": "Non, dans les réels."
+},
+{
+  "id": "maths-log-carte-7",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quelle est la règle du logarithme d’un produit ?",
+  "a": "Pour $a,b&gt;0$, $\\log(ab)=\\log(a)+\\log(b)$."
+},
+{
+  "id": "maths-log-carte-8",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quelle est la règle du quotient ?",
+  "a": "Pour $a,b&gt;0$, $\\log(a/b)=\\log(a)-\\log(b)$."
+},
+{
+  "id": "maths-log-carte-9",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quelle est la règle de la puissance ?",
+  "a": "Pour $a&gt;0$, $\\log(a^r)=r\\log(a)$."
+},
+{
+  "id": "maths-log-carte-10",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Peut-on séparer log(a+b) en une somme de logarithmes ?",
+  "a": "Non, aucune identité de ce type en général."
+},
+{
+  "id": "maths-log-carte-11",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Combien vaut 10 à la puissance log(x) ?",
+  "a": "$x$, si $x&gt;0$."
+},
+{
+  "id": "maths-log-carte-12",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment résoudre log(x)=c ?",
+  "a": "$x=10^c$."
+},
+{
+  "id": "maths-log-carte-13",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment résoudre aˣ=b ?",
+  "a": "$x=\\log(b)/\\log(a)$, avec $a&gt;0$, $a\\ne1$, $b&gt;0$."
+},
+{
+  "id": "maths-log-carte-14",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quand le sens d’une inégalité s’inverse-t-il en divisant par log(a) ?",
+  "a": "Quand 0&lt;a&lt;1, car log(a)&lt;0."
+},
+{
+  "id": "maths-log-carte-15",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel domaine faut-il imposer avant log(x−2) ?",
+  "a": "x&gt;2."
+},
+{
+  "id": "maths-log-carte-16",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment écrire log(m×10ᵖ) ?",
+  "a": "$\\log(m)+p$, pour $m&gt;0$."
+},
+{
+  "id": "maths-log-carte-17",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "La touche LN remplace-t-elle LOG dans un calcul de pH ?",
+  "a": "Non : le modèle du pH utilise le logarithme décimal."
+},
+{
+  "id": "maths-log-carte-18",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel modèle simplifié relie pH et concentration ?",
+  "a": "$\\mathrm{pH}\\approx-\\log([\\mathrm{H_3O^+}]/c^\\circ)$, avec $c^\\circ=1\\ \\mathrm{mol\\,L^{-1}}$."
+},
+{
+  "id": "maths-log-carte-19",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment retrouver la concentration à partir du pH ?",
+  "a": "$[\\mathrm{H_3O^+}]\\approx c^\\circ10^{-\\mathrm{pH}}$."
+},
+{
+  "id": "maths-log-carte-20",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Si la concentration en H₃O⁺ est multipliée par 10, que devient le pH ?",
+  "a": "Il diminue de 1 dans le modèle utilisé."
+},
+{
+  "id": "maths-log-carte-21",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Si le pH augmente de 2, que devient la concentration ?",
+  "a": "Elle est divisée par 100."
+},
+{
+  "id": "maths-log-carte-22",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel lien entre pKa et Ka ?",
+  "a": "$\\mathrm{p}K_a=-\\log(K_a)$ et $K_a=10^{-\\mathrm{p}K_a}$."
+},
+{
+  "id": "maths-log-carte-23",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment inverser pH=pKa+log(R) ?",
+  "a": "$R=10^{\\mathrm{pH}-\\mathrm{p}K_a}$, avec $R&gt;0$."
+},
+{
+  "id": "maths-log-carte-24",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment retrouver I depuis L=10log(I/I₀) ?",
+  "a": "$I=I_0\\,10^{L/10}$."
+},
+{
+  "id": "maths-log-carte-25",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel gain de niveau produit un doublement d’intensité ?",
+  "a": "10log(2)≈3,01 dB, dans le modèle d’addition d’intensités."
+},
+{
+  "id": "maths-log-carte-26",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment inverser D=−log(T) ?",
+  "a": "$T=10^{-D}$."
+},
+{
+  "id": "maths-log-carte-27",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Que signifie D=1 pour la transmission ?",
+  "a": "T=0,1 : 10 % sont transmis."
+},
+{
+  "id": "maths-log-carte-28",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Quel piège éviter pour un rang entier de suite ?",
+  "a": "Calculer le seuil réel, puis vérifier le premier entier admissible et son voisin."
+},
+{
+  "id": "maths-log-carte-29",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "Comment compter les chiffres d’un entier N≥1 ?",
+  "a": "$\\lfloor\\log(N)\\rfloor+1$ ; le plafond seul échoue pour les puissances exactes de 10."
+},
+{
+  "id": "maths-log-carte-30",
+  "chapter": "maths-logarithmes",
+  "category": "maths",
+  "q": "log et ln sont-ils la même fonction ?",
+  "a": "Non ; ils correspondent aux bases 10 et e. Pour x&gt;0, log(x)=ln(x)/ln(10)."
+},
+{
+  "id": "maths-puissances-regles-carte-1",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Comment multiplier des puissances de même base ?",
+  "a": "$a^r a^s=a^{r+s}$ pour une base positive."
+},
+{
+  "id": "maths-puissances-regles-carte-2",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Comment diviser des puissances de même base ?",
+  "a": "$a^r/a^s=a^{r-s}$ pour une base positive."
+},
+{
+  "id": "maths-puissances-regles-carte-3",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Comment calculer une puissance d’une puissance ?",
+  "a": "$(a^r)^s=a^{rs}$ pour $a&gt;0$."
+},
+{
+  "id": "maths-puissances-regles-carte-4",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Combien vaut a⁰ si a≠0 ?",
+  "a": "1."
+},
+{
+  "id": "maths-puissances-regles-carte-5",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Que signifie un exposant négatif ?",
+  "a": "$a^{-n}=1/a^n$, avec $a\\ne0$ pour les exposants entiers."
+},
+{
+  "id": "maths-puissances-regles-carte-6",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Comment distribuer un exposant sur un produit ?",
+  "a": "$(ab)^r=a^rb^r$, avec $a,b&gt;0$ pour des exposants réels."
+},
+{
+  "id": "maths-puissances-regles-carte-7",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Quelle puissance représente une racine carrée ?",
+  "a": "$a^{1/2}=\\sqrt a$ pour $a&gt;0$."
+},
+{
+  "id": "maths-puissances-regles-carte-8",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Combien vaut √(a²) pour a réel ?",
+  "a": "$|a|$."
+},
+{
+  "id": "maths-puissances-regles-carte-9",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "(−2)⁴ et −2⁴ sont-ils égaux ?",
+  "a": "Non : 16 et −16."
+},
+{
+  "id": "maths-puissances-regles-carte-10",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Peut-on additionner les exposants dans aʳ+aˢ ?",
+  "a": "Non ; cette règle concerne le produit."
+},
+{
+  "id": "maths-puissances-regles-carte-11",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Quel coefficient pour une notation scientifique positive normalisée ?",
+  "a": "1≤m&lt;10 dans m×10ᵖ, avec p entier."
+},
+{
+  "id": "maths-puissances-regles-carte-12",
+  "chapter": "maths-regles-puissances",
+  "category": "maths",
+  "q": "Quelle différence entre 2ⁿ et 2×n ?",
+  "a": "Le premier est une puissance ; le second est une multiplication."
 }
 ]
