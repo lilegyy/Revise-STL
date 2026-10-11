@@ -1,0 +1,54 @@
+/* Navigation du cycle Première / Terminale. */
+.course-path { display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; margin:0 0 24px; font-size:13px; color:var(--muted); }
+.course-path a { color:var(--green); text-decoration:underline; text-underline-offset:4px; padding:5px 0; }
+.course-path i { font-style:normal; opacity:.55; }
+.course-path [aria-current] { color:var(--ink); font-weight:600; }
+.curriculum-grid.two-columns { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.curriculum-card { min-width:0; }
+.curriculum-card h3 { max-width:none; }
+.curriculum-note { margin-top:22px; padding:18px 22px; border-left:3px solid var(--green); background:var(--surface2); border-radius:0 12px 12px 0; font-size:13px; }
+.maths-banner { display:flex; align-items:center; gap:22px; margin:25px 0 32px; padding:25px 28px; background:var(--purple); border:1px solid var(--line); border-radius:var(--radius); transition:transform .2s; }
+.maths-banner:hover { transform:translateY(-2px); }
+.maths-banner .subject-icon { background:var(--surface); }
+.maths-banner h2 { font-size:22px; margin:5px 0; }
+.maths-banner p { font-size:13px; color:var(--muted); }
+.maths-banner .card-arrow { margin-left:auto; flex:none; }
+.resume-link { display:block; width:fit-content; margin-top:16px; text-decoration:underline; text-underline-offset:4px; font-size:13px; }
+.curriculum-empty { border:1px dashed var(--line); background:var(--surface); border-radius:var(--radius); margin:18px 0; padding:45px 28px; }
+.curriculum-empty > .icon { width:34px; height:34px; color:var(--green); margin-bottom:16px; }
+.related-resources { display:flex; flex-wrap:wrap; gap:10px; margin:25px 0; }
+.related-resources .chip { display:inline-flex; align-items:center; gap:9px; white-space:normal; }
+.maths-links { background:var(--purple); border:1px solid var(--line); border-radius:16px; padding:20px 24px; margin:20px 0 28px; }
+.maths-links h2 { font-size:17px; }
+.maths-links h2 .icon { margin-right:7px; }
+.maths-links p { margin-top:5px; font-size:13px; color:var(--muted); }
+.maths-links .related-resources { margin:14px 0 0; }
+.pending-notion { display:inline-flex; flex-wrap:wrap; align-items:center; gap:10px; padding:8px 13px; background:var(--surface); border-radius:10px; font-size:13px; }
+.pending-notion small { color:var(--muted); }
+.maths-return { margin-top:14px; }
+.scope-controls { display:flex; flex-wrap:wrap; gap:18px; margin:0 0 25px; padding:18px 22px; border:1px solid var(--line); border-radius:16px; background:var(--surface); }
+.scope-controls label { display:flex; flex-direction:column; gap:5px; font-size:12px; color:var(--muted); flex:1; min-width:150px; max-width:320px; }
+.scope-controls select { width:100%; min-height:44px; padding:8px 35px 8px 12px; border:1px solid var(--line); border-radius:9px; background:var(--bg); color:var(--ink); font-size:15px; }
+.progress-context { display:block; color:var(--muted); font-weight:400; font-size:11px; }
+.flashcard-tabs { flex-wrap:wrap; }
+@media (max-width:800px), (max-width:960px) and (max-height:500px) {
+  .mobile-nav { grid-template-columns:repeat(6,minmax(0,1fr)); }
+  .mobile-nav a { min-width:0; }
+}
+@media (max-width:560px) {
+  .curriculum-grid.two-columns { grid-template-columns:1fr; }
+  .curriculum-card { padding:22px 18px; min-height:145px; }
+  .curriculum-card .card-end { flex-wrap:wrap; gap:8px; }
+  .maths-banner { gap:14px; padding:20px 16px; }
+  .maths-banner .subject-icon { flex:none; width:38px; height:38px; }
+  .maths-banner h2 { font-size:18px; line-height:1.35; }
+  .maths-banner .eyebrow { font-size:8px; letter-spacing:1px; }
+  .maths-banner .card-arrow { width:26px; height:26px; }
+  .scope-controls { padding:14px; gap:12px; }
+  .scope-controls label { min-width:120px; }
+  .scope-controls select { font-size:16px; padding-left:8px; }
+  .maths-links { padding:18px; }
+  .flashcard-tabs { max-height:200px; overflow:auto; }
+  .course-path { font-size:12px; gap:5px 9px; }
+}
+@media (prefers-reduced-motion:reduce) { .maths-banner { transition:none; } .maths-banner:hover { transform:none; } }
