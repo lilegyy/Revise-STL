@@ -1,11 +1,13 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = '2026-10-10-2';
+const VERSION = '2026-10-11-cycle-stl-1';
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
   './.nojekyll',
   './app.js',
+  './curriculum.js',
+  './navigation.js',
   './apple-touch-icon.png',
   './assets/diagrams/azeotrope.svg',
   './assets/diagrams/bilans.svg',
@@ -69,6 +71,7 @@ const ASSETS = [
   './manifest.json',
   './manipulations.json',
   './style.css',
+  './curriculum.css',
   './supplements.json',
   './vendor/katex/contrib/auto-render.min.js',
   './vendor/katex/fonts/KaTeX_AMS-Regular.ttf',
