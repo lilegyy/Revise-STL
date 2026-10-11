@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-cycle-mouvements-1";
+const VERSION = "2026-10-11-solubilite-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -246,7 +246,15 @@ const ASSETS = [
   "./assets/documents/cycle-doc-19.pdf",
   "./assets/documents/cycle-doc-20.pdf",
   "./assets/documents/cycle-doc-21.pdf",
-  "./assets/documents/cycle-doc-22.pdf"
+  "./assets/documents/cycle-doc-22.pdf",
+  "./assets/diagrams/solubilite-domaines.svg",
+  "./assets/diagrams/solubilite-ph.svg",
+  "./assets/diagrams/solubilite-qr.svg",
+  "./assets/diagrams/solubilite-recristallisation.svg",
+  "./assets/diagrams/solubilite-saturation.svg",
+  "./assets/diagrams/solubilite-tubes.svg",
+  "./assets/documents/solubilite-exercices-source.pdf",
+  "./assets/documents/solubilite-synthese-source.pdf"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
