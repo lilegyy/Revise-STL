@@ -30,6 +30,10 @@ jobs:
           npm run prepare:web
           npx cap add ios
           npm run prepare:ios
+      - name: Vérifier le protocole ÉcoleDirecte sans identifiants
+        run: |
+          xcrun swiftc native/EcoleDirecteProtocol.swift tests/EDProtocolCheck.swift -o /tmp/revise-ed-check
+          /tmp/revise-ed-check
       - name: Vérifier le projet et compiler pour iPhone
         run: |
           plutil -lint ios/App/App.xcodeproj/project.pbxproj
