@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Révise. — STL-SPCL",
+  "name": "Révise. — Première & Terminale STL",
   "short_name": "Révise STL",
-  "description": "Cours, exercices type Bac et manipulations ECE. Objectif 17,5.",
+  "description": "Première et Terminale : PCM, SPCL, maths et manipulations ECE. Objectif 17,5.",
   "lang": "fr",
   "start_url": "./index.html",
   "scope": "./",
