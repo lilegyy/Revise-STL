@@ -231,7 +231,7 @@ function renderChapter(id, mode = 'cours') {
       '<div class="course-layout"><article class="course-body" id="course-body">' +
       c.cours +
       '</article><nav class="toc" aria-label="Sommaire du cours"><p class="eyebrow">DANS CE CHAPITRE</p><div id="toc-items"></div><a href="#cards/' +
-      c.spe + (c.track === 'maths' ? '?track=maths' : '?year=' + c.year + '&track=' + c.track) +
+      c.spe + (c.track === 'maths' ? '?track=maths' : '?year=' + c.year + '&track=' + c.track) + '&chapter=' + encodeURIComponent(c.id) +
       '">' +
       icon('cards') +
       ' Réviser avec les cartes</a></nav></div>';
@@ -467,7 +467,7 @@ function renderLab(id) {
           ' ↗</a>',
       )
       .join('') +
-    '</div><a class="button" href="#cards/ece">M’entraîner avec les cartes ECE ' +
+    '</div><a class="button" href="#cards/ece?chapter=' + encodeURIComponent(l.id) + '">M’entraîner avec les cartes ECE ' +
     icon('arrow') +
     '</a></article></div>';
   math($('.lab-content'));
@@ -531,28 +531,35 @@ function renderGallery() {
       .join('') +
     '</div>';
 }
-function renderCards(group = 'all', keep = false) {
-  const available = scopedCards();
-  const groups = [
-    ['all', 'Toutes'],
-    ...Object.entries(subjects).filter(([, s]) => scopeMatches(s.year, s.track)).map(([key]) => [key, subjectLabel(key)]),
-    ...(resourceScope.track === 'maths' ? [] : [['ece', 'ECE']]),
-    ['review', 'À revoir'],
-  ];
-  if (!groups.some(([key]) => key === group)) group = 'all';
-  const scope = scopeQuery();
-  if (!keep || !cardSession || cardSession.group !== group || cardSession.scope !== scope) {
-    const deck = available.filter((c) => group === 'all' ||
-      (group === 'review' ? state.cards[c.id] !== 'mastered' : group === 'ece' ? c.category === 'ece' : chapterMap.get(c.chapter)?.spe === group));
-    cardSession = { group, scope, available: available.length, deck, index: 0, revealed: false };
+function cardsHref(group, chapter = '') {
+    const params = new URLSearchParams(scopeQuery().replace(/^\?/, ''));
+    if (chapter) params.set('chapter', chapter);
+    const query = params.toString();
+    return '#cards/' + group + (query ? '?' + query : '');
   }
-  $('#main').innerHTML = '<div class="page-intro"><div><h1>Un peu de rappel actif.</h1><p>Cherche la réponse avant de retourner la carte.</p></div><span class="label-pill">' +
-    available.length + ' FLASHCARDS</span></div>' + scopeControls() + '<nav class="subject-tabs flashcard-tabs" aria-label="Choix des flashcards">' +
-    groups.map(([id, title]) => '<a class="chip ' + (id === group ? 'active' : '') + '" href="#cards/' + id + scope + '" ' +
-      (id === group ? 'aria-current="page"' : '') + '>' + escapeHTML(title) + '</a>').join('') + '</nav><div class="cards-shell" id="card-stage"></div>';
-  renderCardStage();
-}
-function renderCardStage() {
+  function renderCards(group = 'all', keep = false) {
+    const available = scopedCards();
+    const groups = [ ['all', 'Toutes'], ...Object.entries(subjects).filter(([key]) => available.some(c => chapterMap.get(c.chapter)?.spe === key)).map(([key,s]) => [key,s.name]), ['ece', 'ECE'], ['review', 'À revoir'] ];
+    if (!groups.some(([key]) => key === group)) group = 'all';
+    const bySubject = available.filter(c => group === 'all' || group === 'review' || (group === 'ece' ? c.category === 'ece' : chapterMap.get(c.chapter)?.spe === group));
+    const counts = new Map();
+    bySubject.forEach(c => counts.set(c.chapter, (counts.get(c.chapter) || 0) + 1));
+    let chapter = new URLSearchParams(location.hash.split('?')[1] || '').get('chapter') || '';
+    if (chapter && !counts.has(chapter)) chapter = '';
+    const selected = bySubject.filter(c => !chapter || c.chapter === chapter);
+    const scope = scopeQuery();
+    if (!keep || !cardSession || cardSession.group !== group || cardSession.scope !== scope || cardSession.chapter !== chapter) {
+      const deck = selected.filter(c => group !== 'review' || state.cards[c.id] !== 'mastered');
+      cardSession = { group, scope, chapter, available: selected.length, deck, index: 0, revealed: false };
+    }
+    $('#main').innerHTML = '<div class="page-intro"><div><h1>Un peu de rappel actif.</h1><p>Cherche la réponse avant de retourner la carte.</p></div><span class="label-pill">' +
+      cardSession.deck.length + ' FLASHCARDS</span></div>' + scopeControls() + '<nav class="subject-tabs flashcard-tabs" aria-label="Choix des flashcards">' +
+      groups.map(([id,title]) => '<a class="chip ' + (id === group ? 'active' : '') + '" href="' + cardsHref(id, id === 'review' ? chapter : '') + '" ' + (id === group ? 'aria-current="page"' : '') + '>' + escapeHTML(title) + '</a>').join('') + '</nav>' +
+      '<div class="scope-controls"><label>Chapitre ou manipulation<select data-card-chapter aria-label="Chapitre de flashcards"><option value="">Tous les chapitres</option>' +
+      [...counts].map(([id,count]) => '<option value="' + escapeHTML(id) + '" ' + (id === chapter ? 'selected' : '') + '>' + escapeHTML(chapterMap.has(id) ? shortTitle(chapterMap.get(id)) : labMap.get(id)?.title || id) + ' · ' + count + ' cartes</option>').join('') + '</select></label></div><div class="cards-shell" id="card-stage"></div>';
+    renderCardStage();
+  }
+  function renderCardStage() {
   const s = cardSession;
   if (!s.deck.length) {
     $('#card-stage').innerHTML =
@@ -983,6 +990,7 @@ function bindEvents() {
       e.target.closest('dialog').close();
   });
   document.addEventListener('change', (e) => {
+      if (e.target.matches('[data-card-chapter]')) { location.hash = cardsHref(cardSession.group, e.target.value); return; }
     if (e.target.matches('[data-scope]')) {
       resourceScope[e.target.dataset.scope] = e.target.value;
       const page = location.hash.slice(1).split(/[/?]/)[0];
