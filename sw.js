@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = '2026-10-11-cycle-stl-1';
+const VERSION = "2026-10-11-pcm-ch1-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -137,6 +137,29 @@ const ASSETS = [
   './vendor/katex/katex.min.css',
   './vendor/katex/katex.min.js',
   './vendor/katex/LICENSE',
+  "./assets/diagrams/pcm-ch1-butanol-miroir.svg",
+  "./assets/diagrams/pcm-ch1-cram.svg",
+  "./assets/diagrams/pcm-ch1-ex2.png",
+  "./assets/diagrams/pcm-ch1-ex3.png",
+  "./assets/diagrams/pcm-ch1-ex4.png",
+  "./assets/diagrams/pcm-ch1-ex4.svg",
+  "./assets/diagrams/pcm-ch1-ex5-a.png",
+  "./assets/diagrams/pcm-ch1-ex5-b.png",
+  "./assets/diagrams/pcm-ch1-ex5-c.png",
+  "./assets/diagrams/pcm-ch1-ex5-d.png",
+  "./assets/diagrams/pcm-ch1-groupes-caracteristiques.webp",
+  "./assets/diagrams/pcm-ch1-hydrodistillation.svg",
+  "./assets/diagrams/pcm-ch1-ldopa.png",
+  "./assets/diagrams/pcm-ch1-limonene.png",
+  "./assets/diagrams/pcm-ch1-menthol-huit.svg",
+  "./assets/diagrams/pcm-ch1-relations.svg",
+  "./assets/diagrams/pcm-ch1-rs.svg",
+  "./assets/diagrams/pcm-ch1-synthese-menthol.png",
+  "./assets/diagrams/pcm-ch1-thalidomide-doc.png",
+  "./assets/diagrams/pcm-ch1-thalidomide-exercice.png",
+  "./assets/diagrams/pcm-ch1-ze.svg",
+  "./assets/documents/pcm-terminale-ch1-cours.pdf",
+  "./assets/documents/pcm-terminale-ch1-exercices-source.pdf"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
