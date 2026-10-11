@@ -1062,5 +1062,192 @@
     "assets/documents/cycle-doc-21.pdf",
     "assets/documents/cycle-doc-22.pdf"
   ]
+},
+{
+  "id": "solubilite-precipitation",
+  "title": "Étudier la solubilité et une précipitation",
+  "subtitle": "Observer, calculer Qr et confronter le résultat à Ks.",
+  "category": "Solubilité",
+  "time": 12,
+  "contexts": [
+    {
+      "year": "terminale",
+      "track": "spcl"
+    }
+  ],
+  "image": "solubilite-tubes.svg",
+  "preview": false,
+  "objective": "Prévoir une précipitation à partir de quantités, d’un volume et de Ks ; reconnaître les limites d’une observation de dissolution.",
+  "principle": "Comparer le quotient calculé après mélange au produit de solubilité à la température de travail. Une dissolution totale et un équilibre avec solide en excès ne se traitent pas de la même manière.",
+  "equipment": [
+    [
+      "Tubes ou béchers",
+      "Observer les phases et comparer les essais sans les mélanger."
+    ],
+    [
+      "Pipettes et dispositif de prélèvement",
+      "Introduire les volumes prescrits et connus ; tenir compte du volume final."
+    ],
+    [
+      "Thermomètre",
+      "Vérifier la température à laquelle s et Ks sont donnés."
+    ],
+    [
+      "Solutions identifiées et solide du sujet",
+      "Connaître concentrations, espèces et dangers avant calcul et manipulation."
+    ],
+    [
+      "Balance et filtration adaptée si mesure de s",
+      "Une mesure quantitative exige une masse, un volume final et une analyse de la phase liquide à l’équilibre."
+    ]
+  ],
+  "steps": [
+    [
+      "Prévoir",
+      "Identifier les ions, écrire les dissolutions et calculer les quotients après dilution dans les volumes prescrits."
+    ],
+    [
+      "Préparer",
+      "Étiqueter les récipients, relever la température et prélever les volumes prévus par le sujet."
+    ],
+    [
+      "Mélanger et observer",
+      "Ajouter progressivement le réactif si demandé ; agiter modérément, relever apparition, couleur et persistance du solide. Ne pas inventer des concentrations ou un seuil à partir de la couleur seule."
+    ],
+    [
+      "Attendre et contrôler",
+      "Pour un équilibre de solubilité, laisser le temps nécessaire à température stable ; un grain restant juste après ajout ne prouve pas que l’équilibre est atteint."
+    ],
+    [
+      "Mesurer si le protocole le demande",
+      "Pour déterminer s, préparer un milieu avec solide en excès, séparer le solide à température constante puis analyser une aliquote de la solution par la méthode donnée. Déduire la quantité dissoute par litre."
+    ],
+    [
+      "Conclure et ranger",
+      "Comparer observation et prévision ; discuter dilution, pH et réactions parasites, collecter les liquides et solides dans les déchets adaptés puis nettoyer."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$$Q_r=[M^{2+}][HO^-]^2$$</div><p>Exemple qualitatif du document : Mg²⁺ donne Mg(OH)₂ blanc et Fe²⁺ donne Fe(OH)₂ vert. Ajouter Fe²⁺ au précipité de magnésium fait apparaître du vert dans la comparaison proposée. Calculer les concentrations réelles après dilution avant une comparaison quantitative.</p><p>Si la méthode mesure une masse dissoute m dans un volume V, $s=m/(MV)$ ; sₘ=m/V. L’analyse doit porter sur la phase liquide débarrassée des grains.</p><p><a class=\"chip\" href=\"#chapter/cdd-ch1/cours\">Revoir la solubilité</a></p>",
+  "errors": [
+    "Utiliser les concentrations avant mélange.",
+    "Confondre solution et suspension.",
+    "Conclure à la saturation avant d’avoir laissé l’équilibre s’établir.",
+    "Changer la température pendant la filtration d’une solution saturée.",
+    "Déduire une constante numérique uniquement d’une couleur.",
+    "Confondre quantité apportée et quantité réellement dissoute."
+  ],
+  "question": "Un solide restant au fond juste après ajout prouve-t-il la saturation ?",
+  "answer": "Non. La dissolution peut être lente. Il faut contrôler température, agitation, durée d’attente et équilibre ; une mesure quantitative repose ensuite sur l’analyse de la phase liquide.",
+  "check": [
+    "J’écris la dissolution et Ks.",
+    "Je calcule les concentrations après dilution.",
+    "Je compare Qr à Ks.",
+    "Je distingue quantité apportée et dissoute.",
+    "Je contrôle température et équilibre.",
+    "Je collecte les déchets adaptés."
+  ],
+  "safety": "Lunettes et blouse, prélèvement avec dispositif adapté. Utiliser uniquement les solutions et concentrations du sujet et suivre leurs consignes. Les essais au plomb, au cadmium et au chrome du PDF servent ici aux calculs ; ils ne sont pas proposés comme manipulations libres. Collecter les déchets métalliques et les précipités selon les consignes du laboratoire.",
+  "originals": [],
+  "sources": [
+    "assets/documents/solubilite-exercices-source.pdf",
+    "assets/documents/solubilite-synthese-source.pdf"
+  ]
+},
+{
+  "id": "solubilite-recristallisation",
+  "title": "Purifier un solide par recristallisation",
+  "subtitle": "Dissoudre à chaud, cristalliser à froid, filtrer et sécher.",
+  "category": "Solubilité",
+  "time": 20,
+  "contexts": [
+    {
+      "year": "terminale",
+      "track": "spcl"
+    }
+  ],
+  "image": "solubilite-recristallisation.svg",
+  "preview": false,
+  "objective": "Purifier un solide en exploitant sa différence de solubilité à chaud et à froid, puis évaluer la récupération.",
+  "principle": "Le produit doit être soluble à chaud et peu soluble à froid dans le solvant choisi ; les impuretés doivent pouvoir être séparées soit à chaud, soit dans les eaux mères.",
+  "equipment": [
+    [
+      "Erlenmeyer, solvant et solide brut",
+      "Dissoudre une masse connue dans une quantité limitée de solvant."
+    ],
+    [
+      "Plaque ou bain chauffant adapté",
+      "Chauffer avec agitation en limitant évaporation et projections."
+    ],
+    [
+      "Filtration à chaud si nécessaire",
+      "Retirer les impuretés insolubles en évitant la cristallisation dans le filtre."
+    ],
+    [
+      "Bain de refroidissement",
+      "Refroidir progressivement puis compléter par le froid si le protocole le prévoit."
+    ],
+    [
+      "Büchner, fiole à vide et source d’aspiration",
+      "Séparer cristaux et eaux mères avec un montage stable."
+    ],
+    [
+      "Dispositif de séchage et balance",
+      "Peser après séchage suivant la méthode du laboratoire."
+    ]
+  ],
+  "steps": [
+    [
+      "Choisir et calculer",
+      "Vérifier le solvant prévu, ses dangers, la solubilité à chaud/froid et la masse initiale. Estimer le volume minimum sans confondre masse brute et masse de produit pur."
+    ],
+    [
+      "Dissoudre à chaud",
+      "Chauffer dans le dispositif prescrit puis ajouter progressivement le minimum de solvant chaud permettant la dissolution du produit. Ne pas chauffer un récipient fermé."
+    ],
+    [
+      "Éliminer les insolubles",
+      "Si nécessaire, filtrer à chaud avec le matériel prévu ; limiter le refroidissement pour ne pas perdre le produit dans le filtre."
+    ],
+    [
+      "Cristalliser",
+      "Laisser refroidir progressivement sans agitation excessive, puis utiliser le bain froid si prévu. Si aucune cristallisation ne démarre, appliquer seulement la méthode de nucléation autorisée par le protocole."
+    ],
+    [
+      "Filtrer et laver",
+      "Filtrer sur Büchner ; laver avec une petite quantité de solvant froid pour éliminer les eaux mères sans dissoudre trop de cristaux."
+    ],
+    [
+      "Sécher et peser",
+      "Sécher selon les conditions prescrites ; refroidir avant pesée, peser un solide sec et relever sa masse."
+    ],
+    [
+      "Interpréter",
+      "Calculer récupération, discuter pertes et pureté, conserver une mesure de pureté si le sujet la demande, puis collecter les eaux mères et nettoyer le montage."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$$V_{min}=m_0/s_{m,chaud}$$<br>$$m_{cristaux,max}=m_0-s_{m,froid}V$$</div><p>Pour le calcul du PDF, sous hypothèse de5,50g de produit pur : Vₘᵢₙ≈97,7mL, masse dissoute à25°C≈0,336g, récupération théorique≈5,16g et93,9%. Les conditions de chauffage et volumes réellement utilisés restent ceux du sujet expérimental.</p><p>Récupération massique expérimentale : $100m_{sec}/m_{brut}$ ; ce pourcentage ne prouve pas la pureté. Si la masse initiale de produit pur est connue, utiliser celle-ci pour le rendement en produit.</p><p><a class=\"chip\" href=\"#chapter/cdd-ch1/cours\">Cours et exercice10</a> <a class=\"chip\" href=\"#lab/buchner\">Filtration sur Büchner</a></p>",
+  "errors": [
+    "Ajouter trop de solvant : plus de produit reste dissous à froid.",
+    "Refroidir pendant la filtration à chaud.",
+    "Laver avec trop de solvant ou un solvant trop chaud.",
+    "Peser des cristaux humides.",
+    "Confondre récupération massique et pureté.",
+    "Oublier évaporation, transferts et pertes mécaniques."
+  ],
+  "question": "Pourquoi laver les cristaux avec peu de solvant froid ?",
+  "answer": "Cela élimine les eaux mères contenant des impuretés tout en limitant la redissolution du produit. Une quantité excessive augmente les pertes.",
+  "check": [
+    "Je justifie le choix du solvant.",
+    "Je estime le volume à chaud avec les bonnes unités.",
+    "Je distingue filtration à chaud et filtration finale.",
+    "Je refroidis et je lave à froid avec peu de solvant.",
+    "Je sèche avant pesée.",
+    "Je distingue rendement, récupération et pureté."
+  ],
+  "safety": "Blouse et lunettes ; prendre en compte les dangers du solvant et du solide. Utiliser un chauffage adapté, sans flamme pour un solvant inflammable. Ne jamais fermer un récipient chauffé ; manipuler la verrerie chaude avec les moyens prescrits. Vérifier la verrerie de filtration sous vide et collecter les eaux mères suivant les consignes.",
+  "originals": [],
+  "sources": [
+    "assets/documents/solubilite-exercices-source.pdf"
+  ]
 }
 ]
