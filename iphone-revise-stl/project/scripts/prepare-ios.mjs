@@ -7,11 +7,12 @@ const configFile=destination+'/capacitor.config.json';
 const config=JSON.parse(await fs.readFile(configFile,'utf8'));
 config.packageClassList=[...new Set([...(config.packageClassList||[]),'ReviseNativePlugin'])];
 await fs.writeFile(configFile,JSON.stringify(config,null,2));
-for(const name of ['ViewController.swift','ReviseNativePlugin.swift','PrivacyInfo.xcprivacy'])await fs.copyFile(path.join('native',name),path.join(destination,name));
+for(const name of ['ViewController.swift','ReviseNativePlugin.swift','EcoleDirecteProtocol.swift','PrivacyInfo.xcprivacy'])await fs.copyFile(path.join('native',name),path.join(destination,name));
 // Les fichiers Swift ajoutés doivent être des membres de la cible Xcode.
 const project='ios/App/App.xcodeproj/project.pbxproj';
 let text=await fs.readFile(project,'utf8');
 const files=[['ReviseNativePlugin.swift','A11000000000000000000001','A11000000000000000000002'],['PrivacyInfo.xcprivacy','A11000000000000000000003','A11000000000000000000004'],['ViewController.swift','A11000000000000000000005','A11000000000000000000006']];
+files.push(['EcoleDirecteProtocol.swift','A11000000000000000000007','A11000000000000000000008']);
 for(const[name,ref,build]of files){
   if(text.includes(name))continue;
   const type=name.endsWith('.swift')?'sourcecode.swift':'text.xml';
@@ -29,7 +30,7 @@ await fs.writeFile(project,text);
 let plist=await fs.readFile(destination+'/Info.plist','utf8');
 plist=plist.replace(/\s*<key>ITSAppUsesNonExemptEncryption<\/key>\s*<false\s*\/>/g,'');
 plist=plist.replace('</dict>\n</plist>','<key>ITSAppUsesNonExemptEncryption</key><false/>\n</dict>\n</plist>');
-plist=plist.replace(/(<key>CFBundleShortVersionString<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'1.0.1'+b).replace(/(<key>CFBundleVersion<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'2'+b);
+plist=plist.replace(/(<key>CFBundleShortVersionString<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'1.0.2'+b).replace(/(<key>CFBundleVersion<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'3'+b);
 await fs.writeFile(destination+'/Info.plist',plist);
 const storyboard=destination+'/Base.lproj/Main.storyboard';
 let scene=await fs.readFile(storyboard,'utf8');
