@@ -1468,5 +1468,355 @@
   "chapter": "pcm-ch2-tampon",
   "q": "Pourquoi travailler avec une aspiration adaptée pour l’ammoniaque ?",
   "a": "Pour limiter l’exposition aux vapeurs irritantes ; suivre les FDS et les consignes du laboratoire."
+},
+{
+  "id": "maths-ch3-carte-01",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Condition sur la base pour aˣ défini sur ℝ ?",
+  "a": "$a&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-02",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Que vaut a⁰ pour a > 0 ?",
+  "a": "$a^0=1$."
+},
+{
+  "id": "maths-ch3-carte-03",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Quel est le signe de aˣ ?",
+  "a": "Strictement positif pour tout réel $x$ et toute base $a&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-04",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Produit de puissances de même base ?",
+  "a": "$a^xa^y=a^{x+y}$."
+},
+{
+  "id": "maths-ch3-carte-05",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Quotient de puissances de même base ?",
+  "a": "$a^x/a^y=a^{x-y}$."
+},
+{
+  "id": "maths-ch3-carte-06",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Puissance d’une puissance ?",
+  "a": "$(a^x)^y=a^{xy}$ pour $a&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-07",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Exposant négatif ?",
+  "a": "$a^{-x}=1/a^x$."
+},
+{
+  "id": "maths-ch3-carte-08",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Variations de aˣ si a > 1 ?",
+  "a": "Strictement croissante sur ℝ."
+},
+{
+  "id": "maths-ch3-carte-09",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Variations de aˣ si 0 < a < 1 ?",
+  "a": "Strictement décroissante sur ℝ."
+},
+{
+  "id": "maths-ch3-carte-10",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Base égale à 1 ?",
+  "a": "Fonction constante égale à 1."
+},
+{
+  "id": "maths-ch3-carte-11",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "aᵘ = aᵛ permet-il toujours u = v ?",
+  "a": "Uniquement pour $a&gt;0$, $a\\ne1$."
+},
+{
+  "id": "maths-ch3-carte-12",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Comparer les exposants si la base est entre 0 et 1 ?",
+  "a": "L’ordre est inversé : $a^u&gt;a^v\\iff u&lt;v$."
+},
+{
+  "id": "maths-ch3-carte-13",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "aˣ ≤ 0 a-t-il une solution ?",
+  "a": "Non : $a^x&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-14",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Comment calculer un taux moyen sur n périodes ?",
+  "a": "$t_m=(V_f/V_i)^{1/n}-1$ pour des valeurs positives et $n&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-15",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Combien d’évolutions annuelles entre 1999 et 2015 ?",
+  "a": "16, même si l’on compte 17 millésimes inclus."
+},
+{
+  "id": "maths-ch3-carte-16",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Qu’est-ce que e ?",
+  "a": "Le nombre d’Euler, $e\\approx2,71828$ ; base pour laquelle la dérivée de $a^x$ en 0 vaut 1."
+},
+{
+  "id": "maths-ch3-carte-17",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Notation exp(x) ?",
+  "a": "$\\exp(x)=e^x$."
+},
+{
+  "id": "maths-ch3-carte-18",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de eˣ ?",
+  "a": "$(e^x)^{\\prime}=e^x$."
+},
+{
+  "id": "maths-ch3-carte-19",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de eᵘ ?",
+  "a": "$u^{\\prime}e^u$ si $u$ est dérivable."
+},
+{
+  "id": "maths-ch3-carte-20",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de eᵏˣ⁺ᵇ ?",
+  "a": "$ke^{kx+b}$."
+},
+{
+  "id": "maths-ch3-carte-21",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de aˣ ?",
+  "a": "$\\ln(a)a^x$ pour $a&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-22",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Pourquoi factoriser eᵘ dans une dérivée ?",
+  "a": "Parce que $e^u&gt;0$, donc les autres facteurs déterminent le signe."
+},
+{
+  "id": "maths-ch3-carte-23",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Une primitive de eˣ ?",
+  "a": "$e^x+C$."
+},
+{
+  "id": "maths-ch3-carte-24",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Une primitive de u′eᵘ ?",
+  "a": "$e^u+C$."
+},
+{
+  "id": "maths-ch3-carte-25",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Primitive de eᵏˣ⁺ᵇ pour k ≠ 0 ?",
+  "a": "$e^{kx+b}/k+C$."
+},
+{
+  "id": "maths-ch3-carte-26",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Domaine réel de ln ?",
+  "a": "$]0;+\\infty[$ : l’argument doit être strictement positif."
+},
+{
+  "id": "maths-ch3-carte-27",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Définition de ln(y) ?",
+  "a": "Pour $y&gt;0$, l’unique réel $x$ tel que $e^x=y$."
+},
+{
+  "id": "maths-ch3-carte-28",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "ln(eˣ) et eˡⁿʸ ?",
+  "a": "$\\ln(e^x)=x$ pour tout réel $x$ ; $e^{\\ln y}=y$ pour $y&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-29",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Valeurs ln(1) et ln(e) ?",
+  "a": "$\\ln1=0$ ; $\\ln e=1$."
+},
+{
+  "id": "maths-ch3-carte-30",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Variations de ln ?",
+  "a": "Strictement croissante sur ]0 ; +∞[."
+},
+{
+  "id": "maths-ch3-carte-31",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Signe de ln(x) ?",
+  "a": "Négatif pour $0&lt;x&lt;1$, nul en 1, positif pour $x&gt;1$."
+},
+{
+  "id": "maths-ch3-carte-32",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "ln(ab) ?",
+  "a": "$\\ln a+\\ln b$ pour $a,b&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-33",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "ln(a/b) ?",
+  "a": "$\\ln a-\\ln b$ pour $a,b&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-34",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "ln(aʳ) ?",
+  "a": "$r\\ln a$ pour $a&gt;0$ et $r$ réel."
+},
+{
+  "id": "maths-ch3-carte-35",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "ln(a+b) est-il ln(a)+ln(b) ?",
+  "a": "Non en général."
+},
+{
+  "id": "maths-ch3-carte-36",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de ln(x) ?",
+  "a": "$1/x$ pour $x&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-37",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Dérivée de ln(u) ?",
+  "a": "$u^{\\prime}/u$ là où $u$ est dérivable et strictement positive."
+},
+{
+  "id": "maths-ch3-carte-38",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Lien entre log décimal et ln ?",
+  "a": "$\\ln x=\\ln(10)\\log x$ pour $x&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-39",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Écrire aˣ avec e et ln ?",
+  "a": "$a^x=e^{x\\ln a}$ pour $a&gt;0$."
+},
+{
+  "id": "maths-ch3-carte-40",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Résoudre eᵘ = b ?",
+  "a": "Si $b&gt;0$, $u=\\ln b$ ; si $b\\le0$, aucune solution réelle."
+},
+{
+  "id": "maths-ch3-carte-41",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limites de eˣ en −∞ et +∞ ?",
+  "a": "0 en $-\\infty$, $+\\infty$ en $+\\infty$."
+},
+{
+  "id": "maths-ch3-carte-42",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limite de e⁻ˣ en +∞ ?",
+  "a": "0."
+},
+{
+  "id": "maths-ch3-carte-43",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limites de ln en 0⁺ et +∞ ?",
+  "a": "$-\\infty$ en $0^+$, $+\\infty$ en $+\\infty$."
+},
+{
+  "id": "maths-ch3-carte-44",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limite eˣ/xⁿ en +∞ ?",
+  "a": "$+\\infty$ pour un entier naturel fixé $n$."
+},
+{
+  "id": "maths-ch3-carte-45",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limite xⁿe⁻ˣ en +∞ ?",
+  "a": "0 pour un entier naturel fixé $n$."
+},
+{
+  "id": "maths-ch3-carte-46",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Limite xⁿeˣ en −∞ ?",
+  "a": "0 pour un entier naturel fixé $n$."
+},
+{
+  "id": "maths-ch3-carte-47",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Que faire devant ∞ − ∞ ou 0 × ∞ ?",
+  "a": "Lever l’indétermination par une transformation ; ne pas appliquer directement les règles de calcul."
+},
+{
+  "id": "maths-ch3-carte-48",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Équation de tangente en x₀ ?",
+  "a": "$y=f^{\\prime}(x_0)(x-x_0)+f(x_0)$."
+},
+{
+  "id": "maths-ch3-carte-49",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Asymptote horizontale et limite finie ?",
+  "a": "Une limite $L$ en l’infini donne l’asymptote $y=L$."
+},
+{
+  "id": "maths-ch3-carte-50",
+  "category": "maths",
+  "chapter": "maths-ln-exponentielle",
+  "q": "Comment vérifier une primitive ?",
+  "a": "La dériver et vérifier que l’on retrouve l’intégrande."
 }
 ]
