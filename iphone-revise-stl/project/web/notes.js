@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const $=s=>document.querySelector(s),native=window.Capacitor?.isNativePlatform()?Capacitor.Plugins.ReviseNative:null;
+  const $=s=>document.querySelector(s),native=window.ReviseNativeClient.client;
   try{document.documentElement.dataset.theme=localStorage.getItem('revise-theme')||'light';}catch{}
   let cache=null,busy=false,settings={};try{settings=JSON.parse(localStorage.getItem('revise-grade-coefficients')||'{}');}catch{}
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -30,6 +30,6 @@
   $('#period').addEventListener('change',render);
   $('#subjects').addEventListener('change',event=>{const key=event.target.dataset.coefficient;if(!key)return;const value=GradeEngine.number(event.target.value);if(value===null||value<0){$('#status').textContent='Le coefficient doit être positif ou nul.';render();return;}const scope=cache.accountID+':'+$('#period').value;settings[scope]||={};settings[scope][key]=value;try{localStorage.setItem('revise-grade-coefficients',JSON.stringify(settings));}catch{}render();});
   $('#disconnect').addEventListener('click',()=>action(async()=>{await native.disconnect();settings={};localStorage.removeItem('revise-grade-coefficients');cache=null;$('#results').hidden=true;$('#security-panel').hidden=true;$('#accounts-panel').hidden=true;$('#login-panel').hidden=false;$('#status').textContent='Session fermée et notes effacées de cet appareil.';}));
-  if(native)action(async()=>{const value=await native.cachedNotes();if(!value.empty){accept(value);$('#login-panel').hidden=true;$('#status').textContent='Tes notes enregistrées sur cet appareil.';}else $('#status').textContent='Connecte-toi pour récupérer tes notes.';});
-  else $('#status').textContent='Cette page est prévue pour l’application iPhone. Aucun identifiant n’est envoyé depuis le site web.';
+  if(window.ReviseNativeClient.available())action(async()=>{const value=await native.cachedNotes();if(!value.empty){accept(value);$('#login-panel').hidden=true;$('#status').textContent='Tes notes enregistrées sur cet appareil.';}else $('#status').textContent='Connecte-toi pour récupérer tes notes.';});
+  else $('#status').textContent='Module iPhone indisponible · version 1.0.1. Ferme complètement l’application et rouvre-la. La connexion attend le chargement du module natif.';
 })();

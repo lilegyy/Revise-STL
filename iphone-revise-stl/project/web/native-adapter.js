@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   if (!window.Capacitor?.isNativePlatform()) return;
-  const native = window.Capacitor.Plugins.ReviseNative;
+  const native = window.ReviseNativeClient.client;
   const files = new Set(['data.json','flashcards.json','manipulations.json','diagrams.json','supplements.json']);
   const originalFetch = window.fetch.bind(window);
   window.fetch = async (input, options) => {
