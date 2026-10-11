@@ -2924,5 +2924,376 @@
   "category": "ece",
   "q": "Sources principales d’erreur ?",
   "a": "Calibration, parallaxe, dates, précision du pointage et bruit amplifié."
+},
+{
+  "id": "solubilite-1",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Solubilité : définition ?",
+  "a": "Quantité maximale dissoute par litre de solution à température, pression et composition fixées."
+},
+{
+  "id": "solubilite-2",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Solubilité molaire et massique : unités ?",
+  "a": "mol/L et g/L."
+},
+{
+  "id": "solubilite-3",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Solution saturée à l’équilibre ?",
+  "a": "La concentration dissoute atteint la solubilité ; un excès ajouté peut rester solide."
+},
+{
+  "id": "solubilite-4",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Milieu avec précipité homogène ?",
+  "a": "Non : solide et liquide forment un milieu hétérogène."
+},
+{
+  "id": "solubilite-5",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Dissoudre NaCl ?",
+  "a": "$NaCl(s)\\rightleftharpoons Na^+(aq)+Cl^-(aq)$."
+},
+{
+  "id": "solubilite-6",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Solide moléculaire versus ionique ?",
+  "a": "Molécules solvatées versus ions issus du solide."
+},
+{
+  "id": "solubilite-7",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Le solide figure-t-il dans le dénominateur de Ks ?",
+  "a": "Non : l’activité du solide pur vaut1."
+},
+{
+  "id": "solubilite-8",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Coefficients dans l’équation : dans Ks ?",
+  "a": "Ils deviennent les exposants des activités ou concentrations conventionnelles."
+},
+{
+  "id": "solubilite-9",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Ks et Qr : différence ?",
+  "a": "Ks caractérise l’équilibre ; Qr utilise l’état à l’instant étudié."
+},
+{
+  "id": "solubilite-10",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Ks dépend-il de la quantité initiale ?",
+  "a": "Non à température fixée ; l’état final en dépend."
+},
+{
+  "id": "solubilite-11",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Qr inférieur à Ks ?",
+  "a": "Dissolution favorisée si du solide est présent ; milieu non saturé."
+},
+{
+  "id": "solubilite-12",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Qr égal à Ks ?",
+  "a": "Saturation ; équilibre hétérogène si solide et solution coexistent."
+},
+{
+  "id": "solubilite-13",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Tout le solide dissous implique Qr=Ks ?",
+  "a": "Non : tout peut disparaître avant la saturation, avec Qr<Ks."
+},
+{
+  "id": "solubilite-14",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "AgCl dans l’eau sans ions communs : Ks et s ?",
+  "a": "$K_s=s^2$ et $s=\\sqrt{K_s}$."
+},
+{
+  "id": "solubilite-15",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Ag₂SO₄ : Ks et s ?",
+  "a": "$[Ag^+]=2s$, $[SO_4^{2-}]=s$ ; $K_s=4s^3$."
+},
+{
+  "id": "solubilite-16",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Hydroxyde M(OH)₃ : expression de Ks ?",
+  "a": "$[M^{3+}][HO^-]^3$."
+},
+{
+  "id": "solubilite-17",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "sₘ à partir de s ?",
+  "a": "$s_m=Ms$ avec M en g/mol."
+},
+{
+  "id": "solubilite-18",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Masse maximale dissoute ?",
+  "a": "$m_{max}=MsV$, V en L."
+},
+{
+  "id": "solubilite-19",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Concentration apportée ?",
+  "a": "$m/(MV)$ ; elle suppose toute la masse dissoute pour tester cette hypothèse."
+},
+{
+  "id": "solubilite-20",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Mélange : quel volume dans les concentrations ?",
+  "a": "Le volume final total après dilution, avant réaction."
+},
+{
+  "id": "solubilite-21",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Ion commun : effet usuel ?",
+  "a": "Il diminue la solubilité si aucune autre réaction ne domine."
+},
+{
+  "id": "solubilite-22",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "AgCl avec chlorure initial c₀ ?",
+  "a": "$K_s=s(c_0+s)$ ; si s≪c₀, s≈Ks/c₀."
+},
+{
+  "id": "solubilite-23",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Agitation augmente-t-elle la solubilité à T fixée ?",
+  "a": "Elle accélère la dissolution ; elle ne modifie pas à elle seule l’équilibre."
+},
+{
+  "id": "solubilite-24",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Chauffer augmente toujours la solubilité ?",
+  "a": "Non ; souvent pour les solides, généralement l’inverse pour les gaz."
+},
+{
+  "id": "solubilite-25",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Pression : effet surtout sur quoi ?",
+  "a": "Sur la solubilité des gaz via leur pression partielle."
+},
+{
+  "id": "solubilite-26",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "pH=7 : concentration H₃O⁺ ?",
+  "a": "$10^{-7}$mol/L dans le modèle usuel."
+},
+{
+  "id": "solubilite-27",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "pH et pOH à25 °C ?",
+  "a": "$pH+pOH=14$ dans le modèle du cours."
+},
+{
+  "id": "solubilite-28",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Seuil d’un hydroxyde M(OH)ₙ ?",
+  "a": "$[HO^-]_{lim}=(K_s/[M^{n+}]_{initial})^{1/n}$ sans autres équilibres."
+},
+{
+  "id": "solubilite-29",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Al(OH)₃ àpH très basique ?",
+  "a": "Peut se redissoudre en Al(OH)₄⁻ : comportement amphotère."
+},
+{
+  "id": "solubilite-30",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Aluminium et fer àpH5,5 dans le document ?",
+  "a": "Al(OH)₃(s) et Fe(OH)₃(s)."
+},
+{
+  "id": "solubilite-31",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Comparer des pKs de solides différents suffit ?",
+  "a": "Non : calculer s en tenant compte des coefficients stœchiométriques."
+},
+{
+  "id": "solubilite-32",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "1 mg en g et1 g en µg ?",
+  "a": "1 mg=10⁻³g ;1 g=10⁶µg."
+},
+{
+  "id": "solubilite-33",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Masse de plomb à partir de [Pb²⁺] ?",
+  "a": "Multiplier par M(Pb), pas par la masse molaire du sel entier."
+},
+{
+  "id": "solubilite-34",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Volume minimum pour recristalliser ?",
+  "a": "$m_0/s_{m,chaud}$ sous hypothèses du modèle."
+},
+{
+  "id": "solubilite-35",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Produit restant dissous àfroid ?",
+  "a": "$m_{dissous}=s_{m,froid}V$."
+},
+{
+  "id": "solubilite-36",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Pureté du brut inconnue : rendement exact ?",
+  "a": "Impossible sans information supplémentaire ; annoncer l’hypothèse utilisée."
+},
+{
+  "id": "solubilite-37",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Mesurer une solubilité : température ?",
+  "a": "Fixer et mesurer la température, attendre l’équilibre et séparer le solide sans la changer."
+},
+{
+  "id": "solubilite-38",
+  "chapter": "cdd-ch1",
+  "category": "cdd",
+  "q": "Formule du chromate d’argent ?",
+  "a": "Ag₂CrO₄ ; ne pas le confondre avec le dichromate."
+},
+{
+  "id": "solubilite-precipitation-ece-1",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Un solide restant au fond juste après ajout prouve-t-il la saturation ?",
+  "a": "Non. La dissolution peut être lente. Il faut contrôler température, agitation, durée d’attente et équilibre ; une mesure quantitative repose ensuite sur l’analyse de la phase liquide."
+},
+{
+  "id": "solubilite-precipitation-ece-2",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Prévoir : quel réflexe ?",
+  "a": "Identifier les ions, écrire les dissolutions et calculer les quotients après dilution dans les volumes prescrits."
+},
+{
+  "id": "solubilite-precipitation-ece-3",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Préparer : quel réflexe ?",
+  "a": "Étiqueter les récipients, relever la température et prélever les volumes prévus par le sujet."
+},
+{
+  "id": "solubilite-precipitation-ece-4",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Mélanger et observer : quel réflexe ?",
+  "a": "Ajouter progressivement le réactif si demandé ; agiter modérément, relever apparition, couleur et persistance du solide. Ne pas inventer des concentrations ou un seuil à partir de la couleur seule."
+},
+{
+  "id": "solubilite-precipitation-ece-5",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Attendre et contrôler : quel réflexe ?",
+  "a": "Pour un équilibre de solubilité, laisser le temps nécessaire à température stable ; un grain restant juste après ajout ne prouve pas que l’équilibre est atteint."
+},
+{
+  "id": "solubilite-precipitation-ece-6",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Mesurer si le protocole le demande : quel réflexe ?",
+  "a": "Pour déterminer s, préparer un milieu avec solide en excès, séparer le solide à température constante puis analyser une aliquote de la solution par la méthode donnée. Déduire la quantité dissoute par litre."
+},
+{
+  "id": "solubilite-precipitation-ece-7",
+  "chapter": "solubilite-precipitation",
+  "category": "ece",
+  "q": "Conclure et ranger : quel réflexe ?",
+  "a": "Comparer observation et prévision ; discuter dilution, pH et réactions parasites, collecter les liquides et solides dans les déchets adaptés puis nettoyer."
+},
+{
+  "id": "solubilite-recristallisation-ece-1",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Pourquoi laver les cristaux avec peu de solvant froid ?",
+  "a": "Cela élimine les eaux mères contenant des impuretés tout en limitant la redissolution du produit. Une quantité excessive augmente les pertes."
+},
+{
+  "id": "solubilite-recristallisation-ece-2",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Choisir et calculer : quel réflexe ?",
+  "a": "Vérifier le solvant prévu, ses dangers, la solubilité à chaud/froid et la masse initiale. Estimer le volume minimum sans confondre masse brute et masse de produit pur."
+},
+{
+  "id": "solubilite-recristallisation-ece-3",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Dissoudre à chaud : quel réflexe ?",
+  "a": "Chauffer dans le dispositif prescrit puis ajouter progressivement le minimum de solvant chaud permettant la dissolution du produit. Ne pas chauffer un récipient fermé."
+},
+{
+  "id": "solubilite-recristallisation-ece-4",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Éliminer les insolubles : quel réflexe ?",
+  "a": "Si nécessaire, filtrer à chaud avec le matériel prévu ; limiter le refroidissement pour ne pas perdre le produit dans le filtre."
+},
+{
+  "id": "solubilite-recristallisation-ece-5",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Cristalliser : quel réflexe ?",
+  "a": "Laisser refroidir progressivement sans agitation excessive, puis utiliser le bain froid si prévu. Si aucune cristallisation ne démarre, appliquer seulement la méthode de nucléation autorisée par le protocole."
+},
+{
+  "id": "solubilite-recristallisation-ece-6",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Filtrer et laver : quel réflexe ?",
+  "a": "Filtrer sur Büchner ; laver avec une petite quantité de solvant froid pour éliminer les eaux mères sans dissoudre trop de cristaux."
+},
+{
+  "id": "solubilite-recristallisation-ece-7",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Sécher et peser : quel réflexe ?",
+  "a": "Sécher selon les conditions prescrites ; refroidir avant pesée, peser un solide sec et relever sa masse."
+},
+{
+  "id": "solubilite-recristallisation-ece-8",
+  "chapter": "solubilite-recristallisation",
+  "category": "ece",
+  "q": "Interpréter : quel réflexe ?",
+  "a": "Calculer récupération, discuter pertes et pureté, conserver une mesure de pureté si le sujet la demande, puis collecter les eaux mères et nettoyer le montage."
 }
 ]
