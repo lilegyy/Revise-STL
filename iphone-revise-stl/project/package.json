@@ -1,0 +1,16 @@
+{
+  "name": "revise-stl-iphone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.mjs",
+    "prepare:ios": "node scripts/prepare-ios.mjs"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.3",
+    "@capacitor/ios": "8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

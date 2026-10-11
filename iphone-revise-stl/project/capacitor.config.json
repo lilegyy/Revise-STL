@@ -1,0 +1,9 @@
+{
+  "appId": "fr.lilegyy.revisestl",
+  "appName": "Révise STL",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#f6f5ef"
+  }
+}
