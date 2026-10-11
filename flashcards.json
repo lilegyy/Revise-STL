@@ -810,5 +810,285 @@
   "category": "maths",
   "q": "Quelle différence entre 2ⁿ et 2×n ?",
   "a": "Le premier est une puissance ; le second est une multiplication."
+},
+{
+  "id": "maths-suites-card-01",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Qu’est-ce qu’un terme et un rang ?",
+  "a": "$n$ est le rang entier ; $u_n$ est le terme correspondant."
+},
+{
+  "id": "maths-suites-card-02",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Différence entre explicite et récurrence ?",
+  "a": "Explicite : $u_n=f(n)$. Récurrence : premier terme et règle permettant de calculer le suivant."
+},
+{
+  "id": "maths-suites-card-03",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Définition d’une suite arithmétique ?",
+  "a": "$u_{n+1}=u_n+r$, avec $r$ constant."
+},
+{
+  "id": "maths-suites-card-04",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Comment trouver une raison arithmétique ?",
+  "a": "$r=u_{n+1}-u_n$. Entre rangs distincts : $r=(u_n-u_p)/(n-p)$."
+},
+{
+  "id": "maths-suites-card-05",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme arithmétique à partir de u₀ ?",
+  "a": "$u_n=u_0+nr$."
+},
+{
+  "id": "maths-suites-card-06",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme arithmétique à partir de u₁ ?",
+  "a": "$u_n=u_1+(n-1)r$."
+},
+{
+  "id": "maths-suites-card-07",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme arithmétique à partir de uₚ ?",
+  "a": "$u_n=u_p+(n-p)r$."
+},
+{
+  "id": "maths-suites-card-08",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Variations d’une suite arithmétique ?",
+  "a": "$r&gt;0$ : croissante ; $r&lt;0$ : décroissante ; $r=0$ : constante."
+},
+{
+  "id": "maths-suites-card-09",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Définition d’une suite géométrique ?",
+  "a": "$u_{n+1}=qu_n$, avec $q$ constant."
+},
+{
+  "id": "maths-suites-card-10",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Comment trouver une raison géométrique ?",
+  "a": "$q=u_{n+1}/u_n$ si $u_n\\ne0$."
+},
+{
+  "id": "maths-suites-card-11",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme géométrique à partir de u₀ ?",
+  "a": "$u_n=u_0q^n$ ; traiter le premier terme séparément si $q=0$."
+},
+{
+  "id": "maths-suites-card-12",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme géométrique à partir de u₁ ?",
+  "a": "$u_n=u_1q^{n-1}$."
+},
+{
+  "id": "maths-suites-card-13",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme géométrique à partir de uₚ ?",
+  "a": "$u_n=u_pq^{n-p}$ ; les exposants négatifs exigent $q\\ne0$."
+},
+{
+  "id": "maths-suites-card-14",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Coefficient d’une hausse de t % ?",
+  "a": "$q=1+t/100$ : +3 % donne $1,03$."
+},
+{
+  "id": "maths-suites-card-15",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Coefficient d’une baisse de t % ?",
+  "a": "$q=1-t/100$ : −4 % donne $0,96$."
+},
+{
+  "id": "maths-suites-card-16",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Taux global après n évolutions de facteur q ?",
+  "a": "$q^n-1$ sous forme décimale ; multiplier par 100 pour le pourcentage."
+},
+{
+  "id": "maths-suites-card-17",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Géométrique positive et q supérieur à 1 ?",
+  "a": "Strictement croissante si le premier terme est positif."
+},
+{
+  "id": "maths-suites-card-18",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Géométrique positive et 0 < q < 1 ?",
+  "a": "Strictement décroissante si le premier terme est positif."
+},
+{
+  "id": "maths-suites-card-19",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "q supérieur à 1 suffit-il à garantir une croissance ?",
+  "a": "Non. $u_{n+1}-u_n=(q-1)u_n$ : avec des termes négatifs, la suite décroît."
+},
+{
+  "id": "maths-suites-card-20",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Que se passe-t-il si q est négatif ?",
+  "a": "Pour un premier terme non nul, les signes alternent : suite non monotone."
+},
+{
+  "id": "maths-suites-card-21",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Cas q = 1 ou premier terme nul ?",
+  "a": "$q=1$ : constante. Premier terme nul : tous les termes sont nuls quelle que soit la raison."
+},
+{
+  "id": "maths-suites-card-22",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Trois valeurs suffisent-elles à démontrer la nature d’une suite ?",
+  "a": "Non. Elles permettent de proposer un modèle compatible ; il faut une règle valable à tous les rangs pour démontrer."
+},
+{
+  "id": "maths-suites-card-23",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Graphique d’une suite ?",
+  "a": "Points $(n,u_n)$ aux rangs entiers. Pour une suite arithmétique, les points sont alignés."
+},
+{
+  "id": "maths-suites-card-24",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Moyenne arithmétique de a et b ?",
+  "a": "$(a+b)/2$."
+},
+{
+  "id": "maths-suites-card-25",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme médian d’une suite arithmétique ?",
+  "a": "$u_n=(u_{n-1}+u_{n+1})/2$."
+},
+{
+  "id": "maths-suites-card-26",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Moyenne géométrique de a et b non négatifs ?",
+  "a": "$\\sqrt{ab}$."
+},
+{
+  "id": "maths-suites-card-27",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Terme médian d’une suite géométrique positive ?",
+  "a": "$u_n=\\sqrt{u_{n-1}u_{n+1}}$."
+},
+{
+  "id": "maths-suites-card-28",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Nombre de termes de uₚ à uₙ inclus ?",
+  "a": "$n-p+1$."
+},
+{
+  "id": "maths-suites-card-29",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Les N premiers termes à partir de u₀ ?",
+  "a": "$u_0,u_1,\\ldots,u_{N-1}$."
+},
+{
+  "id": "maths-suites-card-30",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Somme arithmétique de uₚ à uₙ ?",
+  "a": "$(n-p+1)(u_p+u_n)/2$."
+},
+{
+  "id": "maths-suites-card-31",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Somme géométrique de N termes à partir de uₚ ?",
+  "a": "$u_p(q^N-1)/(q-1)$ pour $q\\ne1$ ; $Nu_p$ pour $q=1$."
+},
+{
+  "id": "maths-suites-card-32",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Que signifie Sₙ dans ce chapitre ?",
+  "a": "$S_n=\\sum_{k=0}^{n}u_k$ : $n+1$ termes. Lire la convention de chaque énoncé."
+},
+{
+  "id": "maths-suites-card-33",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Différence entre dépasse et atteint ?",
+  "a": "Dépasse : $&gt;$ ; atteint au moins : $\\ge$."
+},
+{
+  "id": "maths-suites-card-34",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Comment vérifier un premier rang de seuil ?",
+  "a": "Vérifier le rang retenu et le rang précédent, puis répondre avec la durée ou l’année."
+},
+{
+  "id": "maths-suites-card-35",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Pourquoi inverser une inégalité après division par log(q) si 0 < q < 1 ?",
+  "a": "Parce que $\\log(q)&lt;0$."
+},
+{
+  "id": "maths-suites-card-36",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Pourquoi garder le taux exact dans les calculs ?",
+  "a": "Un taux arrondi avant les puissances peut modifier le résultat ou le rang de seuil."
+},
+{
+  "id": "maths-suites-card-37",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Deux termes éloignés peuvent-ils donner deux raisons géométriques ?",
+  "a": "Oui : par exemple $q^2=4/9$ donne $q=2/3$ ou $q=-2/3$ sans hypothèse supplémentaire."
+},
+{
+  "id": "maths-suites-card-38",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Que représente un cumul annuel d’utilisateurs ?",
+  "a": "Des utilisateurs-années ; une même personne peut être comptée plusieurs années."
+},
+{
+  "id": "maths-suites-card-39",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Une boucle de seuil s’arrête-t-elle toujours ?",
+  "a": "Non : il faut vérifier que le seuil est atteignable ou fixer une borne adaptée."
+},
+{
+  "id": "maths-suites-card-40",
+  "category": "maths",
+  "chapter": "maths-suites",
+  "q": "Les étapes d’une correction de suites ?",
+  "a": "Modèle et conditions ; calcul et justification des rangs ; conclusion avec unité et arrondi."
 }
 ]
