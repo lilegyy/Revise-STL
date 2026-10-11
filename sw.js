@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-pcm-ch2-acides-bases-1";
+const VERSION = "2026-10-11-maths-ch3-ln-exp-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -188,7 +188,25 @@ const ASSETS = [
   "./assets/diagrams/pcm-ch2-tampon.svg",
   "./assets/documents/pcm-ch2-carte-mentale-source.pdf",
   "./assets/documents/pcm-ch2-cours-source.pdf",
-  "./assets/documents/pcm-ch2-exercices-source.pdf"
+  "./assets/documents/pcm-ch2-exercices-source.pdf",
+  "./assets/diagrams/maths-ch3-automatisme-source.png",
+  "./assets/diagrams/maths-ch3-base-105.svg",
+  "./assets/diagrams/maths-ch3-bases.svg",
+  "./assets/diagrams/maths-ch3-courbes4-source.png",
+  "./assets/diagrams/maths-ch3-courbes6-source.png",
+  "./assets/diagrams/maths-ch3-ex36-source.png",
+  "./assets/diagrams/maths-ch3-ln-exp.svg",
+  "./assets/diagrams/maths-ch3-produit.svg",
+  "./assets/diagrams/maths-ch3-qcm-base-source.png",
+  "./assets/diagrams/maths-ch3-qcm-deriv-source.png",
+  "./assets/diagrams/maths-ch3-qcm-exp1-source.png",
+  "./assets/diagrams/maths-ch3-qcm-exp2-source.png",
+  "./assets/diagrams/maths-ch3-quotient28.svg",
+  "./assets/diagrams/maths-ch3-radioactivite.svg",
+  "./assets/diagrams/maths-ch3-tangente65.svg",
+  "./assets/diagrams/maths-ch3-tangente66.svg",
+  "./assets/documents/maths-ch3-bases-source.pptx",
+  "./assets/documents/maths-ch3-exponentielle-source.pptx"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
