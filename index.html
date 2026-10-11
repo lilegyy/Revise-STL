@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <meta
       name="description"
-      content="Ton carnet de révision en Terminale STL-SPCL : cours complets, exercices type Bac et manipulations ECE."
+      content="Ton carnet de Première et Terminale STL : PCM, SPCL, maths, exercices type Bac et manipulations ECE."
     />
     <meta name="theme-color" content="#f6f5ef" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Révise STL" />
-    <title>Révise. — Objectif 17,5 · STL-SPCL</title>
+    <title>Révise. — Objectif 17,5 · STL</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="vendor/katex/katex.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="curriculum.css" />
     <script>
       try {
         const t =
@@ -30,6 +30,8 @@
     </script>
     <script defer src="vendor/katex/katex.min.js"></script>
     <script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+    <script defer src="curriculum.js"></script>
+    <script defer src="navigation.js"></script>
     <script defer src="app.js"></script>
   </head>
   <body>
@@ -38,11 +40,12 @@
       <a class="brand" href="#home" aria-label="Révise, accueil"
         ><span class="brand-mark" data-icon="spark"></span>révise<span class="brand-dot">.</span></a
       >
-      <div class="edition">LE CARNET STL · SPCL</div>
+      <div class="edition">PREMIÈRE & TERMINALE STL</div>
       <nav aria-label="Navigation principale" class="side-nav">
         <a href="#home" data-nav="home"><span data-icon="home"></span>Mon espace</a
         ><a href="#courses" data-nav="courses"
-          ><span data-icon="book"></span>Mes cours<span class="nav-count">6</span></a
+          ><span data-icon="book"></span>Mes cours<span class="nav-count">…</span></a
+        ><a href="#maths" data-nav="maths"><span data-icon="chart"></span>Maths</a
         ><a href="#labs" data-nav="labs"
           ><span data-icon="flask"></span>Manipulations<span class="tiny-tag">ECE</span></a
         ><a href="#cards" data-nav="cards"><span data-icon="cards"></span>Flashcards</a
@@ -67,7 +70,7 @@
       <header class="topbar">
         <a class="mobile-brand" href="#home">révise<span>.</span></a>
         <div class="breadcrumb">
-          <span>Terminale STL</span><i>/</i><b id="breadcrumb">Mon espace</b>
+          <span>Cycle STL</span><i>/</i><b id="breadcrumb">Mon espace</b>
         </div>
         <div class="top-actions">
           <span id="network-status" class="network-status" aria-live="polite"></span
@@ -87,12 +90,13 @@
       </main>
       <footer class="footer">
         <span>Fait pour comprendre, pas seulement retenir.</span
-        ><span>STL–SPCL · Objectif 17,5</span>
+        ><span>STL · PCM & SPCL · Objectif 17,5</span>
       </footer>
     </div>
     <nav class="mobile-nav" aria-label="Navigation mobile">
       <a href="#home" data-nav="home"><span data-icon="home"></span><span>Accueil</span></a
       ><a href="#courses" data-nav="courses"><span data-icon="book"></span><span>Cours</span></a
+      ><a href="#maths" data-nav="maths"><span data-icon="chart"></span><span>Maths</span></a
       ><a href="#labs" data-nav="labs"><span data-icon="flask"></span><span>Labo</span></a
       ><a href="#cards" data-nav="cards"><span data-icon="cards"></span><span>Cartes</span></a
       ><a href="#progress" data-nav="progress"
