@@ -26,7 +26,7 @@ jobs:
       - name: Préparer l’interface depuis le dépôt
         run: |
           npm ci --ignore-scripts --no-audit --no-fund
-          node --test tests/grades.test.cjs
+          node --test tests/*.test.cjs
           npm run prepare:web
           npx cap add ios
           npm run prepare:ios
