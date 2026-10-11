@@ -1818,5 +1818,1111 @@
   "chapter": "maths-ln-exponentielle",
   "q": "Comment vérifier une primitive ?",
   "a": "La dériver et vérifier que l’on retrouve l’intégrande."
+},
+{
+  "id": "cycle-maths-fonctions-1",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Image ou antécédent ?",
+  "a": "Image : calculer $f(a)$. Antécédent de $k$ : résoudre $f(x)=k$."
+},
+{
+  "id": "cycle-maths-fonctions-2",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Un nombre a-t-il forcément un antécédent ?",
+  "a": "Non. Il peut en avoir zéro, un ou plusieurs."
+},
+{
+  "id": "cycle-maths-fonctions-3",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Critère pour être sur la courbe ?",
+  "a": "$x\\in D_f$ et $y=f(x)$."
+},
+{
+  "id": "cycle-maths-fonctions-4",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Taux entre a et b ?",
+  "a": "$[f(b)-f(a)]/(b-a)$ pour $a\\ne b$."
+},
+{
+  "id": "cycle-maths-fonctions-5",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Signe et variation sont-ils identiques ?",
+  "a": "Non : signe par rapport à zéro ; variation entre valeurs."
+},
+{
+  "id": "cycle-maths-fonctions-6",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Domaine de 1/(x−2) ?",
+  "a": "Tous les réels sauf 2."
+},
+{
+  "id": "cycle-maths-fonctions-7",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Domaine de √(x+3) ?",
+  "a": "$[-3;+\\infty[$."
+},
+{
+  "id": "cycle-maths-fonctions-8",
+  "chapter": "maths-fonctions",
+  "category": "maths",
+  "q": "Une lecture graphique est-elle exacte ?",
+  "a": "Généralement approchée ; préciser la précision des graduations."
+},
+{
+  "id": "cycle-maths-polynomes-1",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Forme développée ?",
+  "a": "$ax^2+bx+c$, $a\\ne0$."
+},
+{
+  "id": "cycle-maths-polynomes-2",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Axe d’une parabole ?",
+  "a": "$x=-b/(2a)$."
+},
+{
+  "id": "cycle-maths-polynomes-3",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Sommet ?",
+  "a": "$S(\\alpha;f(\\alpha))$ avec $\\alpha=-b/(2a)$."
+},
+{
+  "id": "cycle-maths-polynomes-4",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Forme canonique ?",
+  "a": "$a(x-\\alpha)^2+\\beta$."
+},
+{
+  "id": "cycle-maths-polynomes-5",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Si a > 0 ?",
+  "a": "Minimum au sommet ; décroissante puis croissante."
+},
+{
+  "id": "cycle-maths-polynomes-6",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Si a < 0 ?",
+  "a": "Maximum au sommet ; croissante puis décroissante."
+},
+{
+  "id": "cycle-maths-polynomes-7",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Discriminant ?",
+  "a": "$\\Delta=b^2-4ac$."
+},
+{
+  "id": "cycle-maths-polynomes-8",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Δ négatif ?",
+  "a": "Aucune racine réelle ; signe de a partout."
+},
+{
+  "id": "cycle-maths-polynomes-9",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Δ nul ?",
+  "a": "Une racine double $-b/(2a)$."
+},
+{
+  "id": "cycle-maths-polynomes-10",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Deux racines : signe ?",
+  "a": "Signe de a à l’extérieur, opposé entre les racines."
+},
+{
+  "id": "cycle-maths-polynomes-11",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Axe à partir des racines ?",
+  "a": "Leur moyenne $(x_1+x_2)/2$."
+},
+{
+  "id": "cycle-maths-polynomes-12",
+  "chapter": "maths-polynomes",
+  "category": "maths",
+  "q": "Comment identifier le degré d’un produit ?",
+  "a": "Développer et simplifier avant de lire le plus grand exposant non nul."
+},
+{
+  "id": "cycle-maths-derivees-1",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Nombre dérivé ?",
+  "a": "Limite finie de $[f(a+h)-f(a)]/h$ quand $h\\to0$."
+},
+{
+  "id": "cycle-maths-derivees-2",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Tangente en a ?",
+  "a": "$y=f(a)+f'(a)(x-a)$."
+},
+{
+  "id": "cycle-maths-derivees-3",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Approximation locale ?",
+  "a": "$f(a+h)\\simeq f(a)+hf'(a)$ pour h petit."
+},
+{
+  "id": "cycle-maths-derivees-4",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée d’un produit ?",
+  "a": "$u'v+uv'$."
+},
+{
+  "id": "cycle-maths-derivees-5",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée d’un quotient ?",
+  "a": "$(u'v-uv')/v^2$, dénominateur non nul."
+},
+{
+  "id": "cycle-maths-derivees-6",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée de 1/u ?",
+  "a": "$-u'/u^2$."
+},
+{
+  "id": "cycle-maths-derivees-7",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée de sin(ax+b) ?",
+  "a": "$a\\cos(ax+b)$."
+},
+{
+  "id": "cycle-maths-derivees-8",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée de cos(ax+b) ?",
+  "a": "$-a\\sin(ax+b)$."
+},
+{
+  "id": "cycle-maths-derivees-9",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée de xⁿ ?",
+  "a": "$nx^{n-1}$."
+},
+{
+  "id": "cycle-maths-derivees-10",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dérivée nulle ⇒ extremum ?",
+  "a": "Non. Il faut étudier les variations ; x³ en 0 est un contre-exemple."
+},
+{
+  "id": "cycle-maths-derivees-11",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Passage de + vers − pour f′ ?",
+  "a": "Maximum local."
+},
+{
+  "id": "cycle-maths-derivees-12",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Passage de − vers + pour f′ ?",
+  "a": "Minimum local."
+},
+{
+  "id": "cycle-maths-derivees-13",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Unité de x′(t) si x en m et t en s ?",
+  "a": "m/s."
+},
+{
+  "id": "cycle-maths-derivees-14",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Unité de x″(t) ?",
+  "a": "m/s²."
+},
+{
+  "id": "cycle-maths-derivees-15",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "Dériver un vecteur ?",
+  "a": "Dériver chacune de ses coordonnées."
+},
+{
+  "id": "cycle-maths-derivees-16",
+  "chapter": "maths-derivees",
+  "category": "maths",
+  "q": "La pente d’une tangente verticale est-elle un nombre dérivé fini ?",
+  "a": "Non : la définition exige une limite finie."
+},
+{
+  "id": "cycle-maths-primitives-1",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Définition d’une primitive ?",
+  "a": "$F'=f$ sur un intervalle."
+},
+{
+  "id": "cycle-maths-primitives-2",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Toutes les primitives ?",
+  "a": "$F+C$, C constante sur l’intervalle."
+},
+{
+  "id": "cycle-maths-primitives-3",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Fixer C ?",
+  "a": "Appliquer une condition initiale et résoudre pour C."
+},
+{
+  "id": "cycle-maths-primitives-4",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Vérifier une primitive ?",
+  "a": "La dériver et retrouver f."
+},
+{
+  "id": "cycle-maths-primitives-5",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Primitive de xⁿ, n entier naturel ?",
+  "a": "$x^{n+1}/(n+1)+C$."
+},
+{
+  "id": "cycle-maths-primitives-6",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Primitive de A cos(ωt+φ) ?",
+  "a": "$(A/\\omega)\\sin(\\omega t+\\varphi)+C$, ω ≠ 0."
+},
+{
+  "id": "cycle-maths-primitives-7",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Primitive de A sin(ωt+φ) ?",
+  "a": "$-(A/\\omega)\\cos(\\omega t+\\varphi)+C$, ω ≠ 0."
+},
+{
+  "id": "cycle-maths-primitives-8",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Euler ?",
+  "a": "$F_{i+1}\\simeq F_i+h f(x_i)$."
+},
+{
+  "id": "cycle-maths-primitives-9",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Euler fournit-il une valeur exacte ?",
+  "a": "Non, une approximation dépendant du pas."
+},
+{
+  "id": "cycle-maths-primitives-10",
+  "chapter": "maths-primitives",
+  "category": "maths",
+  "q": "Que signifient les constantes en cinématique ?",
+  "a": "Elles fixent la vitesse et la position initiales."
+},
+{
+  "id": "cycle-maths-vecteurs-1",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Coordonnées de AB ?",
+  "a": "Coordonnées de B moins celles de A."
+},
+{
+  "id": "cycle-maths-vecteurs-2",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Relation de Chasles ?",
+  "a": "$\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$."
+},
+{
+  "id": "cycle-maths-vecteurs-3",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Norme en 2D ?",
+  "a": "$\\sqrt{u_x^2+u_y^2}$ dans un repère orthonormé."
+},
+{
+  "id": "cycle-maths-vecteurs-4",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Produit scalaire en 2D ?",
+  "a": "$u_xv_x+u_yv_y$."
+},
+{
+  "id": "cycle-maths-vecteurs-5",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Formule avec l’angle ?",
+  "a": "$\\|u\\|\\|v\\|\\cos\\theta$."
+},
+{
+  "id": "cycle-maths-vecteurs-6",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Orthogonalité ?",
+  "a": "Produit scalaire nul."
+},
+{
+  "id": "cycle-maths-vecteurs-7",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Produit scalaire : nombre ou vecteur ?",
+  "a": "Un nombre réel."
+},
+{
+  "id": "cycle-maths-vecteurs-8",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "u·u ?",
+  "a": "$\\|u\\|^2$."
+},
+{
+  "id": "cycle-maths-vecteurs-9",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Calculer un angle avec le produit ?",
+  "a": "$\\arccos[(u\\cdot v)/(\\|u\\|\\|v\\|)]$ pour deux vecteurs non nuls."
+},
+{
+  "id": "cycle-maths-vecteurs-10",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Al-Kashi ?",
+  "a": "$BC^2=AB^2+AC^2-2AB\\,AC\\cos A$."
+},
+{
+  "id": "cycle-maths-vecteurs-11",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Vecteurs colinéaires dans le plan ?",
+  "a": "$u_xv_y-u_yv_x=0$."
+},
+{
+  "id": "cycle-maths-vecteurs-12",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Composante négative ⇒ norme négative ?",
+  "a": "Non : la composante indique un sens, la norme une valeur positive ou nulle."
+},
+{
+  "id": "cycle-maths-vecteurs-13",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "u et −u ?",
+  "a": "Même direction et norme, sens opposés si u non nul."
+},
+{
+  "id": "cycle-maths-vecteurs-14",
+  "chapter": "maths-vecteurs",
+  "category": "maths",
+  "q": "Produit de v et a positif ?",
+  "a": "La vitesse augmente si v non nul ; ce critère utilise un produit scalaire."
+},
+{
+  "id": "cycle-maths-trigonometrie-1",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Un tour en radians ?",
+  "a": "$2\\pi$."
+},
+{
+  "id": "cycle-maths-trigonometrie-2",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Degrés vers radians ?",
+  "a": "Multiplier par π/180."
+},
+{
+  "id": "cycle-maths-trigonometrie-3",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Mesure principale ?",
+  "a": "Unique mesure dans $]-\\pi;\\pi]$."
+},
+{
+  "id": "cycle-maths-trigonometrie-4",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Coordonnées sur le cercle ?",
+  "a": "$(\\cos x;\\sin x)$."
+},
+{
+  "id": "cycle-maths-trigonometrie-5",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Identité fondamentale ?",
+  "a": "$\\cos^2x+\\sin^2x=1$."
+},
+{
+  "id": "cycle-maths-trigonometrie-6",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Cosinus de −x ?",
+  "a": "$\\cos x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-7",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Sinus de −x ?",
+  "a": "$-\\sin x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-8",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Cosinus de π−x ?",
+  "a": "$-\\cos x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-9",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Sinus de π−x ?",
+  "a": "$\\sin x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-10",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Cosinus de π/2+x ?",
+  "a": "$-\\sin x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-11",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Sinus de π/2−x ?",
+  "a": "$\\cos x$."
+},
+{
+  "id": "cycle-maths-trigonometrie-12",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Fonction paire ?",
+  "a": "Domaine symétrique et $f(-x)=f(x)$."
+},
+{
+  "id": "cycle-maths-trigonometrie-13",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Fonction impaire ?",
+  "a": "Domaine symétrique et $f(-x)=-f(x)$."
+},
+{
+  "id": "cycle-maths-trigonometrie-14",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Période d’une sinusoïde ?",
+  "a": "$2\\pi/|\\omega|$ si A et ω non nuls."
+},
+{
+  "id": "cycle-maths-trigonometrie-15",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Amplitude de B+A cos(...) ?",
+  "a": "|A|, demi-différence entre maximum et minimum."
+},
+{
+  "id": "cycle-maths-trigonometrie-16",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Fréquence ?",
+  "a": "$f=1/T$ en Hz si T en secondes."
+},
+{
+  "id": "cycle-maths-trigonometrie-17",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Unité de la pulsation ?",
+  "a": "rad/s."
+},
+{
+  "id": "cycle-maths-trigonometrie-18",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Phase initiale ?",
+  "a": "φ modulo 2π."
+},
+{
+  "id": "cycle-maths-trigonometrie-19",
+  "chapter": "maths-trigonometrie",
+  "category": "maths",
+  "q": "Pourquoi f(0) seule ne suffit-elle pas à la phase ?",
+  "a": "Deux phases peuvent donner la même valeur ; utiliser aussi le sens de variation ou une autre valeur."
+},
+{
+  "id": "cycle-maths-statistiques-1",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Point moyen ?",
+  "a": "$(\\bar x;\\bar y)$."
+},
+{
+  "id": "cycle-maths-statistiques-2",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Méthode de Mayer ?",
+  "a": "Relier les points moyens de deux groupes de points ordonnés."
+},
+{
+  "id": "cycle-maths-statistiques-3",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Moindres carrés de y en x ?",
+  "a": "Minimiser les carrés des écarts verticaux."
+},
+{
+  "id": "cycle-maths-statistiques-4",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Interpolation ?",
+  "a": "Estimation dans l’intervalle des x observés."
+},
+{
+  "id": "cycle-maths-statistiques-5",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Extrapolation ?",
+  "a": "Estimation en dehors de cet intervalle."
+},
+{
+  "id": "cycle-maths-statistiques-6",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Quand arrondir les coefficients ?",
+  "a": "À l’affichage ; conserver leur précision pendant les calculs."
+},
+{
+  "id": "cycle-maths-statistiques-7",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Corrélation implique causalité ?",
+  "a": "Non."
+},
+{
+  "id": "cycle-maths-statistiques-8",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Unités de la pente ?",
+  "a": "Unité de y divisée par celle de x."
+},
+{
+  "id": "cycle-maths-statistiques-9",
+  "chapter": "maths-statistiques",
+  "category": "maths",
+  "q": "Inverser une droite égale la régression de x en y ?",
+  "a": "Non en général."
+},
+{
+  "id": "cycle-maths-probabilites-1",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "P_A(B) ?",
+  "a": "$P(A\\cap B)/P(A)$ si P(A)>0."
+},
+{
+  "id": "cycle-maths-probabilites-2",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Intersection à partir du conditionnement ?",
+  "a": "$P(A)P_A(B)$."
+},
+{
+  "id": "cycle-maths-probabilites-3",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Sur un chemin d’arbre ?",
+  "a": "Multiplier les probabilités."
+},
+{
+  "id": "cycle-maths-probabilites-4",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Pour plusieurs chemins disjoints ?",
+  "a": "Additionner les probabilités."
+},
+{
+  "id": "cycle-maths-probabilites-5",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Branches d’un même nœud ?",
+  "a": "Leur somme vaut1."
+},
+{
+  "id": "cycle-maths-probabilites-6",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Probabilités totales avec A/nonA ?",
+  "a": "$P(B)=P(A)P_A(B)+P(\\bar A)P_{\\bar A}(B)$ lorsque définies."
+},
+{
+  "id": "cycle-maths-probabilites-7",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Indépendance ?",
+  "a": "$P(A\\cap B)=P(A)P(B)$."
+},
+{
+  "id": "cycle-maths-probabilites-8",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Incompatibles signifie indépendants ?",
+  "a": "Non ; avec probabilités non nulles, des événements incompatibles ne sont pas indépendants."
+},
+{
+  "id": "cycle-maths-probabilites-9",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "P_A(B) égale P_B(A) ?",
+  "a": "Pas en général."
+},
+{
+  "id": "cycle-maths-probabilites-10",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Union ?",
+  "a": "$P(A)+P(B)-P(A\\cap B)$."
+},
+{
+  "id": "cycle-maths-probabilites-11",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Complémentaire ?",
+  "a": "$P(\\bar A)=1-P(A)$."
+},
+{
+  "id": "cycle-maths-probabilites-12",
+  "chapter": "maths-probabilites",
+  "category": "maths",
+  "q": "Dénominateur avec « sachant » ?",
+  "a": "La probabilité ou l’effectif du groupe auquel on restreint l’univers."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-1",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Variable aléatoire ?",
+  "a": "Nombre attribué à chaque issue."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-2",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Contrôle d’une loi ?",
+  "a": "Probabilités entre0 et1, somme1."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-3",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Espérance ?",
+  "a": "$\\sum x_iP(X=x_i)$."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-4",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Espérance signifie résultat garanti ?",
+  "a": "Non, moyenne théorique à long terme."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-5",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Bernoulli ?",
+  "a": "X prend0 et1 ; P(X=1)=p."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-6",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Espérance Bernoulli ?",
+  "a": "p."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-7",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Schéma Bernoulli : conditions ?",
+  "a": "Épreuves mutuellement indépendantes, même probabilité p de succès."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-8",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Binomiale ?",
+  "a": "Nombre de succès en n épreuves d’un schéma de Bernoulli."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-9",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Probabilité binomiale ?",
+  "a": "$\\binom nkp^k(1-p)^{n-k}$."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-10",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Espérance binomiale ?",
+  "a": "np."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-11",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Variance binomiale ?",
+  "a": "np(1−p)."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-12",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Au moins un succès ?",
+  "a": "1−(1−p)ⁿ."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-13",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Fréquence empirique ?",
+  "a": "Nombre de succès divisé par nombre d’épreuves."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-14",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Écart-type de la fréquence ?",
+  "a": "$\\sqrt{p(1-p)/n}$ pour épreuves indépendantes de même p."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-15",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Borne générale de cet écart-type ?",
+  "a": "$1/(2\\sqrt n)$."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-16",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Les fréquences convergent-elles de façon monotone ?",
+  "a": "Non : elles fluctuent."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-17",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Sans remise : automatiquement Bernoulli répété indépendant ?",
+  "a": "Non ; la composition et les probabilités changent généralement."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-18",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Gain net ?",
+  "a": "Récompense moins mise ou coût de participation."
+},
+{
+  "id": "cycle-maths-variables-aleatoires-19",
+  "chapter": "maths-variables-aleatoires",
+  "category": "maths",
+  "q": "Deux événements de mêmes probabilités sont-ils indépendants ?",
+  "a": "Pas nécessairement."
+},
+{
+  "id": "cycle-suites-1",
+  "chapter": "maths-suites",
+  "category": "maths",
+  "q": "Récurrence 4u−6 : quelle transformation ?",
+  "a": "Poser w=u−2 donne w_next=4w."
+},
+{
+  "id": "cycle-suites-2",
+  "chapter": "maths-suites",
+  "category": "maths",
+  "q": "nᵉ terme depuis u₀ par une boucle ?",
+  "a": "Faire n mises à jour, pas n+1."
+},
+{
+  "id": "cycle-suites-3",
+  "chapter": "maths-suites",
+  "category": "maths",
+  "q": "Les points d’une suite sont-ils continus ?",
+  "a": "Non, les rangs sont entiers."
+},
+{
+  "id": "cycle-suites-4",
+  "chapter": "maths-suites",
+  "category": "maths",
+  "q": "Récurrence affine ⇒ géométrique ?",
+  "a": "Pas forcément ; il faut souvent soustraire un point fixe."
+},
+{
+  "id": "cycle-suites-5",
+  "chapter": "maths-suites",
+  "category": "maths",
+  "q": "Suite 4ⁿ+2 : arithmétique ou géométrique ?",
+  "a": "Ni l’une ni l’autre ; la suite moins2 est géométrique."
+},
+{
+  "id": "cycle-pcm3-1",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Avant de décrire un mouvement ?",
+  "a": "Préciser système, point étudié, référentiel, repère et origine des dates."
+},
+{
+  "id": "cycle-pcm3-2",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Position vectorielle ?",
+  "a": "$\\vec r=x\\vec i+y\\vec j+z\\vec k$."
+},
+{
+  "id": "cycle-pcm3-3",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Vitesse vectorielle ?",
+  "a": "$d\\vec r/dt$."
+},
+{
+  "id": "cycle-pcm3-4",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Accélération vectorielle ?",
+  "a": "$d\\vec v/dt=d^2\\vec r/dt^2$."
+},
+{
+  "id": "cycle-pcm3-5",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Norme de la vitesse ?",
+  "a": "$\\sqrt{v_x^2+v_y^2+v_z^2}$."
+},
+{
+  "id": "cycle-pcm3-6",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Unités vitesse et accélération ?",
+  "a": "m/s et m/s²."
+},
+{
+  "id": "cycle-pcm3-7",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "km/h vers m/s ?",
+  "a": "Diviser par3,6."
+},
+{
+  "id": "cycle-pcm3-8",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Vitesse tangentielle : sens ?",
+  "a": "Dans le sens du mouvement."
+},
+{
+  "id": "cycle-pcm3-9",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Composante négative veut dire ralentir ?",
+  "a": "Non ; elle indique le sens suivant l’axe."
+},
+{
+  "id": "cycle-pcm3-10",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Accélération moyenne ?",
+  "a": "$(\\vec v_f-\\vec v_i)/\\Delta t$."
+},
+{
+  "id": "cycle-pcm3-11",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Mouvement uniforme ⇒ a=0 ?",
+  "a": "Non : en circulaire uniforme la direction de v varie."
+},
+{
+  "id": "cycle-pcm3-12",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "a=0 pendant un intervalle ?",
+  "a": "Vecteur vitesse constant : repos ou mouvement rectiligne uniforme."
+},
+{
+  "id": "cycle-pcm3-13",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Norme v constante ⇒ vecteur v constant ?",
+  "a": "Non, sa direction peut varier."
+},
+{
+  "id": "cycle-pcm3-14",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Pente de x(t) ?",
+  "a": "vₓ."
+},
+{
+  "id": "cycle-pcm3-15",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Pente de vₓ(t) ?",
+  "a": "aₓ."
+},
+{
+  "id": "cycle-pcm3-16",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Différence centrée pour vᵢ ?",
+  "a": "$(\\vec r_{i+1}-\\vec r_{i-1})/(2\\Delta t)$ si pas régulier."
+},
+{
+  "id": "cycle-pcm3-17",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Vitesse moyenne vectorielle versus scalaire ?",
+  "a": "Déplacement/temps versus distance parcourue/temps."
+},
+{
+  "id": "cycle-pcm3-18",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Chute libre : accélération ?",
+  "a": "Verticale vers le bas, de norme g dans le modèle proche du sol."
+},
+{
+  "id": "cycle-pcm3-19",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "z vers le haut : a_z ?",
+  "a": "−g."
+},
+{
+  "id": "cycle-pcm3-20",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "z vers le bas : a_z ?",
+  "a": "+g."
+},
+{
+  "id": "cycle-pcm3-21",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Au sommet d’un lancer, a est-elle nulle ?",
+  "a": "Non : elle reste vers le bas."
+},
+{
+  "id": "cycle-pcm3-22",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Chute libre exige v₀=0 ?",
+  "a": "Non ; un lancer est aussi compatible avec ce modèle après lâcher."
+},
+{
+  "id": "cycle-pcm3-23",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "v·a positif ?",
+  "a": "La norme de v augmente si v≠0."
+},
+{
+  "id": "cycle-pcm3-24",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Construire Δv ?",
+  "a": "Translater les vitesses à la même origine, puis faire vfinal−vinitial."
+},
+{
+  "id": "cycle-pcm3-25",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Points bruités : dériver deux fois ?",
+  "a": "Le bruit est amplifié ; vérifier le pointage et le modèle utilisé."
+},
+{
+  "id": "cycle-pcm3-26",
+  "chapter": "terminale-pcm-ch3",
+  "category": "pcm",
+  "q": "Tangente à une rupture de pente ?",
+  "a": "Pas de dérivée unique ; annoncer une estimation à droite ou à gauche."
+},
+{
+  "id": "cycle-ece-pointage-1",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Où placer l’étalon ?",
+  "a": "Dans le même plan que le mouvement."
+},
+{
+  "id": "cycle-ece-pointage-2",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Caméra de pointage ?",
+  "a": "Fixe, idéalement perpendiculaire au plan du mouvement."
+},
+{
+  "id": "cycle-ece-pointage-3",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Pourquoi vérifier la cadence ?",
+  "a": "Pour obtenir le vrai Δt, notamment en ralenti."
+},
+{
+  "id": "cycle-ece-pointage-4",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Point suivi ?",
+  "a": "Toujours le même point représentatif."
+},
+{
+  "id": "cycle-ece-pointage-5",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Seconde différence ?",
+  "a": "$(r_{i+1}-2r_i+r_{i-1})/(\\Delta t)^2$ pour un pas régulier."
+},
+{
+  "id": "cycle-ece-pointage-6",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Lissage des mesures ?",
+  "a": "Annoncer méthode et paramètres ; ne pas masquer une incohérence."
+},
+{
+  "id": "cycle-ece-pointage-7",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Vecteurs dessinés : indispensable ?",
+  "a": "Donner une échelle et respecter direction et sens."
+},
+{
+  "id": "cycle-ece-pointage-8",
+  "chapter": "pcm-ch3-pointage",
+  "category": "ece",
+  "q": "Sources principales d’erreur ?",
+  "a": "Calibration, parallaxe, dates, précision du pointage et bruit amplifié."
 }
 ]
