@@ -688,7 +688,7 @@
     }
   ],
   "time": 10,
-  "image": "pcm-ch1-hydrodistillation.svg",
+  "image": "pcm-ch1-hydrodistillation.webp",
   "preview": false,
   "objective": "Comprendre l’isolement d’une huile essentielle, par exemple à partir d’écorces d’agrumes, et expliquer le rôle de chaque élément du montage.",
   "principle": "En hydrodistillation, eau et matière végétale sont dans le même ballon. Le chauffage produit des vapeurs contenant eau et composés volatils, qui sont condensées dans le réfrigérant. L’entraînement à la vapeur au sens strict utilise un générateur de vapeur séparé : distinguer les deux montages.",
