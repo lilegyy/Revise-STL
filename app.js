@@ -35,26 +35,6 @@ const icon = (n) =>
 function hydrateIcons(root = document) {
   $$('[data-icon]', root).forEach((el) => (el.innerHTML = icon(el.dataset.icon)));
 }
-const subjects = {
-  cdd: {
-    name: 'Chimie & développement durable',
-    short: 'CDD',
-    icon: 'flask',
-    desc: 'Solubilité, acides et bases. Les bons réflexes en chimie.',
-  },
-  ondes: {
-    name: 'Ondes & oscillations',
-    short: 'Ondes',
-    icon: 'wave',
-    desc: 'Des phénomènes oscillants à la propagation des ondes.',
-  },
-  sp: {
-    name: 'Systèmes & procédés',
-    short: 'Systèmes & procédés',
-    icon: 'system',
-    desc: 'Distillation, évaporation et cristallisation, pas à pas.',
-  },
-};
 const statusNames = { todo: 'À découvrir', review: 'À revoir', mastered: 'Maîtrisé' };
 const shortTitle = (c) => c.titre.replace(/^(Chapitre|Séquence)\s+\d+\s*:\s*/i, '');
 let appData, labData, diagramData, cardData, supplements, chapters, chapterMap, labMap, searchIndex;
@@ -101,7 +81,7 @@ function validateState(input) {
         clean[key][id] = value;
     }
   }
-  if (typeof input.lastChapter === 'string' && /^[a-z0-9-]+$/.test(input.lastChapter))
+  if (typeof input.lastChapter === 'string' && /^[a-zA-Z0-9_-]{1,90}$/.test(input.lastChapter) && !['__proto__', 'constructor', 'prototype'].includes(input.lastChapter))
     clean.lastChapter = input.lastChapter;
   return clean;
 }
@@ -144,11 +124,18 @@ function math(root) {
   });
 }
 const mastered = (spe) =>
-  (spe ? appData[spe] : chapters).filter((c) => state.chapters[c.id] === 'mastered').length;
+  (spe ? (appData[spe] || []) : chapters).filter((c) => state.chapters[c.id] === 'mastered').length;
 const labChecked = (l) => l.check.filter((_, i) => state.checks[l.id + '-' + i]).length;
-const labDone = () => labData.filter((l) => labChecked(l) === l.check.length).length;
-const countCards = () => cardData.filter((c) => state.cards[c.id] === 'mastered').length;
-const courseHref = (c, mode = 'cours') => '#chapter/' + c.id + '/' + mode;
+const labDone = (list = labData) => list.filter((l) => labChecked(l) === l.check.length).length;
+const countCards = (list = cardData) => list.filter((c) => state.cards[c.id] === 'mastered').length;
+const courseHref = (c, mode = 'cours') => {
+  if (!c) return '#courses';
+  const href = '#chapter/' + c.id + '/' + (mode === 'exercices' ? 'exercices' : 'cours');
+  const params = new URLSearchParams(location.hash.split('?')[1] || '');
+  const from = params.get('from');
+  return c.track === 'maths' && from && chapterMap.has(from)
+    ? href + '?from=' + encodeURIComponent(from) + '&mode=' + (params.get('mode') === 'exercices' ? 'exercices' : 'cours') : href;
+};
 const figure = (file, title, vector = true) =>
   '<figure class="science-figure ' +
   (vector ? 'vector' : '') +
@@ -175,27 +162,6 @@ const originalLink = (file) =>
   '">' +
   icon('zoom') +
   'Voir le document fourni</button>';
-const tabs = (active = 'all') =>
-  '<nav class="subject-tabs" aria-label="Spécialités"><a class="chip ' +
-  (active === 'all' ? 'active' : '') +
-  '" href="#courses" ' +
-  (active === 'all' ? 'aria-current="page"' : '') +
-  '>Tous les cours</a>' +
-  Object.entries(subjects)
-    .map(
-      ([id, s]) =>
-        '<a class="chip ' +
-        (active === id ? 'active' : '') +
-        '" href="#courses/' +
-        id +
-        '" ' +
-        (active === id ? 'aria-current="page"' : '') +
-        '>' +
-        s.short +
-        '</a>',
-    )
-    .join('') +
-  '</nav>';
 const statusSelect = (c) =>
   '<label class="status-control">Mon niveau <select data-status="' +
   c.id +
@@ -218,113 +184,6 @@ const statusSelect = (c) =>
 function heroArt() {
   return '<svg viewBox="0 0 410 300" class="hero-art" aria-hidden="true"><defs><pattern id="grid" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M23 0H0V23" fill="none" stroke="#b7c7a8" stroke-width=".5" opacity=".5"/></pattern></defs><rect width="410" height="300" fill="url(#grid)"/><circle cx="233" cy="154" r="96" fill="#dce6cd"/><circle cx="233" cy="154" r="118" fill="none" stroke="#b3c19f" stroke-dasharray="3 6" opacity=".5"/><g transform="translate(79 33) rotate(-9 130 125)"><rect x="54" y="32" width="205" height="223" rx="14" fill="#fffef6" stroke="#b9c8ac"/><path d="M76 65H139M76 77H171" stroke="#ccd6c0" stroke-width="3" stroke-linecap="round"/><path d="M80 214H235M90 214V107" stroke="#c8d2bd" stroke-width="1.5"/><path d="M90 191C113 191 115 128 140 128S166 197 189 197 214 132 237 132" fill="none" stroke="#6d8c62" stroke-width="3"/><path d="M90 171H237" stroke="#bac9b0" stroke-dasharray="4 5"/><circle cx="140" cy="128" r="5" fill="#91ac71"/><text x="178" y="63" fill="#597849" font-family="Georgia" font-style="italic" font-size="23">λ = vT</text><text x="108" y="237" fill="#84927b" font-family="Arial" font-size="10" letter-spacing="2">COMPRENDRE · RELIER</text></g><g transform="translate(41 171) rotate(-12)"><path d="M40 0H68M46 0V42L10 110Q6 122 20 123H91Q105 122 98 110L62 42V0" fill="#edf3e5" stroke="#6d8964" stroke-width="2"/><path d="M28 84Q54 73 84 84L98 111Q102 119 91 119H21Q10 119 14 111Z" fill="#abc68d"/><circle cx="47" cy="97" r="4" fill="#edf3e5"/><circle cx="66" cy="106" r="3" fill="#edf3e5"/><circle cx="56" cy="77" r="3" fill="#91ac71"/></g><g stroke="#779368" stroke-width="1.5" fill="#e8eddf"><path d="M312 43 338 58 338 88 312 103 286 88 286 58Z"/><circle cx="312" cy="43" r="5"/><circle cx="338" cy="88" r="5"/><circle cx="286" cy="88" r="5"/></g><path d="M345 217v19m-9-9h18M43 98v12m-6-6h12" stroke="#8fa779" stroke-width="2"/></svg>';
 }
-function renderHome() {
-  const last = chapterMap.get(state.lastChapter) || chapters[0];
-  const date = new Intl.DateTimeFormat('fr-FR', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  }).format(new Date());
-  $('#main').innerHTML =
-    '<div class="page-intro"><div><h1>Un nouveau pas vers le Bac.</h1><p>Ton espace pour apprendre, comprendre et progresser.</p></div><span class="date-label">' +
-    date +
-    '</span></div><section class="hero"><div class="hero-text"><span class="eyebrow">' +
-    icon('spark') +
-    ' OBJECTIF 17,5 / 20</span><h2>Un peu chaque jour.<br><em>Beaucoup plus loin.</em></h2><p>Tes cours, tes exercices et tes gestes de laboratoire. Tout pour avancer avec confiance.</p><a class="button" href="' +
-    courseHref(last) +
-    '">' +
-    (state.lastChapter ? 'Reprendre ma révision' : 'Commencer à réviser') +
-    icon('arrow') +
-    '</a></div>' +
-    heroArt() +
-    '</section><div class="stat-strip">' +
-    [
-      [icon('book'), chapters.length, 'chapitres à explorer'],
-      [icon('check'), chapters.reduce((n, c) => n + c.exercices.length, 0), 'exercices type Bac'],
-      [icon('flask'), labData.length, 'manipulations ECE'],
-      [icon('chart'), mastered() + ' / ' + chapters.length, 'chapitres maîtrisés'],
-    ]
-      .map(
-        ([i, n, l]) =>
-          '<div class="stat"><span class="stat-icon">' +
-          i +
-          '</span><div><strong>' +
-          n +
-          '</strong><span>' +
-          l +
-          '</span></div></div>',
-      )
-      .join('') +
-    '</div><div class="section-head"><div><h2>À chaque matière, son carnet.</h2><p>Les essentiels et les détails qui font la différence.</p></div><a class="inline-link" href="#courses">Tous les cours ' +
-    icon('arrow') +
-    '</a></div><div class="subjects-grid">' +
-    Object.entries(subjects)
-      .map(
-        ([id, s]) =>
-          '<a class="subject-card" data-spe="' +
-          id +
-          '" href="#courses/' +
-          id +
-          '"><div class="subject-top"><span class="subject-icon">' +
-          icon(s.icon) +
-          '</span><span>' +
-          appData[id].length +
-          ' chapitres</span></div><h3>' +
-          s.name +
-          '</h3><p>' +
-          s.desc +
-          '</p><div class="card-end"><span>' +
-          mastered(id) +
-          ' / ' +
-          appData[id].length +
-          ' maîtrisés</span><div class="progress-track"><i style="width:' +
-          (mastered(id) / appData[id].length) * 100 +
-          '%"></i></div><span class="card-arrow">' +
-          icon('arrow') +
-          '</span></div></a>',
-      )
-      .join('') +
-    '</div><div class="lower-grid"><section class="lab-feature"><div class="feature-copy"><span class="label-pill">LE LABO · ECE</span><h3>Les bons gestes.<br>Les bons réflexes.</h3><p>Des montages à comprendre,<br>des protocoles à maîtriser.</p><a class="inline-link" href="#labs">Entrer au laboratoire ' +
-    icon('arrow') +
-    '</a></div><img src="assets/diagrams/reflux.svg" alt="" loading="lazy"></section><section class="daily-card"><span class="eyebrow">LE PETIT DÉCLIC</span><h3>Et si tu testais<br>ce que tu sais déjà ?</h3><p>' +
-    cardData.length +
-    ' flashcards pour réviser activement.</p><a href="#cards">Je me lance ' +
-    icon('arrow') +
-    '</a></section></div>';
-}
-function renderCourses(spe) {
-  const valid = subjects[spe] ? spe : 'all',
-    list = valid === 'all' ? chapters : chapters.filter((c) => c.spe === valid);
-  $('#main').innerHTML =
-    '<div class="page-intro"><div><h1>Mes cours</h1><p>Comprendre le cours, puis passer à la pratique.</p></div><span class="label-pill">6 CHAPITRES · 3 SPÉCIALITÉS</span></div>' +
-    tabs(valid) +
-    '<div class="chapter-grid">' +
-    list
-      .map(
-        (c) =>
-          '<a class="chapter-card" href="' +
-          courseHref(c) +
-          '"><span class="chapter-n">' +
-          escapeHTML(subjects[c.spe].short.toUpperCase()) +
-          ' · ' +
-          escapeHTML(c.titre.match(/^(Chapitre|Séquence)\s+\d+/)?.[0] || 'COURS') +
-          '</span><h2>' +
-          escapeHTML(shortTitle(c)) +
-          '</h2><p>' +
-          escapeHTML(c.description) +
-          '</p><div class="card-end"><span>' +
-          c.exercices.length +
-          ' exercice' +
-          (c.exercices.length > 1 ? 's' : '') +
-          ' · ' +
-          statusNames[state.chapters[c.id] || 'todo'] +
-          '</span><span class="card-arrow">' +
-          icon('arrow') +
-          '</span></div></a>',
-      )
-      .join('') +
-    '</div>';
-}
 function renderChapter(id, mode = 'cours') {
   const c = chapterMap.get(id);
   if (!c) return renderMissing();
@@ -332,15 +191,15 @@ function renderChapter(id, mode = 'cours') {
   state.lastChapter = id;
   persist();
   $('#main').innerHTML =
-    '<a class="detail-back" href="#courses/' +
-    c.spe +
+    '<a class="detail-back" href="' +
+    categoryHref(c.spe) +
     '">' +
     icon('back') +
     ' ' +
     subjects[c.spe].short +
     '</a><div class="eyebrow muted">' +
     escapeHTML(c.titre.match(/^(Chapitre|Séquence)\s+\d+/)?.[0] || 'COURS') +
-    ' · TERMINALE STL</div><h1 class="detail-title">' +
+    ' · ' + escapeHTML(c.year === 'commun' ? 'PREMIÈRE & TERMINALE · MATHS' : years[c.year].toUpperCase() + ' STL · ' + tracks[c.track]) + '</div><h1 class="detail-title">' +
     escapeHTML(shortTitle(c)) +
     '</h1><p class="detail-desc">' +
     escapeHTML(c.description) +
@@ -366,13 +225,13 @@ function renderChapter(id, mode = 'cours') {
     c.exercices.length +
     '</a></nav>' +
     statusSelect(c) +
-    '</div><div id="chapter-content"></div>';
+    '</div>' + mathReferences(c, mode) + '<div id="chapter-content"></div>';
   if (mode === 'cours') {
     $('#chapter-content').innerHTML =
       '<div class="course-layout"><article class="course-body" id="course-body">' +
       c.cours +
       '</article><nav class="toc" aria-label="Sommaire du cours"><p class="eyebrow">DANS CE CHAPITRE</p><div id="toc-items"></div><a href="#cards/' +
-      c.spe +
+      c.spe + (c.track === 'maths' ? '?track=maths' : '?year=' + c.year + '&track=' + c.track) +
       '">' +
       icon('cards') +
       ' Réviser avec les cartes</a></nav></div>';
@@ -380,7 +239,7 @@ function renderChapter(id, mode = 'cours') {
     math($('#course-body'));
   } else {
     $('#chapter-content').innerHTML =
-      '<p class="muted small" style="margin-bottom:22px">Cherche d’abord au brouillon, puis compare ta démarche aux trois étapes de la correction.</p>' +
+      (c.exercices.length ? '<p class="muted small" style="margin-bottom:22px">Cherche d’abord au brouillon, puis compare ta démarche aux trois étapes de la correction.</p>' : '<div class="empty-state"><h2>Les exercices arrivent bientôt.</h2><p>Ils compléteront ce cours au fil de l’année.</p></div>') +
       c.exercices
         .map(
           (e, i) =>
@@ -473,26 +332,27 @@ function enhanceCourse(c) {
   );
 }
 function renderLabs(category = 'all') {
-  const filtered = category === 'all' ? labData : labData.filter((l) => l.category === category);
+  const availableLabs = scopedLabs();
+  const filtered = category === 'all' ? availableLabs : availableLabs.filter((l) => l.category === category);
   $('#main').innerHTML =
     '<div class="page-intro"><div><h1>Le laboratoire</h1><p>Les manipulations, du schéma au geste juste.</p></div><a class="inline-link" href="#gallery">Tous les documents ' +
     icon('arrow') +
-    '</a></div><section class="labs-intro">' +
+    '</a></div>' + scopeControls() + '<section class="labs-intro">' +
     icon('flask') +
-    '<div><h2>Comprendre le montage.<br>Maîtriser la manipulation.</h2><p>9 fiches pour préparer les ECE : matériel, protocole, exploitation et questions à l’oral. Les quantités et les réglages sont toujours ceux du sujet réalisé au laboratoire.</p></div></section><nav class="subject-tabs" aria-label="Types de manipulation">' +
-    ['all', 'Titrages', 'Synthèse', 'Séparation']
+    '<div><h2>Comprendre le montage.<br>Maîtriser la manipulation.</h2><p>' + availableLabs.length + ' fiche(s) pour préparer les ECE : matériel, protocole, exploitation et questions à l’oral. Les quantités et les réglages sont toujours ceux du sujet réalisé au laboratoire.</p></div></section><nav class="subject-tabs" aria-label="Types de manipulation">' +
+    ['all', ...new Set(availableLabs.map((l) => l.category))]
       .map(
         (cat) =>
           '<a class="chip ' +
           (cat === category ? 'active' : '') +
           '" href="#labs' +
-          (cat === 'all' ? '' : '/' + encodeURIComponent(cat)) +
+          (cat === 'all' ? '' : '/' + encodeURIComponent(cat)) + scopeQuery() +
           '">' +
           (cat === 'all' ? 'Toutes les fiches' : cat) +
           '</a>',
       )
       .join('') +
-    '</nav><div class="labs-grid">' +
+    '</nav>' + (filtered.length ? '' : '<div class="empty-state"><h2>Aucune manipulation pour cette sélection.</h2><p>Les nouvelles fiches seront ajoutées avec tes prochains documents.</p></div>') + '<div class="labs-grid">' +
     filtered
       .map(
         (l) =>
@@ -672,47 +532,31 @@ function renderGallery() {
     '</div>';
 }
 function renderCards(group = 'all', keep = false) {
-  if (!['all', 'cdd', 'ondes', 'sp', 'ece', 'review'].includes(group)) group = 'all';
-  if (!keep || !cardSession || cardSession.group !== group) {
-    let deck = cardData.filter(
-      (c) =>
-        group === 'all' ||
-        (group === 'review' ? state.cards[c.id] !== 'mastered' : c.category === group),
-    );
-    cardSession = { group, deck, index: 0, revealed: false };
+  const available = scopedCards();
+  const groups = [
+    ['all', 'Toutes'],
+    ...Object.entries(subjects).filter(([, s]) => scopeMatches(s.year, s.track)).map(([key]) => [key, subjectLabel(key)]),
+    ...(resourceScope.track === 'maths' ? [] : [['ece', 'ECE']]),
+    ['review', 'À revoir'],
+  ];
+  if (!groups.some(([key]) => key === group)) group = 'all';
+  const scope = scopeQuery();
+  if (!keep || !cardSession || cardSession.group !== group || cardSession.scope !== scope) {
+    const deck = available.filter((c) => group === 'all' ||
+      (group === 'review' ? state.cards[c.id] !== 'mastered' : group === 'ece' ? c.category === 'ece' : chapterMap.get(c.chapter)?.spe === group));
+    cardSession = { group, scope, available: available.length, deck, index: 0, revealed: false };
   }
-  const s = cardSession;
-  $('#main').innerHTML =
-    '<div class="page-intro"><div><h1>Un peu de rappel actif.</h1><p>Cherche la réponse avant de retourner la carte.</p></div><span class="label-pill">' +
-    cardData.length +
-    ' FLASHCARDS</span></div><nav class="subject-tabs" aria-label="Choix des flashcards">' +
-    [
-      ['all', 'Toutes'],
-      ['cdd', 'CDD'],
-      ['ondes', 'Ondes'],
-      ['sp', 'Procédés'],
-      ['ece', 'ECE'],
-      ['review', 'À revoir'],
-    ]
-      .map(
-        ([id, t]) =>
-          '<a class="chip ' +
-          (id === group ? 'active' : '') +
-          '" href="#cards/' +
-          id +
-          '">' +
-          t +
-          '</a>',
-      )
-      .join('') +
-    '</nav><div class="cards-shell" id="card-stage"></div>';
+  $('#main').innerHTML = '<div class="page-intro"><div><h1>Un peu de rappel actif.</h1><p>Cherche la réponse avant de retourner la carte.</p></div><span class="label-pill">' +
+    available.length + ' FLASHCARDS</span></div>' + scopeControls() + '<nav class="subject-tabs flashcard-tabs" aria-label="Choix des flashcards">' +
+    groups.map(([id, title]) => '<a class="chip ' + (id === group ? 'active' : '') + '" href="#cards/' + id + scope + '" ' +
+      (id === group ? 'aria-current="page"' : '') + '>' + escapeHTML(title) + '</a>').join('') + '</nav><div class="cards-shell" id="card-stage"></div>';
   renderCardStage();
 }
 function renderCardStage() {
   const s = cardSession;
   if (!s.deck.length) {
     $('#card-stage').innerHTML =
-      '<div class="empty-state"><h2>Tout est au clair pour l’instant.</h2><p>Tu as marqué toutes ces cartes comme maîtrisées. Tu peux refaire une série quand tu veux.</p><a href="#cards/all" class="button">Toutes les cartes</a></div>';
+      '<div class="empty-state"><h2>' + (s.group === 'review' && s.available ? 'Toutes ces cartes sont maîtrisées.' : 'Aucune flashcard pour cette sélection.') + '</h2><p>' + (s.group === 'review' && s.available ? 'Tu peux refaire une série quand tu veux.' : 'Les cartes compléteront tes nouveaux cours et manipulations.') + '</p><a href="#cards/all' + scopeQuery() + '" class="button">Toutes les cartes de cette sélection</a></div>';
     return;
   }
   if (s.index >= s.deck.length) {
@@ -737,7 +581,7 @@ function renderCardStage() {
     '%"></i></div><article class="flashcard"><span class="label-pill">' +
     (c.category === 'ece'
       ? 'MANIPULATIONS ECE'
-      : escapeHTML(subjects[c.category].short.toUpperCase())) +
+      : escapeHTML(subjectLabel(chapterMap.get(c.chapter)?.spe || c.category))) +
     '</span><h2>' +
     escapeHTML(c.q) +
     '</h2>' +
@@ -764,17 +608,18 @@ function renderCardStage() {
   math($('#card-stage'));
 }
 function renderProgress() {
-  const allExos = chapters.reduce((n, c) => n + c.exercices.length, 0),
-    doneExos = chapters.reduce(
+  const progressChapters = scopedChapters(), progressLabs = scopedLabs(), progressCards = scopedCards();
+  const allExos = progressChapters.reduce((n, c) => n + c.exercices.length, 0),
+    doneExos = progressChapters.reduce(
       (n, c) => n + c.exercices.filter((_, i) => state.exercises[c.id + '-' + i]).length,
       0,
     );
   $('#main').innerHTML =
-    '<div class="page-intro"><div><h1>Chaque acquis compte.</h1><p>Une progression déclarée par toi, pour savoir quoi revoir.</p></div></div><div class="progress-grid">' +
+    '<div class="page-intro"><div><h1>Chaque acquis compte.</h1><p>Une progression déclarée par toi, pour savoir quoi revoir.</p></div></div>' + scopeControls() + '<div class="progress-grid">' +
     [
-      [mastered(), chapters.length, 'chapitres maîtrisés'],
-      [labDone(), labData.length, 'manipulations : tous les repères acquis'],
-      [countCards(), cardData.length, 'flashcards maîtrisées'],
+      [countMastered(progressChapters), progressChapters.length, 'chapitres maîtrisés'],
+      [labDone(progressLabs), progressLabs.length, 'manipulations : tous les repères acquis'],
+      [countCards(progressCards), progressCards.length, 'flashcards maîtrisées'],
     ]
       .map(
         ([n, total, t]) =>
@@ -785,7 +630,7 @@ function renderProgress() {
           '</span></strong><h2>' +
           t +
           '</h2><div class="progress-track"><i style="width:' +
-          (n / total) * 100 +
+          ratio(n, total) +
           '%"></i></div></div>',
       )
       .join('') +
@@ -793,21 +638,21 @@ function renderProgress() {
     doneExos +
     ' / ' +
     allExos +
-    ' exercices repris</span></div>' +
-    chapters
+    ' exercices repris</span></div>' + (progressChapters.length ? '' : '<p class="muted">Aucun chapitre dans cette sélection pour le moment.</p>') +
+    progressChapters
       .map(
         (c) =>
           '<div class="progress-row"><a href="' +
           courseHref(c) +
           '">' +
-          escapeHTML(shortTitle(c)) +
+          escapeHTML(shortTitle(c)) + '<small class="progress-context">' + escapeHTML(subjectLabel(c.spe)) + '</small>' +
           '</a>' +
           statusSelect(c) +
           '</div>',
       )
       .join('') +
-    '</section><section class="panel"><h2>Mes gestes de laboratoire</h2>' +
-    labData
+    '</section><section class="panel"><h2>Mes gestes de laboratoire</h2>' + (progressLabs.length ? '' : '<p class="muted">Aucune manipulation dans cette sélection pour le moment.</p>') +
+    progressLabs
       .map(
         (l) =>
           '<div class="progress-row"><a href="#lab/' +
@@ -835,12 +680,15 @@ function route() {
   if (!appData) return;
   let parts;
   try {
-    parts = decodeURIComponent(location.hash.slice(1) || 'home').split('/');
+    const [path, query = ''] = (location.hash.slice(1) || 'home').split('?');
+    parts = path.split('/').map(decodeURIComponent);
+    const params = new URLSearchParams(query);
+    resourceScope = { year: years[params.get('year')] ? params.get('year') : 'all', track: tracks[params.get('track')] ? params.get('track') : 'all' };
   } catch {
     parts = ['home'];
   }
-  const [page, arg, mode] = parts;
-  const nav = ['chapter', 'courses'].includes(page)
+  const [page, arg, mode, spe] = parts;
+  const nav = (page === 'maths' || (page === 'chapter' && chapterMap.get(arg)?.track === 'maths')) ? 'maths' : ['chapter', 'courses'].includes(page)
     ? 'courses'
     : ['lab', 'labs', 'gallery'].includes(page)
       ? 'labs'
@@ -855,6 +703,7 @@ function route() {
     {
       home: 'Mon espace',
       courses: 'Mes cours',
+      maths: 'Maths pour les sciences',
       labs: 'Manipulations',
       cards: 'Flashcards',
       progress: 'Ma progression',
@@ -865,7 +714,10 @@ function route() {
       renderHome();
       break;
     case 'courses':
-      renderCourses(arg);
+      renderCourses(arg, mode, spe);
+      break;
+    case 'maths':
+      renderMaths();
       break;
     case 'chapter':
       renderChapter(arg, mode);
@@ -923,7 +775,7 @@ function installInfo() {
 function about() {
   showInfo(
     'Un carnet pour apprendre vraiment',
-    '<p>Révise réunit les <b>6 chapitres et 12 exercices fournis</b>, leurs corrections intégrales, 9 fiches de manipulation et 27 flashcards. Le contenu initial de data.json est conservé.</p><p>Les schémas des cours ont été redessinés en s’appuyant sur tes previews. Chaque ancien schéma reste accessible sous sa nouvelle version. Les 16 documents fournis sont dans la <a href="#gallery">galerie</a>.</p><p>Des encadrés ajoutent les conditions d’application de certaines formules. Les manipulations sont des fiches générales d’apprentissage : les consignes, substances, volumes, températures et appels à l’examinateur dépendent du sujet ECE.</p><h3>Ton objectif</h3><p>17,5/20 est ton cap personnel. Les cases de progression sont une auto-évaluation, pas une estimation de ta note au Bac.</p><h3>Repères pédagogiques et techniques</h3><p><a href="https://spcl.ac-montpellier.fr/moodle/" target="_blank" rel="noopener">Ressources STL-SPCL · académie de Montpellier</a><br><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable" target="_blank" rel="noopener">Installation des applications web · MDN</a><br><a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html" target="_blank" rel="noopener">Configuration iPhone · Apple</a></p>',
+    '<p>Révise accompagne la Première et la Terminale STL : PCM, SPCL et maths pour les sciences. Le carnet contient <b>' + chapters.length + ' chapitres et ' + chapters.reduce((n, c) => n + c.exercices.length, 0) + ' exercices</b>, ' + labData.length + ' fiches de manipulation et ' + cardData.length + ' flashcards.</p><p>Les schémas des cours ont été redessinés en s’appuyant sur tes previews. Chaque ancien schéma reste accessible sous sa nouvelle version. Les 16 documents fournis sont dans la <a href="#gallery">galerie</a>.</p><p>Des encadrés ajoutent les conditions d’application de certaines formules. Les manipulations sont des fiches générales d’apprentissage : les consignes, substances, volumes, températures et appels à l’examinateur dépendent du sujet ECE.</p><h3>Ton objectif</h3><p>17,5/20 est ton cap personnel. Les cases de progression sont une auto-évaluation, pas une estimation de ta note au Bac.</p><h3>Repères pédagogiques et techniques</h3><p><a href="https://spcl.ac-montpellier.fr/moodle/" target="_blank" rel="noopener">Ressources STL-SPCL · académie de Montpellier</a><br><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable" target="_blank" rel="noopener">Installation des applications web · MDN</a><br><a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html" target="_blank" rel="noopener">Configuration iPhone · Apple</a></p>',
   );
 }
 function updateTheme() {
@@ -1131,6 +983,12 @@ function bindEvents() {
       e.target.closest('dialog').close();
   });
   document.addEventListener('change', (e) => {
+    if (e.target.matches('[data-scope]')) {
+      resourceScope[e.target.dataset.scope] = e.target.value;
+      const page = location.hash.slice(1).split(/[/?]/)[0];
+      location.hash = '#' + page + scopeQuery();
+      return;
+    }
     if (e.target.matches('[data-status]')) {
       state.chapters[e.target.dataset.status] = e.target.value;
       persist();
@@ -1194,16 +1052,17 @@ async function init() {
       }),
     );
     [appData, labData, diagramData, cardData, supplements] = loaded;
-    chapters = Object.entries(appData).flatMap(([spe, list]) => list.map((c) => ({ ...c, spe })));
+    chapters = flattenCurriculum(appData);
+    $$('.nav-count').forEach((el) => { el.textContent = chapters.length; });
     chapterMap = new Map(chapters.map((c) => [c.id, c]));
     labMap = new Map(labData.map((l) => [l.id, l]));
     searchIndex = [
       ...chapters.map((c) => ({
         title: shortTitle(c),
-        category: subjects[c.spe].name,
+        category: subjectLabel(c.spe),
         href: courseHref(c),
         text: norm(
-          c.titre +
+          subjectLabel(c.spe) + ' ' + c.titre +
             ' ' +
             c.description +
             ' ' +
