@@ -98,22 +98,49 @@ function relatedResources(year, track, spe) {
   return '<nav class="related-resources" aria-label="Continuer à réviser"><a class="chip" href="#cards/' + spe + query + '">' + icon('cards') +
     ' Flashcards</a><a class="chip" href="#labs' + query + '">' + icon('flask') + ' Laboratoire</a><a class="chip" href="#maths">' + icon('chart') + ' Revoir les maths</a></nav>';
 }
+const mathSyllabus = [
+  { number: 1, id: 'maths-suites', title: 'Suites' },
+  { number: 2, id: 'maths-logarithmes', title: 'Logarithme décimal' },
+  { number: 3, id: 'maths-ln-exponentielle', title: 'Logarithme népérien et exponentielle' },
+];
+const isMathRecall = (c) => c.mathSection === 'rappels' || c.id === 'maths-puissances-de-deux';
+function chapterMathRefs(c) {
+  const refs = [...(c.mathRefs || [])];
+  if (['cdd-ch2', 'terminale-pcm-ch2'].includes(c.id) && !refs.some((r) => r.id === 'maths-logarithmes'))
+    refs.push({ id: 'maths-logarithmes', title: 'Logarithme décimal' });
+  return refs;
+}
 function renderMaths() {
+  const available = chapterList(['maths']);
+  const orderedIds = new Set();
+  const lessons = mathSyllabus.map((slot) => {
+    const list = available.filter((c) => !isMathRecall(c) && (c.id === slot.id || c.mathChapter === slot.number));
+    list.forEach((c) => orderedIds.add(c.id));
+    return '<section class="math-syllabus-slot"><div class="section-head"><div><span class="eyebrow muted">CHAPITRE ' + slot.number + '</span><h2>' + escapeHTML(slot.title) + '</h2></div></div>' +
+      (list.length ? renderChapterCards(list, true) : '<article class="chapter-card" style="border-style:dashed"><span class="label-pill">COURS À VENIR</span><p style="margin:12px 0">Le nom et la place sont réservés. La fiche sera ajoutée quand tu fourniras ce chapitre.</p></article>') + '</section>';
+  }).join('');
+  const other = available.filter((c) => !isMathRecall(c) && !orderedIds.has(c.id));
+  const recalls = available.filter(isMathRecall);
   $('#main').innerHTML = crumb([['Mes cours', '#courses'], ['Maths']]) +
-    '<div class="page-intro"><div><span class="eyebrow muted">PREMIÈRE & TERMINALE · PCM & SPCL</span><h1>Maths pour les sciences</h1><p>Une notion à revoir ? Retrouve ici les outils utiles à tes spécialités.</p></div></div>' +
-    renderChapterCards(chapterList(['maths']), true) + '<nav class="related-resources"><a class="chip" href="#cards/maths?track=maths">' + icon('cards') + ' Flashcards de maths</a></nav>';
+    '<div class="page-intro"><div><span class="eyebrow muted">PREMIÈRE & TERMINALE · PCM & SPCL</span><h1>Maths pour les sciences</h1><p>Les chapitres dans l’ordre de ton année, puis les rappels à retrouver quand tu en as besoin.</p></div></div>' + lessons +
+    (other.length ? '<div class="section-head"><h2>Autres notions</h2></div>' + renderChapterCards(other, true) : '') +
+    '<section id="math-recalls"><div class="section-head"><div><span class="eyebrow muted">LES OUTILS À GARDER SOUS LA MAIN</span><h2>Rappels de maths</h2><p>Puissances, calculs et méthodes utiles dans tous tes cours.</p></div></div>' +
+    (recalls.length ? renderChapterCards(recalls, true) : '<p class="muted">Les rappels arriveront ici.</p>') + '</section>' +
+    '<nav class="related-resources"><a class="chip" href="#cards/maths?track=maths">' + icon('cards') + ' Flashcards de maths</a></nav>';
 }
 function mathReferences(c, mode) {
   if (c.track === 'maths') {
-    const users = chapters.filter((chapter) => (chapter.mathRefs || []).some((ref) => ref.id === c.id));
+    const users = chapters.filter((chapter) => chapterMathRefs(chapter).some((ref) => ref.id === c.id));
+    const pendingPcm = c.id === 'maths-logarithmes' && !chapterMap.has('terminale-pcm-ch2');
     let origin;
     try { origin = new URLSearchParams(location.hash.split('?')[1] || '').get('from'); } catch {}
     const source = chapterMap.get(origin);
     return (source ? '<a class="detail-back maths-return" href="' + courseHref(source, new URLSearchParams(location.hash.split('?')[1] || '').get('mode')) + '">' + icon('back') + ' Revenir à ' + escapeHTML(shortTitle(source)) + '</a>' : '') +
-      (users.length ? '<aside class="maths-links"><h2>Cette notion dans tes spécialités</h2><div class="related-resources">' + users.map((chapter) =>
-        '<a class="chip" href="' + courseHref(chapter) + '">' + escapeHTML(shortTitle(chapter)) + '</a>').join('') + '</div></aside>' : '');
+      (users.length || pendingPcm ? '<aside class="maths-links"><h2>Cette notion dans tes spécialités</h2><div class="related-resources">' + users.map((chapter) =>
+        '<a class="chip" href="' + courseHref(chapter) + '">' + escapeHTML(subjectLabel(chapter.spe)) + ' · ' + escapeHTML(shortTitle(chapter)) + '</a>').join('') +
+        (pendingPcm ? '<span class="pending-notion">PCM · Chapitre 2 : Acides et bases <small>Cours à venir</small></span>' : '') + '</div></aside>' : '');
   }
-  const refs = c.mathRefs || [];
+  const refs = chapterMathRefs(c);
   if (!refs.length) return '';
   return '<aside class="maths-links"><h2>' + icon('chart') + ' Un coup de pouce en maths</h2><p>Revois la notion, puis reprends ce chapitre.</p><div class="related-resources">' + refs.map((ref) => {
     const target = chapterMap.get(ref.id);
