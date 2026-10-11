@@ -1090,5 +1090,383 @@
   "chapter": "maths-suites",
   "q": "Les étapes d’une correction de suites ?",
   "a": "Modèle et conditions ; calcul et justification des rangs ; conclusion avec unité et arrondi."
+},
+{
+  "id": "pcm-ch2-carte-01",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Un acide et une base selon Brønsted ?",
+  "a": "Un acide cède un proton $H^+$ ; une base en capte un."
+},
+{
+  "id": "pcm-ch2-carte-02",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Deux formes d’un couple conjugué diffèrent de quoi ?",
+  "a": "D’un seul proton. Écrire acide/base : $AH/A^-$ ou $BH^+/B$."
+},
+{
+  "id": "pcm-ch2-carte-03",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Réaction d’un acide faible avec l’eau ?",
+  "a": "$\\mathrm{AH+H_2O\\rightleftharpoons A^-+H_3O^+}$."
+},
+{
+  "id": "pcm-ch2-carte-04",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Réaction d’une base faible avec l’eau ?",
+  "a": "$\\mathrm{B+H_2O\\rightleftharpoons BH^++HO^-}$."
+},
+{
+  "id": "pcm-ch2-carte-05",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Fort et concentré signifient-ils la même chose ?",
+  "a": "Non : fort décrit le comportement de l’espèce ; concentré décrit la quantité par volume de solution."
+},
+{
+  "id": "pcm-ch2-carte-06",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Relation pH et concentration en hydronium ?",
+  "a": "$\\mathrm{pH}\\simeq-\\log([H_3O^+]/c^\\circ)$ en solution suffisamment diluée ; $c^\\circ=1\\,\\mathrm{mol\\,L^{-1}}$."
+},
+{
+  "id": "pcm-ch2-carte-07",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Concentration en hydronium à partir du pH ?",
+  "a": "$[H_3O^+]\\simeq c^\\circ10^{-\\mathrm{pH}}$."
+},
+{
+  "id": "pcm-ch2-carte-08",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Autoprotolyse de l’eau ?",
+  "a": "$\\mathrm{2H_2O\\rightleftharpoons H_3O^++HO^-}$."
+},
+{
+  "id": "pcm-ch2-carte-09",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Quel pH définit une solution neutre ?",
+  "a": "$\\mathrm{pH}=\\mathrm{p}K_e/2$ ; environ 7 à 25 °C."
+},
+{
+  "id": "pcm-ch2-carte-10",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Expression de Ka pour AH/A⁻ ?",
+  "a": "$K_a\\simeq[A^-]_f[H_3O^+]_f/([AH]_f c^\\circ)$, concentrations à l’équilibre."
+},
+{
+  "id": "pcm-ch2-carte-11",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Pourquoi l’eau pure n’apparaît-elle pas dans Ka ?",
+  "a": "Son activité comme solvant est prise égale à 1 dans le modèle."
+},
+{
+  "id": "pcm-ch2-carte-12",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Relations entre Ka et pKa ?",
+  "a": "$\\mathrm{p}K_a=-\\log K_a$ ; $K_a=10^{-\\mathrm{p}K_a}$."
+},
+{
+  "id": "pcm-ch2-carte-13",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Grand Ka ou petit pKa : quelle force ?",
+  "a": "Acide plus fort, à milieu et température comparables."
+},
+{
+  "id": "pcm-ch2-carte-14",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Ka dépend-il de la concentration apportée ?",
+  "a": "La constante thermodynamique non ; elle dépend notamment de la température et du milieu. Le modèle en concentrations a des limites."
+},
+{
+  "id": "pcm-ch2-carte-15",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Relation pH–pKa–rapport ?",
+  "a": "$\\mathrm{pH}=\\mathrm{p}K_a+\\log([A^-]/[AH])$ dans l’approximation en concentrations."
+},
+{
+  "id": "pcm-ch2-carte-16",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Rapport base/acide à partir du pH ?",
+  "a": "$[A^-]/[AH]=10^{\\mathrm{pH}-\\mathrm{p}K_a}$."
+},
+{
+  "id": "pcm-ch2-carte-17",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Si pH < pKa ?",
+  "a": "La forme acide AH prédomine."
+},
+{
+  "id": "pcm-ch2-carte-18",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Si pH = pKa ?",
+  "a": "$[AH]=[A^-]$."
+},
+{
+  "id": "pcm-ch2-carte-19",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Si pH > pKa ?",
+  "a": "La forme basique A⁻ prédomine."
+},
+{
+  "id": "pcm-ch2-carte-20",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "pH = pKa + 1 : quel rapport ?",
+  "a": "$[A^-]/[AH]=10$."
+},
+{
+  "id": "pcm-ch2-carte-21",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Prédominant signifie-t-il seul présent ?",
+  "a": "Non, la forme minoritaire peut rester présente."
+},
+{
+  "id": "pcm-ch2-carte-22",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "pH d’un acide fort monoprotique seul ?",
+  "a": "$\\mathrm{pH}\\simeq-\\log(C_0/c^\\circ)$ si la contribution de l’eau est négligeable et les activités bien approchées."
+},
+{
+  "id": "pcm-ch2-carte-23",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Définition du coefficient de dissociation ?",
+  "a": "$\\alpha=[A^-]_f/C_0=n_{\\mathrm{dissocie}}/n_{\\mathrm{initial}}$ pour AH initialement introduit ; sans unité, entre 0 et 1."
+},
+{
+  "id": "pcm-ch2-carte-24",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Bilan de matière pour AH seul ?",
+  "a": "$C_0=[AH]_f+[A^-]_f$ ; $[AH]_f=C_0(1-\\alpha)$."
+},
+{
+  "id": "pcm-ch2-carte-25",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Peut-on toujours écrire [A⁻] = [H₃O⁺] ?",
+  "a": "Non. Cela exige AH seul initialement introduit, sans autre contribution notable, et l’autoprotolyse négligée."
+},
+{
+  "id": "pcm-ch2-carte-26",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Lien Ka, α et C₀ dans ce modèle ?",
+  "a": "$K_a=\\alpha^2C_0/((1-\\alpha)c^\\circ)$."
+},
+{
+  "id": "pcm-ch2-carte-27",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Quel effet de la dilution sur α ?",
+  "a": "Pour un acide faible donné, la dilution augmente la fraction dissociée. Ka reste inchangé à température fixée."
+},
+{
+  "id": "pcm-ch2-carte-28",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Plus dissocié veut-il dire plus acide en pH ?",
+  "a": "Non : diluer peut augmenter α tout en diminuant [H₃O⁺], donc augmenter le pH."
+},
+{
+  "id": "pcm-ch2-carte-29",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Un acide faible presque entièrement dissocié devient-il fort ?",
+  "a": "Non, sa constante d’acidité ne change pas ; c’est sa dissociation dans ces conditions qui augmente."
+},
+{
+  "id": "pcm-ch2-carte-30",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Que contient un tampon ?",
+  "a": "Un acide faible et sa base conjuguée en quantités suffisantes et comparables."
+},
+{
+  "id": "pcm-ch2-carte-31",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Zone utile d’un tampon ?",
+  "a": "Environ $\\mathrm{p}K_a\\pm1$, soit un rapport base/acide entre 0,1 et 10."
+},
+{
+  "id": "pcm-ch2-carte-32",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Tampon équimolaire : quel pH ?",
+  "a": "$\\mathrm{pH}\\simeq\\mathrm{p}K_a$."
+},
+{
+  "id": "pcm-ch2-carte-33",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Pourquoi utiliser les quantités dans un tampon ?",
+  "a": "Les formes partagent le même volume final : $[A^-]/[AH]=n(A^-)/n(AH)$."
+},
+{
+  "id": "pcm-ch2-carte-34",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Un tampon résiste-t-il à tout ajout d’acide ?",
+  "a": "Non. Sa capacité est limitée par les quantités présentes ; si une forme est épuisée, le pH change fortement."
+},
+{
+  "id": "pcm-ch2-carte-35",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Un tampon reste-t-il aussi efficace après dilution ?",
+  "a": "Le pH varie peu lors d’une dilution modérée, mais la réserve par volume et la capacité à absorber un ajout diminuent."
+},
+{
+  "id": "pcm-ch2-carte-36",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Une fraction massique de 20 % signifie quoi ?",
+  "a": "$m_{\\mathrm{solut\\acute e}}=0,20m_{\\mathrm{solution}}=0,20\\rho V$ ; ce n’est pas 20 % du volume."
+},
+{
+  "id": "pcm-ch2-carte-37",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Lactate ou acide lactique à pH 5,4 avec pKa 3,87 ?",
+  "a": "L’ion lactate prédomine, puisque pH > pKa."
+},
+{
+  "id": "pcm-ch2-carte-38",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Pourquoi le nitrite de sodium seul est-il basique ?",
+  "a": "$\\mathrm{NO_2^-+H_2O\\rightleftharpoons HNO_2+HO^-}$ : le nitrite est une base conjuguée d’un acide faible."
+},
+{
+  "id": "pcm-ch2-carte-39",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Quatre acidités de l’EDTA donnent combien de formes dans le modèle ?",
+  "a": "Cinq : $H_4Y$, $H_3Y^-$, $H_2Y^{2-}$, $HY^{3-}$, $Y^{4-}$."
+},
+{
+  "id": "pcm-ch2-carte-40",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Y⁴⁻ prédomine-t-il librement à pH 10 si le dernier pKa vaut 10,3 ?",
+  "a": "Non : $[Y^{4-}]/[HY^{3-}]\\approx0,50$. La complexation peut déplacer l’équilibre et le titrage reste possible."
+},
+{
+  "id": "pcm-ch2-carte-41",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Quel couple tampon est adapté au dosage EDTA près de pH 10 ?",
+  "a": "$NH_4^+/NH_3$, de pKa environ 9,2."
+},
+{
+  "id": "pcm-ch2-carte-42",
+  "category": "terminale-pcm",
+  "chapter": "terminale-pcm-ch2",
+  "q": "Les étapes d’une correction acido-basique ?",
+  "a": "Équation, modèle et conditions ; application et vérifications ; conclusion avec unité et limites."
+},
+{
+  "id": "pcm-ch2-ece-01",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Quel est le titrant du dosage EDTA ?",
+  "a": "La solution d’EDTA de concentration connue, dans la burette."
+},
+{
+  "id": "pcm-ch2-ece-02",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Pourquoi tamponner le dosage EDTA ?",
+  "a": "Pour maintenir le pH proche de 10, adapté aux équilibres du ligand et au NET."
+},
+{
+  "id": "pcm-ch2-ece-03",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Quel virage du NET attend-on ?",
+  "a": "Du rouge-violet du complexe avec les ions métalliques au bleu de l’indicateur libéré, à pH de travail."
+},
+{
+  "id": "pcm-ch2-ece-04",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Relation à l’équivalence pour Mg²⁺ seul ?",
+  "a": "$n(EDTA)=n(Mg^{2+})$ ; $c_{Mg}=C_{EDTA}V_E/V_0$."
+},
+{
+  "id": "pcm-ch2-ece-05",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Quel volume utiliser pour la concentration de l’échantillon ?",
+  "a": "Le volume $V_0$ prélevé d’eau, pas le volume total après ajout du tampon."
+},
+{
+  "id": "pcm-ch2-ece-06",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "L’EDTA distingue-t-il automatiquement Ca²⁺ et Mg²⁺ ?",
+  "a": "Non. Sans séparation appropriée, le titrage peut donner leur somme."
+},
+{
+  "id": "pcm-ch2-ece-07",
+  "category": "ece",
+  "chapter": "pcm-ch2-edta",
+  "q": "Comment obtenir le volume versé ?",
+  "a": "$V_E=$ lecture finale de burette − lecture initiale ; pointe sans bulle."
+},
+{
+  "id": "pcm-ch2-ece-08",
+  "category": "ece",
+  "chapter": "pcm-ch2-tampon",
+  "q": "Pourquoi vérifier la formule et l’hydratation avant une pesée ?",
+  "a": "Pour utiliser la bonne masse molaire dans $n=m/M$."
+},
+{
+  "id": "pcm-ch2-ece-09",
+  "category": "ece",
+  "chapter": "pcm-ch2-tampon",
+  "q": "Ajouter dans 1 L d’eau revient-il à préparer 1 L de solution ?",
+  "a": "Non : le volume final peut différer. Suivre la formulation et la verrerie prescrites."
+},
+{
+  "id": "pcm-ch2-ece-10",
+  "category": "ece",
+  "chapter": "pcm-ch2-tampon",
+  "q": "Comment contrôler le pH d’un tampon ?",
+  "a": "Au pH-mètre étalonné, après stabilisation, à température notée."
+},
+{
+  "id": "pcm-ch2-ece-11",
+  "category": "ece",
+  "chapter": "pcm-ch2-tampon",
+  "q": "Comment un tampon consomme-t-il un petit ajout d’acide ?",
+  "a": "$\\mathrm{A^-+H_3O^+\\rightarrow AH+H_2O}$. Vérifier les quantités restantes."
+},
+{
+  "id": "pcm-ch2-ece-12",
+  "category": "ece",
+  "chapter": "pcm-ch2-tampon",
+  "q": "Pourquoi travailler avec une aspiration adaptée pour l’ammoniaque ?",
+  "a": "Pour limiter l’exposition aux vapeurs irritantes ; suivre les FDS et les consignes du laboratoire."
 }
 ]
