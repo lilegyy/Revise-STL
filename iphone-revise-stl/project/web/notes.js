@@ -7,6 +7,7 @@
   const fmt=v=>v===null?'—':v.toLocaleString('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});
   function decoded(text){try{return new TextDecoder().decode(Uint8Array.from(atob(text),c=>c.charCodeAt(0)));}catch{return text;}}
   async function action(fn){if(busy)return;busy=true;document.querySelectorAll('button').forEach(b=>b.disabled=true);$('#status').textContent='Un instant…';try{await fn();}catch(e){$('#status').textContent=e.message||'Connexion indisponible.';}finally{busy=false;document.querySelectorAll('button').forEach(b=>b.disabled=false);}}
+  if(window.ReviseNativeClient.available())Promise.resolve(native.addListener('loginProgress',event=>{if(busy)$('#status').textContent=event.message;})).catch(()=>{});
   function showResult(result){
     if(result.security){$('#security-panel').hidden=false;$('#login-panel').hidden=true;$('#security-question').textContent=decoded(result.question);$('#security-answer').innerHTML=result.choices.map((choice,i)=>'<option value="'+escape(choice)+'">'+escape(decoded(choice))+'</option>').join('');$('#status').textContent='Confirme ton identité pour continuer.';return;}
     $('#security-panel').hidden=true;$('#accounts-panel').hidden=false;$('#login-panel').hidden=true;$('#account').innerHTML=result.accounts.map(a=>'<option value="'+escape(a.id)+'">'+escape(a.name)+'</option>').join('');$('#status').textContent='Choisis ton compte élève.';
@@ -31,5 +32,5 @@
   $('#subjects').addEventListener('change',event=>{const key=event.target.dataset.coefficient;if(!key)return;const value=GradeEngine.number(event.target.value);if(value===null||value<0){$('#status').textContent='Le coefficient doit être positif ou nul.';render();return;}const scope=cache.accountID+':'+$('#period').value;settings[scope]||={};settings[scope][key]=value;try{localStorage.setItem('revise-grade-coefficients',JSON.stringify(settings));}catch{}render();});
   $('#disconnect').addEventListener('click',()=>action(async()=>{await native.disconnect();settings={};localStorage.removeItem('revise-grade-coefficients');cache=null;$('#results').hidden=true;$('#security-panel').hidden=true;$('#accounts-panel').hidden=true;$('#login-panel').hidden=false;$('#status').textContent='Session fermée et notes effacées de cet appareil.';}));
   if(window.ReviseNativeClient.available())action(async()=>{const value=await native.cachedNotes();if(!value.empty){accept(value);$('#login-panel').hidden=true;$('#status').textContent='Tes notes enregistrées sur cet appareil.';}else $('#status').textContent='Connecte-toi pour récupérer tes notes.';});
-  else $('#status').textContent='Module iPhone indisponible · version 1.0.1. Ferme complètement l’application et rouvre-la. La connexion attend le chargement du module natif.';
+  else $('#status').textContent='Module iPhone indisponible · version 1.0.2. Ferme complètement l’application et rouvre-la. La connexion attend le chargement du module natif.';
 })();
