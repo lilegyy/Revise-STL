@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-pcm-ch1-1";
+const VERSION = "2026-10-11-maths-log-2";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -159,7 +159,18 @@ const ASSETS = [
   "./assets/diagrams/pcm-ch1-thalidomide-exercice.png",
   "./assets/diagrams/pcm-ch1-ze.svg",
   "./assets/documents/pcm-terminale-ch1-cours.pdf",
-  "./assets/documents/pcm-terminale-ch1-exercices-source.pdf"
+  "./assets/documents/pcm-terminale-ch1-exercices-source.pdf",
+  "./assets/diagrams/maths-log-approximation.svg",
+  "./assets/diagrams/maths-log-courbe.svg",
+  "./assets/diagrams/maths-log-ln-comparaison.svg",
+  "./assets/diagrams/maths-log-memo-1.png",
+  "./assets/diagrams/maths-log-memo-2.png",
+  "./assets/diagrams/maths-log-reciproques.svg",
+  "./assets/diagrams/maths-log-transmission.svg",
+  "./assets/documents/maths-log-applications-source.pdf",
+  "./assets/documents/maths-log-diaporama-source.pptx",
+  "./assets/documents/maths-log-exercices-source.pdf",
+  "./assets/documents/maths-log-memo-source.docx"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
