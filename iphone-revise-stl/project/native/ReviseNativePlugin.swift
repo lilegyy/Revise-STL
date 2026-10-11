@@ -26,6 +26,7 @@ public class ReviseNativePlugin: CAPPlugin, CAPBridgedPlugin, QLPreviewControlle
         config.httpShouldSetCookies = true
         config.httpCookieStorage = HTTPCookieStorage.shared
         config.timeoutIntervalForRequest = 25
+        config.timeoutIntervalForResource = 35
         return URLSession(configuration: config, delegate: SameHostRedirects(), delegateQueue: nil)
     }()
     private var pending: [String: String]?
@@ -54,9 +55,15 @@ public class ReviseNativePlugin: CAPPlugin, CAPBridgedPlugin, QLPreviewControlle
     private func request(_ url: URL, method: String = "GET", body: Data? = nil, headers: [String: String] = [:]) async throws -> (Data, HTTPURLResponse) {
         guard url.scheme == "https", ["api.ecoledirecte.com", "api.github.com", "raw.githubusercontent.com"].contains(url.host ?? "") else { throw fail("Adresse non autorisée.") }
         var req = URLRequest(url: url); req.httpMethod = method; req.httpBody = body
-        req.setValue("Révise-STL-iOS/1.0", forHTTPHeaderField: "User-Agent")
+        req.setValue(url.host == "api.ecoledirecte.com" ? EcoleDirecteProtocol.userAgent : "Revise-STL-iOS/1.0.2", forHTTPHeaderField: "User-Agent")
         for (key, value) in headers { req.setValue(value, forHTTPHeaderField: key) }
-        let (data, raw) = try await session.data(for: req)
+        let data: Data, raw: URLResponse
+        do { (data, raw) = try await session.data(for: req) }
+        catch let error as URLError where url.host == "api.ecoledirecte.com" {
+            let stage = url.query?.contains("gtk=1") == true ? "préparation de la connexion" : url.path.contains("doubleauth") ? "question de sécurité" : url.path.contains("notes") ? "récupération des notes" : "vérification des identifiants"
+            if error.code == .timedOut { throw fail("ÉcoleDirecte n’a pas répondu : " + stage + ". Réessaie en Wi-Fi ou en données mobiles.") }
+            throw fail("Connexion réseau à ÉcoleDirecte impossible : " + stage + " (code " + String(error.code.rawValue) + ").")
+        }
         guard let response = raw as? HTTPURLResponse, (200..<300).contains(response.statusCode) else { throw fail("Le service ne répond pas normalement. Réessaie plus tard.") }
         return (data, response)
     }
@@ -189,15 +196,14 @@ public class ReviseNativePlugin: CAPPlugin, CAPBridgedPlugin, QLPreviewControlle
         return try json(data)
     }
     private func ed(_ path: String, data: [String: Any], token: String = "", twoFA: String = "", gtk: String = "") async throws -> ([String: Any], HTTPURLResponse) {
-        let raw = try JSONSerialization.data(withJSONObject: data)
-        // ÉcoleDirecte attend un champ data contenant un objet JSON.
-        var allowed = CharacterSet.urlQueryAllowed; allowed.remove(charactersIn: "+&=;?#")
-        let encoded = String(data: raw, encoding: .utf8)!.addingPercentEncoding(withAllowedCharacters: allowed)!
-        var headers = ["Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json", "Origin": "https://www.ecoledirecte.com", "Referer": "https://www.ecoledirecte.com/"]
+        var headers = ["Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json, text/plain, */*", "Accept-Language": "fr-FR,fr;q=0.9", "Origin": "https://www.ecoledirecte.com", "Referer": "https://www.ecoledirecte.com/"]
         if !token.isEmpty { headers["X-Token"] = token }
         if !twoFA.isEmpty { headers["2fa-Token"] = twoFA }
-        if !gtk.isEmpty { headers["X-Gtk"] = gtk }
-        let (result, response) = try await request(URL(string: api + path)!, method: "POST", body: Data(("data=" + encoded).utf8), headers: headers)
+        let cookies = HTTPCookieStorage.shared.cookies(for: URL(string: api)!) ?? []
+        let effectiveGtk = gtk.isEmpty ? cookies.first { $0.name.uppercased() == "GTK" }?.value ?? "" : gtk
+        if !effectiveGtk.isEmpty { headers["X-Gtk"] = effectiveGtk }
+        for (key, value) in HTTPCookie.requestHeaderFields(with: cookies) { headers[key] = value }
+        let (result, response) = try await request(EcoleDirecteProtocol.url(path), method: "POST", body: EcoleDirecteProtocol.body(data), headers: headers)
         return (try json(result), response)
     }
     private func loginResult(_ response: [String: Any], header: HTTPURLResponse, identifier: String, password: String) async throws -> [String: Any] {
@@ -226,11 +232,14 @@ public class ReviseNativePlugin: CAPPlugin, CAPBridgedPlugin, QLPreviewControlle
         run(call) { [self] in
             let identifier = call.getString("identifier") ?? "", password = call.getString("password") ?? ""
             guard !identifier.isEmpty, !password.isEmpty else { throw fail("Renseigne ton identifiant et ton mot de passe.") }
-            let (_, response) = try await request(URL(string: api + "login.awp?gtk=1")!, headers: ["Origin": "https://www.ecoledirecte.com", "Referer": "https://www.ecoledirecte.com/"])
+            pending = nil
+            await MainActor.run { self.notifyListeners("loginProgress", data: ["message": "Préparation de la connexion ÉcoleDirecte…"]) }
+            let (_, response) = try await request(EcoleDirecteProtocol.url("login.awp?gtk=1"), headers: ["Accept": "application/json, text/plain, */*", "Origin": "https://www.ecoledirecte.com", "Referer": "https://www.ecoledirecte.com/"])
             let cookies = HTTPCookie.cookies(withResponseHeaderFields: response.allHeaderFields.reduce(into: [String: String]()) { result, pair in result[String(describing: pair.key)] = String(describing: pair.value) }, for: response.url!)
             for cookie in cookies { HTTPCookieStorage.shared.setCookie(cookie) }
             let gtk = (HTTPCookieStorage.shared.cookies(for: URL(string: api)!) ?? []).first { $0.name.uppercased() == "GTK" }?.value ?? ""
             guard !gtk.isEmpty else { throw fail("ÉcoleDirecte n’a pas fourni le jeton de connexion. Réessaie plus tard.") }
+            await MainActor.run { self.notifyListeners("loginProgress", data: ["message": "Vérification de tes identifiants auprès d’ÉcoleDirecte…"]) }
             let (object, header) = try await ed("login.awp", data: ["identifiant": identifier, "motdepasse": password, "isReLogin": false, "uuid": "", "fa": [["cn": "", "cv": "", "uniq": false]]], gtk: gtk)
             return try await loginResult(object, header: header, identifier: identifier, password: password)
         }
