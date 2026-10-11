@@ -972,5 +972,95 @@
     "assets/documents/pcm-ch2-exercices-source.pdf",
     "https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_16&section=recommandations"
   ]
+},
+{
+  "id": "pcm-ch3-pointage",
+  "title": "Pointage vidéo et étude d’un mouvement",
+  "subtitle": "Passer des positions aux vecteurs vitesse et accélération.",
+  "category": "Mouvements",
+  "time": 15,
+  "contexts": [
+    {
+      "year": "terminale",
+      "track": "pcm"
+    }
+  ],
+  "image": "cycle-pointage.svg",
+  "preview": false,
+  "objective": "Mesurer des positions successives, calculer des vitesses et accélérations et confronter les mesures à un modèle.",
+  "principle": "Une vidéo fournit des positions datées. Les différences finies approchent les dérivées ; la calibration et la précision du pointage conditionnent les résultats.",
+  "equipment": [
+    [
+      "Caméra fixe et trépied",
+      "Axe de prise de vue perpendiculaire au plan du mouvement."
+    ],
+    [
+      "Étalon de longueur",
+      "Règle dans le même plan que l’objet pour limiter la parallaxe."
+    ],
+    [
+      "Objet visible",
+      "Choisir toujours le même point représentatif."
+    ],
+    [
+      "Logiciel de pointage et tableur",
+      "Extraire temps, positions, unités puis tracer et calculer."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Fixer caméra et repère, placer la règle dans le plan étudié, dégager la zone de mouvement."
+    ],
+    [
+      "Calibrer les distances",
+      "Définir l’origine et le sens des axes ; utiliser une longueur connue, vérifier l’échelle."
+    ],
+    [
+      "Calibrer le temps",
+      "Vérifier les dates ou la fréquence réelle des images. Un ralenti doit être interprété avec la cadence de capture, pas seulement celle de lecture."
+    ],
+    [
+      "Pointer",
+      "Relever le même centre de l’objet sur chaque image ; corriger les points aberrants et noter les données manquantes."
+    ],
+    [
+      "Calculer les vitesses",
+      "Convertir en m et s ; utiliser les différences centrées pour les points intérieurs et une méthode explicite aux extrémités."
+    ],
+    [
+      "Calculer les accélérations",
+      "Dériver les vitesses ou utiliser une seconde différence ; examiner le bruit et documenter tout ajustement ou lissage."
+    ],
+    [
+      "Conclure",
+      "Tracer composantes, normes et vecteurs à une échelle annoncée ; comparer à un modèle en tenant compte de la précision, puis sauvegarder les données et ranger."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$$\\vec v_i\\simeq\\frac{\\vec r_{i+1}-\\vec r_{i-1}}{2\\Delta t}$$<br>$$\\vec a_i\\simeq\\frac{\\vec r_{i+1}-2\\vec r_i+\\vec r_{i-1}}{(\\Delta t)^2}$$</div><p>Valable pour un pas régulier, aux points intérieurs. Avec z vers le haut, la chute libre prévoit aₓ≈0 et a_z≈−g. Une accélération constante est compatible avec le modèle ; la qualité des mesures détermine la portée de la conclusion.</p><nav class=\"related-resources\"><a class=\"chip\" href=\"#chapter/terminale-pcm-ch3/cours\">Cours Mouvements</a><a class=\"chip\" href=\"#chapter/maths-vecteurs/cours\">Vecteurs</a><a class=\"chip\" href=\"#chapter/maths-derivees/cours\">Dérivées</a></nav>",
+  "errors": [
+    "Règle dans un autre plan que la trajectoire.",
+    "Mauvaise cadence lors d’une vidéo ralentie.",
+    "Changer de point suivi ou de sens des axes.",
+    "Confondre composante négative et norme négative.",
+    "Oublier le facteur2 ou le carré de Δt.",
+    "Masquer le bruit par un lissage sans l’annoncer."
+  ],
+  "question": "Pourquoi une vitesse peut-elle changer de direction avec une norme constante ?",
+  "answer": "Dans un mouvement circulaire uniforme, les tangentes tournent. Le vecteur vitesse change, donc l’accélération est non nulle malgré une norme constante.",
+  "check": [
+    "Je calibre longueur et dates.",
+    "Je définis un repère et ses signes.",
+    "Je pointe le même point.",
+    "Je choisis une méthode de dérivation adaptée.",
+    "Je trace les vecteurs à l’échelle.",
+    "Je confronte mesures et modèle avec leur précision."
+  ],
+  "safety": "Stabiliser la caméra et dégager la zone. Utiliser un objet et un mouvement adaptés au laboratoire ; personne dans la trajectoire. L’exercice du puits est un calcul, pas une manipulation à reproduire.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cycle-doc-21.pdf",
+    "assets/documents/cycle-doc-22.pdf"
+  ]
 }
 ]
