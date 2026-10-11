@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-maths-suites-1";
+const VERSION = "2026-10-11-pcm-ch2-acides-bases-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -177,7 +177,18 @@ const ASSETS = [
   "./assets/diagrams/maths-suites-synthese-moyennes.png",
   "./assets/diagrams/maths-suites-synthese-sommes.png",
   "./assets/documents/maths-suites-partie-1-source.pptx",
-  "./assets/documents/maths-suites-partie-2-source.pptx"
+  "./assets/documents/maths-suites-partie-2-source.pptx",
+  "./assets/diagrams/pcm-ch2-carte-mentale.png",
+  "./assets/diagrams/pcm-ch2-dilution.svg",
+  "./assets/diagrams/pcm-ch2-edta-montage.svg",
+  "./assets/diagrams/pcm-ch2-edta-predominance.svg",
+  "./assets/diagrams/pcm-ch2-lactique.svg",
+  "./assets/diagrams/pcm-ch2-predominance.svg",
+  "./assets/diagrams/pcm-ch2-tampon-preparation.svg",
+  "./assets/diagrams/pcm-ch2-tampon.svg",
+  "./assets/documents/pcm-ch2-carte-mentale-source.pdf",
+  "./assets/documents/pcm-ch2-cours-source.pdf",
+  "./assets/documents/pcm-ch2-exercices-source.pdf"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
