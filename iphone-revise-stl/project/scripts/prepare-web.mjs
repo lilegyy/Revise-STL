@@ -10,7 +10,7 @@ for(const name of ['vendor','assets/fonts'])await fs.cp(path.join(source,name),p
 await fs.copyFile(path.join(source,'assets/icon.svg'),path.join(destination,'assets/icon.svg'));
 await fs.cp('web',destination,{recursive:true});
 let index=await fs.readFile(path.join(destination,'index.html'),'utf8');
-index=index.replace('<script defer src="app.js"></script>','<script src="native-adapter.js"></script>\n    <script defer src="app.js"></script>');
+index=index.replace('<script defer src="app.js"></script>','<script src="native-client.js"></script>\n    <script src="native-adapter.js"></script>\n    <script defer src="app.js"></script>');
 await fs.writeFile(path.join(destination,'index.html'),index);
 let app=await fs.readFile(path.join(destination,'app.js'),'utf8');
 app=app.replace('async function setupOffline() {','async function setupOffline() {\n  if (window.Capacitor?.isNativePlatform()) { offlineReady = false; document.querySelector("#network-status").textContent = navigator.onLine ? "Cours enregistrés" : "Mode hors ligne"; return; }');

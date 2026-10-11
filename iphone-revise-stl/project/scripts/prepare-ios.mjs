@@ -2,6 +2,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 const destination='ios/App/App';
 await fs.mkdir(destination,{recursive:true});
+// Enregistrer aussi le module pendant l'initialisation du pont Capacitor.
+const configFile=destination+'/capacitor.config.json';
+const config=JSON.parse(await fs.readFile(configFile,'utf8'));
+config.packageClassList=[...new Set([...(config.packageClassList||[]),'ReviseNativePlugin'])];
+await fs.writeFile(configFile,JSON.stringify(config,null,2));
 for(const name of ['ViewController.swift','ReviseNativePlugin.swift','PrivacyInfo.xcprivacy'])await fs.copyFile(path.join('native',name),path.join(destination,name));
 // Les fichiers Swift ajoutés doivent être des membres de la cible Xcode.
 const project='ios/App/App.xcodeproj/project.pbxproj';
@@ -24,6 +29,7 @@ await fs.writeFile(project,text);
 let plist=await fs.readFile(destination+'/Info.plist','utf8');
 plist=plist.replace(/\s*<key>ITSAppUsesNonExemptEncryption<\/key>\s*<false\s*\/>/g,'');
 plist=plist.replace('</dict>\n</plist>','<key>ITSAppUsesNonExemptEncryption</key><false/>\n</dict>\n</plist>');
+plist=plist.replace(/(<key>CFBundleShortVersionString<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'1.0.1'+b).replace(/(<key>CFBundleVersion<\/key>\s*<string>)[^<]*(<\/string>)/,(_,a,b)=>a+'2'+b);
 await fs.writeFile(destination+'/Info.plist',plist);
 const storyboard=destination+'/Base.lproj/Main.storyboard';
 let scene=await fs.readFile(storyboard,'utf8');
