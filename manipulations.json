@@ -671,5 +671,99 @@
     "sources": [
       "https://spcl.ac-montpellier.fr/moodle/pluginfile.php/3361/mod_resource/content/6/CH4%20Separation%20et%20purification_synthese.pdf"
     ]
-  }
+  },
+{
+  "id": "hydrodistillation",
+  "title": "Hydrodistillation d’une huile essentielle",
+  "subtitle": "Isoler les composés volatils d’un végétal et reconnaître les étapes de séparation.",
+  "category": "Séparation",
+  "contexts": [
+    {
+      "year": "terminale",
+      "track": "pcm"
+    },
+    {
+      "year": "terminale",
+      "track": "spcl"
+    }
+  ],
+  "time": 10,
+  "image": "pcm-ch1-hydrodistillation.svg",
+  "preview": false,
+  "objective": "Comprendre l’isolement d’une huile essentielle, par exemple à partir d’écorces d’agrumes, et expliquer le rôle de chaque élément du montage.",
+  "principle": "En hydrodistillation, eau et matière végétale sont dans le même ballon. Le chauffage produit des vapeurs contenant eau et composés volatils, qui sont condensées dans le réfrigérant. L’entraînement à la vapeur au sens strict utilise un générateur de vapeur séparé : distinguer les deux montages.",
+  "equipment": [
+    [
+      "Ballon et chauffage électrique",
+      "Reçoivent l’eau et le végétal ; permettent une ébullition régulière."
+    ],
+    [
+      "Agitation ou dispositif anti-bouillonnement prévu",
+      "Régularisent l’ébullition ; mettre le dispositif en place avant le chauffage selon le sujet."
+    ],
+    [
+      "Tête de distillation et réfrigérant à eau",
+      "Conduisent les vapeurs puis les condensent ; entrée d’eau au point bas, sortie au point haut."
+    ],
+    [
+      "Supports et pinces",
+      "Stabilisent la verrerie et les tuyaux."
+    ],
+    [
+      "Récepteur ouvert",
+      "Recueille le distillat sans enfermer les vapeurs sous pression."
+    ],
+    [
+      "Matériel de séparation demandé",
+      "Ampoule à décanter, éventuellement solvant et desséchant si le protocole les prévoit."
+    ]
+  ],
+  "steps": [
+    [
+      "Lire le protocole",
+      "Identifier les masses, volumes, végétal, matériel et critères d’arrêt prescrits. Le document du chapitre mentionne la technique, mais ne fournit pas un protocole chiffré."
+    ],
+    [
+      "Préparer le mélange",
+      "Introduire le végétal et l’eau en quantité prescrite. Prévoir une marge suffisante pour l’ébullition et préparer la régulation du bouillonnement avant chauffage."
+    ],
+    [
+      "Monter et faire contrôler",
+      "Fixer le ballon et le réfrigérant, raccorder l’eau correctement et maintenir une communication avec l’atmosphère. Faire valider le montage avant de chauffer si le sujet le demande."
+    ],
+    [
+      "Chauffer et condenser",
+      "Ouvrir l’eau avant chauffage. Régler pour obtenir une distillation régulière ; surveiller les raccords, le volume d’eau restant et le recueil du distillat."
+    ],
+    [
+      "Recueillir puis arrêter",
+      "Recueillir la fraction demandée et noter les observations. Arrêter le chauffage avant épuisement du liquide ; conserver le refroidissement pendant la disparition des vapeurs puis laisser refroidir."
+    ],
+    [
+      "Séparer et caractériser",
+      "Suivre la séparation prescrite : décantation directe ou extraction si nécessaire, puis séchage éventuel. Identifier les phases à partir des données du sujet. Mesurer et contrôler le produit selon les consignes ; trier les déchets."
+    ]
+  ],
+  "exploitation": "<p>Le distillat peut être trouble ou présenter des gouttelettes d’huile ; la couche organique peut être trop faible pour une décantation directe. La présence de deux phases dépend de la quantité et de la composition. Ne pas affirmer qu’une huile essentielle est du limonène pur ni que la distillation sépare ses énantiomères.</p><div class=\"formula-box\">Pour un rendement massique d’extraction défini relativement à la masse de végétal : $$r_m=\\frac{m_{\\mathrm{huile\\ sèche}}}{m_{\\mathrm{végétal\\ utilisé}}}\\times100\\,\\%$$ Ce rapport n’est pas un rendement de réaction chimique. L’utiliser seulement si cette définition et les données sont fournies.</div><p>Une identification peut s’appuyer sur une chromatographie ou une analyse adaptée. Attribuer R/S exige une structure et une analyse stéréochimique ; l’odeur ne suffit pas.</p>",
+  "errors": [
+    "Confondre hydrodistillation et chauffage à reflux : ici, le condensat est recueilli dans un autre récipient.",
+    "Inverser l’arrivée et la sortie d’eau du réfrigérant ou laisser un tuyau mal fixé.",
+    "Fermer le montage ou chauffer jusqu’à disparition de toute l’eau.",
+    "Ajouter des grains anti-bouillonnement dans un liquide déjà très chaud.",
+    "Confondre huile essentielle, espèce pure et énantiomère pur."
+  ],
+  "question": "Cette distillation permet-elle de séparer les deux énantiomères du limonène ?",
+  "answer": "Non, une distillation dans un environnement achiral ne distingue pas des énantiomères ayant les mêmes propriétés physiques usuelles. Elle isole des composés volatils ; une séparation énantiomérique nécessite une méthode adaptée à la chiralité.",
+  "check": [
+    "Je distingue hydrodistillation, entraînement à la vapeur et reflux.",
+    "Je repère entrée et sortie d’eau du réfrigérant.",
+    "Je sais pourquoi le montage reste ouvert et pourquoi on ne chauffe pas à sec.",
+    "Je distingue extraction d’une huile, purification et séparation énantiomérique."
+  ],
+  "safety": "Blouse et lunettes ; pas de flamme près de composés ou solvants inflammables. Verrerie chaude, tuyaux et montage doivent être surveillés. Quantités, dangers du végétal et des solvants, réglages et appels à l’examinateur suivent le sujet et les consignes du laboratoire.",
+  "originals": [],
+  "sources": [
+    "https://tice.ac-montpellier.fr/ABCDORGA/Famille/Tp/TPentraint.htm"
+  ]
+}
 ]
