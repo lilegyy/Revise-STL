@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-maths-ch3-ln-exp-1";
+const VERSION = "2026-10-11-cycle-mouvements-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -206,7 +206,47 @@ const ASSETS = [
   "./assets/diagrams/maths-ch3-tangente65.svg",
   "./assets/diagrams/maths-ch3-tangente66.svg",
   "./assets/documents/maths-ch3-bases-source.pptx",
-  "./assets/documents/maths-ch3-exponentielle-source.pptx"
+  "./assets/documents/maths-ch3-exponentielle-source.pptx",
+  "./assets/diagrams/cycle-arbre.svg",
+  "./assets/diagrams/cycle-cercle.svg",
+  "./assets/diagrams/cycle-chute.svg",
+  "./assets/diagrams/cycle-doc18-page3.png",
+  "./assets/diagrams/cycle-doc18-page4.png",
+  "./assets/diagrams/cycle-doc18-page6.png",
+  "./assets/diagrams/cycle-doc22-page1.png",
+  "./assets/diagrams/cycle-doc22-page2.png",
+  "./assets/diagrams/cycle-doc22-page3.png",
+  "./assets/diagrams/cycle-euler.svg",
+  "./assets/diagrams/cycle-fonction.svg",
+  "./assets/diagrams/cycle-paraboles.svg",
+  "./assets/diagrams/cycle-pointage.svg",
+  "./assets/diagrams/cycle-sinus.svg",
+  "./assets/diagrams/cycle-statistiques.svg",
+  "./assets/diagrams/cycle-suite.svg",
+  "./assets/diagrams/cycle-tangente.svg",
+  "./assets/diagrams/cycle-vecteurs.svg",
+  "./assets/documents/cycle-doc-01.pdf",
+  "./assets/documents/cycle-doc-02.pdf",
+  "./assets/documents/cycle-doc-03.pdf",
+  "./assets/documents/cycle-doc-04.pdf",
+  "./assets/documents/cycle-doc-05.pdf",
+  "./assets/documents/cycle-doc-06.pdf",
+  "./assets/documents/cycle-doc-07.pdf",
+  "./assets/documents/cycle-doc-08.pdf",
+  "./assets/documents/cycle-doc-09.pdf",
+  "./assets/documents/cycle-doc-10.pdf",
+  "./assets/documents/cycle-doc-11.pdf",
+  "./assets/documents/cycle-doc-12.pdf",
+  "./assets/documents/cycle-doc-13.pdf",
+  "./assets/documents/cycle-doc-14.pdf",
+  "./assets/documents/cycle-doc-15.pdf",
+  "./assets/documents/cycle-doc-16.pdf",
+  "./assets/documents/cycle-doc-17.pdf",
+  "./assets/documents/cycle-doc-18.pdf",
+  "./assets/documents/cycle-doc-19.pdf",
+  "./assets/documents/cycle-doc-20.pdf",
+  "./assets/documents/cycle-doc-21.pdf",
+  "./assets/documents/cycle-doc-22.pdf"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
