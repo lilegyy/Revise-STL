@@ -1,0 +1,52 @@
+name: Fabriquer Révise STL pour AltStore
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  iphone:
+    runs-on: macos-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: iphone-revise-stl/project
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: iphone-revise-stl/project/package-lock.json
+      - name: Choisir Xcode 26 ou plus récent
+        run: |
+          CANDIDATE=$(find /Applications -maxdepth 1 -name 'Xcode_26*.app' | sort -V | tail -n 1)
+          if [ -n "$CANDIDATE" ]; then sudo xcode-select -s "$CANDIDATE/Contents/Developer"; fi
+          xcodebuild -version
+          xcodebuild -version | head -n 1 | awk '{if ($2+0 < 26) exit 1}'
+      - name: Préparer l’interface depuis le dépôt
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          node --test tests/grades.test.cjs
+          npm run prepare:web
+          npx cap add ios
+          npm run prepare:ios
+      - name: Vérifier le projet et compiler pour iPhone
+        run: |
+          plutil -lint ios/App/App.xcodeproj/project.pbxproj
+          plutil -lint ios/App/App/PrivacyInfo.xcprivacy
+          xcodebuild -resolvePackageDependencies -project ios/App/App.xcodeproj -scheme App
+          xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath build CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO build
+      - name: Préparer le fichier IPA à signer par AltStore
+        run: |
+          mkdir -p dist/Payload
+          cp -R build/Build/Products/Release-iphoneos/App.app dist/Payload/ReviseSTL.app
+          /usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' dist/Payload/ReviseSTL.app/Info.plist
+          cd dist
+          ditto -c -k --sequesterRsrc --keepParent Payload Revise-STL-AltStore.ipa
+          unzip -t Revise-STL-AltStore.ipa
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Revise-STL-AltStore
+          path: iphone-revise-stl/project/dist/Revise-STL-AltStore.ipa
+          if-no-files-found: error
+          retention-days: 14
