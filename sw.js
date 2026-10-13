@@ -1,6 +1,6 @@
 'use strict';
 // Incrémenter VERSION après chaque publication pour renouveler le cache.
-const VERSION = "2026-10-11-solubilite-1";
+const VERSION = "2026-10-13-mi-premiere-1";
 const PREFIX = 'revise-stl-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
 const CACHE = PREFIX + VERSION;
 const ASSETS = [
@@ -254,7 +254,29 @@ const ASSETS = [
   "./assets/diagrams/solubilite-saturation.svg",
   "./assets/diagrams/solubilite-tubes.svg",
   "./assets/documents/solubilite-exercices-source.pdf",
-  "./assets/documents/solubilite-synthese-source.pdf"
+  "./assets/documents/solubilite-synthese-source.pdf",
+  "./assets/diagrams/mi-can.svg",
+  "./assets/diagrams/mi-capteur.svg",
+  "./assets/diagrams/mi-chaine.svg",
+  "./assets/diagrams/mi-cibles.svg",
+  "./assets/diagrams/mi-diviseur.svg",
+  "./assets/diagrams/mi-etalonnage.svg",
+  "./assets/diagrams/mi-hysteresis.svg",
+  "./assets/diagrams/mi-jauge.svg",
+  "./assets/diagrams/mi-reg-iode.svg",
+  "./assets/diagrams/mi-reg-pt100.svg",
+  "./assets/diagrams/mi-reg-transmetteur.svg",
+  "./assets/diagrams/mi-spectro.svg",
+  "./assets/diagrams/mi-tor-boucle.svg",
+  "./assets/documents/mi-seq3_exercices.pdf",
+  "./assets/documents/mi-seq3_synthese_.pdf",
+  "./assets/documents/mi-seq_1_exercices.pdf",
+  "./assets/documents/mi-seq_1_synthese_.pdf",
+  "./assets/documents/mi-seq_2_exercices.pdf",
+  "./assets/documents/mi-seq_2_synthese_.pdf",
+  "./assets/documents/mi-seq_4_exercices.pdf",
+  "./assets/documents/mi-seq_4_synthese.pdf",
+  "./assets/documents/mi-seq_5_synthese.pdf"
 ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
