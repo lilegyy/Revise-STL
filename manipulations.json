@@ -1249,5 +1249,438 @@
   "sources": [
     "assets/documents/solubilite-exercices-source.pdf"
   ]
+},
+{
+  "id": "mi-serie-mesures",
+  "title": "Réaliser une série et évaluer une incertitude",
+  "subtitle": "Répéter, calculer la dispersion et interpréter sans supprimer arbitrairement.",
+  "category": "Mesure & instrumentation",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "mi-cibles.svg",
+  "preview": false,
+  "objective": "Évaluer une incertitude-type A sur une moyenne et confronter le résultat à une référence.",
+  "principle": "Des répétitions comparables révèlent une dispersion aléatoire ; la moyenne et l’écart-type expérimental décrivent la série.",
+  "equipment": [
+    [
+      "Instrument et objet mesuré",
+      "Définir la grandeur, le calibre et l’unité."
+    ],
+    [
+      "Référence ou étalon",
+      "Comparer à une valeur assortie de son incertitude."
+    ],
+    [
+      "Tableur/calculatrice",
+      "Calculer moyenne et écart-type n−1."
+    ],
+    [
+      "Fiche de relevés",
+      "Conserver toutes les données brutes et observations."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Choisir le protocole, stabiliser les conditions, noter instrument, calibre, unité et référence."
+    ],
+    [
+      "Répéter",
+      "Refaire des mesures indépendantes avec le même protocole ; conserver chaque valeur, date et observation."
+    ],
+    [
+      "Contrôler",
+      "Rechercher une cause aux valeurs suspectes. Ne rejeter une valeur qu’avec une justification explicite."
+    ],
+    [
+      "Calculer",
+      "Déterminer moyenne, écart-type expérimental et uA de la moyenne ; conserver les chiffres intermédiaires."
+    ],
+    [
+      "Conclure",
+      "Comparer l’écart à la référence au critère demandé, annoncer les autres sources d’incertitude et arrondir à la fin."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$u_A(\\bar x)=s_{exp}/\\sqrt n$ ; présentation : $x=\\bar x$ avec $u_A(x)$ dans la même unité.</div><a class=\"chip\" href=\"#chapter/premiere-mi-ch1/cours\">Cours et exercices</a>",
+  "errors": [
+    "Confondre s et uA.",
+    "Employer n au lieu de n−1 dans s expérimental.",
+    "Écarter une mesure seulement pour améliorer la conclusion.",
+    "Oublier un biais ou l’incertitude de la référence."
+  ],
+  "question": "Pourquoi davantage de répétitions ne supprime-t-il pas un biais ?",
+  "answer": "Un biais décale toutes les mesures ; la moyenne réduit la dispersion aléatoire, pas ce décalage.",
+  "check": [
+    "Je garde mes données brutes.",
+    "Je annonce mes éventuels rejets.",
+    "Je utilise l’écart-type expérimental.",
+    "Je distingue dispersion et incertitude de la moyenne.",
+    "Je conclus selon un critère annoncé."
+  ],
+  "safety": "Appliquer les règles liées à la grandeur et au dispositif mesurés. Pour une mesure électrique, respecter calibres, branchements et alimentation autorisée.",
+  "originals": [],
+  "sources": [
+    "assets/documents/mi-seq_1_synthese_.pdf",
+    "assets/documents/mi-seq_1_exercices.pdf"
+  ]
+},
+{
+  "id": "mi-etalonnage-temperature",
+  "title": "Étalonner une chaîne de température",
+  "subtitle": "Comparer à un thermomètre de référence et inverser la droite obtenue.",
+  "category": "Mesure & instrumentation",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "mi-etalonnage.svg",
+  "preview": false,
+  "objective": "Construire une relation sortie/température sur une plage et calculer une température inconnue.",
+  "principle": "Le capteur étudié et le thermomètre de référence mesurent le même milieu stabilisé.",
+  "equipment": [
+    [
+      "Bain thermostaté et agitation",
+      "Obtenir plusieurs températures homogènes dans la plage autorisée."
+    ],
+    [
+      "Thermomètre de référence",
+      "Fournir la température et son incertitude."
+    ],
+    [
+      "Pt100 ou capteur étudié + conditionneur",
+      "Convertir la température en résistance, courant ou tension."
+    ],
+    [
+      "Multimètre ou acquisition",
+      "Mesurer la sortie sur le calibre adapté."
+    ],
+    [
+      "Tableur",
+      "Tracer S(θ), ajuster la droite et examiner les résidus."
+    ]
+  ],
+  "steps": [
+    [
+      "Vérifier",
+      "Repérer la sortie et les branchements, limites de température, alimentation, référence et incertitudes."
+    ],
+    [
+      "Installer",
+      "Placer les deux sondes proches sans contact direct avec les parois ; assurer une immersion suffisante."
+    ],
+    [
+      "Acquérir",
+      "Faire varier la température par plusieurs paliers ; attendre l’équilibre et relever les paires θ/S."
+    ],
+    [
+      "Ajuster",
+      "Tracer la sortie en fonction de θ ; ajuster sans imposer b = 0 et vérifier les résidus et le domaine."
+    ],
+    [
+      "Mesurer",
+      "Lire la sortie de l’échantillon inconnu et appliquer θ = (S−b)/a seulement dans la plage étalonnée."
+    ],
+    [
+      "Évaluer",
+      "Calculer la composante u(S)/|a| et mentionner références, coefficients et modèle pour le bilan complet."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$S=a\\theta+b$ ; $k=a$ ; $\\theta=(S-b)/a$ ; $u(\\theta)=u(S)/|a|$ si a et b sont tenus pour exacts.</div><a class=\"chip\" href=\"#chapter/premiere-mi-ch3/cours\">Cours d’étalonnage</a>",
+  "errors": [
+    "Mesurer avant stabilisation.",
+    "Confondre température de consigne du bain et mesure de référence.",
+    "Tracer la courbe inverse sans corriger la sensibilité.",
+    "Extrapoler hors gamme.",
+    "Utiliser un ohmmètre sur un capteur alimenté."
+  ],
+  "question": "Pourquoi attendre à chaque palier ?",
+  "answer": "La sonde doit atteindre l’équilibre thermique avec le milieu pour que chaque paire θ/S représente le même état.",
+  "check": [
+    "Je vérifie les limites de la sonde.",
+    "Je attends la stabilisation.",
+    "Je relève les unités.",
+    "Je conserve la régression et ses résidus.",
+    "Je n’extrapole pas.",
+    "Je indique les hypothèses d’incertitude."
+  ],
+  "safety": "Bain et eau chaude : prévenir brûlures et projections ; maintenir les connexions électriques au sec et utiliser exclusivement une alimentation pédagogique adaptée.",
+  "originals": [],
+  "sources": [
+    "assets/documents/mi-seq3_synthese_.pdf",
+    "assets/documents/mi-seq3_exercices.pdf"
+  ]
+},
+{
+  "id": "mi-spectrophotometrie",
+  "title": "Dosage par étalonnage spectrophotométrique",
+  "subtitle": "Diluer, réaliser le blanc, ajuster A(C) et retrouver la concentration initiale.",
+  "category": "Mesure & instrumentation",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "mi-spectro.svg",
+  "preview": false,
+  "objective": "Déterminer une concentration de diiode à partir d’une gamme d’étalonnage et d’une dilution connue.",
+  "principle": "Dans le domaine vérifié, l’absorbance à longueur d’onde fixée est reliée à la concentration par un modèle expérimental.",
+  "equipment": [
+    [
+      "Solution mère et solutions étalons",
+      "Concentrations de référence connues."
+    ],
+    [
+      "Burette ou pipette adaptée et propipette",
+      "Prélever précisément sans pipetage à la bouche."
+    ],
+    [
+      "Fioles jaugées et eau distillée",
+      "Préparer des volumes finaux connus."
+    ],
+    [
+      "Spectrophotomètre et cuves compatibles",
+      "Mesurer A à 470 nm dans l’exercice fourni."
+    ],
+    [
+      "Échantillon dilué et tableur",
+      "Interpoler puis appliquer le facteur de dilution."
+    ]
+  ],
+  "steps": [
+    [
+      "Planifier",
+      "Calculer V0 = CfVf/C0 pour chaque étalon et noter les références ; préparer le facteur de dilution de l’échantillon."
+    ],
+    [
+      "Diluer",
+      "Rincer le matériel adapté, prélever le volume prévu, transférer en fiole, compléter au trait et homogénéiser."
+    ],
+    [
+      "Faire le blanc",
+      "Régler la longueur d’onde ; utiliser une cuve propre contenant le solvant et les réactifs nécessaires hors espèce dosée."
+    ],
+    [
+      "Mesurer",
+      "Rincer chaque cuve avec la solution, retirer bulles et traces, conserver l’orientation et relever les absorbances."
+    ],
+    [
+      "Modéliser",
+      "Ajuster A = aC + b ; contrôler les résidus et l’intercept ; ne pas forcer b = 0 sans justification."
+    ],
+    [
+      "Exploiter",
+      "Mesurer l’échantillon dans la gamme, calculer C diluée puis C initiale ; annoncer les unités et limites du modèle."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$C_0V_0=C_fV_f$ ; $C_{diluée}=(A-b)/a$ ; $C_{initiale}=F C_{diluée}$.</div><p>Données et résultats détaillés : exercice 3 du chapitre 3. Le protocole de laboratoire doit préciser concentrations, matériel, risques et collecte des déchets.</p><a class=\"chip\" href=\"#chapter/premiere-mi-ch3/cours\">Étalonnage et diiode</a>",
+  "errors": [
+    "Oublier le blanc.",
+    "Cuve sale, bulles ou orientation variable.",
+    "Dilution mal tracée.",
+    "Échantillon hors gamme.",
+    "Ignorer un intercept important."
+  ],
+  "question": "Pourquoi mesurer les étalons et l’échantillon à la même longueur d’onde ?",
+  "answer": "La réponse et la pente d’étalonnage dépendent de la longueur d’onde ; changer celle-ci invalide la relation utilisée.",
+  "check": [
+    "Je calcule chaque prélèvement.",
+    "Je prépare le blanc adapté.",
+    "Je nettoie les faces optiques.",
+    "Je vérifie que l’échantillon est dans la gamme.",
+    "Je multiplie par le facteur de dilution.",
+    "Je collecte les solutions selon les consignes."
+  ],
+  "safety": "Blouse et lunettes ; consulter les dangers des solutions iodées et du solvant. Ne jamais pipeter à la bouche ; collecte des déchets suivant le protocole du laboratoire.",
+  "originals": [],
+  "sources": [
+    "assets/documents/mi-seq3_exercices.pdf"
+  ]
+},
+{
+  "id": "mi-chaine-ctn",
+  "title": "Construire une chaîne de température avec CTN",
+  "subtitle": "Pont diviseur, acquisition, conversion et contrôle de la gamme.",
+  "category": "Mesure & instrumentation",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "mi-diviseur.svg",
+  "preview": false,
+  "objective": "Transformer une résistance de CTN en tension compatible avec le CAN et exploiter un modèle de température.",
+  "principle": "Une CTN et une résistance fixe forment un pont diviseur dont la tension varie avec la température.",
+  "equipment": [
+    [
+      "CTN et résistance fixe",
+      "Former le pont dans la plage autorisée."
+    ],
+    [
+      "Alimentation 5 V pédagogique",
+      "Fournir UG et une référence commune."
+    ],
+    [
+      "Voltmètre haute impédance",
+      "Contrôler UCTN sans charger significativement le pont."
+    ],
+    [
+      "CAN/interface et ordinateur",
+      "Numériser puis calculer la température."
+    ],
+    [
+      "Thermomètre de référence et bain",
+      "Vérifier le modèle sur plusieurs paliers."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Lire les limites CTN/CAN, choisir la résistance et couper l’alimentation avant câblage."
+    ],
+    [
+      "Câbler",
+      "Monter R et CTN en série sur 5 V ; prélever U aux bornes de la CTN ; vérifier la masse commune."
+    ],
+    [
+      "Contrôler",
+      "Avant raccordement au CAN, mesurer la tension et vérifier toute sa plage 0–5 V."
+    ],
+    [
+      "Étalonner",
+      "Relever U et température de référence à plusieurs paliers stabilisés ; déterminer la relation adaptée au montage réel."
+    ],
+    [
+      "Acquérir",
+      "Configurer N bits, gamme et cadence ; appliquer la conversion du modèle et conserver les valeurs brutes."
+    ],
+    [
+      "Conclure",
+      "Calculer Q, la variation de température par code et discuter modèle, chargement du pont et incertitudes."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$U_{CTN}=U_G R_{CTN}/(R+R_{CTN})$ ; $Q=5/2^N$ ; $\\Delta\\theta_{min}\\simeq Q/|k|$.</div><p>La droite U = −0,0436θ + 4,3531 est celle du document, pas une calibration universelle de toutes les CTN.</p><a class=\"chip\" href=\"#chapter/premiere-mi-ch4/cours\">Chaîne de mesure</a>",
+  "errors": [
+    "Brancher la résistance directement à une entrée de tension.",
+    "Dépasser la gamme du CAN.",
+    "Oublier la masse commune.",
+    "Appliquer la droite du document à une autre CTN sans vérifier.",
+    "Oublier l’auto-échauffement du capteur."
+  ],
+  "question": "Pourquoi vérifier U avant de connecter le CAN ?",
+  "answer": "La tension doit rester dans la gamme et respecter les limites absolues d’entrée pour éviter saturation et détérioration.",
+  "check": [
+    "Je vérifie le montage hors tension.",
+    "Je identifie la sortie du pont.",
+    "Je contrôle la plage électrique.",
+    "Je étalonne le montage réel.",
+    "Je distingue résolution et incertitude."
+  ],
+  "safety": "Utiliser uniquement basse tension pédagogique, matériel compatible et connexions au sec. Ne pas mesurer R à l’ohmmètre sur le circuit alimenté ; respecter les limites absolues d’entrée de l’interface.",
+  "originals": [],
+  "sources": [
+    "assets/documents/mi-seq_2_synthese_.pdf",
+    "assets/documents/mi-seq_4_synthese.pdf",
+    "assets/documents/mi-seq_4_exercices.pdf"
+  ]
+},
+{
+  "id": "mi-regulation-tor",
+  "title": "Étudier une régulation TOR à deux seuils",
+  "subtitle": "Mesurer, conserver l’état entre les seuils et suivre l’évolution.",
+  "category": "Mesure & instrumentation",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "mi-tor-boucle.svg",
+  "preview": false,
+  "objective": "Observer la différence entre seuil unique et hystérésis sur un dispositif pédagogique de chauffage.",
+  "principle": "La commande allume ou éteint l’actionneur selon la mesure et son état précédent dans une boucle fermée.",
+  "equipment": [
+    [
+      "Capteur et chaîne étalonnée",
+      "Mesurer la grandeur régulée."
+    ],
+    [
+      "Dispositif de commande pédagogique",
+      "Comparer aux seuils et mémoriser l’état."
+    ],
+    [
+      "Actionneur basse tension et interface adaptée",
+      "Agir sur le système sans alimenter la puissance depuis une broche de calcul."
+    ],
+    [
+      "Acquisition ou journal de mesures",
+      "Relever temps, mesure et commande."
+    ],
+    [
+      "Référence indépendante",
+      "Contrôler la grandeur et les limites expérimentales."
+    ]
+  ],
+  "steps": [
+    [
+      "Définir",
+      "Choisir une plage autorisée, Cbas < Chaut, la logique chauffage/refroidissement et l’état initial."
+    ],
+    [
+      "Vérifier",
+      "Contrôler la mesure et ses unités, les limites de fonctionnement et le montage pédagogique avant alimentation."
+    ],
+    [
+      "Programmer",
+      "Pour le chauffage : activer sous le seuil bas, arrêter au seuil haut, conserver l’état dans la bande."
+    ],
+    [
+      "Observer",
+      "Enregistrer X(t) et Y(t) ; noter les instants de commutation et les dépassements éventuels."
+    ],
+    [
+      "Comparer",
+      "Comparer une configuration à un seuil à celle avec hystérésis dans les mêmes conditions ; discuter bruit, retard et largeur de bande."
+    ],
+    [
+      "Arrêter",
+      "Couper la commande et l’alimentation selon le protocole, laisser refroidir et sauvegarder les relevés."
+    ]
+  ],
+  "exploitation": "<p>Exemple de cours : Cbas = 19 °C, Chaut = 21 °C. Les limites réellement autorisées sont celles du dispositif de TP.</p><div class=\"formula-box\">$X\\le C_{bas}\\Rightarrow Y=100\\%$ ; $X\\ge C_{haut}\\Rightarrow Y=0\\%$ ; dans la bande, Y garde sa valeur précédente.</div><a class=\"chip\" href=\"#chapter/premiere-mi-ch5/cours\">Régulation TOR</a>",
+  "errors": [
+    "Inverser les seuils ou la logique de chauffage.",
+    "Oublier l’état initial.",
+    "Recalculer arbitrairement Y dans la bande.",
+    "Choisir une bande trop étroite.",
+    "Confondre dépassement dû à l’inertie et erreur de code."
+  ],
+  "question": "Pourquoi deux mesures identiques peuvent-elles conduire à des commandes différentes ?",
+  "answer": "Dans la bande d’hystérésis, la commande dépend de l’état précédent, donc de l’historique du système.",
+  "check": [
+    "Je définis les deux seuils dans l’ordre.",
+    "Je définis l’état initial.",
+    "Je conserve l’état dans la bande.",
+    "Je trace mesure et commande ensemble.",
+    "Je distingue bruit et inertie.",
+    "Je coupe l’alimentation en fin d’essai."
+  ],
+  "safety": "Montage pédagogique basse tension exclusivement, avec actionneur et interface prescrits. Aucune intervention sur le secteur. Respecter les limites thermiques et garder les connexions hors des zones humides.",
+  "originals": [],
+  "sources": [
+    "assets/documents/mi-seq_5_synthese.pdf"
+  ]
 }
 ]
