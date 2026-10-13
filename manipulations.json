@@ -1682,5 +1682,619 @@
   "sources": [
     "assets/documents/mi-seq_5_synthese.pdf"
   ]
+},
+{
+  "id": "image-focale-lointain",
+  "title": "Estimer une focale avec un objet lointain",
+  "subtitle": "Identifier la lentille, recueillir l’image et mesurer depuis son centre optique.",
+  "category": "Optique · Image",
+  "time": 20,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-objet-lointain.svg",
+  "preview": false,
+  "objective": "Identifier une lentille divergente et comparer les focales de deux lentilles convergentes.",
+  "principle": "Pour un objet suffisamment lointain, les rayons incidents sont quasi parallèles ; l’image nette se forme près du plan focal image.",
+  "equipment": [
+    [
+      "Deux lentilles convergentes et une divergente",
+      "Comparer les profils, puis confirmer leur action optique."
+    ],
+    [
+      "Supports stables",
+      "Garder les lentilles verticales sans toucher les surfaces optiques."
+    ],
+    [
+      "Objet lointain prescrit (luminaire de salle)",
+      "Fournir un faisceau presque parallèle sans utiliser le Soleil."
+    ],
+    [
+      "Écran blanc mobile",
+      "Recueillir l’image réelle et rechercher la netteté."
+    ],
+    [
+      "Règle ou mètre",
+      "Mesurer la distance entre centre de lentille et écran."
+    ]
+  ],
+  "steps": [
+    [
+      "Identifier",
+      "Repérer la lentille à centre mince et bords épais ; dans l’air elle est divergente. Vérifier au besoin son action par la méthode autorisée."
+    ],
+    [
+      "Viser",
+      "Choisir l’objet éloigné prévu par le sujet ; placer la lentille puis l’écran du côté où se propage la lumière."
+    ],
+    [
+      "Chercher",
+      "Déplacer l’écran jusqu’à obtenir une image la plus nette possible ; garder l’ensemble stable."
+    ],
+    [
+      "Mesurer",
+      "Relever la distance centre optique–écran et l’unité ; annoncer qu’il s’agit d’une estimation puisque l’objet n’est pas réellement à l’infini."
+    ],
+    [
+      "Comparer",
+      "Recommencer pour l’autre convergente ; conserver celle dont la distance lentille–image est la plus grande."
+    ],
+    [
+      "Communiquer",
+      "Présenter profils, images et distances ; dans l’ECE, respecter les appels à 10 puis 15 min indiqués sur la première page."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">Objet lointain : $q\\simeq f\\prime$. Pour un objet à distance finie $p$, $q=pf\\prime/(p-f\\prime)&gt;f\\prime$ : la méthode tend à surestimer la focale si p n’est pas assez grand.</div><a class=\"chip\" href=\"#chapter/premiere-image-ch3/cours\">Lentilles et foyers</a><a class=\"chip\" href=\"#chapter/premiere-image-ch5/cours\">Conjugaison</a><div class=\"bristol\"><h4 class=\"bristol-title\">Repères du sujet fourni</h4><p>Sujet focale : appel 1 à 10 min pour la lentille écartée et le protocole ; appel 2 à 15 min pour les deux focales et la lentille retenue. La page 2 répète « appel 2, 15 min » pour le montage et Q5–Q6 : faire vérifier cette étape selon les consignes de l’examinateur, sans inventer un autre numéro ou délai.</p></div>",
+  "errors": [
+    "Mesurer depuis le bord du support au lieu du centre optique.",
+    "Confondre une image floue et une image nette.",
+    "Employer le Soleil comme source.",
+    "Considérer une distance finie comme un infini exact."
+  ],
+  "question": "Pourquoi la distance lentille–écran donne-t-elle approximativement f′ ?",
+  "answer": "Un objet lointain envoie des rayons quasi parallèles ; ils convergent près du plan focal image. La distance au plan où l’image est nette est donc voisine de f′.",
+  "check": [
+    "Je distingue les deux types de lentilles.",
+    "J’utilise un objet lointain autorisé.",
+    "Je recherche une image nette.",
+    "Je mesure depuis le centre optique.",
+    "J’annonce le caractère approché du résultat."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-1STL_IMAGE_ECE_FocaleSansCalcul.pdf",
+    "assets/documents/image-IMAGE_FS03_Lentille_oeil.pdf"
+  ]
+},
+{
+  "id": "image-conjugaison-banc",
+  "title": "Former une image et déterminer une focale sur banc",
+  "subtitle": "Alignement, image nette, grandissement puis construction graphique.",
+  "category": "Optique · Image",
+  "time": 45,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-banc.svg",
+  "preview": false,
+  "objective": "Réaliser une image réelle et retrouver la focale à partir des positions et de la construction des rayons.",
+  "principle": "Les points objet et image sont conjugués. Deux rayons caractéristiques suffisent pour localiser l’image ; un troisième vérifie la construction.",
+  "equipment": [
+    [
+      "Banc gradué et cavaliers",
+      "Mesurer les positions avec une origine commune."
+    ],
+    [
+      "Source lumineuse et objet flèche ou règle",
+      "Constituer un objet éclairé de taille connue."
+    ],
+    [
+      "Lentille convergente sélectionnée",
+      "Former l’image réelle dans son domaine d’utilisation."
+    ],
+    [
+      "Écran mobile",
+      "Repérer le plan de netteté et la hauteur d’image."
+    ],
+    [
+      "Règle et papier quadrillé",
+      "Mesurer AB, A′B′ et construire à l’échelle."
+    ]
+  ],
+  "steps": [
+    [
+      "Aligner",
+      "Placer source, objet, centre de lentille et écran à la même hauteur sur l’axe ; relever les positions des repères optiques."
+    ],
+    [
+      "Positionner",
+      "Dans le sujet ECE, placer l’objet à 60,0 cm devant la lentille ; ne pas confondre cette distance avec l’origine du banc."
+    ],
+    [
+      "Mettre au point",
+      "Déplacer l’écran jusqu’à l’image la plus nette ; revenir de part et d’autre pour repérer le meilleur plan."
+    ],
+    [
+      "Relever",
+      "Noter xA, xO, xA′, AB et A′B′ ; indiquer image renversée ou droite et incertitudes de lecture."
+    ],
+    [
+      "Construire",
+      "Sur le quadrillage, représenter objet, lentille et image avec les mesures. Tracer un rayon passant par O et un rayon initialement parallèle à l’axe ; son émergent définit F′."
+    ],
+    [
+      "Valider",
+      "Lire OF′ sur la construction et comparer à l’estimation par objet lointain. Un calcul de conjugaison peut contrôler la méthode sans remplacer le tracé demandé."
+    ],
+    [
+      "Présenter",
+      "Présenter montage, mesures, signes et dessin ; les valeurs finales sont celles réellement mesurées, pas celles d’un exemple."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$$\\frac1{\\overline{OA\\prime}}-\\frac1{\\overline{OA}}=\\frac1{f\\prime},\\qquad\\gamma=\\frac{\\overline{A\\prime B\\prime}}{\\overline{AB}}=\\frac{\\overline{OA\\prime}}{\\overline{OA}}.$$ Pour un objet réel à gauche : $\\overline{OA}=-p$ ; image réelle à droite : $\\overline{OA\\prime}=q$ ; donc $f\\prime=pq/(p+q)$ et $\\gamma=-q/p$.</div><p>Le montage détaillé illustre un cas de formation d’image ; l’ECE fixe p = 60,0 cm et laisse q à mesurer. Les graduations du schéma ne constituent pas les résultats de ton expérience.</p><a class=\"chip\" href=\"#chapter/premiere-image-ch5/cours\">Conjugaison et exercices</a><div class=\"bristol\"><h4 class=\"bristol-title\">Repères du sujet fourni</h4><p>Sujet focale : appel 1 à 10 min pour la lentille écartée et le protocole ; appel 2 à 15 min pour les deux focales et la lentille retenue. La page 2 répète « appel 2, 15 min » pour le montage et Q5–Q6 : faire vérifier cette étape selon les consignes de l’examinateur, sans inventer un autre numéro ou délai.</p></div>",
+  "errors": [
+    "Oublier le signe de OA.",
+    "Déduire le grandissement de deux longueurs sans annoncer que l’image est renversée.",
+    "Décaler les éléments hors de l’axe.",
+    "Lire le bord du cavalier plutôt que le repère de la lentille.",
+    "Utiliser une construction sans échelle horizontale définie."
+  ],
+  "question": "Comment situer F′ sur le tracé expérimental ?",
+  "answer": "Tracer de B un rayon incident parallèle à l’axe jusqu’à la lentille, puis sa branche passant par B′ : l’intersection de cette branche avec l’axe est F′.",
+  "check": [
+    "J’aligne les éléments.",
+    "Je repère les centres.",
+    "Je mesure toutes les positions avec la même origine.",
+    "Je donne un grandissement signé.",
+    "Je respecte l’échelle du dessin.",
+    "Je sépare mesure, construction et contrôle numérique."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-1STL_IMAGE_ECE_FocaleSansCalcul.pdf",
+    "assets/documents/image-IMAGE_FS5_Conjugaison.pdf"
+  ]
+},
+{
+  "id": "image-autocollimation",
+  "title": "Mesurer une focale par autocollimation",
+  "subtitle": "Complément : miroir plan derrière la lentille et retour de l’image dans le plan de l’objet.",
+  "category": "Optique · Image",
+  "time": 30,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-autocollimation.svg",
+  "preview": false,
+  "objective": "Déterminer une distance focale par une méthode de retour de lumière, en complément des méthodes des PDF.",
+  "principle": "Quand l’objet est dans le plan focal objet, la lentille rend le faisceau parallèle. Un miroir plan placé derrière renvoie la lumière ; après la seconde traversée, l’image se forme dans le plan de l’objet.",
+  "equipment": [
+    [
+      "Objet lumineux et support/écran dans son plan",
+      "Observer l’image retournée revenant à côté de l’objet."
+    ],
+    [
+      "Lentille convergente",
+      "Rendre parallèle le faisceau issu du plan focal."
+    ],
+    [
+      "Miroir plan sur support",
+      "Renvoyer le faisceau ; orienter légèrement si nécessaire suivant le montage prescrit."
+    ],
+    [
+      "Banc optique et règle",
+      "Mesurer objet–centre de lentille."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Identifier les côtés aller et retour ; utiliser un objet et un écran permettant de voir l’image retournée dans le plan objet."
+    ],
+    [
+      "Aligner",
+      "Placer objet, lentille et miroir sur les supports ; le miroir est du côté image derrière la lentille."
+    ],
+    [
+      "Ajuster",
+      "Déplacer l’objet ou la lentille jusqu’à une image de retour nette dans le plan de l’objet ; régler le miroir selon le montage pour rendre l’image observable."
+    ],
+    [
+      "Mesurer",
+      "Relever la distance objet–centre optique ; répéter l’approche de netteté et évaluer la lecture."
+    ],
+    [
+      "Contrôler",
+      "Comparer cette distance avec la méthode de l’objet lointain ; discuter les limites de centrage et de repérage."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">À l’autocollimation : $p=f\\prime$, l’image de retour est dans le plan de l’objet et son grandissement transversal est $-1$ dans le modèle idéal.</div><p>Cette fiche est un complément de focométrie, pas une épreuve fournie dans les PDF. Le montage et les observations exactes restent ceux autorisés en TP.</p><a class=\"chip\" href=\"#chapter/premiere-image-ch3/cours\">Foyers et rayons</a>",
+  "errors": [
+    "Chercher l’image sur un écran placé derrière le miroir.",
+    "Confondre un simple reflet et l’image formée par double passage.",
+    "Regarder dans le faisceau.",
+    "Mesurer depuis le miroir au lieu de la lentille."
+  ],
+  "question": "Pourquoi la position du miroir derrière la lentille n’impose-t-elle pas la focale mesurée ?",
+  "answer": "Au réglage, les rayons entre lentille et miroir sont parallèles ; le retour converge dans le plan focal objet. C’est la distance objet–lentille qui vaut f′.",
+  "check": [
+    "J’identifie le trajet aller/retour.",
+    "J’observe sur un écran dans le plan de l’objet.",
+    "Je cherche la netteté et non un reflet.",
+    "Je mesure depuis le centre optique."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-IMAGE_FS03_Lentille_oeil.pdf"
+  ]
+},
+{
+  "id": "image-syntheses-couleurs",
+  "title": "Réaliser les synthèses additive et soustractive",
+  "subtitle": "Faisceaux séparés superposés sur écran, puis filtres empilés dans un même faisceau.",
+  "category": "Optique · Image",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-couleurs-montage.svg",
+  "preview": false,
+  "objective": "Produire et expliquer les couleurs avec des faisceaux RVB, puis avec des filtres cyan, magenta et jaune.",
+  "principle": "En synthèse additive, on superpose des lumières : leurs composantes s’ajoutent. En filtrage soustractif, chaque filtre retire une partie du spectre : seuls les domaines communs transmis subsistent.",
+  "equipment": [
+    [
+      "Source blanche à miroirs ou projecteurs RVB pédagogiques",
+      "Créer des faisceaux séparés réglables."
+    ],
+    [
+      "Filtres rouge, vert, bleu, cyan, magenta et jaune",
+      "Sélectionner des domaines spectraux ; leurs transmissions réelles ne sont pas idéales."
+    ],
+    [
+      "Écran blanc",
+      "Recevoir les faisceaux sans regarder la source."
+    ],
+    [
+      "Supports",
+      "Stabiliser filtres et directions."
+    ],
+    [
+      "Spectres de transmission du sujet et drapeaux imprimés",
+      "Relier perception et composantes conservées."
+    ]
+  ],
+  "steps": [
+    [
+      "Repérer",
+      "Lire les spectres et identifier les primaires RVB ainsi que les complémentaires CMJ."
+    ],
+    [
+      "Superposer",
+      "Faire se recouvrir deux faisceaux distincts sur l’écran : V+B→cyan ; R+V→jaune ; R+B→magenta. Ajouter les trois pour une lumière proche du blanc avec des intensités adaptées."
+    ],
+    [
+      "Filtrer",
+      "Dans un seul faisceau blanc, superposer des filtres : cyan puis jaune conserve principalement le vert ; magenta+jaune conserve le rouge ; cyan+magenta conserve le bleu."
+    ],
+    [
+      "Expliquer",
+      "Comparer l’addition de domaines des faisceaux séparés avec l’intersection des domaines transmis par les filtres empilés."
+    ],
+    [
+      "Drapeaux",
+      "Placer un filtre jaune entre le drapeau français éclairé en blanc et l’observateur/prise de vue : bleu devient sombre, blanc devient jaune et rouge reste rouge, dans le modèle idéal."
+    ],
+    [
+      "Communiquer",
+      "Présenter montages, observations et spectres ; comparer les différences avec le modèle idéal plutôt que promettre des couleurs parfaitement pures."
+    ]
+  ],
+  "exploitation": "<div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"padding:8px;border-bottom:1px solid var(--line)\">Additive : deux faisceaux</th><th style=\"padding:8px;border-bottom:1px solid var(--line)\">Résultat idéal</th></tr></thead><tbody><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">R + V</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Jaune</td></tr><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">V + B</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Cyan</td></tr><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">R + B</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Magenta</td></tr><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">R + V + B</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Blanc</td></tr></tbody></table></div><figure class=\"science-figure\"><button data-image=\"assets/diagrams/image-filtres.svg\" data-caption=\"Filtrage : les filtres successifs conservent les composantes communes\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/image-filtres.svg\" alt=\"Filtrage : les filtres successifs conservent les composantes communes\" loading=\"lazy\"></button><figcaption>Filtrage : les filtres successifs conservent les composantes communes · toucher pour agrandir</figcaption></figure><a class=\"chip\" href=\"#chapter/premiere-image-ch4/cours\">Couleurs et exercices</a><div class=\"bristol\"><h4 class=\"bristol-title\">Repères du sujet fourni</h4><p>Sujet couleurs : appel 1 avant 10 min pour les synthèses et l’explication ; appel 2 avant 20 min pour le vert et son explication ; appel 3 avant 30 min pour le drapeau ; appel 4 avant 45 min pour les codes RVB et le coloriage.</p></div>",
+  "errors": [
+    "Empiler RVB pour obtenir du blanc : ils retirent de la lumière.",
+    "Confondre lumière colorée et objet diffusant une couleur.",
+    "Oublier l’éclairage du drapeau.",
+    "Promettre une transmission identique pour tous les filtres."
+  ],
+  "question": "Pourquoi cyan et jaune empilés transmettent-ils surtout le vert ?",
+  "answer": "Le cyan laisse passer surtout V+B ; le jaune surtout R+V. Leur domaine commun est V, avec les limites des spectres réels.",
+  "check": [
+    "Je sépare les faisceaux pour l’addition.",
+    "J’empile les filtres dans le même faisceau pour la soustraction.",
+    "Je raisonne en composantes transmises.",
+    "J’interprète les couleurs sous l’éclairage donné.",
+    "Je garde les observations réelles."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-IMAGE_ECE_Couleurs.pdf",
+    "assets/documents/image-IMAGE_FS04_SyntheseCouleurs.pdf"
+  ]
+},
+{
+  "id": "image-capteur-champ",
+  "title": "Mesurer un angle de champ et estimer la taille d’un capteur",
+  "subtitle": "Deux montages : maquette à distance finie, puis appareil photographique visant une règle lointaine.",
+  "category": "Optique · Image",
+  "time": 60,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-capteur-maquette.svg",
+  "preview": false,
+  "objective": "Relier champ, capteur et mise au point puis estimer la largeur d’un capteur commercial avec une règle.",
+  "principle": "À distance finie, le champ dépend de la distance lentille–image q. Pour un objet lointain, q ≈ f′ et on retrouve la formule usuelle de l’appareil photographique.",
+  "equipment": [
+    [
+      "Règle transparente éclairée et source",
+      "Définir la largeur AB réellement imagée."
+    ],
+    [
+      "Banc, lentilles f′ = 20,0 cm et 12,5 cm",
+      "Changer la focale sans confondre avec une simple translation de mise au point."
+    ],
+    [
+      "Écran avec rectangles ℓ = 2,0 et 4,0 cm",
+      "Modéliser un capteur de largeur finie."
+    ],
+    [
+      "APN réglé à f′ = 55 mm et règle au tableau",
+      "Mesurer la largeur du sujet cadré à D = 7,00 m."
+    ],
+    [
+      "Mètre, calculatrice en radians, tableur d’incertitude si disponible",
+      "Calculer l’angle et propager les incertitudes."
+    ]
+  ],
+  "steps": [
+    [
+      "Monter",
+      "Dans la maquette, placer l’objet à p = D = 30 cm devant la lentille ; rechercher le plan image avant de mesurer le cadrage."
+    ],
+    [
+      "Cadrer",
+      "Repérer sur la règle la largeur AB dont l’image couvre le rectangle ℓ ; mesurer p et q depuis le centre de la lentille."
+    ],
+    [
+      "Calculer",
+      "Utiliser α = 2 arctan(AB/(2D)). Pour vérifier : AB/ℓ = p/q, donc α = 2 arctan(ℓ/(2q))."
+    ],
+    [
+      "Comparer",
+      "Refaire les configurations autorisées du tableau avec remise au point ; comparer à p fixé et ℓ ou f′ variable."
+    ],
+    [
+      "Photographier",
+      "Pour l’APN, placer le repère optique à 7,00 m du tableau, régler 55 mm réels, cadrer horizontalement les règles et relever L avant effacement de la photo."
+    ],
+    [
+      "Estimer",
+      "Pour l’objet lointain, calculer α ≈ L/D puis ℓ = 2f′tan(α/2) ; vérifier les unités, les radians et l’approximation des petits angles."
+    ],
+    [
+      "Incertitude",
+      "Identifier les contributions de L et D et employer le tableur s’il est fourni ; sinon exposer les formules et ne pas inventer le résultat expérimental."
+    ]
+  ],
+  "exploitation": "<figure class=\"science-figure\"><button data-image=\"assets/diagrams/image-capteur-maquette.svg\" data-caption=\"Maquette : p = 30 cm, f′ = 20 cm implique q = 60 cm\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/image-capteur-maquette.svg\" alt=\"Maquette : p = 30 cm, f′ = 20 cm implique q = 60 cm\" loading=\"lazy\"></button><figcaption>Maquette : p = 30 cm, f′ = 20 cm implique q = 60 cm · toucher pour agrandir</figcaption></figure><div class=\"formula-box\">$$q=\\frac{pf\\prime}{p-f\\prime},\\quad\\alpha=2\\arctan\\frac{\\ell}{2q}.\\qquad\\text{Objet lointain : }q\\simeq f\\prime,\\quad\\alpha\\simeq2\\arctan\\frac{\\ell}{2f\\prime}.$$</div><figure class=\"science-figure\"><button data-image=\"assets/diagrams/image-capteur-lointain.svg\" data-caption=\"Appareil visant un objet lointain : q ≈ f′\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/image-capteur-lointain.svg\" alt=\"Appareil visant un objet lointain : q ≈ f′\" loading=\"lazy\"></button><figcaption>Appareil visant un objet lointain : q ≈ f′ · toucher pour agrandir</figcaption></figure><p>Exemple théorique de la première configuration : q = 60 cm, ℓ = 4,0 cm, AB = 2,0 cm, α ≈ 0,06664 rad. Le résultat de l’APN dépend de la largeur L réellement cadrée.</p><div class=\"course-note\">Point de vigilance du sujet : la formule avec f′ présentée p.3 suppose un objet lointain. Elle ne donne pas l’angle exact de la maquette p = 30 cm, f′ = 20 cm : y remplacer q par f′ serait incorrect.</div><a class=\"chip\" href=\"#chapter/premiere-image-ch6/cours\">Appareil photographique et champ</a><div class=\"bristol\"><h4 class=\"bristol-title\">Repères du sujet fourni</h4><p>Sujet capteur : appel 1 avant 15 min pour le montage et Q1–Q2 ; appel 2 avant 40 min pour Q5–Q7. Relever L avant que la photo soit effacée et l’appareil déplacé.</p></div>",
+  "errors": [
+    "Utiliser α = ℓ/f′ en degrés.",
+    "Confondre diagonale, largeur et hauteur du capteur.",
+    "Utiliser une focale équivalente 24×36 au lieu de la focale physique.",
+    "Négliger la remise au point après changement de lentille.",
+    "Remplacer q par f′ dans la maquette finie.",
+    "Inventer L ou un résultat de tableur non transmis."
+  ],
+  "question": "Dans la maquette, pourquoi la distance lentille–écran n’est-elle pas f′ ?",
+  "answer": "L’objet est proche. Pour p = 30 cm et f′ = 20 cm, la conjugaison donne q = 60 cm ; q ≈ f′ ne vaut qu’au loin.",
+  "check": [
+    "Je règle la calculatrice en radians.",
+    "Je forme une image nette avant de mesurer le champ.",
+    "Je repère la largeur cadrée.",
+    "Je distingue q et f′.",
+    "Je relève L avant l’effacement de la photo.",
+    "J’annonce l’incertitude et les hypothèses."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-1STL_IMAGE_ECE_CapteurAPN.pdf",
+    "assets/documents/image-IMAGE_FS6_AppareilPhoto.pdf"
+  ]
+},
+{
+  "id": "image-colorimetrie-photo",
+  "title": "Estimer un colorant par photographie et codage RVB",
+  "subtitle": "Même montage, référence à l’eau, étalons et pseudo-absorbance sur le canal rouge.",
+  "category": "Optique · Image",
+  "time": 60,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-colorimetrie-photo.svg",
+  "preview": false,
+  "objective": "Estimer une concentration de colorant cyan à partir d’une calibration photographique sur fond rouge.",
+  "principle": "Le colorant cyan atténue le rouge. À montage et réglages constants, le code rouge du pixel peut servir de signal expérimental à étalonner ; le sujet définit A = log10(R eau/R solution).",
+  "equipment": [
+    [
+      "Cuves identiques, eau, quatre étalons et échantillon",
+      "Conserver trajet optique et gamme ; tracer les concentrations."
+    ],
+    [
+      "Fond rouge éclairé de manière stable",
+      "Fournir la composante absorbée."
+    ],
+    [
+      "Boîte ouverte à l’arrière ou écran noir",
+      "Limiter la lumière parasite, conformément au montage du PDF."
+    ],
+    [
+      "Téléphone fixé et support de cuve",
+      "Garder distance, cadrage et orientation constants."
+    ],
+    [
+      "Logiciel lisant RVB et tableur",
+      "Relever le même pixel/région et construire la calibration."
+    ]
+  ],
+  "steps": [
+    [
+      "Stabiliser",
+      "Fixer téléphone et cuve, garder le fond rouge et l’éclairage constants, éviter reflets, bulles et traces."
+    ],
+    [
+      "Régler",
+      "Verrouiller autant que possible exposition, ISO, balance des blancs et mise au point ; éviter les pixels saturés."
+    ],
+    [
+      "Référencer",
+      "Photographier la cuve d’eau dans la même géométrie ; relever R0 au pixel/région défini par le sujet."
+    ],
+    [
+      "Étalonner",
+      "Photographier les quatre étalons ; relever Ri puis calculer Ai = log10(R0/Ri) pour Ri > 0 ; tracer Ai en fonction de ci."
+    ],
+    [
+      "Contrôler",
+      "Examiner le nuage et le domaine ; employer le modèle adapté, pas une droite choisie pour obtenir un résultat attendu."
+    ],
+    [
+      "Doser",
+      "Photographier l’échantillon de la même façon, calculer AP, déterminer cP par le modèle et corriger une dilution éventuelle."
+    ],
+    [
+      "Conclure",
+      "Présenter concentration, unités, incertitudes/limites et comparaison à la limite indiquée dans le sujet si elle est demandée."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$$A=\\log_{10}\\frac{R_0}{R},\\qquad A=ac+b\\Rightarrow c=\\frac{A-b}{a}.$$</div><p>Cette grandeur est une pseudo-absorbance photographique : le code JPEG n’est pas nécessairement proportionnel à l’intensité lumineuse. L’étalonnage empirique et les réglages constants sont indispensables ; ce montage ne remplace pas un spectrophotomètre étalonné.</p><p>Les photos 2.jpg et P ne sont pas fournies ici : les codes R2 et RP, donc le résultat numérique de la boisson, doivent être mesurés. Les valeurs manquantes ne sont pas remplacées par une estimation inventée.</p><a class=\"chip\" href=\"#chapter/maths-logarithmes/cours\">Logarithme décimal</a><a class=\"chip\" href=\"#chapter/premiere-image-ch4/cours\">Synthèse soustractive</a><a class=\"chip\" href=\"#chapter/premiere-image-ch8/cours\">RVB et codage</a><div class=\"bristol\"><h4 class=\"bristol-title\">Repères du sujet fourni</h4><p>Sujet couleurs : appel 5 avant 1 h 10 pour Q10–Q13, dont le graphique ; appel 6 avant 1 h 20 pour le protocole Q14, avant de le mettre en œuvre. Les délais sont ceux du PDF transmis ; suivre ceux du sujet effectivement donné.</p></div><p>Le sujet demande la lecture au pixel (800 ; 1700). Une moyenne sur une région est une variante méthodologique qui doit être appliquée à toutes les références et solutions, sans la confondre avec la lecture prescrite.</p>",
+  "errors": [
+    "Laisser l’exposition automatique changer entre les cuves.",
+    "Mesurer des pixels différents ou saturés.",
+    "Confondre le code rouge R avec une concentration.",
+    "Écrire log(R solution/R eau) et obtenir une absorbance négative par inversion.",
+    "Oublier une dilution.",
+    "Présenter les résultats fournis dans le sujet comme mesures personnelles."
+  ],
+  "question": "Pourquoi le fond et le canal rouges sont-ils choisis pour un colorant cyan ?",
+  "answer": "Dans le modèle soustractif, le cyan absorbe principalement le rouge : la diminution du code R est alors liée à la quantité de colorant sur le trajet optique.",
+  "check": [
+    "Je conserve la géométrie.",
+    "Je verrouille les réglages.",
+    "Je relève la référence eau.",
+    "Je garde le même pixel ou la même région.",
+    "Je vérifie le domaine d’étalonnage.",
+    "J’indique les données manquantes."
+  ],
+  "safety": "Blouse et lunettes pour les solutions ; ne pas consommer les boissons ou solutions utilisées au laboratoire. Manipuler les cuves proprement, garder téléphone et connexions au sec, suivre les consignes de collecte des solutions colorées.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-IMAGE_ECE_Couleurs.pdf"
+  ]
+},
+{
+  "id": "image-exposition-photo",
+  "title": "Comparer ouverture, temps de pose et ISO",
+  "subtitle": "Complément pratique : un seul paramètre change à la fois.",
+  "category": "Optique · Image",
+  "time": 30,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "image-exposition.svg",
+  "preview": false,
+  "objective": "Interpréter exposition, flou de mouvement, profondeur de champ et bruit sur une série contrôlée.",
+  "principle": "L’énergie reçue dépend de l’éclairement et du temps de pose ; l’ouverture modifie la quantité de lumière et la profondeur de champ. L’ISO agit sur l’amplification/traitement du signal, pas sur le nombre de photons déjà reçus.",
+  "equipment": [
+    [
+      "APN avec réglages manuels et trépied",
+      "Conserver cadrage, focale et mise au point."
+    ],
+    [
+      "Scène stable avec premier et arrière-plan",
+      "Comparer netteté et profondeur de champ."
+    ],
+    [
+      "Objet mobile ou déplacement contrôlé",
+      "Observer le flou de mouvement."
+    ],
+    [
+      "Éclairage constant et journal des réglages",
+      "Attribuer chaque effet à la modification réellement effectuée."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Fixer focale, distance du sujet, mise au point, balance des blancs et éclairage ; noter la configuration."
+    ],
+    [
+      "Ouverture",
+      "À temps de pose et ISO fixés, comparer deux nombres N ; noter la luminosité et la profondeur de champ."
+    ],
+    [
+      "Pose",
+      "À N et ISO fixés, changer la durée et photographier l’objet mobile ; relier énergie et flou."
+    ],
+    [
+      "ISO",
+      "À N et durée fixés, changer ISO ; comparer luminosité rendue et bruit en expliquant qu’aucune énergie supplémentaire n’a été reçue."
+    ],
+    [
+      "Compenser",
+      "Chercher deux couples N/durée d’exposition voisine : si N est multiplié par √2, l’aire est divisée par 2 et il faut doubler la durée à ISO fixe."
+    ],
+    [
+      "Analyser",
+      "Comparer les effets secondaires, noter les limites du modèle et conserver photos et réglages."
+    ]
+  ],
+  "exploitation": "<div class=\"formula-box\">$N=f\\prime/d$ ; aire ouverte $\\propto1/N^2$ ; énergie reçue $\\propto\\Delta t/N^2$ à scène, optique et autres paramètres constants.</div><p>Les conclusions sur profondeur de champ doivent préciser focale, distance et mise au point ; une règle sur le zoom ne s’applique pas sans fixer ces conditions.</p><a class=\"chip\" href=\"#chapter/premiere-image-ch7/cours\">Énergie et exposition</a>",
+  "errors": [
+    "Changer plusieurs réglages sans le noter.",
+    "Confondre un grand N et une grande ouverture.",
+    "Assimiler ISO à davantage de lumière reçue.",
+    "Confondre flou de mouvement et défaut de mise au point."
+  ],
+  "question": "Comment compenser N → √2N à ISO fixe ?",
+  "answer": "L’aire du diaphragme est divisée par deux ; doubler le temps de pose conserve approximativement l’énergie reçue, mais augmente le risque de flou de mouvement.",
+  "check": [
+    "Je fixe les autres paramètres.",
+    "Je note tous les réglages.",
+    "Je distingue les deux types de flou.",
+    "Je justifie les compensations.",
+    "J’interprète le bruit sans dire que l’ISO crée des photons."
+  ],
+  "safety": "Utiliser la source pédagogique prévue. Ne jamais regarder le Soleil, un laser ou un faisceau intense à travers une lentille. Ne pas diriger les faisceaux vers les yeux ; recueillir les images sur un écran. Stabiliser les supports, garder les lampes chaudes dégagées et manipuler les lentilles par leurs bords.",
+  "originals": [],
+  "sources": [
+    "assets/documents/image-IMAGE_FS07_Exposition.pdf",
+    "assets/documents/image-IMAGE_Seq07_Exercices.pdf"
+  ]
 }
 ]
