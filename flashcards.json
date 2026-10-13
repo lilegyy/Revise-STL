@@ -4009,5 +4009,1811 @@
   "category": "ece",
   "q": "Arrêter : quel réflexe ?",
   "a": "Couper la commande et l’alimentation selon le protocole, laisser refroidir et sauvegarder les relevés."
+},
+{
+  "id": "premiere-image-ch1-card-1",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Qu’appelle-t-on un point objet ?",
+  "a": "Le point d’où sont issus les rayons entrant dans le système optique."
+},
+{
+  "id": "premiere-image-ch1-card-2",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Qu’est-ce qu’un point image réel ?",
+  "a": "Le point où convergent les rayons émergents issus d’un même point objet."
+},
+{
+  "id": "premiere-image-ch1-card-3",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Quelle condition donne une photographie nette pour un point ?",
+  "a": "Son point image se forme dans le plan du capteur."
+},
+{
+  "id": "premiere-image-ch1-card-4",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Pourquoi un arrière-plan est-il flou ?",
+  "a": "Les points images de l’arrière-plan ne sont pas sur le capteur ; celui-ci reçoit des taches."
+},
+{
+  "id": "premiere-image-ch1-card-5",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Une image floue signifie-t-elle qu’aucune lumière du sujet n’atteint le capteur ?",
+  "a": "Non : la lumière arrive, mais les rayons issus d’un point n’y convergent pas en un seul point."
+},
+{
+  "id": "premiere-image-ch1-card-6",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Qu’est-ce qu’une source primaire de lumière ?",
+  "a": "Un objet qui émet sa propre lumière."
+},
+{
+  "id": "premiere-image-ch1-card-7",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Comment voit-on un objet éclairé ?",
+  "a": "Une partie de la lumière qu’il renvoie parvient à l’œil."
+},
+{
+  "id": "premiere-image-ch1-card-8",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Que faut-il annoncer avant de classer des images ?",
+  "a": "Le critère : technique, date, fonction, support ou caractère fixe/animé."
+},
+{
+  "id": "premiere-image-ch1-card-9",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "La date de l’image est-elle celle de l’invention de la technique ?",
+  "a": "Pas nécessairement : distinguer technique, sujet représenté et réalisation du document."
+},
+{
+  "id": "premiere-image-ch1-card-10",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Que concerne le droit à l’image ?",
+  "a": "La reproduction et la diffusion de l’image d’une personne reconnaissable, sous les conditions du droit applicable."
+},
+{
+  "id": "premiere-image-ch1-card-11",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Que concerne le droit d’auteur ?",
+  "a": "Les droits sur une œuvre originale et ses utilisations."
+},
+{
+  "id": "premiere-image-ch1-card-12",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Citer une source suffit-il pour reproduire une image ?",
+  "a": "Non : il faut une autorisation, une licence ou une exception applicable."
+},
+{
+  "id": "premiere-image-ch1-card-13",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Une image publiée sur Internet est-elle libre de droits ?",
+  "a": "Non. Vérifier son auteur, sa licence et les conditions d’usage."
+},
+{
+  "id": "premiere-image-ch1-card-14",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Puis-je photographier une personne en lieu privé sans accord si je ne diffuse pas ?",
+  "a": "Le seul fait de ne pas diffuser ne suffit pas : le consentement à la prise de vue en lieu privé est nécessaire."
+},
+{
+  "id": "premiere-image-ch1-card-15",
+  "chapter": "premiere-image-ch1",
+  "category": "premiere-image",
+  "q": "Que signifie une image virtuelle ?",
+  "a": "L’intersection des prolongements des rayons émergents ; les rayons n’y convergent pas réellement."
+},
+{
+  "id": "premiere-image-ch2-card-1",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Quand la propagation est-elle rectiligne ?",
+  "a": "Dans un milieu transparent homogène."
+},
+{
+  "id": "premiere-image-ch2-card-2",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Un faisceau laser est-il un rayon unique ?",
+  "a": "Non. Le rayon est une représentation du trajet ; le faisceau contient une infinité de rayons."
+},
+{
+  "id": "premiere-image-ch2-card-3",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "À quoi sert le modèle géométrique ?",
+  "a": "Décrire les trajets et construire les images, dans son domaine de validité."
+},
+{
+  "id": "premiere-image-ch2-card-4",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "À quoi sert le modèle ondulatoire ?",
+  "a": "Décrire la lumière par fréquence, période, longueur d’onde et expliquer les phénomènes que la géométrie ne suffit pas à décrire."
+},
+{
+  "id": "premiere-image-ch2-card-5",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Quelle célérité dans le vide ?",
+  "a": "$c=3{,}00\\times10^8\\ \\mathrm{m\\,s^{-1}}$."
+},
+{
+  "id": "premiere-image-ch2-card-6",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Relation fréquence–période ?",
+  "a": "$f=1/T$ ; f en Hz et T en s."
+},
+{
+  "id": "premiere-image-ch2-card-7",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Définition de la longueur d’onde ?",
+  "a": "La distance parcourue par l’onde pendant une période."
+},
+{
+  "id": "premiere-image-ch2-card-8",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Relation λ et f dans le vide ?",
+  "a": "$\\lambda_0=c/f$."
+},
+{
+  "id": "premiere-image-ch2-card-9",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Relation λ et f dans un milieu ?",
+  "a": "$\\lambda=v/f$."
+},
+{
+  "id": "premiere-image-ch2-card-10",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Convertir un nanomètre en mètres.",
+  "a": "$1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m$."
+},
+{
+  "id": "premiere-image-ch2-card-11",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Quel visible adopte la fiche 2 ?",
+  "a": "Environ 400–800 nm dans le vide ; utiliser les limites données par l’exercice."
+},
+{
+  "id": "premiere-image-ch2-card-12",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Comment f évolue-t-elle du violet vers le rouge ?",
+  "a": "Elle diminue tandis que la longueur d’onde dans le vide augmente."
+},
+{
+  "id": "premiere-image-ch2-card-13",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Les UV ont-ils une fréquence supérieure aux IR ?",
+  "a": "Oui : leur longueur d’onde dans le vide est plus petite."
+},
+{
+  "id": "premiere-image-ch2-card-14",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Pourquoi « ultraviolet » ?",
+  "a": "Au-delà du violet en fréquence, même si la longueur d’onde est plus faible."
+},
+{
+  "id": "premiere-image-ch2-card-15",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Le violet va-t-il plus vite que le rouge dans le vide ?",
+  "a": "Non : toutes ces ondes ont la célérité c dans le vide."
+},
+{
+  "id": "premiere-image-ch2-card-16",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Définition de l’indice ?",
+  "a": "$n=c/v$ ; il est sans unité."
+},
+{
+  "id": "premiere-image-ch2-card-17",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Quelles grandeurs sont conservées au changement de milieu ?",
+  "a": "La fréquence f et donc la période T."
+},
+{
+  "id": "premiere-image-ch2-card-18",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Quelles grandeurs peuvent changer au changement de milieu ?",
+  "a": "La célérité v et la longueur d’onde λ."
+},
+{
+  "id": "premiere-image-ch2-card-19",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Lien λmilieu et λvide ?",
+  "a": "$\\lambda=\\lambda_0/n$ dans le modèle considéré."
+},
+{
+  "id": "premiere-image-ch2-card-20",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Pourquoi la couleur ne change-t-elle pas simplement en entrant dans l’eau ?",
+  "a": "La fréquence reste la même. Le tableau couleur–λ est donné pour λ dans le vide, pas pour λ dans l’eau."
+},
+{
+  "id": "premiere-image-ch2-card-21",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Pourquoi ne voit-on pas l’oscillation lumineuse clignoter ?",
+  "a": "Sa période, de l’ordre de 10⁻¹⁵ s, est bien trop courte pour la résolution temporelle de la vision."
+},
+{
+  "id": "premiere-image-ch2-card-22",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Pourquoi un trajet peut-il se courber près d’un chauffage ?",
+  "a": "La température et l’indice varient dans l’espace : le milieu n’est pas homogène."
+},
+{
+  "id": "premiere-image-ch2-card-23",
+  "chapter": "premiere-image-ch2",
+  "category": "premiere-image",
+  "q": "Par rapport à quoi mesurer un angle de réfraction ?",
+  "a": "Par rapport à la normale à la surface, pas à la surface elle-même."
+},
+{
+  "id": "premiere-image-ch3-card-1",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Comment reconnaît-on une lentille convergente usuelle dans l’air ?",
+  "a": "Son centre est plus épais que ses bords et elle fait converger un faisceau parallèle."
+},
+{
+  "id": "premiere-image-ch3-card-2",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Quelle est la propriété du rayon passant par O ?",
+  "a": "Il n’est pas dévié dans le modèle de la lentille mince."
+},
+{
+  "id": "premiere-image-ch3-card-3",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Définition du foyer image F′ ?",
+  "a": "Lieu de convergence des rayons incidents parallèles à l’axe optique."
+},
+{
+  "id": "premiere-image-ch3-card-4",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Définition du plan focal image ?",
+  "a": "Plan perpendiculaire à l’axe passant par F′."
+},
+{
+  "id": "premiere-image-ch3-card-5",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Définition de f′ ?",
+  "a": "$f\\prime=\\overline{OF\\prime}$ ; positive pour la lentille convergente étudiée."
+},
+{
+  "id": "premiere-image-ch3-card-6",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Relation vergence–focale ?",
+  "a": "$C=1/f\\prime$ avec f′ en mètres, C en dioptries."
+},
+{
+  "id": "premiere-image-ch3-card-7",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Unité de la dioptrie ?",
+  "a": "$1\\ \\delta=1\\ \\mathrm{m^{-1}}$."
+},
+{
+  "id": "premiere-image-ch3-card-8",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Focale 10 cm : quelle vergence ?",
+  "a": "$f\\prime=0{,}10\\ \\mathrm m$, donc $C=+10\\ \\delta$."
+},
+{
+  "id": "premiere-image-ch3-card-9",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Rayon incident parallèle à l’axe : trajet émergent ?",
+  "a": "Il passe par F′."
+},
+{
+  "id": "premiere-image-ch3-card-10",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Rayon incident passant par F : trajet émergent ?",
+  "a": "Il sort parallèle à l’axe."
+},
+{
+  "id": "premiere-image-ch3-card-11",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Comment construire B′ ?",
+  "a": "Tracer au moins deux rayons issus du même point B ; leur intersection émergente donne B′."
+},
+{
+  "id": "premiere-image-ch3-card-12",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Comment construire A′ si A est sur l’axe ?",
+  "a": "Projeter B′ sur l’axe, car A′B′ est perpendiculaire à l’axe."
+},
+{
+  "id": "premiere-image-ch3-card-13",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Où se forme l’image d’un objet à l’infini ?",
+  "a": "Dans le plan focal image. Un point hors axe n’a pas forcément son image en F′."
+},
+{
+  "id": "premiere-image-ch3-card-14",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Quand l’image réelle est-elle agrandie ?",
+  "a": "Quand la distance objet est entre f′ et 2f′."
+},
+{
+  "id": "premiere-image-ch3-card-15",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Quand l’image réelle est-elle réduite ?",
+  "a": "Quand la distance objet est supérieure à 2f′."
+},
+{
+  "id": "premiere-image-ch3-card-16",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Peut-on recueillir une image virtuelle directement sur un écran à sa position ?",
+  "a": "Non : les rayons n’y convergent pas réellement ; seuls leurs prolongements s’y coupent."
+},
+{
+  "id": "premiere-image-ch3-card-17",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Quel rôle joue l’iris ?",
+  "a": "Il règle l’ouverture de la pupille, comme un diaphragme."
+},
+{
+  "id": "premiere-image-ch3-card-18",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Que représente la lentille dans l’œil réduit ?",
+  "a": "L’ensemble cornée + cristallin."
+},
+{
+  "id": "premiere-image-ch3-card-19",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Que représente l’écran dans l’œil réduit ?",
+  "a": "La rétine."
+},
+{
+  "id": "premiere-image-ch3-card-20",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Condition de vision nette ?",
+  "a": "L’image se forme sur la rétine."
+},
+{
+  "id": "premiere-image-ch3-card-21",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Œil sans défaut au repos : quelle relation pour f′ ?",
+  "a": "f′ est égale à la distance lentille–rétine pour un objet à l’infini."
+},
+{
+  "id": "premiere-image-ch3-card-22",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que l’accommodation ?",
+  "a": "La déformation du cristallin qui augmente la convergence pour voir de près."
+},
+{
+  "id": "premiere-image-ch3-card-23",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Comment varie f′ pendant l’accommodation ?",
+  "a": "Elle diminue ; la vergence augmente et la rétine reste à distance fixe."
+},
+{
+  "id": "premiere-image-ch3-card-24",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Œil myope au repos : image lointaine où ?",
+  "a": "Devant la rétine ; correction par une lentille divergente."
+},
+{
+  "id": "premiere-image-ch3-card-25",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Œil hypermétrope au repos : image lointaine où ?",
+  "a": "Derrière la rétine ; correction par une lentille convergente."
+},
+{
+  "id": "premiere-image-ch3-card-26",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que la presbytie ?",
+  "a": "La diminution avec l’âge de la capacité d’accommodation ; le point proche s’éloigne."
+},
+{
+  "id": "premiere-image-ch3-card-27",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Faut-il déplacer l’écran pour représenter l’accommodation ?",
+  "a": "Non : conserver la distance lentille–écran et changer la vergence."
+},
+{
+  "id": "premiere-image-ch3-card-28",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Que fait une ouverture plus petite du diaphragme ?",
+  "a": "Elle réduit la lumière et augmente la tolérance au défocus, sans changer directement la focale."
+},
+{
+  "id": "premiere-image-ch3-card-29",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Comment mesurer rapidement la focale avec un objet lointain ?",
+  "a": "Former son image nette sur écran et mesurer la distance lentille–écran ; ne jamais viser le Soleil."
+},
+{
+  "id": "premiere-image-ch3-card-30",
+  "chapter": "premiere-image-ch3",
+  "category": "premiere-image",
+  "q": "Combien vaut la durée de persistance dans ces fiches ?",
+  "a": "Un ordre de grandeur de 40 à 50 ms selon le document, sans seuil universel pour la perception du mouvement."
+},
+{
+  "id": "premiere-image-ch4-card-1",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Quels récepteurs interviennent surtout en faible lumière ?",
+  "a": "Les bâtonnets, très sensibles ; ils ne permettent pas de distinguer les couleurs."
+},
+{
+  "id": "premiere-image-ch4-card-2",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Quels récepteurs permettent la vision des couleurs ?",
+  "a": "Les trois familles de cônes S, M et L quand l’éclairement est suffisant."
+},
+{
+  "id": "premiere-image-ch4-card-3",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Que signifie S dans le nom des cônes ?",
+  "a": "Short : sensibles surtout aux courtes longueurs d’onde."
+},
+{
+  "id": "premiere-image-ch4-card-4",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Que signifie M ?",
+  "a": "Medium : moyennes longueurs d’onde."
+},
+{
+  "id": "premiere-image-ch4-card-5",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Que signifie L ?",
+  "a": "Long : grandes longueurs d’onde."
+},
+{
+  "id": "premiere-image-ch4-card-6",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Une onde stimule-t-elle forcément un seul type de cône ?",
+  "a": "Non : les courbes de sensibilité se recouvrent."
+},
+{
+  "id": "premiere-image-ch4-card-7",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Comment lire les sensibilités à une longueur d’onde ?",
+  "a": "Placer λ en abscisse, lire les ordonnées des trois courbes S, M, L."
+},
+{
+  "id": "premiere-image-ch4-card-8",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Sensibilité relative et stimulus réel sont-ils identiques ?",
+  "a": "Pas automatiquement : la réponse dépend aussi de l’intensité de la lumière reçue."
+},
+{
+  "id": "premiere-image-ch4-card-9",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce qu’un rayonnement monochromatique ?",
+  "a": "Un rayonnement comportant une seule longueur d’onde."
+},
+{
+  "id": "premiere-image-ch4-card-10",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce qu’un rayonnement polychromatique ?",
+  "a": "Un rayonnement comportant plusieurs longueurs d’onde."
+},
+{
+  "id": "premiere-image-ch4-card-11",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Bichromatique : combien de longueurs d’onde ?",
+  "a": "Deux."
+},
+{
+  "id": "premiere-image-ch4-card-12",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Peut-on connaître le spectre avec seulement la couleur vue ?",
+  "a": "Non : des spectres différents peuvent produire une même sensation de couleur."
+},
+{
+  "id": "premiere-image-ch4-card-13",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce qu’une couleur spectrale ?",
+  "a": "Une couleur que peut produire une onde monochromatique visible."
+},
+{
+  "id": "premiere-image-ch4-card-14",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Le magenta est-il spectral ?",
+  "a": "Non : il ne correspond pas à une longueur d’onde unique."
+},
+{
+  "id": "premiere-image-ch4-card-15",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Le blanc vu sur un écran est-il un spectre continu ?",
+  "a": "Pas nécessairement : trois primaires RVB peuvent donner une sensation de blanc."
+},
+{
+  "id": "premiere-image-ch4-card-16",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’additionne la synthèse additive ?",
+  "a": "Des rayonnements lumineux qui parviennent à l’œil."
+},
+{
+  "id": "premiere-image-ch4-card-17",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Primaires courantes de l’additive ?",
+  "a": "Rouge, vert, bleu : RVB."
+},
+{
+  "id": "premiere-image-ch4-card-18",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "R + V donne quelle couleur ?",
+  "a": "Jaune, dans un dispositif RVB équilibré."
+},
+{
+  "id": "premiere-image-ch4-card-19",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "V + B donne quelle couleur ?",
+  "a": "Cyan."
+},
+{
+  "id": "premiere-image-ch4-card-20",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "R + B donne quelle couleur ?",
+  "a": "Magenta."
+},
+{
+  "id": "premiere-image-ch4-card-21",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "R + V + B équilibrés donnent quoi ?",
+  "a": "Une sensation de blanc ; à intensité intermédiaire égale, du gris."
+},
+{
+  "id": "premiere-image-ch4-card-22",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Aucune lumière dans le modèle RVB ?",
+  "a": "Noir."
+},
+{
+  "id": "premiere-image-ch4-card-23",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que la transmission ?",
+  "a": "La lumière traverse le matériau."
+},
+{
+  "id": "premiere-image-ch4-card-24",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que la réflexion spéculaire ?",
+  "a": "La lumière est renvoyée dans une direction privilégiée, comme sur un miroir."
+},
+{
+  "id": "premiere-image-ch4-card-25",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que la diffusion ?",
+  "a": "La lumière est renvoyée dans de nombreuses directions, comme sur du papier."
+},
+{
+  "id": "premiere-image-ch4-card-26",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’est-ce que l’absorption ?",
+  "a": "L’énergie lumineuse est transférée à la matière ; certaines composantes sont atténuées."
+},
+{
+  "id": "premiere-image-ch4-card-27",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Différence pigment / colorant ?",
+  "a": "Pigment : solide dispersé. Colorant : espèce dissoute dans le milieu."
+},
+{
+  "id": "premiere-image-ch4-card-28",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’effectue une synthèse soustractive ?",
+  "a": "Elle retire par absorption des composantes de la lumière incidente."
+},
+{
+  "id": "premiere-image-ch4-card-29",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Primaires idéales de la soustractive ?",
+  "a": "Cyan, magenta, jaune : CMJ."
+},
+{
+  "id": "premiere-image-ch4-card-30",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’absorbe un cyan idéal ?",
+  "a": "La composante rouge ; il conserve vert et bleu."
+},
+{
+  "id": "premiere-image-ch4-card-31",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’absorbe un magenta idéal ?",
+  "a": "La composante verte ; il conserve rouge et bleu."
+},
+{
+  "id": "premiere-image-ch4-card-32",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Qu’absorbe un jaune idéal ?",
+  "a": "La composante bleue ; il conserve rouge et vert."
+},
+{
+  "id": "premiere-image-ch4-card-33",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Cyan + jaune en soustractive ?",
+  "a": "Vert."
+},
+{
+  "id": "premiere-image-ch4-card-34",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Cyan + magenta en soustractive ?",
+  "a": "Bleu."
+},
+{
+  "id": "premiere-image-ch4-card-35",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Magenta + jaune en soustractive ?",
+  "a": "Rouge."
+},
+{
+  "id": "premiere-image-ch4-card-36",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "CMJ ensemble en modèle idéal ?",
+  "a": "Noir ; les pigments réels peuvent donner un brun sombre."
+},
+{
+  "id": "premiere-image-ch4-card-37",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Un objet jaune sous magenta apparaît comment ?",
+  "a": "Rouge : il reçoit R+B, absorbe B et renvoie R."
+},
+{
+  "id": "premiere-image-ch4-card-38",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Un objet vert sous magenta apparaît comment ?",
+  "a": "Noir dans le modèle idéal : la lumière verte qu’il pourrait renvoyer est absente."
+},
+{
+  "id": "premiere-image-ch4-card-39",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Comment lire un pic d’absorption ?",
+  "a": "La plage est fortement retirée du rayonnement."
+},
+{
+  "id": "premiere-image-ch4-card-40",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Comment lire un pic de réflectance ?",
+  "a": "La plage est fortement renvoyée par l’objet."
+},
+{
+  "id": "premiere-image-ch4-card-41",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "La couleur d’un objet dépend de quoi ?",
+  "a": "De l’éclairage, des absorptions/renvois du matériau et de la vision."
+},
+{
+  "id": "premiere-image-ch4-card-42",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Pourquoi une panne du bleu transforme-t-elle le blanc en jaune ?",
+  "a": "R+V+B devient R+V."
+},
+{
+  "id": "premiere-image-ch4-card-43",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Peintures mélangées : additive ou soustractive ?",
+  "a": "Soustractive : les absorptions des pigments se cumulent."
+},
+{
+  "id": "premiere-image-ch4-card-44",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Touches pointillistes juxtaposées vues de loin : quel effet ?",
+  "a": "Mélange optique des lumières renvoyées, de type additif."
+},
+{
+  "id": "premiere-image-ch4-card-45",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Déutéranopie dans le modèle du cours ?",
+  "a": "Absence du cône M."
+},
+{
+  "id": "premiere-image-ch4-card-46",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Protanopie dans le modèle du cours ?",
+  "a": "Absence du cône L."
+},
+{
+  "id": "premiere-image-ch4-card-47",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Tritanopie dans le modèle du cours ?",
+  "a": "Absence du cône S."
+},
+{
+  "id": "premiere-image-ch4-card-48",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Un écran non étalonné suffit-il à diagnostiquer un trouble de vision des couleurs ?",
+  "a": "Non : le modèle d’exercice n’est pas un test médical validé."
+},
+{
+  "id": "premiere-image-ch4-card-49",
+  "chapter": "premiere-image-ch4",
+  "category": "premiere-image",
+  "q": "Peut-on assimiler 550 nm à du jaune universel ?",
+  "a": "Non. Le tableau des exercices le classe vert ; les limites sont approximatives et les exemples simplifiés doivent être distingués."
+},
+{
+  "id": "premiere-image-ch5-card-1",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Quelle convention de signe pour OA ?",
+  "a": "Axe orienté vers la droite : un objet réel placé à gauche donne $\\overline{OA}<0$."
+},
+{
+  "id": "premiere-image-ch5-card-2",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Relation de conjugaison ?",
+  "a": "$1/\\overline{OA\\prime}-1/\\overline{OA}=1/f\\prime$ ; mêmes unités pour toutes les longueurs."
+},
+{
+  "id": "premiere-image-ch5-card-3",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Expression du grandissement ?",
+  "a": "$\\gamma=\\overline{OA\\prime}/\\overline{OA}=\\overline{A\\prime B\\prime}/\\overline{AB}$, sans unité."
+},
+{
+  "id": "premiere-image-ch5-card-4",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Que signifie γ négatif ?",
+  "a": "L’image est renversée par rapport à l’objet."
+},
+{
+  "id": "premiere-image-ch5-card-5",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Que signifie |γ| > 1 ?",
+  "a": "L’image est agrandie ; cela ne donne pas à lui seul sa nature réelle ou virtuelle."
+},
+{
+  "id": "premiere-image-ch5-card-6",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Image réelle ou virtuelle : quel critère pratique ?",
+  "a": "Une image réelle peut être recueillie sur un écran ; une image virtuelle se voit à travers le système mais ne se recueille pas directement sur un écran."
+},
+{
+  "id": "premiere-image-ch5-card-7",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Objet réel entre F et O : quelle image ?",
+  "a": "Virtuelle, droite et agrandie, du côté objet."
+},
+{
+  "id": "premiere-image-ch5-card-8",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Objet réel à 2f′ : quelle image ?",
+  "a": "Image réelle à 2f′ derrière la lentille, de même taille et renversée ; $\\gamma=-1$."
+},
+{
+  "id": "premiere-image-ch5-card-9",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Objet dans le plan focal objet ?",
+  "a": "Le faisceau émergent est parallèle ; son image est à l’infini."
+},
+{
+  "id": "premiere-image-ch5-card-10",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Rayon parallèle à l’axe : trajet après une convergente ?",
+  "a": "Il passe par le foyer image F′."
+},
+{
+  "id": "premiere-image-ch5-card-11",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Rayon passant par le centre optique O ?",
+  "a": "Il n’est pas dévié dans le modèle de lentille mince."
+},
+{
+  "id": "premiere-image-ch5-card-12",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Rayon passant par le foyer objet F ?",
+  "a": "Il émerge parallèlement à l’axe."
+},
+{
+  "id": "premiere-image-ch5-card-13",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Comment tracer une image virtuelle ?",
+  "a": "Prolonger en pointillés les supports des rayons émergents vers l’arrière ; le point d’intersection est l’image virtuelle."
+},
+{
+  "id": "premiere-image-ch5-card-14",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Définition de la focométrie ?",
+  "a": "Mesure de la distance focale d’une lentille."
+},
+{
+  "id": "premiere-image-ch5-card-15",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Pourquoi un objet lointain aide à mesurer f′ ?",
+  "a": "Son image se forme près du plan focal image ; la distance lentille–écran net approche f′."
+},
+{
+  "id": "premiere-image-ch5-card-16",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Principe de l’autocollimation ?",
+  "a": "Miroir plan derrière la lentille ; régler l’image de retour dans le plan objet. La distance objet–lentille vaut alors f′."
+},
+{
+  "id": "premiere-image-ch5-card-17",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Vergence d’une lentille ?",
+  "a": "$C=1/f\\prime$ avec $f\\prime$ en m ; C en m⁻¹ ou dioptries."
+},
+{
+  "id": "premiere-image-ch5-card-18",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Relation et condition de Bessel ?",
+  "a": "$f\\prime=(D^2-d^2)/(4D)$ ; deux positions distinctes si $D>4f\\prime$."
+},
+{
+  "id": "premiere-image-ch5-card-19",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Conjugaison sous forme affine ?",
+  "a": "$y=x+1/f\\prime$ avec $y=1/\\overline{OA\\prime}$ et $x=1/\\overline{OA}$ ; pente attendue 1."
+},
+{
+  "id": "premiere-image-ch5-card-20",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Graduation de banc = distance OA ?",
+  "a": "Non : OA est la différence position objet − position lentille."
+},
+{
+  "id": "premiere-image-ch5-card-21",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Une hauteur renversée de 2 cm : valeur algébrique ?",
+  "a": "−2 cm si l’objet est orienté vers le haut ; la taille reste +2 cm."
+},
+{
+  "id": "premiere-image-ch5-card-22",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch5",
+  "q": "Pourquoi garder le signe de OA avant tout calcul ?",
+  "a": "Sinon on additionne/soustrait les inverses à tort et on peut conclure à une mauvaise position ou nature d’image."
+},
+{
+  "id": "premiere-image-ch6-card-1",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Modèle optique de l’objectif et du capteur ?",
+  "a": "Objectif = lentille convergente ; capteur = écran avec photorécepteurs."
+},
+{
+  "id": "premiere-image-ch6-card-2",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Que signifie faire la mise au point ?",
+  "a": "Faire coïncider le plan image du sujet choisi avec le capteur."
+},
+{
+  "id": "premiere-image-ch6-card-3",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Sujet lointain : distance objectif–capteur ?",
+  "a": "$p\\prime\\simeq f\\prime$, le capteur est près du plan focal image."
+},
+{
+  "id": "premiere-image-ch6-card-4",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "À focale constante, le sujet se rapproche : quel focus ?",
+  "a": "La distance objectif–capteur requise augmente."
+},
+{
+  "id": "premiere-image-ch6-card-5",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Zoom optique : quelle grandeur change ?",
+  "a": "La focale effective de l’objectif ; elle modifie la taille optique de l’image."
+},
+{
+  "id": "premiere-image-ch6-card-6",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Zoom numérique et optique : différence ?",
+  "a": "Le numérique recadre et agrandit des pixels déjà acquis ; l’optique modifie le faisceau et la taille de l’image sur le capteur."
+},
+{
+  "id": "premiere-image-ch6-card-7",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Définition de l’angle de champ ?",
+  "a": "Angle entre les rayons passant par O et atteignant les extrémités du capteur."
+},
+{
+  "id": "premiere-image-ch6-card-8",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Angle de champ d’un paysage ?",
+  "a": "$\\alpha=2\\arctan[L/(2f\\prime)]$ ; même unité pour L et f′, image dans le plan focal."
+},
+{
+  "id": "premiere-image-ch6-card-9",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Focale augmentée à capteur fixe : angle de champ ?",
+  "a": "Il diminue ; le cadrage se resserre."
+},
+{
+  "id": "premiere-image-ch6-card-10",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Petit capteur, même objectif : grandissement accru ?",
+  "a": "Non : la taille optique de l’image reste la même, mais une partie plus petite du champ est enregistrée."
+},
+{
+  "id": "premiere-image-ch6-card-11",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Nombre d’ouverture ?",
+  "a": "$N=f\\prime/D$, sans unité ; f′ et D dans la même unité."
+},
+{
+  "id": "premiere-image-ch6-card-12",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Grand N = grand trou ?",
+  "a": "Non : à focale constante, grand N signifie petit diamètre d’ouverture."
+},
+{
+  "id": "premiere-image-ch6-card-13",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Diaphragme fermé, à conditions fixes : profondeur de champ ?",
+  "a": "Elle augmente, tandis que l’éclairement du capteur diminue."
+},
+{
+  "id": "premiere-image-ch6-card-14",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Définition de la profondeur de champ ?",
+  "a": "Étendue des distances objets paraissant suffisamment nettes."
+},
+{
+  "id": "premiere-image-ch6-card-15",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Netteté exacte et approchée ?",
+  "a": "Exacte : image du point sur le capteur. Approchée : tache de défocalisation inférieure au seuil toléré."
+},
+{
+  "id": "premiere-image-ch6-card-16",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Que décrit le bokeh ?",
+  "a": "L’aspect du flou d’arrière-plan ; il ne signifie pas que le sujet doit être flou."
+},
+{
+  "id": "premiere-image-ch6-card-17",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "« Augmenter le zoom augmente toujours la profondeur de champ » ?",
+  "a": "Faux : il faut préciser ce qui reste fixe. À distance sujet et N fixés, une focale longue réduit généralement la profondeur de champ."
+},
+{
+  "id": "premiere-image-ch6-card-18",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Pourquoi la fiche peut-elle trouver une PDC croissante avec f′ ?",
+  "a": "Elle considère un montage particulier à distance objectif–capteur constante, où le plan net se déplace ; ce n’est pas la comparaison usuelle à sujet fixé."
+},
+{
+  "id": "premiere-image-ch6-card-19",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Comment favoriser un fond flou ?",
+  "a": "Utiliser un faible N, garder le sujet net et le séparer du fond ; la distance de mise au point et le cadrage comptent aussi."
+},
+{
+  "id": "premiere-image-ch6-card-20",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Focale 50 mm, N = 5 : diamètre ?",
+  "a": "$D=f\\prime/N=10$ mm."
+},
+{
+  "id": "premiere-image-ch6-card-21",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Profondeur de champ et profondeur de foyer ?",
+  "a": "La première concerne les distances objets ; la seconde une tolérance de position du plan image/capteur."
+},
+{
+  "id": "premiere-image-ch6-card-22",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch6",
+  "q": "Pourquoi un long téléobjectif demande une stabilisation ?",
+  "a": "Un petit mouvement angulaire de l’appareil déplace fortement l’image sur le capteur."
+},
+{
+  "id": "premiere-image-ch7-card-1",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Énergie et puissance rayonnées : relation ?",
+  "a": "$Q_{ray}=P_{ray}\\Delta t$ pour une puissance constante ou moyenne."
+},
+{
+  "id": "premiere-image-ch7-card-2",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Unité de l’énergie ?",
+  "a": "Joule (J)."
+},
+{
+  "id": "premiere-image-ch7-card-3",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Unité de puissance ?",
+  "a": "Watt (W) ; $1\\ \\mathrm W=1\\ \\mathrm{J\\,s^{-1}}$."
+},
+{
+  "id": "premiere-image-ch7-card-4",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Éclairement énergétique ?",
+  "a": "$E_{en}=P_{\\text{reçue}}/S$ en W·m⁻² ; utiliser la puissance reçue sur la surface."
+},
+{
+  "id": "premiere-image-ch7-card-5",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Unité de l’éclairement lumineux ?",
+  "a": "Lux (lx)."
+},
+{
+  "id": "premiere-image-ch7-card-6",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Instrument mesurant l’éclairement lumineux ?",
+  "a": "Luxmètre."
+},
+{
+  "id": "premiere-image-ch7-card-7",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "IR pur : éclairement énergétique nul ?",
+  "a": "Non : il peut transférer de l’énergie ; son éclairement lumineux est nul pour l’œil humain."
+},
+{
+  "id": "premiere-image-ch7-card-8",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "1 cm² en m² ?",
+  "a": "$10^{-4}\\ \\mathrm{m^2}$."
+},
+{
+  "id": "premiere-image-ch7-card-9",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Faisceau divergent entièrement capté, écran plus loin ?",
+  "a": "Même puissance totale sans pertes, plus grande aire éclairée, éclairement plus faible."
+},
+{
+  "id": "premiere-image-ch7-card-10",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Faisceau cylindrique idéal : éloigner l’écran ?",
+  "a": "La section et l’éclairement restent constants si l’écran intercepte tout le faisceau et si l’air n’atténue pas."
+},
+{
+  "id": "premiere-image-ch7-card-11",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Temps de pose doublé à puissance reçue constante ?",
+  "a": "L’énergie reçue est doublée."
+},
+{
+  "id": "premiere-image-ch7-card-12",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "N augmenté à durée et ISO fixes ?",
+  "a": "La photo s’assombrit ; la profondeur de champ augmente à conditions de mise au point fixes."
+},
+{
+  "id": "premiere-image-ch7-card-13",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "ISO augmenté : davantage de photons reçus ?",
+  "a": "Non. ISO agit sur gain et traitement ; l’énergie reçue ne change pas si durée et ouverture restent fixes."
+},
+{
+  "id": "premiere-image-ch7-card-14",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Compromis d’une pose longue ?",
+  "a": "Plus de lumière reçue mais risque de flou de mouvement ou de bougé."
+},
+{
+  "id": "premiere-image-ch7-card-15",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Compromis d’une grande ouverture ?",
+  "a": "Plus de lumière reçue mais profondeur de champ plus faible."
+},
+{
+  "id": "premiere-image-ch7-card-16",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Compromis des ISO élevés ?",
+  "a": "Le bruit et les limites de dynamique peuvent devenir plus visibles."
+},
+{
+  "id": "premiere-image-ch7-card-17",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "À N doublé, quel temps pour même énergie ?",
+  "a": "Multiplier Δt par 4, puisque $Q\\propto\\Delta t/N^2$ sous les mêmes conditions."
+},
+{
+  "id": "premiere-image-ch7-card-18",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "À diamètre D divisé par 4, quel éclairement ?",
+  "a": "À mêmes conditions, surface et éclairement transmis divisés par 16."
+},
+{
+  "id": "premiere-image-ch7-card-19",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Compensation générale à ISO fixe ?",
+  "a": "$\\Delta t_2=\\Delta t_1(N_2/N_1)^2$."
+},
+{
+  "id": "premiere-image-ch7-card-20",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Un cran usuel 5,6 → 8 : compensation ?",
+  "a": "Environ doubler le temps de pose pour garder la même énergie reçue."
+},
+{
+  "id": "premiere-image-ch7-card-21",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Pour figer un sujet rapide ?",
+  "a": "Raccourcir la durée ; compenser par plus grande ouverture et/ou ISO si nécessaire."
+},
+{
+  "id": "premiere-image-ch7-card-22",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch7",
+  "q": "Filé d’étoiles : cause ?",
+  "a": "Pose longue et mouvement apparent du ciel dû à la rotation terrestre."
+},
+{
+  "id": "premiere-image-ch8-card-1",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Définition du pixel ?",
+  "a": "Plus petit élément de couleur uniforme d’une image matricielle."
+},
+{
+  "id": "premiere-image-ch8-card-2",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Définition totale d’une image ?",
+  "a": "$N_{px}=n_{largeur}n_{hauteur}$, en pixels."
+},
+{
+  "id": "premiere-image-ch8-card-3",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Résolution d’affichage ?",
+  "a": "$R=n_{px}/L_{pouces}$, en pixels par pouce."
+},
+{
+  "id": "premiere-image-ch8-card-4",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Un pouce en cm ?",
+  "a": "2,54 cm."
+},
+{
+  "id": "premiere-image-ch8-card-5",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Même fichier imprimé plus grand : définition et résolution ?",
+  "a": "La définition reste identique ; la résolution diminue."
+},
+{
+  "id": "premiere-image-ch8-card-6",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Recadrer sans rééchantillonner : quel effet ?",
+  "a": "On garde seulement une partie des pixels : la définition diminue."
+},
+{
+  "id": "premiere-image-ch8-card-7",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Agrandissement numérique : nouveaux détails garantis ?",
+  "a": "Non ; il peut interpoler les données sans recréer les informations absentes."
+},
+{
+  "id": "premiere-image-ch8-card-8",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Bit : valeurs possibles ?",
+  "a": "0 et 1."
+},
+{
+  "id": "premiere-image-ch8-card-9",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "n bits : combien de codes ?",
+  "a": "$2^n$ codes distincts, de 0 à $2^n-1$."
+},
+{
+  "id": "premiere-image-ch8-card-10",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "1 octet : combien de bits ?",
+  "a": "8 bits."
+},
+{
+  "id": "premiere-image-ch8-card-11",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "8 bits par pixel gris : combien de nuances ?",
+  "a": "$2^8=256$ nuances."
+},
+{
+  "id": "premiere-image-ch8-card-12",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "RVB 24 bits : répartition ?",
+  "a": "8 bits pour rouge, 8 pour vert, 8 pour bleu ; valeurs de 0 à 255 par canal."
+},
+{
+  "id": "premiere-image-ch8-card-13",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "RVB 24 bpp : combien de combinaisons ?",
+  "a": "$2^{24}=16\\,777\\,216$."
+},
+{
+  "id": "premiere-image-ch8-card-14",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Mémoire brute en bits ?",
+  "a": "$M_{bits}=N_{px}b$ avec b en bits par pixel."
+},
+{
+  "id": "premiere-image-ch8-card-15",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Mémoire brute en octets ?",
+  "a": "$M_o=N_{px}b/8$."
+},
+{
+  "id": "premiere-image-ch8-card-16",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Mo et Mio : même unité ?",
+  "a": "Non : 1 Mo = 1 000 000 octets ; 1 Mio = 1 048 576 octets."
+},
+{
+  "id": "premiere-image-ch8-card-17",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "PNG : type de compression ?",
+  "a": "Sans perte : on retrouve les pixels d’origine après décompression."
+},
+{
+  "id": "premiere-image-ch8-card-18",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "JPEG usuel : type de compression ?",
+  "a": "Avec perte : certaines informations sont supprimées ; poids et rendu dépendent du réglage."
+},
+{
+  "id": "premiere-image-ch8-card-19",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Calcul des données pixels = poids exact du fichier ?",
+  "a": "Pas toujours : en-tête, remplissage, métadonnées et compression peuvent changer le poids réel."
+},
+{
+  "id": "premiere-image-ch8-card-20",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Débit binaire ?",
+  "a": "$D_b=N_{bits}/\\Delta t$ en bit/s."
+},
+{
+  "id": "premiere-image-ch8-card-21",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Durée idéale de transmission ?",
+  "a": "$\\Delta t=N_{bits}/D_b$ ; convertir les octets en bits avant le calcul."
+},
+{
+  "id": "premiere-image-ch8-card-22",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "1 Mbit/s = 1 Mo/s ?",
+  "a": "Non : 1 Mbit/s = 1 000 000 bit/s, soit 125 000 octets/s hors surcoûts."
+},
+{
+  "id": "premiere-image-ch8-card-23",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "Capteur : photosite et pixel du fichier identiques ?",
+  "a": "Pas nécessairement : les signaux de photosites filtrés peuvent être traités pour reconstituer les pixels RVB."
+},
+{
+  "id": "premiere-image-ch8-card-24",
+  "category": "premiere-image",
+  "chapter": "premiere-image-ch8",
+  "q": "ppp/ppi et dpi ?",
+  "a": "ppp/ppi compte des pixels par pouce ; dpi des points de dispositif d’impression. L’exercice emploie parfois dpi au sens de ppp."
+},
+{
+  "id": "image-focale-lointain-ece-1",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Pourquoi la distance lentille–écran donne-t-elle approximativement f′ ?",
+  "a": "Un objet lointain envoie des rayons quasi parallèles ; ils convergent près du plan focal image. La distance au plan où l’image est nette est donc voisine de f′."
+},
+{
+  "id": "image-focale-lointain-ece-2",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Identifier : quel réflexe ?",
+  "a": "Repérer la lentille à centre mince et bords épais ; dans l’air elle est divergente. Vérifier au besoin son action par la méthode autorisée."
+},
+{
+  "id": "image-focale-lointain-ece-3",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Viser : quel réflexe ?",
+  "a": "Choisir l’objet éloigné prévu par le sujet ; placer la lentille puis l’écran du côté où se propage la lumière."
+},
+{
+  "id": "image-focale-lointain-ece-4",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Chercher : quel réflexe ?",
+  "a": "Déplacer l’écran jusqu’à obtenir une image la plus nette possible ; garder l’ensemble stable."
+},
+{
+  "id": "image-focale-lointain-ece-5",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Mesurer : quel réflexe ?",
+  "a": "Relever la distance centre optique–écran et l’unité ; annoncer qu’il s’agit d’une estimation puisque l’objet n’est pas réellement à l’infini."
+},
+{
+  "id": "image-focale-lointain-ece-6",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Comparer : quel réflexe ?",
+  "a": "Recommencer pour l’autre convergente ; conserver celle dont la distance lentille–image est la plus grande."
+},
+{
+  "id": "image-focale-lointain-ece-7",
+  "chapter": "image-focale-lointain",
+  "category": "ece",
+  "q": "Communiquer : quel réflexe ?",
+  "a": "Présenter profils, images et distances ; dans l’ECE, respecter les appels à 10 puis 15 min indiqués sur la première page."
+},
+{
+  "id": "image-conjugaison-banc-ece-1",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Comment situer F′ sur le tracé expérimental ?",
+  "a": "Tracer de B un rayon incident parallèle à l’axe jusqu’à la lentille, puis sa branche passant par B′ : l’intersection de cette branche avec l’axe est F′."
+},
+{
+  "id": "image-conjugaison-banc-ece-2",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Aligner : quel réflexe ?",
+  "a": "Placer source, objet, centre de lentille et écran à la même hauteur sur l’axe ; relever les positions des repères optiques."
+},
+{
+  "id": "image-conjugaison-banc-ece-3",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Positionner : quel réflexe ?",
+  "a": "Dans le sujet ECE, placer l’objet à 60,0 cm devant la lentille ; ne pas confondre cette distance avec l’origine du banc."
+},
+{
+  "id": "image-conjugaison-banc-ece-4",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Mettre au point : quel réflexe ?",
+  "a": "Déplacer l’écran jusqu’à l’image la plus nette ; revenir de part et d’autre pour repérer le meilleur plan."
+},
+{
+  "id": "image-conjugaison-banc-ece-5",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Relever : quel réflexe ?",
+  "a": "Noter xA, xO, xA′, AB et A′B′ ; indiquer image renversée ou droite et incertitudes de lecture."
+},
+{
+  "id": "image-conjugaison-banc-ece-6",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Construire : quel réflexe ?",
+  "a": "Sur le quadrillage, représenter objet, lentille et image avec les mesures. Tracer un rayon passant par O et un rayon initialement parallèle à l’axe ; son émergent définit F′."
+},
+{
+  "id": "image-conjugaison-banc-ece-7",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Valider : quel réflexe ?",
+  "a": "Lire OF′ sur la construction et comparer à l’estimation par objet lointain. Un calcul de conjugaison peut contrôler la méthode sans remplacer le tracé demandé."
+},
+{
+  "id": "image-conjugaison-banc-ece-8",
+  "chapter": "image-conjugaison-banc",
+  "category": "ece",
+  "q": "Présenter : quel réflexe ?",
+  "a": "Présenter montage, mesures, signes et dessin ; les valeurs finales sont celles réellement mesurées, pas celles d’un exemple."
+},
+{
+  "id": "image-autocollimation-ece-1",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Pourquoi la position du miroir derrière la lentille n’impose-t-elle pas la focale mesurée ?",
+  "a": "Au réglage, les rayons entre lentille et miroir sont parallèles ; le retour converge dans le plan focal objet. C’est la distance objet–lentille qui vaut f′."
+},
+{
+  "id": "image-autocollimation-ece-2",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Préparer : quel réflexe ?",
+  "a": "Identifier les côtés aller et retour ; utiliser un objet et un écran permettant de voir l’image retournée dans le plan objet."
+},
+{
+  "id": "image-autocollimation-ece-3",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Aligner : quel réflexe ?",
+  "a": "Placer objet, lentille et miroir sur les supports ; le miroir est du côté image derrière la lentille."
+},
+{
+  "id": "image-autocollimation-ece-4",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Ajuster : quel réflexe ?",
+  "a": "Déplacer l’objet ou la lentille jusqu’à une image de retour nette dans le plan de l’objet ; régler le miroir selon le montage pour rendre l’image observable."
+},
+{
+  "id": "image-autocollimation-ece-5",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Mesurer : quel réflexe ?",
+  "a": "Relever la distance objet–centre optique ; répéter l’approche de netteté et évaluer la lecture."
+},
+{
+  "id": "image-autocollimation-ece-6",
+  "chapter": "image-autocollimation",
+  "category": "ece",
+  "q": "Contrôler : quel réflexe ?",
+  "a": "Comparer cette distance avec la méthode de l’objet lointain ; discuter les limites de centrage et de repérage."
+},
+{
+  "id": "image-syntheses-couleurs-ece-1",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Pourquoi cyan et jaune empilés transmettent-ils surtout le vert ?",
+  "a": "Le cyan laisse passer surtout V+B ; le jaune surtout R+V. Leur domaine commun est V, avec les limites des spectres réels."
+},
+{
+  "id": "image-syntheses-couleurs-ece-2",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Repérer : quel réflexe ?",
+  "a": "Lire les spectres et identifier les primaires RVB ainsi que les complémentaires CMJ."
+},
+{
+  "id": "image-syntheses-couleurs-ece-3",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Superposer : quel réflexe ?",
+  "a": "Faire se recouvrir deux faisceaux distincts sur l’écran : V+B→cyan ; R+V→jaune ; R+B→magenta. Ajouter les trois pour une lumière proche du blanc avec des intensités adaptées."
+},
+{
+  "id": "image-syntheses-couleurs-ece-4",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Filtrer : quel réflexe ?",
+  "a": "Dans un seul faisceau blanc, superposer des filtres : cyan puis jaune conserve principalement le vert ; magenta+jaune conserve le rouge ; cyan+magenta conserve le bleu."
+},
+{
+  "id": "image-syntheses-couleurs-ece-5",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Expliquer : quel réflexe ?",
+  "a": "Comparer l’addition de domaines des faisceaux séparés avec l’intersection des domaines transmis par les filtres empilés."
+},
+{
+  "id": "image-syntheses-couleurs-ece-6",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Drapeaux : quel réflexe ?",
+  "a": "Placer un filtre jaune entre le drapeau français éclairé en blanc et l’observateur/prise de vue : bleu devient sombre, blanc devient jaune et rouge reste rouge, dans le modèle idéal."
+},
+{
+  "id": "image-syntheses-couleurs-ece-7",
+  "chapter": "image-syntheses-couleurs",
+  "category": "ece",
+  "q": "Communiquer : quel réflexe ?",
+  "a": "Présenter montages, observations et spectres ; comparer les différences avec le modèle idéal plutôt que promettre des couleurs parfaitement pures."
+},
+{
+  "id": "image-capteur-champ-ece-1",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Dans la maquette, pourquoi la distance lentille–écran n’est-elle pas f′ ?",
+  "a": "L’objet est proche. Pour p = 30 cm et f′ = 20 cm, la conjugaison donne q = 60 cm ; q ≈ f′ ne vaut qu’au loin."
+},
+{
+  "id": "image-capteur-champ-ece-2",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Monter : quel réflexe ?",
+  "a": "Dans la maquette, placer l’objet à p = D = 30 cm devant la lentille ; rechercher le plan image avant de mesurer le cadrage."
+},
+{
+  "id": "image-capteur-champ-ece-3",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Cadrer : quel réflexe ?",
+  "a": "Repérer sur la règle la largeur AB dont l’image couvre le rectangle ℓ ; mesurer p et q depuis le centre de la lentille."
+},
+{
+  "id": "image-capteur-champ-ece-4",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Calculer : quel réflexe ?",
+  "a": "Utiliser α = 2 arctan(AB/(2D)). Pour vérifier : AB/ℓ = p/q, donc α = 2 arctan(ℓ/(2q))."
+},
+{
+  "id": "image-capteur-champ-ece-5",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Comparer : quel réflexe ?",
+  "a": "Refaire les configurations autorisées du tableau avec remise au point ; comparer à p fixé et ℓ ou f′ variable."
+},
+{
+  "id": "image-capteur-champ-ece-6",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Photographier : quel réflexe ?",
+  "a": "Pour l’APN, placer le repère optique à 7,00 m du tableau, régler 55 mm réels, cadrer horizontalement les règles et relever L avant effacement de la photo."
+},
+{
+  "id": "image-capteur-champ-ece-7",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Estimer : quel réflexe ?",
+  "a": "Pour l’objet lointain, calculer α ≈ L/D puis ℓ = 2f′tan(α/2) ; vérifier les unités, les radians et l’approximation des petits angles."
+},
+{
+  "id": "image-capteur-champ-ece-8",
+  "chapter": "image-capteur-champ",
+  "category": "ece",
+  "q": "Incertitude : quel réflexe ?",
+  "a": "Identifier les contributions de L et D et employer le tableur s’il est fourni ; sinon exposer les formules et ne pas inventer le résultat expérimental."
+},
+{
+  "id": "image-colorimetrie-photo-ece-1",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Pourquoi le fond et le canal rouges sont-ils choisis pour un colorant cyan ?",
+  "a": "Dans le modèle soustractif, le cyan absorbe principalement le rouge : la diminution du code R est alors liée à la quantité de colorant sur le trajet optique."
+},
+{
+  "id": "image-colorimetrie-photo-ece-2",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Stabiliser : quel réflexe ?",
+  "a": "Fixer téléphone et cuve, garder le fond rouge et l’éclairage constants, éviter reflets, bulles et traces."
+},
+{
+  "id": "image-colorimetrie-photo-ece-3",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Régler : quel réflexe ?",
+  "a": "Verrouiller autant que possible exposition, ISO, balance des blancs et mise au point ; éviter les pixels saturés."
+},
+{
+  "id": "image-colorimetrie-photo-ece-4",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Référencer : quel réflexe ?",
+  "a": "Photographier la cuve d’eau dans la même géométrie ; relever R0 au pixel/région défini par le sujet."
+},
+{
+  "id": "image-colorimetrie-photo-ece-5",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Étalonner : quel réflexe ?",
+  "a": "Photographier les quatre étalons ; relever Ri puis calculer Ai = log10(R0/Ri) pour Ri > 0 ; tracer Ai en fonction de ci."
+},
+{
+  "id": "image-colorimetrie-photo-ece-6",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Contrôler : quel réflexe ?",
+  "a": "Examiner le nuage et le domaine ; employer le modèle adapté, pas une droite choisie pour obtenir un résultat attendu."
+},
+{
+  "id": "image-colorimetrie-photo-ece-7",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Doser : quel réflexe ?",
+  "a": "Photographier l’échantillon de la même façon, calculer AP, déterminer cP par le modèle et corriger une dilution éventuelle."
+},
+{
+  "id": "image-colorimetrie-photo-ece-8",
+  "chapter": "image-colorimetrie-photo",
+  "category": "ece",
+  "q": "Conclure : quel réflexe ?",
+  "a": "Présenter concentration, unités, incertitudes/limites et comparaison à la limite indiquée dans le sujet si elle est demandée."
+},
+{
+  "id": "image-exposition-photo-ece-1",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Comment compenser N → √2N à ISO fixe ?",
+  "a": "L’aire du diaphragme est divisée par deux ; doubler le temps de pose conserve approximativement l’énergie reçue, mais augmente le risque de flou de mouvement."
+},
+{
+  "id": "image-exposition-photo-ece-2",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Préparer : quel réflexe ?",
+  "a": "Fixer focale, distance du sujet, mise au point, balance des blancs et éclairage ; noter la configuration."
+},
+{
+  "id": "image-exposition-photo-ece-3",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Ouverture : quel réflexe ?",
+  "a": "À temps de pose et ISO fixés, comparer deux nombres N ; noter la luminosité et la profondeur de champ."
+},
+{
+  "id": "image-exposition-photo-ece-4",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Pose : quel réflexe ?",
+  "a": "À N et ISO fixés, changer la durée et photographier l’objet mobile ; relier énergie et flou."
+},
+{
+  "id": "image-exposition-photo-ece-5",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "ISO : quel réflexe ?",
+  "a": "À N et durée fixés, changer ISO ; comparer luminosité rendue et bruit en expliquant qu’aucune énergie supplémentaire n’a été reçue."
+},
+{
+  "id": "image-exposition-photo-ece-6",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Compenser : quel réflexe ?",
+  "a": "Chercher deux couples N/durée d’exposition voisine : si N est multiplié par √2, l’aire est divisée par 2 et il faut doubler la durée à ISO fixe."
+},
+{
+  "id": "image-exposition-photo-ece-7",
+  "chapter": "image-exposition-photo",
+  "category": "ece",
+  "q": "Analyser : quel réflexe ?",
+  "a": "Comparer les effets secondaires, noter les limites du modèle et conserver photos et réglages."
 }
 ]
