@@ -3295,5 +3295,719 @@
   "category": "ece",
   "q": "Interpréter : quel réflexe ?",
   "a": "Calculer récupération, discuter pertes et pureté, conserver une mesure de pureté si le sujet la demande, puis collecter les eaux mères et nettoyer le montage."
+},
+{
+  "id": "premiere-mi-ch1-card-1",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Que contient un résultat de mesure ?",
+  "a": "Une valeur, une unité et une incertitude avec son mode d’évaluation."
+},
+{
+  "id": "premiere-mi-ch1-card-2",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Quelles sont les sept unités SI de base ?",
+  "a": "m, kg, s, A, K, mol et cd."
+},
+{
+  "id": "premiere-mi-ch1-card-3",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Pourquoi une référence n’est-elle pas forcément la valeur vraie ?",
+  "a": "Elle est obtenue par un étalon ou un modèle et peut avoir sa propre incertitude."
+},
+{
+  "id": "premiere-mi-ch1-card-4",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Comment calculer la moyenne ?",
+  "a": "$\\bar x=\\sum x_i/n$."
+},
+{
+  "id": "premiere-mi-ch1-card-5",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Quel dénominateur pour l’écart-type expérimental ?",
+  "a": "$n-1$ sous la racine ; ne pas utiliser automatiquement l’écart-type de population."
+},
+{
+  "id": "premiere-mi-ch1-card-6",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Comment évaluer uA de la moyenne ?",
+  "a": "$u_A(\\bar x)=s_{exp}/\\sqrt n$ pour des mesures comparables indépendantes."
+},
+{
+  "id": "premiere-mi-ch1-card-7",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Répéter corrige-t-il un biais ?",
+  "a": "Non. Répéter réduit une composante aléatoire mais ne supprime pas une erreur systématique."
+},
+{
+  "id": "premiere-mi-ch1-card-8",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Que vaut u pour une demi-étendue uniforme a ?",
+  "a": "$u=a/\\sqrt3$, seulement sous l’hypothèse de distribution uniforme."
+},
+{
+  "id": "premiere-mi-ch1-card-9",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Résolution q et incertitude de résolution ?",
+  "a": "Pour un arrondi uniforme : $u=q/\\sqrt{12}$. La résolution n’est pas une incertitude totale."
+},
+{
+  "id": "premiere-mi-ch1-card-10",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Comment exploiter p % lecture + kq ?",
+  "a": "$a=(p/100)|x|+kq$ ; vérifier le calibre, puis appliquer la formule d’incertitude adaptée."
+},
+{
+  "id": "premiere-mi-ch1-card-11",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Fidélité ou justesse ?",
+  "a": "Fidélité : faible dispersion. Justesse : moyenne proche de la référence."
+},
+{
+  "id": "premiere-mi-ch1-card-12",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Quel critère de compatibilité utilisent ces fiches ?",
+  "a": "$|\\bar x-x_{ref}|\\le u(\\bar x)$ ; c’est une convention du sujet, pas un seuil universel."
+},
+{
+  "id": "premiere-mi-ch1-card-13",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Peut-on éliminer une mesure isolée automatiquement ?",
+  "a": "Non. Il faut rechercher une cause, annoncer le critère et conserver la trace du rejet."
+},
+{
+  "id": "premiere-mi-ch1-card-14",
+  "chapter": "premiere-mi-ch1",
+  "category": "premiere-mesure",
+  "q": "Comment arrondir un résultat ?",
+  "a": "Garder les chiffres intermédiaires ; arrondir l’incertitude puis la valeur mesurée au même rang décimal."
+},
+{
+  "id": "premiere-mi-ch2-card-1",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Qu’est-ce qu’un capteur ?",
+  "a": "Un élément directement soumis au phénomène, dont une propriété dépend de la grandeur mesurée."
+},
+{
+  "id": "premiere-mi-ch2-card-2",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Entrée et sortie d’une Pt100 ?",
+  "a": "Entrée : température. Sortie : résistance."
+},
+{
+  "id": "premiere-mi-ch2-card-3",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Sensibilité d’un capteur affine ?",
+  "a": "Pour $S=aE+b$, $k=\\Delta S/\\Delta E=a$, avec l’unité sortie/entrée."
+},
+{
+  "id": "premiere-mi-ch2-card-4",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Si le modèle est E = cS + d, quelle est la sensibilité ?",
+  "a": "$k=1/c$ ; ne pas confondre la pente inverse avec la sensibilité."
+},
+{
+  "id": "premiere-mi-ch2-card-5",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Quel sens donner à une sensibilité négative ?",
+  "a": "La sortie diminue quand l’entrée augmente. Comparer les tailles de réponse avec le module."
+},
+{
+  "id": "premiere-mi-ch2-card-6",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Peut-on comparer des sensibilités de sorties différentes ?",
+  "a": "Pas directement : résistances et tensions ne représentent pas la même grandeur de sortie."
+},
+{
+  "id": "premiere-mi-ch2-card-7",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Formule de résistance d’un fil ?",
+  "a": "$R=\\rho L/\\mathcal S$ : ρ en Ω·m, L en m, section en m²."
+},
+{
+  "id": "premiere-mi-ch2-card-8",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Que signifie Pt100 ?",
+  "a": "Résistance de platine égale à 100 Ω à 0 °C."
+},
+{
+  "id": "premiere-mi-ch2-card-9",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "CTN : effet d’une hausse de température ?",
+  "a": "La résistance diminue ; la relation est généralement non affine."
+},
+{
+  "id": "premiere-mi-ch2-card-10",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Quel instrument mesure une résistance ?",
+  "a": "Un ohmmètre, sur un circuit hors tension ; un voltmètre seul ne mesure pas R."
+},
+{
+  "id": "premiere-mi-ch2-card-11",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Thermocouple : rôle de la jonction de référence ?",
+  "a": "La tension dépend des températures des deux jonctions ; la jonction froide doit être connue ou compensée."
+},
+{
+  "id": "premiere-mi-ch2-card-12",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Comment passer d’un quantum électrique à une variation physique ?",
+  "a": "$q_E\\simeq q_S/|k|$, pour un modèle localement affine."
+},
+{
+  "id": "premiere-mi-ch2-card-13",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Comment fonctionne une jauge de contrainte ?",
+  "a": "Une force déforme le corps d’épreuve, modifie la géométrie de la jauge et donc sa résistance."
+},
+{
+  "id": "premiere-mi-ch2-card-14",
+  "chapter": "premiere-mi-ch2",
+  "category": "premiere-mesure",
+  "q": "Quel lien entre force et masse ?",
+  "a": "Le poids $F=mg$ ; un capteur de force doit être étalonné pour afficher une masse."
+},
+{
+  "id": "premiere-mi-ch3-card-1",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Étalonner, régler ou vérifier ?",
+  "a": "Étalonner : établir la relation et les incertitudes. Régler : modifier la réponse. Vérifier : comparer à une exigence."
+},
+{
+  "id": "premiere-mi-ch3-card-2",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Deux méthodes d’étalonnage ?",
+  "a": "Appliquer plusieurs étalons connus ou mesurer le même milieu avec un capteur de référence."
+},
+{
+  "id": "premiere-mi-ch3-card-3",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Où placer E et S sur la courbe ?",
+  "a": "Entrée E en abscisse et sortie S en ordonnée pour déterminer directement la sensibilité."
+},
+{
+  "id": "premiere-mi-ch3-card-4",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Pourquoi utiliser plusieurs points ?",
+  "a": "Déterminer un modèle sur une plage et repérer une non-linéarité ou un écart suspect."
+},
+{
+  "id": "premiere-mi-ch3-card-5",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Inverser S = aE + b ?",
+  "a": "$E=(S-b)/a$."
+},
+{
+  "id": "premiere-mi-ch3-card-6",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Faut-il imposer b = 0 ?",
+  "a": "Seulement si le modèle physique et les données le justifient ; ne pas effacer un décalage arbitrairement."
+},
+{
+  "id": "premiere-mi-ch3-card-7",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Pourquoi éviter l’extrapolation ?",
+  "a": "Le modèle n’a été vérifié que dans sa plage d’étalonnage."
+},
+{
+  "id": "premiere-mi-ch3-card-8",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Incertitude d’entrée si seul u(S) est pris en compte ?",
+  "a": "$u(E)=u(S)/|a|$. Le modèle et l’étalonnage peuvent apporter d’autres composantes."
+},
+{
+  "id": "premiere-mi-ch3-card-9",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Un étalon est-il exact ?",
+  "a": "Non ; son incertitude doit être connue, faible devant l’exigence et sa traçabilité établie."
+},
+{
+  "id": "premiere-mi-ch3-card-10",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Le kilogramme est-il encore défini par le Grand K ?",
+  "a": "Non. Depuis 2019, sa définition repose sur la constante de Planck ; le Grand K est historique."
+},
+{
+  "id": "premiere-mi-ch3-card-11",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Relation de dilution ?",
+  "a": "$C_0V_0=C_fV_f$ sans perte de soluté."
+},
+{
+  "id": "premiere-mi-ch3-card-12",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Quel est le rôle du blanc en spectrophotométrie ?",
+  "a": "Corriger l’absorption due à la cuve, au solvant et aux réactifs autres que l’espèce étudiée."
+},
+{
+  "id": "premiere-mi-ch3-card-13",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Retrouver la concentration initiale après dilution ?",
+  "a": "$C_{initiale}=F C_{diluée}$, où F est le facteur de dilution."
+},
+{
+  "id": "premiere-mi-ch3-card-14",
+  "chapter": "premiere-mi-ch3",
+  "category": "premiere-mesure",
+  "q": "Absorbance : unité ?",
+  "a": "L’absorbance est sans unité ; la concentration conserve l’unité de l’étalonnage."
+},
+{
+  "id": "premiere-mi-ch4-card-1",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Éléments d’une chaîne de mesure ?",
+  "a": "Capteur → conditionneur → filtre si nécessaire → CAN → calcul → affichage."
+},
+{
+  "id": "premiere-mi-ch4-card-2",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Qu’est-ce qu’un transmetteur dans ces fiches ?",
+  "a": "L’ensemble capteur + conditionneur."
+},
+{
+  "id": "premiere-mi-ch4-card-3",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Rôle du conditionneur ?",
+  "a": "Adapter une sortie électrique au dispositif d’acquisition : conversion, amplification, décalage…"
+},
+{
+  "id": "premiere-mi-ch4-card-4",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Coefficient d’amplification ?",
+  "a": "$A=U_S/U_E$, sans unité si les tensions utilisent la même unité."
+},
+{
+  "id": "premiere-mi-ch4-card-5",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Pourquoi une amplification peut-elle saturer ?",
+  "a": "La sortie est limitée par l’alimentation et les capacités du montage ; le signal est alors déformé."
+},
+{
+  "id": "premiere-mi-ch4-card-6",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Tension d’un pont diviseur aux bornes de la CTN ?",
+  "a": "$U_{CTN}=U_G R_{CTN}/(R+R_{CTN})$ si la mesure ne charge pas significativement le circuit."
+},
+{
+  "id": "premiere-mi-ch4-card-7",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "N bits : nombre de codes et code maximal ?",
+  "a": "$2^N$ codes et un code maximal $2^N-1$."
+},
+{
+  "id": "premiere-mi-ch4-card-8",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Quantum avec la convention des fiches ?",
+  "a": "$Q=(U_{max}-U_{min})/2^N$ : largeur d’un intervalle."
+},
+{
+  "id": "premiere-mi-ch4-card-9",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "CAN 2 bits sur 0–5 V : Q ?",
+  "a": "Q = 1,25 V ; quatre codes : 00, 01, 10, 11."
+},
+{
+  "id": "premiere-mi-ch4-card-10",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Variation physique par code ?",
+  "a": "$\\Delta E_{min}\\simeq Q/|k|$ pour une chaîne affine."
+},
+{
+  "id": "premiere-mi-ch4-card-11",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Une sortie 0–10 V convient-elle directement à un CAN 0–5 V ?",
+  "a": "Non, elle dépasse la gamme sur une partie du domaine ; adapter la chaîne."
+},
+{
+  "id": "premiere-mi-ch4-card-12",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Plus de bits garantit-il une meilleure exactitude ?",
+  "a": "Non. Le quantum diminue, mais biais, bruit, références et erreurs de modèle restent possibles."
+},
+{
+  "id": "premiere-mi-ch4-card-13",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Fréquence d’échantillonnage et nombre de bits : même chose ?",
+  "a": "Non. La fréquence fixe les instants acquis ; les bits fixent le nombre de codes."
+},
+{
+  "id": "premiere-mi-ch4-card-14",
+  "chapter": "premiere-mi-ch4",
+  "category": "premiere-mesure",
+  "q": "Boucle 4–20 mA : valeur basse ?",
+  "a": "4 mA, et non 0 mA, représente la borne basse de l’étalonnage."
+},
+{
+  "id": "premiere-mi-ch5-card-1",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Que signifie TOR ?",
+  "a": "Tout ou rien : deux états de sortie ou de commande."
+},
+{
+  "id": "premiere-mi-ch5-card-2",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Détection et régulation : différence ?",
+  "a": "La détection signale un état. La régulation commande un actionneur et utilise le retour de mesure."
+},
+{
+  "id": "premiere-mi-ch5-card-3",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Chauffage à un seuil C : règle choisie ?",
+  "a": "$X<C$ : 100 % ; $X\\ge C$ : 0 %."
+},
+{
+  "id": "premiere-mi-ch5-card-4",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Pourquoi un seuil unique peut-il poser problème ?",
+  "a": "Du bruit près du seuil provoque des commutations répétées."
+},
+{
+  "id": "premiere-mi-ch5-card-5",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Chauffage à deux seuils : quand activer ?",
+  "a": "À X ≤ Cbas ; le chauffage reste actif jusqu’au seuil haut."
+},
+{
+  "id": "premiere-mi-ch5-card-6",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Chauffage à deux seuils : quand arrêter ?",
+  "a": "À X ≥ Chaut ; il reste arrêté jusqu’au seuil bas."
+},
+{
+  "id": "premiere-mi-ch5-card-7",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Entre les seuils, quelle est la commande ?",
+  "a": "Elle conserve son état précédent : l’historique ou l’état initial est nécessaire."
+},
+{
+  "id": "premiere-mi-ch5-card-8",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Qu’est-ce que l’hystérésis ?",
+  "a": "Deux seuils distincts de commutation et une mémoire de l’état entre eux."
+},
+{
+  "id": "premiere-mi-ch5-card-9",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Une bande plus large est-elle toujours meilleure ?",
+  "a": "Elle réduit certaines commutations mais augmente les variations admises de la grandeur."
+},
+{
+  "id": "premiere-mi-ch5-card-10",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Un CAN doit-il avoir seulement deux codes pour du TOR ?",
+  "a": "Non. La mesure peut être multi-niveaux ; la décision de commande finale est binaire."
+},
+{
+  "id": "premiere-mi-ch5-card-11",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Pourquoi un chauffage peut-il dépasser le seuil après arrêt ?",
+  "a": "L’inertie thermique et le retard maintiennent l’évolution après la coupure."
+},
+{
+  "id": "premiere-mi-ch5-card-12",
+  "chapter": "premiere-mi-ch5",
+  "category": "premiere-mesure",
+  "q": "Peut-on brancher un chauffage de puissance sur une sortie de microcontrôleur ?",
+  "a": "Non. Une interface adaptée est nécessaire ; les TP se font avec le matériel pédagogique autorisé."
+},
+{
+  "id": "mi-serie-mesures-ece-1",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Pourquoi davantage de répétitions ne supprime-t-il pas un biais ?",
+  "a": "Un biais décale toutes les mesures ; la moyenne réduit la dispersion aléatoire, pas ce décalage."
+},
+{
+  "id": "mi-serie-mesures-ece-2",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Préparer : quel réflexe ?",
+  "a": "Choisir le protocole, stabiliser les conditions, noter instrument, calibre, unité et référence."
+},
+{
+  "id": "mi-serie-mesures-ece-3",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Répéter : quel réflexe ?",
+  "a": "Refaire des mesures indépendantes avec le même protocole ; conserver chaque valeur, date et observation."
+},
+{
+  "id": "mi-serie-mesures-ece-4",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Contrôler : quel réflexe ?",
+  "a": "Rechercher une cause aux valeurs suspectes. Ne rejeter une valeur qu’avec une justification explicite."
+},
+{
+  "id": "mi-serie-mesures-ece-5",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Calculer : quel réflexe ?",
+  "a": "Déterminer moyenne, écart-type expérimental et uA de la moyenne ; conserver les chiffres intermédiaires."
+},
+{
+  "id": "mi-serie-mesures-ece-6",
+  "chapter": "mi-serie-mesures",
+  "category": "ece",
+  "q": "Conclure : quel réflexe ?",
+  "a": "Comparer l’écart à la référence au critère demandé, annoncer les autres sources d’incertitude et arrondir à la fin."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-1",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Pourquoi attendre à chaque palier ?",
+  "a": "La sonde doit atteindre l’équilibre thermique avec le milieu pour que chaque paire θ/S représente le même état."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-2",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Vérifier : quel réflexe ?",
+  "a": "Repérer la sortie et les branchements, limites de température, alimentation, référence et incertitudes."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-3",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Installer : quel réflexe ?",
+  "a": "Placer les deux sondes proches sans contact direct avec les parois ; assurer une immersion suffisante."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-4",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Acquérir : quel réflexe ?",
+  "a": "Faire varier la température par plusieurs paliers ; attendre l’équilibre et relever les paires θ/S."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-5",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Ajuster : quel réflexe ?",
+  "a": "Tracer la sortie en fonction de θ ; ajuster sans imposer b = 0 et vérifier les résidus et le domaine."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-6",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Mesurer : quel réflexe ?",
+  "a": "Lire la sortie de l’échantillon inconnu et appliquer θ = (S−b)/a seulement dans la plage étalonnée."
+},
+{
+  "id": "mi-etalonnage-temperature-ece-7",
+  "chapter": "mi-etalonnage-temperature",
+  "category": "ece",
+  "q": "Évaluer : quel réflexe ?",
+  "a": "Calculer la composante u(S)/|a| et mentionner références, coefficients et modèle pour le bilan complet."
+},
+{
+  "id": "mi-spectrophotometrie-ece-1",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Pourquoi mesurer les étalons et l’échantillon à la même longueur d’onde ?",
+  "a": "La réponse et la pente d’étalonnage dépendent de la longueur d’onde ; changer celle-ci invalide la relation utilisée."
+},
+{
+  "id": "mi-spectrophotometrie-ece-2",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Planifier : quel réflexe ?",
+  "a": "Calculer V0 = CfVf/C0 pour chaque étalon et noter les références ; préparer le facteur de dilution de l’échantillon."
+},
+{
+  "id": "mi-spectrophotometrie-ece-3",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Diluer : quel réflexe ?",
+  "a": "Rincer le matériel adapté, prélever le volume prévu, transférer en fiole, compléter au trait et homogénéiser."
+},
+{
+  "id": "mi-spectrophotometrie-ece-4",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Faire le blanc : quel réflexe ?",
+  "a": "Régler la longueur d’onde ; utiliser une cuve propre contenant le solvant et les réactifs nécessaires hors espèce dosée."
+},
+{
+  "id": "mi-spectrophotometrie-ece-5",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Mesurer : quel réflexe ?",
+  "a": "Rincer chaque cuve avec la solution, retirer bulles et traces, conserver l’orientation et relever les absorbances."
+},
+{
+  "id": "mi-spectrophotometrie-ece-6",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Modéliser : quel réflexe ?",
+  "a": "Ajuster A = aC + b ; contrôler les résidus et l’intercept ; ne pas forcer b = 0 sans justification."
+},
+{
+  "id": "mi-spectrophotometrie-ece-7",
+  "chapter": "mi-spectrophotometrie",
+  "category": "ece",
+  "q": "Exploiter : quel réflexe ?",
+  "a": "Mesurer l’échantillon dans la gamme, calculer C diluée puis C initiale ; annoncer les unités et limites du modèle."
+},
+{
+  "id": "mi-chaine-ctn-ece-1",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Pourquoi vérifier U avant de connecter le CAN ?",
+  "a": "La tension doit rester dans la gamme et respecter les limites absolues d’entrée pour éviter saturation et détérioration."
+},
+{
+  "id": "mi-chaine-ctn-ece-2",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Préparer : quel réflexe ?",
+  "a": "Lire les limites CTN/CAN, choisir la résistance et couper l’alimentation avant câblage."
+},
+{
+  "id": "mi-chaine-ctn-ece-3",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Câbler : quel réflexe ?",
+  "a": "Monter R et CTN en série sur 5 V ; prélever U aux bornes de la CTN ; vérifier la masse commune."
+},
+{
+  "id": "mi-chaine-ctn-ece-4",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Contrôler : quel réflexe ?",
+  "a": "Avant raccordement au CAN, mesurer la tension et vérifier toute sa plage 0–5 V."
+},
+{
+  "id": "mi-chaine-ctn-ece-5",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Étalonner : quel réflexe ?",
+  "a": "Relever U et température de référence à plusieurs paliers stabilisés ; déterminer la relation adaptée au montage réel."
+},
+{
+  "id": "mi-chaine-ctn-ece-6",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Acquérir : quel réflexe ?",
+  "a": "Configurer N bits, gamme et cadence ; appliquer la conversion du modèle et conserver les valeurs brutes."
+},
+{
+  "id": "mi-chaine-ctn-ece-7",
+  "chapter": "mi-chaine-ctn",
+  "category": "ece",
+  "q": "Conclure : quel réflexe ?",
+  "a": "Calculer Q, la variation de température par code et discuter modèle, chargement du pont et incertitudes."
+},
+{
+  "id": "mi-regulation-tor-ece-1",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Pourquoi deux mesures identiques peuvent-elles conduire à des commandes différentes ?",
+  "a": "Dans la bande d’hystérésis, la commande dépend de l’état précédent, donc de l’historique du système."
+},
+{
+  "id": "mi-regulation-tor-ece-2",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Définir : quel réflexe ?",
+  "a": "Choisir une plage autorisée, Cbas < Chaut, la logique chauffage/refroidissement et l’état initial."
+},
+{
+  "id": "mi-regulation-tor-ece-3",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Vérifier : quel réflexe ?",
+  "a": "Contrôler la mesure et ses unités, les limites de fonctionnement et le montage pédagogique avant alimentation."
+},
+{
+  "id": "mi-regulation-tor-ece-4",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Programmer : quel réflexe ?",
+  "a": "Pour le chauffage : activer sous le seuil bas, arrêter au seuil haut, conserver l’état dans la bande."
+},
+{
+  "id": "mi-regulation-tor-ece-5",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Observer : quel réflexe ?",
+  "a": "Enregistrer X(t) et Y(t) ; noter les instants de commutation et les dépassements éventuels."
+},
+{
+  "id": "mi-regulation-tor-ece-6",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Comparer : quel réflexe ?",
+  "a": "Comparer une configuration à un seuil à celle avec hystérésis dans les mêmes conditions ; discuter bruit, retard et largeur de bande."
+},
+{
+  "id": "mi-regulation-tor-ece-7",
+  "chapter": "mi-regulation-tor",
+  "category": "ece",
+  "q": "Arrêter : quel réflexe ?",
+  "a": "Couper la commande et l’alimentation selon le protocole, laisser refroidir et sauvegarder les relevés."
 }
 ]
