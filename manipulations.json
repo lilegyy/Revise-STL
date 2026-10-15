@@ -2296,5 +2296,1106 @@
     "assets/documents/image-IMAGE_FS07_Exposition.pdf",
     "assets/documents/image-IMAGE_Seq07_Exercices.pdf"
   ]
+},
+{
+  "id": "pcm-premiere-dissolution",
+  "title": "Préparer une solution par dissolution",
+  "subtitle": "Peser, transférer sans perte, dissoudre puis ajuster le volume final.",
+  "category": "PCM · Chimie",
+  "time": 30,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-dissolution.svg",
+  "preview": false,
+  "objective": "Préparer une solution de concentration connue à partir d’un soluté solide.",
+  "principle": "La concentration dépend de la quantité de soluté et du volume final de solution, pas du volume initial d’eau.",
+  "equipment": [
+    [
+      "Balance, coupelle et spatule",
+      "Peser la masse calculée ; tarer la coupelle."
+    ],
+    [
+      "Fiole jaugée et bouchon",
+      "Fixer le volume final à sa température de référence."
+    ],
+    [
+      "Entonnoir, pissette, pipette Pasteur",
+      "Transfert quantitatif et ajustement précis."
+    ],
+    [
+      "Soluté identifié et eau distillée",
+      "Choisir formule, pureté et état d’hydratation corrects."
+    ]
+  ],
+  "steps": [
+    [
+      "Calculer",
+      "Déterminer m=cMV pour une concentration molaire, ou m=tV pour une concentration massique ; convertir V et lire la formule du réactif, y compris l’eau d’hydratation."
+    ],
+    [
+      "Peser",
+      "Tarer puis introduire le solide dans la coupelle ; noter masse et précision de la balance."
+    ],
+    [
+      "Transférer",
+      "Verser dans la fiole à l’aide de l’entonnoir ; rincer coupelle et entonnoir pour emporter tout le soluté."
+    ],
+    [
+      "Dissoudre",
+      "Ajouter une partie de l’eau, agiter jusqu’à dissolution complète ; laisser revenir à température ambiante si la dissolution échauffe le milieu."
+    ],
+    [
+      "Ajuster",
+      "Compléter près du trait, puis goutte à goutte ; œil à hauteur, bas du ménisque au trait pour une solution limpide à ménisque concave."
+    ],
+    [
+      "Homogénéiser",
+      "Boucher, retourner plusieurs fois et étiqueter avec espèce, concentration et date."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$$n=\\frac mM,\\qquad c=\\frac nV,\\qquad t=\\frac mV=cM.$$</div><p>Application du sujet hortensias : pour Al₂(SO₄)₃ anhydre, M=342,3 g/mol, V=0,500 L et c=0,100 mol/L, m=17,115 g, soit environ 17,1 g selon les données. La dissolution produit deux Al³⁺ et trois SO₄²⁻ par unité de soluté : [Al³⁺]=2c dans le modèle de dissolution complète.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch2/cours\">Concentrations et ions</a>",
+  "errors": [
+    "Ajouter 500 mL d’eau plutôt que compléter à500 mL de solution.",
+    "Compléter avant la dissolution.",
+    "Oublier le rinçage de transfert.",
+    "Utiliser M anhydre avec un produit hydraté.",
+    "Lire le trait en biais ou dépasser puis retirer de la solution."
+  ],
+  "question": "Pourquoi rincer coupelle et entonnoir ?",
+  "answer": "Pour conserver la quantité de soluté pesée : tout le solide doit être transféré dans le volume final.",
+  "check": [
+    "Je distingue eau et volume de solution.",
+    "Je vérifie l’état d’hydratation.",
+    "Je réalise un transfert quantitatif.",
+    "Je règle le ménisque à hauteur des yeux.",
+    "J’homogénéise et j’étiquette."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS02d_Concentration.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq02_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-dilution",
+  "title": "Préparer une solution par dilution",
+  "subtitle": "Pipette jaugée avec propipette, fiole jaugée, ménisque et homogénéisation.",
+  "category": "PCM · Chimie",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-dilution.svg",
+  "preview": false,
+  "objective": "Obtenir une concentration fille à partir d’une solution mère de concentration connue.",
+  "principle": "La quantité du soluté conservé dans le prélèvement est la même avant et après dilution, sans réaction ni perte.",
+  "equipment": [
+    [
+      "Solution mère et bécher propre",
+      "Verser une portion sans remettre l’excédent dans le flacon."
+    ],
+    [
+      "Pipette jaugée et propipette",
+      "Prélever le volume Vm précis."
+    ],
+    [
+      "Fiole jaugée Vf, eau et bouchon",
+      "Fixer le volume final."
+    ],
+    [
+      "Pissette et pipette de finition",
+      "Compléter sans dépasser le trait."
+    ]
+  ],
+  "steps": [
+    [
+      "Calculer",
+      "Utiliser cmVm=cfVf et choisir une verrerie adaptée : Vm=(cf/cm)Vf, avec des volumes dans la même unité."
+    ],
+    [
+      "Préparer",
+      "Rincer la pipette avec la mère ; utiliser une fiole propre éventuellement humide d’eau distillée. Identifier pipette à un trait ou à deux traits et son mode de délivrance."
+    ],
+    [
+      "Prélever",
+      "Aspirer avec la propipette ; régler le ménisque au trait, pipette verticale et œil à hauteur."
+    ],
+    [
+      "Délivrer",
+      "Laisser s’écouler selon la calibration de la pipette ; ne pas souffler la dernière goutte pour une pipette jaugée ordinaire à écoulement."
+    ],
+    [
+      "Compléter",
+      "Ajouter de l’eau, mélanger, puis ajuster au trait Vf à température ambiante."
+    ],
+    [
+      "Homogénéiser",
+      "Boucher et retourner plusieurs fois ; étiqueter cf et l’espèce."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$$c_mV_m=c_fV_f,\\qquad F=\\frac{c_m}{c_f}=\\frac{V_f}{V_m}&gt;1.$$</div><p>Exemple de révision : pour un facteur10 et une fiole100,0 mL, prélever10,0 mL de mère. Le volume d’eau ajouté n’est pas assimilé automatiquement à 90,0 mL mesurés : on ajuste la solution au volume final.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch2/cours\">Dilution et concentration</a>",
+  "errors": [
+    "Rincer la pipette uniquement à l’eau puis prélever sans conditionnement.",
+    "Confondre Vm prélevé et Vf final.",
+    "Souffler une goutte non prévue par la calibration.",
+    "Mesurer grossièrement l’eau au lieu d’ajuster le volume de la fille."
+  ],
+  "question": "Quelle grandeur se conserve lors d’une dilution simple ?",
+  "answer": "La quantité de matière du soluté prélevé, pas sa concentration.",
+  "check": [
+    "Je calcule Vm avant le prélèvement.",
+    "Je choisis la verrerie jaugée.",
+    "Je connais son mode d’écoulement.",
+    "Je conserve le soluté.",
+    "J’homogénéise la fille."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS02d_Concentration.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq02_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-coumarine",
+  "title": "Synthèse : première étape vers la coumarine",
+  "subtitle": "Extrait du sujet : 3-carbéthoxycoumarine sous reflux en erlenmeyer rodé.",
+  "category": "PCM · Chimie",
+  "time": 45,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-reflux-coumarine.svg",
+  "preview": false,
+  "objective": "Comprendre l’opération à reflux et les quantités du protocole, sans inventer sa seconde étape.",
+  "principle": "Le chauffage accélère la transformation ; les vapeurs condensées retombent dans l’erlenmeyer, ce qui limite les pertes de solvant.",
+  "equipment": [
+    [
+      "Erlenmeyer rodé100 mL et barreau",
+      "Contenir le mélange sous agitation."
+    ],
+    [
+      "Réfrigérant à boules et tuyaux",
+      "Condenser ; eau entre par le bas et sort par le haut."
+    ],
+    [
+      "Bain-marie, agitation et supports",
+      "Chauffer uniformément et garder le montage stable."
+    ],
+    [
+      "Aldéhyde salicylique, propanedioate de diéthyle, éthanol et solution de pipéridine",
+      "Réactifs et milieu prévus par le sujet ; consulter fiches de sécurité."
+    ]
+  ],
+  "steps": [
+    [
+      "Lire le protocole",
+      "Le sujet décrit uniquement la première étape vers la 3-carbéthoxycoumarine ; la décarboxylation conduisant à la coumarine n’est pas donnée."
+    ],
+    [
+      "Introduire",
+      "Sous les conditions du laboratoire, placer barreau, 8,0 g d’aldéhyde salicylique, 11,2 g de propanedioate de diéthyle et 30 mL d’éthanol absolu dans l’erlen rodé100 mL."
+    ],
+    [
+      "Agiter",
+      "Agiter jusqu’à milieu limpide ; ajouter goutte à goutte4 mL de solution éthanolique de pipéridine avec la pipette prévue."
+    ],
+    [
+      "Monter",
+      "Adapter le réfrigérant à boules, fixer le montage et brancher eau par le bas, sortie par le haut. Garder un trajet ouvert à l’atmosphère, sans boucher l’ensemble."
+    ],
+    [
+      "Chauffer",
+      "Dans le bain-marie, sous agitation, maintenir le reflux20 min après son établissement ; suivre la régulation prescrite et la circulation d’eau."
+    ],
+    [
+      "Terminer",
+      "Arrêter la chauffe et laisser refroidir avant toute opération suivante ; ne pas inventer une isolation finale ni une masse de produit, absentes de cet extrait."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$n_1=8{,}0/122{,}12=0{,}0655\\ \\mathrm{mol}$ ; $n_2=11{,}2/160{,}17=0{,}0699\\ \\mathrm{mol}$.</div><p>En assimilant le volume de solution avant pipéridine à 30 mL d’éthanol : c₁≈2,18 mol/L et c₂≈2,33 mol/L. C’est une approximation, car le volume final avec les solutés n’est pas fourni. Pour14,0 g d’aldéhyde à même concentration et même hypothèse, V≈30×14/8=52,5 mL.</p><p><a class=\"chip\" href=\"#lab/reflux\">Revoir le montage général de reflux</a></p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch2/cours\">Quantités et choix du solvant</a>",
+  "errors": [
+    "Fermer hermétiquement le réfrigérant.",
+    "Inverser l’eau du réfrigérant.",
+    "Confondre reflux et récupération d’un distillat.",
+    "Appeler le produit intermédiaire coumarine finale.",
+    "Présenter 30 mL comme volume exact de la solution."
+  ],
+  "question": "Pourquoi les vapeurs doivent-elles retomber dans le récipient ?",
+  "answer": "Pour maintenir un mélange chauffé sans perdre le solvant comme dans une distillation.",
+  "check": [
+    "Je distingue première et seconde étapes.",
+    "Je règle l’eau de bas en haut.",
+    "Je conserve l’agitation.",
+    "Je ne ferme pas le montage.",
+    "J’annonce l’approximation de volume."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques. Éthanol inflammable : pas de flamme. La pipéridine requiert la hotte et les protections adaptées ; ne pas manipuler ce montage hors des conditions encadrées du laboratoire. Un montage de reflux ne doit jamais être hermétique.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_Seq02_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-trimyristine",
+  "title": "Extraire et purifier la trimyristine",
+  "subtitle": "Reflux, filtration, distillation du solvant, recristallisation puis Büchner.",
+  "category": "PCM · Chimie",
+  "time": 75,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-reflux.svg",
+  "preview": false,
+  "objective": "Relier chaque opération de l’extraction de noix de muscade au choix des solvants.",
+  "principle": "Le dichlorométhane extrait efficacement la trimyristine ; la propanone la dissout à chaud et permet sa cristallisation au refroidissement.",
+  "equipment": [
+    [
+      "Ballon250 mL, réfrigérant, chauffage et agitation",
+      "Extraire à reflux ; circulation d’eau et montage ouvert."
+    ],
+    [
+      "Filtration sous hotte",
+      "Retirer les résidus végétaux."
+    ],
+    [
+      "Montage de distillation simple",
+      "Récupérer le solvant sans distiller à sec."
+    ],
+    [
+      "Bain d’eau glacée, Büchner et fiole à vide",
+      "Cristalliser puis séparer le solide."
+    ],
+    [
+      "Étuve autorisée et balance",
+      "Sécher selon les consignes puis mesurer le solide sec."
+    ]
+  ],
+  "steps": [
+    [
+      "Extraire",
+      "Selon le sujet : 20,0 g de muscade en poudre et 100 mL de dichlorométhane dans le ballon250 mL ; reflux30 min avec refroidissement efficace."
+    ],
+    [
+      "Filtrer",
+      "Filtrer sous hotte ; rincer le ballon avec 20 mL de dichlorométhane pour limiter les pertes de l’espèce extraite."
+    ],
+    [
+      "Concentrer",
+      "Évaporer le solvant par distillation simple ; le sujet conserve environ 10 mL de liquide huileux jaune. Arrêter avant mise à sec."
+    ],
+    [
+      "Dissoudre à chaud",
+      "Ajouter progressivement50 mL de propanone selon les conditions prévues ; rendre le contenu homogène à chaud. Écarter toute flamme et éviter les projections."
+    ],
+    [
+      "Cristalliser",
+      "Placer dans le bain d’eau glacée après préparation autorisée ; la solubilité diminue et des cristaux blancs apparaissent."
+    ],
+    [
+      "Filtrer sous vide",
+      "Mettre le papier adapté sur Büchner, l’humidifier avec le solvant prévu, vérifier l’étanchéité, aspirer puis verser ; casser le vide avant l’arrêt de l’aspiration."
+    ],
+    [
+      "Sécher et peser",
+      "Sécher à l’étuve uniquement aux conditions indiquées, après retrait des solvants selon le protocole ; refroidir et peser. Conserver masse et éventuelles observations."
+    ]
+  ],
+  "exploitation": "<figure class=\"science-figure\"><button data-image=\"assets/diagrams/pcm-premiere-distillation.svg\" data-caption=\"Distillation simple : séparation du solvant et résidu, pas de mise à sec\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/pcm-premiere-distillation.svg\" alt=\"Distillation simple : séparation du solvant et résidu, pas de mise à sec\" loading=\"lazy\"></button><figcaption>Distillation simple : séparation du solvant et résidu, pas de mise à sec · toucher pour agrandir</figcaption></figure><figure class=\"science-figure\"><button data-image=\"assets/diagrams/pcm-premiere-buchner.svg\" data-caption=\"Büchner : papier, fiole à vide, piège et aspiration\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/pcm-premiere-buchner.svg\" alt=\"Büchner : papier, fiole à vide, piège et aspiration\" loading=\"lazy\"></button><figcaption>Büchner : papier, fiole à vide, piège et aspiration · toucher pour agrandir</figcaption></figure><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"padding:8px;border-bottom:1px solid var(--line)\">Solvant</th><th style=\"padding:8px;border-bottom:1px solid var(--line)\">Solubilité donnée de la trimyristine</th></tr></thead><tbody><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Éthanol</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Soluble</td></tr><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Dichlorométhane</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Très soluble</td></tr><tr><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Propanone</td><td style=\"padding:8px;border-bottom:1px solid var(--line)\">Soluble à chaud, insoluble à froid dans le modèle du sujet</td></tr></tbody></table></div><p>Le choix DCM/éthanol repose sur les données de solubilité, pas seulement sur une classification polaire/apolaire. Les longues chaînes lipophiles de la trimyristine expliquent ses affinités, sans oublier les fonctions ester. Le solide blanc apparaît car la solution refroidie devient sursaturée.</p><p>Le rapport masse sèche récupérée /20,0 g décrit une fraction massique récupérée de l’échantillon. Il ne suffit pas à donner un rendement de synthèse ou un rendement d’extraction relatif à toute la trimyristine initiale, dont la quantité n’est pas fournie.</p><p><a class=\"chip\" href=\"#lab/simple\">Distillation générale</a> <a class=\"chip\" href=\"#lab/buchner\">Büchner général</a></p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch2/cours\">Solubilité et extraction</a>",
+  "errors": [
+    "Distiller à sec.",
+    "Mélanger rôle du reflux et rôle de la distillation.",
+    "Filtrer le solide avant d’avoir refroidi.",
+    "Peser un solide imbibé de solvant.",
+    "Jeter le dichlorométhane dans les déchets non halogénés."
+  ],
+  "question": "Pourquoi la propanone permet-elle la recristallisation ?",
+  "answer": "La trimyristine y est soluble à chaud puis très peu soluble à froid dans les données du sujet ; le refroidissement forme les cristaux.",
+  "check": [
+    "Je nomme le but des quatre étapes.",
+    "Je conserve le résidu lors de la distillation.",
+    "Je reconnais la sursaturation au froid.",
+    "Je casse le vide avant l’arrêt.",
+    "Je pèse un solide sec."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques. Dichlorométhane volatil : hotte et déchets halogénés. Propanone inflammable : aucune flamme. Fixer le verre, ne jamais fermer le reflux ni distiller à sec, et respecter les conditions de séchage prescrites.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_Seq02_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-ph",
+  "title": "Mesurer le pH d’une solution",
+  "subtitle": "Étalonnage, rinçage, immersion correcte et lecture stabilisée.",
+  "category": "PCM · Chimie",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-phmetre.svg",
+  "preview": false,
+  "objective": "Obtenir une mesure de pH interprétable et la relier à la concentration en H₃O⁺.",
+  "principle": "Le pH-mètre mesure une réponse électrique de l’électrode ; les tampons d’étalonnage permettent d’en déduire le pH à la température de mesure.",
+  "equipment": [
+    [
+      "pH-mètre et électrode",
+      "Mesurer dans une solution aqueuse ; respecter l’entretien."
+    ],
+    [
+      "Tampons adaptés, béchers propres",
+      "Étalonner sur des pH entourant la valeur attendue."
+    ],
+    [
+      "Eau distillée, papier doux et solution de conservation",
+      "Rincer sans contaminer ni détériorer l’électrode."
+    ],
+    [
+      "Solution et agitateur si prescrit",
+      "Homogénéiser sans toucher l’électrode."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Vérifier l’état de l’électrode, sa solution de conservation et la température ; suivre la notice de l’appareil."
+    ],
+    [
+      "Étalonner",
+      "Utiliser les tampons prévus, souvent deux points encadrant le domaine ; attendre chaque stabilisation et ne pas reverser les tampons utilisés."
+    ],
+    [
+      "Rincer",
+      "Rincer l’électrode entre tampons et échantillons ; tamponner doucement l’extérieur, sans frotter le bulbe."
+    ],
+    [
+      "Mesurer",
+      "Immerger le bulbe et la jonction selon la notice ; éviter paroi, fond et barreau. Attendre une lecture stable, sans ajouter de solution de calibration à l’échantillon."
+    ],
+    [
+      "Noter",
+      "Relever pH, température, solution et précision d’affichage ; interpréter avec les incertitudes."
+    ],
+    [
+      "Ranger",
+      "Rincer puis conserver suivant la notice ; ne pas laisser l’électrode sécher."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">Pour le modèle dilué : $\\mathrm{pH}=-\\log_{10}([H_3O^+]/c^\\circ)$ avec $c^\\circ=1\\ \\mathrm{mol\\,L^{-1}}$ ; $[H_3O^+]\\simeq10^{-\\mathrm{pH}}\\ \\mathrm{mol\\,L^{-1}}$.</div><p>La neutralité correspond à [H₃O⁺]=[HO⁻] ; pH≈7 pour l’eau à 25 °C dans le modèle. Un acide fort dilué monoprotique permet [H₃O⁺]≈c si l’autoprotolyse est négligeable ; ce n’est pas une formule générale pour tous les acides, notamment polyacides.</p><a class=\"chip\" href=\"#chapter/maths-logarithmes/cours\">Logarithme décimal</a><a class=\"chip\" href=\"#chapter/premiere-pcm-ch3/cours\">Acides et bases</a>",
+  "errors": [
+    "Confondre étalonnage et simple remise à zéro.",
+    "Lire avant la stabilisation.",
+    "Employer pH=−log(c) pour tout acide.",
+    "Conserver l’électrode sèche ou dans une solution inadaptée."
+  ],
+  "question": "Pourquoi faut-il étalonner avant de mesurer ?",
+  "answer": "Pour relier la réponse électrique de l’électrode à des pH de référence dans le domaine et à la température utilisés.",
+  "check": [
+    "J’utilise des tampons adaptés.",
+    "Je rince entre solutions.",
+    "Je ne touche pas le bulbe.",
+    "Je note la température.",
+    "Je vérifie les hypothèses de conversion."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS3_reactionsAB.pdf",
+    "assets/documents/pcm-premiere-PCM_LMPC_log.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-cinetique",
+  "title": "Suivre une transformation par spectrophotométrie",
+  "subtitle": "Origine des dates, cuve orientée, signal et temps de demi-réaction.",
+  "category": "PCM · Chimie",
+  "time": 40,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-spectro.svg",
+  "preview": false,
+  "objective": "Construire une courbe d’évolution et lire une vitesse ainsi que t½ sans confondre concentration et avancement.",
+  "principle": "À longueur d’onde et géométrie fixes, une absorbance peut suivre une espèce ; son lien à la concentration doit être validé.",
+  "equipment": [
+    [
+      "Spectrophotomètre et cuves compatibles",
+      "Mesurer le signal sans modifier le trajet optique."
+    ],
+    [
+      "Référence/solvant et solution étudiée",
+      "Faire le blanc adapté au protocole."
+    ],
+    [
+      "Chronomètre ou acquisition",
+      "Définir t=0 lors du mélange ou du déclenchement prescrit."
+    ],
+    [
+      "Température régulée et matériel de mélange",
+      "Maintenir les conditions pour comparer les cinétiques."
+    ]
+  ],
+  "steps": [
+    [
+      "Choisir le signal",
+      "Identifier l’espèce suivie et λ de mesure ; vérifier que l’absorbance varie de façon exploitable et reste dans le domaine de mesure."
+    ],
+    [
+      "Faire le blanc",
+      "Utiliser la référence du protocole, avec les mêmes cuves et conditions optiques."
+    ],
+    [
+      "Déclencher",
+      "Définir clairement t=0 ; réaliser le mélange de la même façon et noter le retard d’acquisition s’il existe."
+    ],
+    [
+      "Acquérir",
+      "Relever A(t) sans déplacer ni retourner aléatoirement la cuve ; limiter traces, bulles et variations de température."
+    ],
+    [
+      "Convertir",
+      "Utiliser l’étalonnage A=ac+b ou le modèle validé ; ne pas assimiler le signal à la concentration sans justification."
+    ],
+    [
+      "Exploiter",
+      "Tracer c(t) ou ξ(t), estimer la pente par une tangente et déterminer le niveau correspondant à la moitié de l’évolution finale."
+    ],
+    [
+      "Comparer",
+      "Modifier un seul facteur, conserver les autres conditions, puis comparer les vitesses et t½ ; signaler les plateaux ou données finales non connus."
+    ]
+  ],
+  "exploitation": "<figure class=\"science-figure\"><button data-image=\"assets/diagrams/pcm-premiere-cinetique.svg\" data-caption=\"Évolution finale et niveau à mi-réaction\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/pcm-premiere-cinetique.svg\" alt=\"Évolution finale et niveau à mi-réaction\" loading=\"lazy\"></button><figcaption>Évolution finale et niveau à mi-réaction · toucher pour agrandir</figcaption></figure><div class=\"def-box\">$\\xi(t_{1/2})=\\xi_f/2$ si $\\xi(0)=0$. Pour un signal linéaire : $A(t_{1/2})=(A_0+A_f)/2$ ; pour une concentration affine en ξ : $c(t_{1/2})=(c_0+c_f)/2$.</div><p>Une disparition se quantifie par −dc_R/dt ; une formation par +dc_P/dt, avec coefficients stœchiométriques si l’on veut une vitesse unique d’avancement. Un t½ lu à c₀/2 n’est correct pour un réactif que si cf=0. Sans plateau final ni autre information de fin, on ne connaît pas forcément t½.</p><a class=\"chip\" href=\"#chapter/maths-derivees/cours\">Pentes et dérivées</a><a class=\"chip\" href=\"#chapter/premiere-pcm-ch4/cours\">Cinétique</a>",
+  "errors": [
+    "Prendre cf/2 quand c0 n’est pas nul.",
+    "Confondre valeur finale et valeur à la moitié du temps de l’expérience.",
+    "Changer température et concentration en même temps.",
+    "Lire une dérivée comme une pente moyenne globale."
+  ],
+  "question": "Comment lire t½ sur une courbe où la concentration diminue de c0 à cf non nul ?",
+  "answer": "Repérer le niveau (c0+cf)/2, son intersection avec la courbe, puis la date correspondante.",
+  "check": [
+    "Je définis t=0.",
+    "Je conserve le blanc et la cuve.",
+    "Je justifie le lien signal–concentration.",
+    "Je connais la valeur finale ou j’annonce son absence.",
+    "Je distingue pente et demi-réaction."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques. Garder l’appareil au sec, ne pas regarder directement les sources internes et suivre les consignes des réactifs choisis.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS4_Cinetique.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq04_Exercices.pdf",
+    "assets/documents/pcm-premiere-PCM_LMPC_Derivee.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-pointage",
+  "title": "Pointage en Première : trajectoire et vitesse",
+  "subtitle": "Caméra fixe, étalon dans le plan, repère orienté et dates des images.",
+  "category": "PCM · Mécanique",
+  "time": 40,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-pointage.svg",
+  "preview": false,
+  "objective": "Construire positions, déplacements et vitesses à partir d’une vidéo.",
+  "principle": "Le pointage associe une position et une date à chaque image ; la calibration transforme les pixels en distances.",
+  "equipment": [
+    [
+      "Caméra sur support",
+      "Conserver le cadrage et limiter le flou."
+    ],
+    [
+      "Objet avec point repérable et étalon",
+      "Suivre le même point ; l’étalon doit être dans son plan de mouvement."
+    ],
+    [
+      "Logiciel de pointage et fréquence d’images connue",
+      "Associer pixels, coordonnées et dates."
+    ],
+    [
+      "Repère visible et réception adaptée",
+      "Donner origine, axes et zone de déplacement."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Choisir système, point M et référentiel ; fixer la caméra de face, axe de visée perpendiculaire au plan du mouvement."
+    ],
+    [
+      "Calibrer",
+      "Placer l’étalon dans ce plan, régler l’échelle, l’origine O et le sens des axes ; éviter une échelle prise sur un arrière-plan distant."
+    ],
+    [
+      "Dater",
+      "Lire la fréquence réelle d’acquisition et vérifier les métadonnées ; Δt=1/f_images si le pas est constant."
+    ],
+    [
+      "Pointer",
+      "Suivre le même point image après image ; conserver les données, ne pas corriger arbitrairement les points pour obtenir une droite."
+    ],
+    [
+      "Calculer",
+      "Pour un intervalle : déplacement rj−ri, vitesse vectorielle moyenne=(rj−ri)/(tj−ti). Une différence avant approxime surtout la vitesse au milieu du pas."
+    ],
+    [
+      "Représenter",
+      "Tracer la trajectoire et dessiner les vecteurs avec une échelle annoncée ; interpréter distance parcourue et déplacement séparément."
+    ],
+    [
+      "Contrôler",
+      "Examiner les erreurs de pointage, le parallaxe et le pas temporel ; indiquer une précision adaptée."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$\\vec r(t)=\\overrightarrow{OM}(t)$ est le vecteur position ; $\\Delta\\vec r=\\vec r_j-\\vec r_i$ ; $\\vec v_{\\rm moy}=\\Delta\\vec r/\\Delta t$.</div><p>Pour un point intérieur : $\\vec v_i\\simeq(\\vec r_{i+1}-\\vec r_{i-1})/(2\\Delta t)$. Cette approximation centrée et la différence avant du PDF n’affectent pas forcément la même date. Préciser la convention choisie.</p><a class=\"chip\" href=\"#chapter/maths-vecteurs/cours\">Vecteurs et repères</a><a class=\"chip\" href=\"#chapter/premiere-pcm-ch6/cours\">Mouvements</a><p><a class=\"chip\" href=\"#lab/pcm-ch3-pointage\">Approfondissement Terminale · pointage et accélération</a></p>",
+  "errors": [
+    "Prendre un étalon hors du plan.",
+    "Oublier que 50images/s correspond à0,020s par image.",
+    "Assimiler distance totale et norme du déplacement.",
+    "Tracer des vecteurs avec des longueurs sans échelle."
+  ],
+  "question": "Que désigne r dans ce pointage ?",
+  "answer": "Le vecteur position OM allant de l’origine du repère au point suivi, avec ses coordonnées en mètres.",
+  "check": [
+    "Je définis r=OM.",
+    "Je garde le même point.",
+    "Je calibre dans le plan.",
+    "Je note Δt.",
+    "Je distingue moyenne et estimation instantanée."
+  ],
+  "safety": "Stabiliser les supports ; retenir les masses et prévoir une réception souple. Écarter mains et pieds de la zone de chute ; ne pas dépasser la plage de charge des capteurs ou la limite élastique du ressort. Réaliser les mouvements dans la zone autorisée, sans projectiles vers des personnes.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS6_Mouvements.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq06_Exercices.pdf",
+    "assets/documents/pcm-premiere-PCM_LMPC_Vecteurs.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-ressort",
+  "title": "Étalonner un ressort et mesurer une force",
+  "subtitle": "Support stable, masses connues, équilibre et allongement.",
+  "category": "PCM · Mécanique",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-ressort.svg",
+  "preview": false,
+  "objective": "Relier force et allongement puis utiliser un ressort ou dynamomètre dans sa plage élastique.",
+  "principle": "À l’équilibre, la force de rappel compense le poids suspendu ; dans le modèle élastique linéaire, F=kΔℓ.",
+  "equipment": [
+    [
+      "Support, pince et ressort/dynamomètre",
+      "Suspendre verticalement et maintenir une lecture fiable."
+    ],
+    [
+      "Masses connues",
+      "Créer des forces P=mg."
+    ],
+    [
+      "Règle ou lecture du dynamomètre",
+      "Mesurer longueur et allongement, éviter parallaxe."
+    ],
+    [
+      "Butée/réception et tableau",
+      "Sécuriser et enregistrer les couples force–allongement."
+    ]
+  ],
+  "steps": [
+    [
+      "Vérifier",
+      "Contrôler l’appareil, sa charge maximale et son zéro ; mesurer ℓ0 sans charge dans les conditions prescrites."
+    ],
+    [
+      "Charger",
+      "Ajouter une masse connue, attendre l’équilibre et limiter les oscillations ; ne pas dépasser la plage autorisée."
+    ],
+    [
+      "Mesurer",
+      "Relever ℓ et calculer Δℓ=ℓ−ℓ0 ; convertir les cm en m si k doit être en N/m."
+    ],
+    [
+      "Associer",
+      "Calculer P=mg avec m en kg ; à l’équilibre vertical, la norme de la traction vaut P."
+    ],
+    [
+      "Ajuster",
+      "Répéter ; tracer F en fonction de Δℓ et estimer la pente k dans le domaine linéaire."
+    ],
+    [
+      "Utiliser",
+      "Pour un allongement inconnu, déduire F par l’étalonnage et discuter lecture/zéro/hystérésis."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$P=mg$, $F=k\\Delta\\ell$ dans la plage linéaire ; $k$ en N/m.</div><p>La force du ressort sur la masse est vers le haut et le poids vers le bas. Ce sont deux forces sur le même objet, distinctes de la paire action–réaction entre ressort et masse. Un graphe avec intercept non nul appelle un contrôle du zéro, pas une suppression automatique de l’ordonnée à l’origine.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch7/cours\">Interactions et forces</a><a class=\"chip\" href=\"#chapter/maths-fonctions/cours\">Droite d’étalonnage</a>",
+  "errors": [
+    "Utiliser des grammes dans P=mg sans conversion.",
+    "Confondre longueur et allongement.",
+    "Appliquer Hooke hors de la plage élastique.",
+    "Dire que poids et traction sont une paire action–réaction."
+  ],
+  "question": "Pourquoi la pente F(Δℓ) a-t-elle l’unité N/m ?",
+  "answer": "Elle représente une variation de force divisée par une variation d’allongement ; c’est la raideur k dans le modèle linéaire.",
+  "check": [
+    "Je règle le zéro.",
+    "Je convertis les masses.",
+    "Je mesure Δℓ.",
+    "Je vérifie le domaine linéaire.",
+    "Je distingue équilibre et action–réaction."
+  ],
+  "safety": "Stabiliser les supports ; retenir les masses et prévoir une réception souple. Écarter mains et pieds de la zone de chute ; ne pas dépasser la plage de charge des capteurs ou la limite élastique du ressort. Réaliser les mouvements dans la zone autorisée, sans projectiles vers des personnes.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS05_RappelsMeca.pdf",
+    "assets/documents/pcm-premiere-PCM_FS07_Interactions.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq07_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-archimede",
+  "title": "Mettre en évidence la poussée d’Archimède",
+  "subtitle": "Objet suspendu, lecture du dynamomètre et volume immergé.",
+  "category": "PCM · Mécanique",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-archimede.svg",
+  "preview": false,
+  "objective": "Mesurer la diminution de traction lorsqu’un objet est immergé et la relier au liquide déplacé.",
+  "principle": "Un fluide exerce une résultante verticale ascendante de norme ρfluideVimmergég ; à l’équilibre, R+FA=P.",
+  "equipment": [
+    [
+      "Dynamomètre et support",
+      "Mesurer la traction en N."
+    ],
+    [
+      "Objet insoluble et fil",
+      "Suspendre sans appui sur le récipient."
+    ],
+    [
+      "Bécher de fluide identifié",
+      "Immerger progressivement."
+    ],
+    [
+      "Éprouvette/récipient gradué si prescrit",
+      "Déterminer le volume déplacé selon le protocole."
+    ]
+  ],
+  "steps": [
+    [
+      "Mesurer dans l’air",
+      "Faire le zéro puis relever la traction Rair ; négliger la poussée de l’air seulement si acceptable."
+    ],
+    [
+      "Immerger",
+      "Descendre le solide dans le fluide sans contact avec fond/parois, retirer les bulles et garder le dynamomètre hors du liquide."
+    ],
+    [
+      "Lire",
+      "Attendre l’équilibre et noter Rliquide ; recommencer à plusieurs immersions si demandé."
+    ],
+    [
+      "Déterminer V",
+      "Relever le volume réellement immergé ou le volume déplacé ; ne pas employer le volume total si l’objet n’est pas entièrement immergé."
+    ],
+    [
+      "Calculer",
+      "FA≈Rair−Rliquide ; comparer à ρVimmergég avec unités cohérentes."
+    ],
+    [
+      "Conclure",
+      "Dessiner P vers le bas, FA et R vers le haut ; distinguer la norme du poids mg de la traction dite poids apparent."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$F_A=\\rho_fV_{\\rm immerge}g$, $R=P-F_A$ à l’équilibre ; $P=mg$.</div><p>Le poids de l’objet ne diminue pas simplement parce qu’il est dans l’eau : la poussée réduit la traction mesurée. Pour comparer forces calculées et mesurées, relever les incertitudes de volume, densité et lecture. Une force pressante de contact avec le fond ferait changer le bilan.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch7/cours\">Forces et interactions</a>",
+  "errors": [
+    "Confondre ρ du fluide et ρ du solide.",
+    "Faire toucher le fond.",
+    "Oublier les bulles.",
+    "Dire que mg change lors de l’immersion."
+  ],
+  "question": "Pourquoi la lecture du dynamomètre diminue-t-elle ?",
+  "answer": "La poussée du fluide aide à soutenir le solide : à l’équilibre R=P−FA, alors que P=mg reste identique.",
+  "check": [
+    "J’isole le solide comme système.",
+    "Je ne crée pas de contact supplémentaire.",
+    "J’utilise V immergé.",
+    "Je distingue P et R.",
+    "Je compare avec une précision adaptée."
+  ],
+  "safety": "Stabiliser les supports ; retenir les masses et prévoir une réception souple. Écarter mains et pieds de la zone de chute ; ne pas dépasser la plage de charge des capteurs ou la limite élastique du ressort. Réaliser les mouvements dans la zone autorisée, sans projectiles vers des personnes.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS07_Interactions.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq07_Exercices.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-energie-chute",
+  "title": "Étudier le bilan énergétique d’une chute",
+  "subtitle": "Pointage, référence d’altitude, vitesse et comparaison Ec / Epp / Em.",
+  "category": "PCM · Mécanique",
+  "time": 45,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-pointage.svg",
+  "preview": false,
+  "objective": "Tester le modèle de conservation mécanique pendant une chute ou un lancer dans une zone de mesure.",
+  "principle": "Sans travail de forces non conservatives, l’énergie mécanique Ec+Epp reste constante ; les frottements peuvent la diminuer.",
+  "equipment": [
+    [
+      "Objet de masse connue et réception souple",
+      "Définir un système et une trajectoire sûre."
+    ],
+    [
+      "Caméra/pointage et étalon dans le plan",
+      "Obtenir z(t) et estimer v(t)."
+    ],
+    [
+      "Balance et repère z orienté vers le haut",
+      "Mesurer m et fixer z=0."
+    ],
+    [
+      "Tableur",
+      "Calculer et comparer les énergies avec unités."
+    ]
+  ],
+  "steps": [
+    [
+      "Fixer le modèle",
+      "Choisir le système et référentiel de laboratoire ; annoncer la phase étudiée, par exemple vol sans contact avant la réception."
+    ],
+    [
+      "Acquérir",
+      "Calibrer la vidéo, mesurer m et définir z vers le haut avec origine annoncée ; déclencher le mouvement dans la zone autorisée."
+    ],
+    [
+      "Estimer v",
+      "Calculer les vitesses à partir des positions et du pas réel ; éviter de mélanger une date centrée avec une date d’intervalle."
+    ],
+    [
+      "Calculer",
+      "Ec=mv²/2 et Epp=mgz ; v est une norme ou inclut toutes ses composantes, m est en kg et z en m."
+    ],
+    [
+      "Comparer",
+      "Tracer Ec,Epp et Em=Ec+Epp ; vérifier une constance dans les limites du pointage et de la dérivation."
+    ],
+    [
+      "Interpréter",
+      "Une baisse significative de Em peut traduire du travail des frottements ; l’énergie totale du système élargi reste conservée, avec transferts thermiques. Ne pas analyser l’impact avec le seul modèle de vol."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$E_c=\\tfrac12mv^2$, $E_{pp}=mgz$, $E_m=E_c+E_{pp}$ ; $\\Delta E_m=W_{\\rm non\\ conservatives}$ dans les conditions usuelles.</div><p>Changer l’origine z=0 décale Epp et Em d’une constante, sans changer leurs variations. À une descente, Epp diminue et Ec augmente dans la chute libre. Au sommet d’un lancer vertical, v=0 mais l’accélération reste −g avec z orienté vers le haut.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch9/cours\">Énergie et travaux</a><a class=\"chip\" href=\"#chapter/maths-derivees/cours\">Estimer la vitesse</a>",
+  "errors": [
+    "Employer une vitesse verticale seule pour un lancer oblique sans la justifier.",
+    "Choisir une origine d’énergie variable d’une image à l’autre.",
+    "Étendre la chute libre à l’impact.",
+    "Conclure à une dissipation à partir d’un bruit de pointage."
+  ],
+  "question": "Pourquoi peut-on avoir Epp négative ?",
+  "answer": "L’origine d’altitude est choisie : un point sous z=0 donne mgz<0, sans contradiction ; les variations sont les grandeurs utiles.",
+  "check": [
+    "Je fixe la phase de vol.",
+    "J’annonce z=0.",
+    "J’utilise la norme v.",
+    "J’exprime les énergies en J.",
+    "Je discute les limites de pointage."
+  ],
+  "safety": "Stabiliser les supports ; retenir les masses et prévoir une réception souple. Écarter mains et pieds de la zone de chute ; ne pas dépasser la plage de charge des capteurs ou la limite élastique du ressort. Réaliser les mouvements dans la zone autorisée, sans projectiles vers des personnes.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS09_Energie.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq09_Exercices.pdf",
+    "assets/documents/pcm-premiere-PCM_LMPC_ProdScalaire.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-onde",
+  "title": "Observer une onde sur corde ou ressort",
+  "subtitle": "Repères fixes, impulsion, direction de vibration et temps de parcours.",
+  "category": "PCM · Ondes",
+  "time": 25,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-onde-mecanique.svg",
+  "preview": false,
+  "objective": "Distinguer déplacement local et propagation puis estimer une célérité.",
+  "principle": "La perturbation se transmet dans le milieu ; les points marqués effectuent des déplacements locaux autour de leur équilibre.",
+  "equipment": [
+    [
+      "Corde ou ressort pédagogique",
+      "Support du milieu ; tension ou fixation selon le sujet."
+    ],
+    [
+      "Repères A,B et règle",
+      "Mesurer la distance de propagation."
+    ],
+    [
+      "Caméra ou acquisition adaptée",
+      "Identifier les dates de passage de la même perturbation."
+    ],
+    [
+      "Support stable",
+      "Conserver les conditions d’une comparaison."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Fixer le milieu selon le dispositif, choisir deux repères et mesurer AB ; annoncer direction de propagation."
+    ],
+    [
+      "Perturber",
+      "Créer une petite impulsion transverse sur la corde ou longitudinale dans le ressort, sans projeter le matériel."
+    ],
+    [
+      "Observer",
+      "Suivre la perturbation et un point marqué séparément ; noter les directions de mouvement."
+    ],
+    [
+      "Dater",
+      "Identifier la même impulsion en A puis B, avant réflexion sur l’extrémité ; utiliser une acquisition dont le pas convient."
+    ],
+    [
+      "Calculer",
+      "Convertir AB et τ, puis v=AB/τ ; répéter pour discuter la dispersion de lecture."
+    ],
+    [
+      "Périodiser",
+      "Si autorisé, produire un signal périodique et distinguer T mesuré en un point de λ mesurée à un instant."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$v=AB/\\tau$ ; $\\lambda=vT=v/f$ pour le signal périodique.</div><p>Une corde visible peut osciller verticalement alors que la perturbation se propage horizontalement. La vitesse verticale d’un point ne se substitue pas à v. Une réflexion ou une onde stationnaire peut empêcher une lecture simple de propagation : choisir la bonne fenêtre temporelle.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch10/cours\">Ondes mécaniques</a>",
+  "errors": [
+    "Chronométrer une réflexion au lieu du front initial.",
+    "Mesurer λ sur un axe temporel.",
+    "Faire varier tension et fréquence sans les noter.",
+    "Interpréter un repère de corde comme la perturbation qui voyage."
+  ],
+  "question": "Que prouve un repère qui revient près de sa position initiale ?",
+  "answer": "Le milieu effectue un mouvement local ; la propagation de la perturbation ne correspond pas à son transport global.",
+  "check": [
+    "J’identifie le même front.",
+    "Je distingue point et perturbation.",
+    "J’annonce les directions.",
+    "Je mesure AB et τ.",
+    "Je lis les bons axes."
+  ],
+  "safety": "Utiliser les sources pédagogiques et des volumes sonores modérés. Stabiliser supports et câbles ; ne pas tendre ni projeter les ressorts vers une personne. Employer les branchements et les tensions autorisés ; ne pas confondre masses électriques de l’oscilloscope et sorties de générateur.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS10_OndesMecaniques.pdf",
+    "assets/documents/pcm-premiere-PCM_FicheMEMO_Seq10.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-retard",
+  "title": "Mesurer un retard sonore avec deux microphones",
+  "subtitle": "Deux voies simultanées, fronts correspondants et oscilloscope.",
+  "category": "PCM · Ondes",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-oscilloscope.svg",
+  "preview": false,
+  "objective": "Déterminer la célérité sonore à partir de la séparation des microphones et du retard.",
+  "principle": "Deux microphones transforment les arrivées de la même perturbation en deux signaux électriques enregistrés sur une base de temps commune.",
+  "equipment": [
+    [
+      "Source d’impulsion ou paquet sonore pédagogique",
+      "Produire un événement repérable, à niveau modéré."
+    ],
+    [
+      "Deux microphones et interfaces",
+      "Recevoir les passages en A et B."
+    ],
+    [
+      "Oscilloscope/acquisition deux voies",
+      "Afficher des signaux simultanés avec une base de temps adaptée."
+    ],
+    [
+      "Règle, supports et câbles",
+      "Mesurer la séparation dans la direction de propagation."
+    ]
+  ],
+  "steps": [
+    [
+      "Aligner",
+      "Placer A et B suivant la propagation et mesurer leur séparation acoustique ; éviter des trajets obliques différents."
+    ],
+    [
+      "Brancher",
+      "Relier les voies suivant la notice ; régler déclenchement, échelles et couplage, sans relier des sorties incompatibles."
+    ],
+    [
+      "Émettre",
+      "Utiliser une impulsion ou un paquet ; repérer la première arrivée avant les échos."
+    ],
+    [
+      "Lire",
+      "Marquer le même événement sur les voies ; τ=(nombre de divisions)×(temps par division) ou utiliser les curseurs."
+    ],
+    [
+      "Calculer",
+      "v=AB/τ ; conversions cm→m et ms/µs→s. Répéter avec plusieurs séparations si le sujet le permet."
+    ],
+    [
+      "Vérifier",
+      "Comparer à l’ordre de grandeur du son dans l’air et discuter délai des interfaces/échos ; un sinus peut créer une ambiguïté de plusieurs périodes."
+    ]
+  ],
+  "exploitation": "<div class=\"def-box\">$\\tau=t_B-t_A$ ; $v=AB/\\tau$.</div><p>Un exemple de contrôle, non une mesure du TP : AB=0,680 m et τ=2,0 ms donnent v=340 m/s. L’axe vertical du microphone est généralement une tension ; sans étalonnage, il n’est pas directement une pression acoustique en Pa.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch10/cours\">Célérité et retard</a>",
+  "errors": [
+    "Prendre deux maxima qui ne correspondent pas au même cycle.",
+    "Ajouter un facteur2 comme pour un écho alors que le trajet est A→B.",
+    "Lire µs comme ms.",
+    "Confondre volts du microphone et Pa sans calibration."
+  ],
+  "question": "Pourquoi une impulsion peut-elle être plus simple qu’un sinus continu ?",
+  "answer": "Son front identifie un événement ; un sinus répété peut faire confondre des périodes et rendre le retard ambigu.",
+  "check": [
+    "Je règle la base de temps.",
+    "J’utilise deux voies communes.",
+    "J’identifie les mêmes fronts.",
+    "J’évite les échos.",
+    "Je distingue tension et pression."
+  ],
+  "safety": "Utiliser les sources pédagogiques et des volumes sonores modérés. Stabiliser supports et câbles ; ne pas tendre ni projeter les ressorts vers une personne. Employer les branchements et les tensions autorisés ; ne pas confondre masses électriques de l’oscilloscope et sorties de générateur.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS10_OndesMecaniques.pdf"
+  ]
+},
+{
+  "id": "pcm-premiere-spectres",
+  "title": "Observer et comparer des spectres",
+  "subtitle": "Source, fente, réseau/prisme, référence et milieu absorbant.",
+  "category": "PCM · Ondes",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "pcm"
+    }
+  ],
+  "image": "pcm-premiere-spectres.svg",
+  "preview": false,
+  "objective": "Identifier continu/raies et émission/absorption sans confondre couleur transmise et absorbée.",
+  "principle": "Le système dispersif sépare les composantes ; une référence et un échantillon permettent de repérer les radiations retirées.",
+  "equipment": [
+    [
+      "Sources pédagogiques autorisées",
+      "Comparer lampe thermique, lampe spectrale ou DEL selon le sujet."
+    ],
+    [
+      "Fente et spectroscope/réseau/prisme",
+      "Séparer les longueurs d’onde et limiter la largeur des images."
+    ],
+    [
+      "Cuve et solution choisie, référence",
+      "Interposer un milieu absorbant si la tâche le demande."
+    ],
+    [
+      "Écran ou détecteur étalonné",
+      "Observer ou enregistrer ; ne pas attribuer λ sans calibration."
+    ]
+  ],
+  "steps": [
+    [
+      "Monter",
+      "Aligner source, fente et système dispersif ; utiliser les supports et occultations prévus."
+    ],
+    [
+      "Observer émission",
+      "Sans échantillon, relever continuum, bandes ou raies sur le même réglage ; identifier la source."
+    ],
+    [
+      "Étalonner λ",
+      "Employer les graduations validées ou une référence du dispositif ; un décalage à l’écran ne donne pas directement des nm."
+    ],
+    [
+      "Observer absorption",
+      "Placer le milieu entre source et spectroscope selon le protocole ; comparer au rayonnement de référence sans changer arbitrairement la géométrie."
+    ],
+    [
+      "Représenter",
+      "Tracer un axe λ orienté, reporter les raies lumineuses ou sombres et légender émission/absorption ; conserver les valeurs approximatives comme telles."
+    ],
+    [
+      "Interpréter",
+      "Comparer plusieurs raies aux tables et relier le signal transmis à la couleur ; ne pas identifier un gaz sur une seule raie."
+    ]
+  ],
+  "exploitation": "<figure class=\"science-figure\"><button data-image=\"assets/diagrams/pcm-premiere-photon.svg\" data-caption=\"Raies et écarts d’énergie permis\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/pcm-premiere-photon.svg\" alt=\"Raies et écarts d’énergie permis\" loading=\"lazy\"></button><figcaption>Raies et écarts d’énergie permis · toucher pour agrandir</figcaption></figure><p>Un milieu transmettant420–560 nm sous la lampe au mercure du sujet conserve les raies≈435 et 546 nm. Une source donnant un continuum n’implique pas une seule espèce ; une solution verte peut retirer du rouge et du violet tout en transmettant le vert.</p><a class=\"chip\" href=\"#chapter/premiere-pcm-ch11/cours\">Spectres et photons</a>",
+  "errors": [
+    "Interpréter les raies noires comme de la lumière émise.",
+    "Mettre des nm sur l’axe sans étalonnage.",
+    "Dire que le maximum d’absorption est la couleur de la solution.",
+    "Identifier un élément sur l’étiquette masquée seule."
+  ],
+  "question": "Comment distinguer spectre d’émission et spectre d’absorption dans le montage ?",
+  "answer": "L’émission étudie directement la source ; l’absorption compare la lumière transmise après le milieu à la référence incidente.",
+  "check": [
+    "Je distingue référence et échantillon.",
+    "Je conserve la géométrie.",
+    "J’utilise un axe λ calibré.",
+    "Je légende les raies.",
+    "Je compare plusieurs positions."
+  ],
+  "safety": "Blouse, lunettes, chaussures adaptées ; suivre le protocole et les consignes du professeur. Ne jamais pipeter à la bouche. Identifier les produits, leurs pictogrammes et les déchets ; ne pas consommer ni sentir directement les solutions. Garder eau et solutions éloignées des connexions électriques. Ne pas observer directement le Soleil, un laser ou une source intense avec le spectroscope. Les lampes spectrales chaudes et leurs alimentations sont manipulées selon les consignes ; ne pas ouvrir les ampoules.",
+  "originals": [],
+  "sources": [
+    "assets/documents/pcm-premiere-PCM_FS11b_Spectres.pdf",
+    "assets/documents/pcm-premiere-PCM_FS11c_Photons.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq11_Exercices.pdf",
+    "assets/documents/pcm-premiere-PCM_Seq11_CCM.pdf"
+  ]
 }
 ]
