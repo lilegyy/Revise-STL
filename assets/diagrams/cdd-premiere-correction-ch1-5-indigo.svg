@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1120" role="img" aria-labelledby="title desc">
+<title id="title">Indigo : structure et synthèse de Baeyer–Drewsen</title>
+<desc id="desc">Deux unités indolinone reliées par une liaison carbone-carbone double trans. Deux molécules de 2-nitrobenzaldéhyde et deux d’acétone réagissent avec deux ions hydroxyde pour donner l’indigo, deux ions acétate et quatre molécules d’eau. Les noyaux benzéniques et liaisons multiples sont explicitement dessinés.</desc>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="9" refX="10" refY="4.5" orient="auto"><path d="M0 0L11 4.5L0 9Z" fill="#2b6856"/></marker>
+  <g id="indigo" stroke="#233e36" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 170L260 130L190 170L190 250L260 290L330 250Z M320 177L260 143 M201 176V244 M260 277L319 243"/>
+    <path d="M330 170L400 150L440 210L409 256 M330 250L383 265 M395 149L409 94 M405 151L419 96"/>
+    <path d="M440 205H530 M440 215H530"/>
+    <path d="M530 210L558 167 M586 154L640 170L640 250L570 270L530 210 M565 271L551 327 M575 273L561 329"/>
+    <path d="M640 170L710 130L780 170L780 250L710 290L640 250 M650 177L710 143 M769 176V244 M710 277L651 243"/>
+    <g fill="#233e36" stroke="none" font-family="Arial,sans-serif" font-size="29" text-anchor="middle"><text x="400" y="284">NH</text><text x="418" y="85">O</text><text x="570" y="160">HN</text><text x="553" y="358">O</text></g>
+  </g>
+</defs>
+<rect width="1400" height="1120" rx="28" fill="#fafbf8"/>
+<g font-family="Arial,sans-serif" fill="#233e36">
+<text x="55" y="60" font-size="36" font-weight="700">Indigo : structure et réaction de synthèse</text>
+<text x="55" y="99" font-size="22">Correction · Chapitre 1 · Formule brute C₁₆H₁₀N₂O₂</text>
+<rect x="42" y="127" width="1316" height="365" rx="20" fill="#fff" stroke="#cbd8d0"/>
+<use href="#indigo" transform="translate(180 100) scale(.92)"/>
+
+<text x="1015" y="193" font-size="22">C=O : carbonyle</text><text x="1020" y="373" font-size="22">NH explicite</text>
+<text x="58" y="221" font-size="22">Deux noyaux</text><text x="58" y="247" font-size="22">benzéniques</text>
+<text x="700" y="459" font-size="21" text-anchor="middle">Les sommets non nommés sont des C ; leurs H sont implicites. Deux groupes NH, deux groupes C=O.</text>
+<rect x="42" y="512" width="1316" height="554" rx="20" fill="#fff" stroke="#cbd8d0"/>
+<text x="70" y="552" font-size="27" font-weight="700">Bilan ionique de Baeyer–Drewsen · milieu basique</text>
+<g stroke="#233e36" stroke-width="3" fill="none" stroke-linejoin="round">
+<path d="M170 640L215 614L260 640L260 692L215 718L170 692Z M179 646L215 625 M250 646V686 M179 686L215 707 M215 614V582 M260 640L310 612 M309 607L344 627 M305 616L340 636 M310 612V579"/>
+<path d="M595 670L645 640L695 670 M640 640V595 M650 640V595"/>
+</g>
+<text x="120" y="677" font-size="31">2</text><text x="193" y="578" font-size="26">NO₂</text><text x="342" y="653" font-size="26">O</text><text x="300" y="574" font-size="26">H</text>
+<text x="450" y="675" font-size="35">+</text><text x="548" y="677" font-size="31">2</text><text x="635" y="586" font-size="26">O</text>
+<text x="795" y="675" font-size="35">+</text><text x="930" y="675" font-size="30">2 HO⁻</text>
+<text x="242" y="755" font-size="21" text-anchor="middle">2-nitrobenzaldéhyde</text><text x="642" y="755" font-size="21" text-anchor="middle">acétone</text><text x="987" y="755" font-size="21" text-anchor="middle">ions hydroxyde</text>
+<path d="M700 778V850" stroke="#2b6856" stroke-width="4" marker-end="url(#arrow)"/><text x="733" y="812" font-size="21" fill="#2b6856">réaction, puis isolement</text>
+<use href="#indigo" transform="translate(330 785) scale(.65)"/>
+<g stroke="#233e36" stroke-width="3" fill="none"><path d="M130 962L178 934L215 957 M173 934V897 M183 934V897"/></g>
+<text x="80" y="959" font-size="30">2</text><text x="168" y="891" font-size="25">O</text><text x="217" y="977" font-size="25">O⁻</text>
+<text x="380" y="960" font-size="32">+</text><text x="930" y="960" font-size="32">+</text><text x="1055" y="960" font-size="29">4 H₂O</text>
+<text x="178" y="1033" font-size="21" text-anchor="middle">ions acétate</text><text x="646" y="1033" font-size="21" text-anchor="middle">indigo · structure identique à celle du haut</text><text x="1104" y="1033" font-size="21" text-anchor="middle">eau</text>
+<text x="700" y="1100" font-size="20" text-anchor="middle">Conservation : C₂₀H₂₄N₂O₁₀ et charge −2 de chaque côté. Bilan de réaction, sans détail du mécanisme.</text>
+</g></svg>

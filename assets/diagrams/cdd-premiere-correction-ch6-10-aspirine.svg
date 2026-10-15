@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-labelledby="title desc">
+<title id="title">Formule développée de l'aspirine et groupes de protons</title>
+<desc id="desc">L'aspirine possède un cycle aromatique avec COOH sur C1 et OCOCH3 sur C2. Les quatre protons aromatiques H3 à H6 sont non équivalents. Les trois protons du méthyle sont équivalents en solution usuelle. Le proton de l'acide est un sixième groupe. Tous les atomes H et toutes les liaisons sont explicités ; les doublets non liants ne sont pas représentés.</desc>
+<rect width="1200" height="1080" fill="#f3f5f0"/><rect x="22" y="22" width="1156" height="1036" rx="22" fill="#fffefa" stroke="#dbe2dd"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#243f45">
+<text x="48" y="62" font-size="16" font-weight="bold" fill="#28776e">PREMIÈRE · CDD · CORRECTION CHAPITRE 8</text>
+<text x="48" y="108" font-size="30" font-weight="bold">Aspirine : formule développée et groupes de H</text>
+<text x="48" y="144" font-size="18" fill="#657b80">C₉H₈O₄ · Les couleurs regroupent les protons chimiquement équivalents.</text>
+<rect x="48" y="171" width="1104" height="560" rx="14" fill="#fff" stroke="#dbe2dd"/>
+<g stroke="#394d51" stroke-width="3" fill="none">
+<path d="M487 350V466M476 350V466M475 488L382 541M358 541L262 488M365 527L275 476M250 465V353M262 330L358 277M274 341L365 289M382 277L475 330"/>
+<path d="M500 330L635 257M650 239V204M663 239V204M671 254H751M788 254H835"/>
+<path d="M500 488L614 548M649 560H769M791 545V457M803 545V457M810 560H925"/>
+<path d="M370 564V645M238 488L161 532M238 330L161 285M370 253V215"/>
+<path d="M940 545V479M956 560H1030M940 577V651"/>
+</g>
+<g font-size="28" text-anchor="middle"><text x="487" y="345">C</text><text x="487" y="488">C</text><text x="370" y="559">C</text><text x="250" y="488">C</text><text x="250" y="345">C</text><text x="370" y="278">C</text><text x="650" y="263">C</text><text x="657" y="196">O</text><text x="771" y="263">O</text><text x="850" y="263" fill="#9b6334">H</text><text x="633" y="570">O</text><text x="797" y="570">C</text><text x="797" y="446">O</text><text x="940" y="570">C</text><text x="940" y="467" fill="#c14b55">H</text><text x="1047" y="570" fill="#c14b55">H</text><text x="940" y="679" fill="#c14b55">H</text><text x="370" y="674" fill="#8b53a5">H</text><text x="143" y="551" fill="#a97614">H</text><text x="143" y="285" fill="#2863b5">H</text><text x="370" y="204" fill="#28776e">H</text></g>
+<g font-size="15" fill="#6b7e82"><text x="509" y="350">C1</text><text x="508" y="491">C2</text><text x="390" y="581">C3</text><text x="215" y="503">C4</text><text x="213" y="353">C5</text><text x="390" y="271">C6</text></g>
+<g fill="none" stroke-width="2"><circle cx="850" cy="254" r="24" stroke="#9b6334"/><circle cx="370" cy="665" r="24" stroke="#8b53a5"/><circle cx="143" cy="542" r="24" stroke="#a97614"/><circle cx="143" cy="276" r="24" stroke="#2863b5"/><circle cx="370" cy="195" r="24" stroke="#28776e"/><circle cx="940" cy="458" r="24" stroke="#c14b55"/><circle cx="1047" cy="561" r="24" stroke="#c14b55"/><circle cx="940" cy="670" r="24" stroke="#c14b55"/></g>
+<text x="1000" y="407" font-size="18" fill="#c14b55" text-anchor="middle">1 groupe CH₃ : 3 H</text>
+<text x="843" y="318" font-size="18" fill="#9b6334" text-anchor="middle">1 H acide</text>
+<text x="575" y="717" font-size="16" fill="#657b80" text-anchor="middle">Formule développée : tous les H sont écrits ; doublets non liants non dessinés.</text>
+<rect x="48" y="753" width="1104" height="241" rx="14" fill="#f2f7f4" stroke="#d5e2db"/>
+<text x="72" y="789" font-size="22" font-weight="bold">Six groupes, huit protons au total</text>
+<text x="72" y="829" font-size="19" fill="#c14b55">CH₃ : 3 H → signal vers 2,3 ppm</text>
+<text x="72" y="864" font-size="19" fill="#8b53a5">H3 : 1 H → vers 7,15 ppm</text>
+<text x="72" y="899" font-size="19" fill="#a97614">H4 : 1 H → vers 7,6 ppm</text>
+<text x="645" y="829" font-size="19" fill="#2863b5">H5 : 1 H → vers 7,35 ppm</text>
+<text x="645" y="864" font-size="19" fill="#28776e">H6 : 1 H → vers 8,0 ppm</text>
+<text x="645" y="899" font-size="19" fill="#9b6334">COOH : 1 H → hors fenêtre / échange</text>
+<text x="72" y="950" font-size="17">Les positions aromatiques sont des attributions cohérentes, pas une preuve fournie par ce seul tracé.</text>
+<text x="48" y="1031" font-size="14" fill="#657b80">Lecture RMN approximative du sujet · Un signal vers 5 ppm reste non attribué sans données de solvant/impuretés.</text>
+</g></svg>
