@@ -3397,5 +3397,1247 @@
     "assets/documents/pcm-premiere-PCM_Seq11_Exercices.pdf",
     "assets/documents/pcm-premiere-PCM_Seq11_CCM.pdf"
   ]
+},
+{
+  "id": "cdd-premiere-extraction",
+  "title": "Extraction liquide–liquide et lavage",
+  "subtitle": "Ampoule à décanter : reconnaître les phases, dégazer, séparer puis sécher.",
+  "category": "CDD · Séparer",
+  "time": 45,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-extraction.svg",
+  "preview": false,
+  "objective": "Transférer préférentiellement une espèce d’une phase à une autre puis retirer des impuretés.",
+  "principle": "Deux solvants non miscibles se séparent ; le soluté se répartit selon son affinité pour chacun, à température et composition fixées.",
+  "equipment": [
+    [
+      "Ampoule, bouchon, support et pince",
+      "Agiter en tenant bouchon et robinet ; fixer verticalement pour décanter."
+    ],
+    [
+      "Deux solvants non miscibles et solution à extraire",
+      "Choisir solubilité, densité, compatibilité et dangers à partir du sujet."
+    ],
+    [
+      "Béchers étiquetés",
+      "Garder chaque fraction jusqu’à identification de la bonne phase."
+    ],
+    [
+      "Desséchant et filtration, si prévus",
+      "Retirer les traces d’eau de la phase organique sans changer l’espèce extraite."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Vérifier robinet fermé et volume compatible avec l’ampoule, en laissant l’espace nécessaire à l’agitation. Introduire les phases suivant les quantités prescrites."
+    ],
+    [
+      "Identifier",
+      "Comparer les densités et, si autorisé, observer à quelle phase s’ajoute une goutte du solvant connu. La phase organique n’est pas toujours en haut."
+    ],
+    [
+      "Agiter et dégazer",
+      "Hors du support, tenir bouchon et robinet, inverser puis ouvrir prudemment le robinet vers une zone dégagée sous sorbonne ; refermer pour agiter. Répéter selon le protocole, plus souvent en cas de gaz."
+    ],
+    [
+      "Laisser décanter",
+      "Remettre l’ampoule verticale, attendre une interface nette ; ne pas confondre émulsion et troisième phase. Ne pas ajouter un produit improvisé pour casser l’émulsion."
+    ],
+    [
+      "Séparer",
+      "Retirer le bouchon avant de vidanger la phase inférieure par le robinet ; isoler l’interface. Verser la phase supérieure par le col dans un autre récipient étiqueté."
+    ],
+    [
+      "Répéter et laver",
+      "Réextraire la phase initiale si demandé ; réunir uniquement les fractions utiles. Le lavage aqueux, acide ou basique et le relargage dépendent du mélange : un lavage peut aussi extraire le produit recherché."
+    ],
+    [
+      "Sécher et conserver",
+      "Si le protocole le demande, sécher la phase organique avec un agent adapté puis filtrer/décanter. Ne jeter aucune fraction avant contrôle et noter les volumes réellement recueillis."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\">À l’équilibre : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$K=C_B/C_A$</span>. Pour un prélèvement initial dans A, si K reste constant et si les volumes sont inchangés : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$n_{A,f}=n_0V_A/(V_A+KV_B)$</span>.</div><p>Plusieurs extractions avec des petites portions de B sont plus efficaces qu’une seule de même volume total dans ce modèle. Le coefficient de partage dépend notamment de l’espèce, du pH si elle est ionisable, et de la température. Le séchage d’une phase organique retire l’eau résiduelle ; il ne garantit pas sa pureté chimique.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a></div>",
+  "errors": [
+    "Supposer « organique = phase supérieure ».",
+    "Laisser le bouchon pendant la vidange.",
+    "Diriger le robinet vers une personne lors du dégazage.",
+    "Jeter la phase aqueuse avant identification.",
+    "Employer systématiquement un lavage basique sans vérifier l’acidité du produit."
+  ],
+  "question": "Pourquoi plusieurs extractions peuvent-elles améliorer la récupération ?",
+  "answer": "À chaque contact avec du solvant neuf, un nouvel équilibre retire une fraction du soluté restant dans la phase initiale ; l’amélioration dépend des conditions du modèle de partage.",
+  "check": [
+    "J’identifie les deux phases.",
+    "Je dégaze dans la bonne direction.",
+    "Je retire le bouchon pour vidanger.",
+    "Je conserve les fractions identifiées.",
+    "Je distingue extraction, lavage et séchage."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Une surpression peut apparaître, surtout avec un lavage produisant du gaz. Ne pas obturer ni agiter sans possibilité de dégazage ; manipuler l’ampoule dans les conditions encadrées du laboratoire.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche extraction.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-distillation",
+  "title": "Distillation simple et fractionnée",
+  "subtitle": "Thermomètre en tête, colonne de Vigreux, réfrigérant incliné et fractions.",
+  "category": "CDD · Séparer",
+  "time": 55,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-distillation.svg",
+  "preview": false,
+  "objective": "Choisir un montage de distillation puis récupérer un distillat sans confondre séparation et réaction.",
+  "principle": "La vapeur en équilibre avec un mélange est généralement enrichie en constituant le plus volatil ; une colonne multiplie les étapes de vaporisation-condensation.",
+  "equipment": [
+    [
+      "Ballon, chauffage réglable, agitation et support élévateur",
+      "Chauffer régulièrement ; pouvoir écarter la source chaude."
+    ],
+    [
+      "Tête et thermomètre ; Vigreux si fractionnée",
+      "Placer le réservoir du thermomètre dans le trajet des vapeurs à l’entrée du bras latéral."
+    ],
+    [
+      "Réfrigérant droit incliné et tuyaux",
+      "Eau entrant par la tubulure basse et sortant par la haute ; condenser vers le récepteur."
+    ],
+    [
+      "Récepteurs et étiquettes",
+      "Recueillir les fractions et conserver leur température de tête et leur volume."
+    ]
+  ],
+  "steps": [
+    [
+      "Choisir",
+      "Simple : par exemple éliminer un solvant volatil d’un résidu non volatil. Fractionnée : séparer mieux des liquides volatils quand l’équilibre liquide-vapeur le permet. Vérifier les éventuels azéotropes."
+    ],
+    [
+      "Assembler",
+      "Introduire le mélange froid et le dispositif d’agitation autorisé ; monter et fixer sans tension, thermomètre correctement positionné. Mettre les grains anti-bouillonnement avant toute chauffe si cette méthode est prescrite."
+    ],
+    [
+      "Refroidir",
+      "Vérifier arrivée d’eau basse et sortie haute, tuyaux attachés, récepteur adapté, circulation régulière et ensemble ouvert à l’atmosphère."
+    ],
+    [
+      "Chauffer progressivement",
+      "Obtenir une ébullition stable et une condensation efficace ; éviter projections et montée excessive des vapeurs dans la colonne."
+    ],
+    [
+      "Collecter",
+      "Relever la température de tête et changer de récepteur suivant les critères du sujet. Un plateau de température seul n’est pas une preuve complète d’identité ou de pureté."
+    ],
+    [
+      "Arrêter",
+      "Arrêter avant la mise à sec ; écarter la chauffe avec le support prévu. Maintenir le refroidissement pendant le refroidissement du montage, puis démonter à froid."
+    ],
+    [
+      "Contrôler",
+      "Mesurer si demandé indice de réfraction, CCM ou spectre des fractions ; présenter un bilan matière et les pertes sans inventer de masse récupérée."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><p>Les deux constituants d’un mélange volatil peuvent se vaporiser simultanément. La description « le premier bout puis le deuxième » est une approximation, insuffisante pour expliquer la rectification. Sous pression réduite, les températures d’ébullition diminuent ; seul un montage conçu et encadré pour le vide convient.</p><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-refractometre.svg\" data-caption=\"Contrôle d’une fraction : indice, température et longueur d’onde\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-refractometre.svg\" alt=\"Contrôle d’une fraction : indice, température et longueur d’onde\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Contrôle d’une fraction : indice, température et longueur d’onde · toucher pour agrandir</figcaption></figure><p><a class=\"chip\" href=\"#lab/simple\">Montage général de distillation simple</a> <a class=\"chip\" href=\"#lab/fractionnee\">Montage général de distillation fractionnée</a></p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a></div>",
+  "errors": [
+    "Placer le thermomètre dans le liquide ou trop haut hors des vapeurs.",
+    "Faire entrer l’eau en haut du réfrigérant.",
+    "Ajouter des grains dans un liquide déjà chaud.",
+    "Distiller à sec.",
+    "Identifier un liquide avec une température isolée sans tenir compte de la pression."
+  ],
+  "question": "Que gagne-t-on avec une colonne de Vigreux ?",
+  "answer": "Des équilibres liquide-vapeur successifs peuvent enrichir davantage la vapeur en espèce la plus volatile ; la séparation dépend du mélange, du reflux et du fonctionnement de la colonne.",
+  "check": [
+    "Je choisis simple ou fractionnée.",
+    "Je règle le thermomètre en tête.",
+    "Je fais circuler l’eau de bas en haut.",
+    "Je sépare les fractions.",
+    "J’arrête avant la mise à sec."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Écarter toute flamme des solvants inflammables. Fixer la verrerie sans contrainte, vérifier ses raccords et laisser refroidir avant démontage. Ne jamais fermer hermétiquement un montage chauffé. Ne jamais ajouter de grains anti-bouillonnement dans un liquide chaud. Ne pas improviser une distillation sous vide ; vérifier compatibilité de la verrerie et du dispositif de protection.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche distillation.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-recristallisation",
+  "title": "Recristallisation et filtration sur Büchner",
+  "subtitle": "Solvant minimal à chaud, refroidissement, filtration, lavage et solide sec.",
+  "category": "CDD · Purifier",
+  "time": 65,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-recristallisation.svg",
+  "preview": false,
+  "objective": "Purifier un solide brut et évaluer le compromis récupération/pureté.",
+  "principle": "Le produit est soluble à chaud et peu soluble à froid ; les impuretés insolubles à chaud sont filtrées, celles solubles à froid restent dans les eaux mères.",
+  "equipment": [
+    [
+      "Récipient, chauffage réglable et solvant adapté",
+      "Dissoudre dans le minimum nécessaire sans provoquer d’ébullition violente."
+    ],
+    [
+      "Filtration gravitaire à chaud si nécessaire",
+      "Retirer les impuretés insolubles sans faire cristalliser le produit dans le filtre."
+    ],
+    [
+      "Bain de refroidissement",
+      "Refroidir progressivement puis davantage si le protocole le prévoit."
+    ],
+    [
+      "Büchner, papier, fiole à vide, piège et aspiration",
+      "Isoler le solide par différence de pression."
+    ],
+    [
+      "Moyen de séchage autorisé, balance et Kofler",
+      "Peser à sec et contrôler la température de fusion."
+    ]
+  ],
+  "steps": [
+    [
+      "Choisir le solvant",
+      "Consulter les données de solubilité à chaud/froid, la réactivité et les dangers. Un solvant qui dissout aussi le produit à froid provoque de fortes pertes."
+    ],
+    [
+      "Dissoudre à chaud",
+      "Ajouter progressivement la petite quantité nécessaire de solvant chaud selon le protocole. Ne pas assimiler « dissolution complète » à l’élimination des particules insolubles."
+    ],
+    [
+      "Filtrer si nécessaire",
+      "Effectuer la filtration à chaud prévue pour les impuretés insolubles ; limiter les pertes par cristallisation prématurée."
+    ],
+    [
+      "Cristalliser",
+      "Laisser refroidir sans agitation brutale, puis utiliser le bain froid prescrit. La cristallisation lente favorise souvent des cristaux mieux formés."
+    ],
+    [
+      "Filtrer sous vide",
+      "Poser le papier de taille adaptée, l’humidifier avec le solvant prévu, mettre l’aspiration avec piège et verser le mélange ; conserver les eaux mères si un contrôle est demandé."
+    ],
+    [
+      "Laver",
+      "Rincer les cristaux avec une petite portion de solvant froid adaptée ; trop de solvant ou un lavage chaud redissout le produit."
+    ],
+    [
+      "Sécher puis contrôler",
+      "Casser le vide avant l’arrêt de l’aspiration ; sécher selon les consignes, refroidir puis peser. Mesurer la fusion ou une autre propriété pour discuter la pureté."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-buchner.svg\" data-caption=\"Büchner : papier, fiole à vide protégée et rupture du vide\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-buchner.svg\" alt=\"Büchner : papier, fiole à vide protégée et rupture du vide\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Büchner : papier, fiole à vide protégée et rupture du vide · toucher pour agrandir</figcaption></figure><div class=\"rule-box\">Récupération massique <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$r=m_{\\text{solide sec}}/m_{\\mathrm{brut}}$</span> ; ce rapport n’est pas automatiquement le rendement de la réaction de synthèse.</div><p>Une masse élevée de solide humide n’est pas une bonne récupération de produit pur. Si le solvant et le produit sont connus, la perte dissoute à froid peut être estimée à partir de la solubilité et du volume des eaux mères, avec les hypothèses annoncées.</p><p><a class=\"chip\" href=\"#lab/buchner\">Montage général de filtration sous vide</a> <a class=\"chip\" href=\"#lab/solubilite-recristallisation\">Lien avec la solubilité</a></p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a></div>",
+  "errors": [
+    "Utiliser trop de solvant chaud.",
+    "Refroidir brutalement avant dissolution complète.",
+    "Laver avec un grand volume chaud.",
+    "Peser des cristaux humides.",
+    "Arrêter l’aspiration sans casser le vide."
+  ],
+  "question": "Pourquoi utilise-t-on peu de solvant froid pour laver les cristaux ?",
+  "answer": "Il entraîne les impuretés des eaux mères tout en limitant la redissolution du produit recherché.",
+  "check": [
+    "Je justifie le solvant.",
+    "Je distingue les types d’impuretés.",
+    "Je refroidis suivant le protocole.",
+    "Je lave peu et à froid.",
+    "Je pèse un solide sec."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Écarter toute flamme des solvants inflammables. Fixer la verrerie sans contrainte, vérifier ses raccords et laisser refroidir avant démontage. Ne jamais fermer hermétiquement un montage chauffé. Contrôler l’état de la fiole à vide et utiliser un piège adapté. Les vapeurs de solvants ne doivent pas traverser un système d’aspiration non prévu à cet effet. Le séchage à l’étuve exige une température et une compatibilité explicitement autorisées.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche recristallisation.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-ccm",
+  "title": "Chromatographie sur couche mince",
+  "subtitle": "Dépôts fins, cuve fermée, front marqué, révélation et comparaison.",
+  "category": "CDD · Analyser",
+  "time": 40,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-ccm.svg",
+  "preview": false,
+  "objective": "Séparer les constituants révélables d’un mélange et comparer un produit à des références.",
+  "principle": "Les interactions avec phase stationnaire et éluant diffèrent selon les espèces ; l’éluant monte par capillarité.",
+  "equipment": [
+    [
+      "Plaque de silice ou autre support prévu",
+      "Phase stationnaire ; ne pas toucher la zone utile."
+    ],
+    [
+      "Cuve fermée et éluant",
+      "Phase mobile ; niveau situé sous les dépôts."
+    ],
+    [
+      "Capillaires, échantillon et références",
+      "Déposer des petites taches séparées sans contamination."
+    ],
+    [
+      "Crayon, règle et système de révélation adapté",
+      "Tracer sans encre, lire les distances et visualiser les taches."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer la cuve",
+      "Introduire l’éluant prescrit, fermer et laisser s’équilibrer suivant le protocole ; vérifier que le niveau restera sous la ligne de dépôt."
+    ],
+    [
+      "Tracer",
+      "Au graphite, tracer une ligne de dépôt et les repères des pistes ; conserver une marge sur les bords. Ne pas rayer la couche de silice."
+    ],
+    [
+      "Déposer",
+      "Dissoudre les échantillons dans le solvant adapté, faire des dépôts petits et espacés ; laisser sécher entre applications avec un dispositif sûr prévu au laboratoire."
+    ],
+    [
+      "Éluer",
+      "Placer la plaque verticalement, dépôts hors du liquide ; fermer la cuve, la garder immobile et attendre la montée du front."
+    ],
+    [
+      "Marquer le front",
+      "Retirer avant que l’éluant atteigne le haut ; marquer immédiatement le front au crayon, puis sécher de façon autorisée."
+    ],
+    [
+      "Révéler",
+      "Observer directement ou employer le révélateur prévu ; pour UV, utiliser l’enceinte et les protections adaptées. Entourer les centres des taches."
+    ],
+    [
+      "Exploiter",
+      "Mesurer depuis la même ligne de dépôt, calculer les rapports frontaux et comparer les références développées ensemble. Conserver le chromatogramme et les conditions."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$R_f=\\frac{d_{\\text{tache}}}{d_{\\text{front}}},\\qquad 0\\le R_f\\le1.$$</span> Distances depuis la ligne de dépôt ; prendre le centre de la tache.</div><p>Deux taches à même hauteur sont compatibles avec la présence de la même espèce dans ces conditions ; cette comparaison ne prouve pas à elle seule l’identité. Une seule tache ne démontre pas une pureté absolue : coélution, espèces non révélées ou teneur trop faible restent possibles. Les Rf ne se comparent pas entre deux éluants ou supports différents sans précaution.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a></div>",
+  "errors": [
+    "Immerger la ligne de dépôt.",
+    "Utiliser un stylo.",
+    "Déposer trop de produit.",
+    "Oublier le front ou mesurer depuis le bord du support.",
+    "Déclarer le produit absolument pur à partir d’une tache."
+  ],
+  "question": "Pourquoi le solvant doit-il rester sous les dépôts au départ ?",
+  "answer": "Sinon les espèces se dissolvent dans le bain au lieu de partir d’une origine commune sur la plaque, ce qui compromet la séparation et le calcul des Rf.",
+  "check": [
+    "Je place les dépôts au-dessus de l’éluant.",
+    "Je ferme la cuve.",
+    "Je marque immédiatement le front.",
+    "Je calcule le bon rapport.",
+    "Je formule une conclusion limitée aux espèces révélées."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Ne pas employer un sèche-cheveux ordinaire près des vapeurs inflammables. Éviter toute exposition directe aux UV. Révélateurs et silice sont manipulés selon leurs FDS, sous sorbonne si nécessaire ; ne pas disperser les poudres.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche chromatographie.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-colonne",
+  "title": "Chromatographie préparative sur colonne",
+  "subtitle": "Lit de silice homogène, écoulement maîtrisé et fractions contrôlées par CCM.",
+  "category": "CDD · Séparer",
+  "time": 60,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-colonne.svg",
+  "preview": false,
+  "objective": "Isoler des fractions d’un mélange par chromatographie préparative.",
+  "principle": "Les espèces n’ont pas la même rétention dans le lit de phase stationnaire ; elles sortent à des moments différents.",
+  "equipment": [
+    [
+      "Colonne verticale, robinet, support et coton/fritté",
+      "Retenir le garnissage et régler l’écoulement."
+    ],
+    [
+      "Silice/alumine, éluant et couches de protection prévues",
+      "Former un lit homogène sans fissure ni bulle."
+    ],
+    [
+      "Mélange en faible volume",
+      "Former une zone de départ étroite."
+    ],
+    [
+      "Tubes numérotés et dispositif CCM",
+      "Recueillir puis comparer les fractions avant regroupement."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Fixer verticalement la colonne et préparer le support inférieur suivant le matériel ; utiliser le mode de garnissage humide prévu."
+    ],
+    [
+      "Garnir",
+      "Mettre la phase stationnaire et l’éluant sans bulles ni fissures ; ajouter la protection supérieure prévue sans mélanger les couches."
+    ],
+    [
+      "Charger",
+      "Introduire délicatement le mélange dans un petit volume compatible avec l’éluant ; éviter d’élargir la zone de dépôt."
+    ],
+    [
+      "Éluer",
+      "Ajouter l’éluant le long de la paroi ; garder du liquide au-dessus du lit. Régler le robinet sans laisser sécher le garnissage."
+    ],
+    [
+      "Fractionner",
+      "Recueillir successivement dans des tubes numérotés en respectant les volumes prescrits ; noter l’ordre, pas seulement la couleur."
+    ],
+    [
+      "Contrôler",
+      "Analyser les fractions par CCM avec une référence si disponible. Regrouper seulement les fractions compatibles selon le critère fixé."
+    ],
+    [
+      "Récupérer",
+      "Éliminer le solvant par la méthode autorisée, puis contrôler identité et pureté ; ne pas attribuer une masse avant séchage et pesée."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-ccm.svg\" data-caption=\"Le contrôle des fractions par CCM précède leur regroupement\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-ccm.svg\" alt=\"Le contrôle des fractions par CCM précède leur regroupement\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Le contrôle des fractions par CCM précède leur regroupement · toucher pour agrandir</figcaption></figure><p>Une colonne sert à recueillir les constituants séparés ; la CCM est surtout une analyse à petite échelle. Des bandes visibles peuvent aider à suivre la migration, mais des espèces incolores exigent un contrôle. Un lit sec ou fissuré crée des chemins préférentiels et réduit la séparation.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a></div>",
+  "errors": [
+    "Laisser la silice sécher pendant l’élution.",
+    "Faire un dépôt trop dilué dans un grand volume.",
+    "Vider plusieurs fractions dans le même récipient sans contrôle.",
+    "Identifier un produit seulement par sa couleur."
+  ],
+  "question": "Pourquoi ne pas regrouper toutes les fractions à la sortie ?",
+  "answer": "On annulerait la séparation ; la composition des fractions doit être contrôlée avant de réunir celles qui contiennent le produit recherché.",
+  "check": [
+    "Je garde le lit homogène et humide.",
+    "Je limite le volume du dépôt.",
+    "Je numérote les fractions.",
+    "Je contrôle par CCM.",
+    "Je conserve une trace du regroupement."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Éviter l’inhalation de silice/alumine ; employer la méthode de chargement prescrite et la sorbonne adaptée. Les solvants et fractions restent identifiés ; ne pas mettre une colonne gravitaire sous pression improvisée.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche chromatographie.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-kofler",
+  "title": "Mesurer une température de fusion au banc Kofler",
+  "subtitle": "Gradient thermique, étalon proche et limite solide/liquide.",
+  "category": "CDD · Contrôler",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-kofler.svg",
+  "preview": false,
+  "objective": "Mesurer la fusion d’un solide et discuter sa compatibilité avec une référence.",
+  "principle": "Le banc présente un gradient thermique ; la position où le solide fond est reliée à une température après réglage sur un étalon.",
+  "equipment": [
+    [
+      "Banc Kofler et curseur",
+      "Associer position et température dans la plage autorisée."
+    ],
+    [
+      "Étalon connu proche de la température attendue",
+      "Contrôler/régler le repérage local."
+    ],
+    [
+      "Solide sec et spatule fine",
+      "Déposer quelques milligrammes sans contaminer le banc."
+    ],
+    [
+      "Matériel de nettoyage autorisé",
+      "Nettoyer sans rayer, selon la notice du dispositif."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer le banc",
+      "Suivre la notice pour nettoyage et mise en température ; attendre la stabilisation. Le temps d’une heure de la fiche concerne son appareil, pas tous les modèles."
+    ],
+    [
+      "Repérer la zone",
+      "Avec une très petite quantité de solide, rechercher progressivement la zone de fusion sans toucher la surface chaude."
+    ],
+    [
+      "Régler sur étalon",
+      "Choisir un étalon proche ; repérer son changement d’état et régler le curseur à la valeur certifiée suivant la notice."
+    ],
+    [
+      "Nettoyer selon la notice",
+      "Retirer l’étalon avec le matériel compatible ; éviter le dépôt de résidus dans la zone à mesurer."
+    ],
+    [
+      "Mesurer",
+      "Déplacer une petite quantité de solide sec suivant le geste prescrit ; repérer la limite solide/liquide et noter température ou intervalle de fusion."
+    ],
+    [
+      "Répéter et conclure",
+      "Reprendre avec un dépôt neuf si demandé. Comparer aux valeurs tabulées à même pression en tenant compte des incertitudes et des autres indices d’identité."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\">Dans l’exercice du chapitre4 : mesure161 °C et marge donnée±2 °C, soit 159–163 °C.159 °C est compatible avec cette indication ;190 °C ne l’est pas.</div><p>La valeur±2 °C vient de la fiche et de son contexte ; elle n’est pas une incertitude universelle du Kofler et ne devient pas automatiquement un écart-type u. Des impuretés abaissent souvent la fusion et élargissent son intervalle, mais une température proche ne prouve pas une pureté absolue. Certains solides se décomposent ou subliment.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a></div>",
+  "errors": [
+    "Mesurer sans étalon proche.",
+    "Déposer un solide humide.",
+    "Confondre la plage de fusion et une unique lecture exacte.",
+    "Toucher la surface chaude.",
+    "Déclarer l’identité certaine avec une seule grandeur."
+  ],
+  "question": "Pourquoi régler le banc avec un étalon proche ?",
+  "answer": "La correspondance position-température peut présenter un écart ; une référence proche améliore le repérage dans la zone de mesure.",
+  "check": [
+    "J’attends la stabilisation.",
+    "Je prends un étalon proche.",
+    "Je mesure un solide sec.",
+    "Je note la marge et son sens.",
+    "Je distingue compatibilité et preuve."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Surface brûlante : utiliser les outils prévus. Le nettoyage sur banc chaud nécessite la méthode et le produit autorisés par la notice et le professeur ; ne pas transposer automatiquement l’alcool benzylique à tous les appareils.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche point de fusion.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-refractometre",
+  "title": "Mesurer un indice au réfractomètre d’Abbe",
+  "subtitle": "Prismes, interface clair-obscur, température et référence.",
+  "category": "CDD · Contrôler",
+  "time": 30,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-refractometre.svg",
+  "preview": false,
+  "objective": "Mesurer l’indice d’un liquide et le comparer à une référence dans les mêmes conditions.",
+  "principle": "L’indice dépend du milieu, de la température et de la longueur d’onde ; le réfractomètre repère une limite optique liée à cet indice.",
+  "equipment": [
+    [
+      "Réfractomètre et prismes propres",
+      "Former une couche liquide homogène sans bulles."
+    ],
+    [
+      "Référence d’étalonnage compatible",
+      "Vérifier le réglage à la température de travail."
+    ],
+    [
+      "Compte-gouttes et échantillon identifié",
+      "Déposer la quantité nécessaire sans rayer le prisme."
+    ],
+    [
+      "Thermomètre et fiche de mesure",
+      "Conserver température et longueur d’onde de référence."
+    ]
+  ],
+  "steps": [
+    [
+      "Préparer",
+      "Nettoyer avec la méthode compatible et vérifier l’état des prismes ; stabiliser la température si le dispositif le permet."
+    ],
+    [
+      "Étalonner",
+      "Employer la référence et la procédure de l’appareil ; noter sa valeur et la température."
+    ],
+    [
+      "Déposer",
+      "Ouvrir, déposer quelques gouttes couvrant la zone utile et refermer doucement le prisme supérieur ; éviter bulles et particules."
+    ],
+    [
+      "Régler l’image",
+      "Ajuster l’éclairage et le compensateur pour une limite claire, puis amener l’interface clair-obscur au centre du réticule."
+    ],
+    [
+      "Lire",
+      "Lire n sur l’échelle sans unité ; noter la température et les conditions optiques, généralement la raie D du sodium vers 589 nm."
+    ],
+    [
+      "Comparer puis nettoyer",
+      "Comparer à même température ou appliquer uniquement la correction documentée pour le liquide. Nettoyer les prismes sans les rayer et fermer suivant la notice."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\"><span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$n=c/v$</span> ; n est sans unité. Convention usuelle : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$n_D^{20}$</span> indique20 °C et la raie D.</div><p>La fiche propose n²⁰=nᵗ+0,00045(t−20). Ce coefficient thermique est une approximation utilisable dans le cadre explicitement prévu par le sujet ; il n’est pas universel. On privilégie une mesure à la température de référence ou le coefficient propre au produit.</p><p>Dans l’exercice, n²⁰=1,353 est plus proche du diéthyléther1,352 que du cyclohexane1,426 ou du toluène1,497. Sans incertitude et sans connaître les impuretés possibles, on ne quantifie pas la pureté à partir de cet écart seul.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch4/cours\">Revoir le chapitre 4 de CDD</a></div>",
+  "errors": [
+    "Oublier la température.",
+    "Laisser des bulles ou un prisme sale.",
+    "Comparer des indices mesurés à des longueurs d’onde différentes.",
+    "Employer0,00045 pour n’importe quel produit.",
+    "Interpréter n comme une concentration sans étalonnage."
+  ],
+  "question": "Pourquoi préciser température et longueur d’onde avec un indice ?",
+  "answer": "Parce que l’indice varie avec les deux ; une comparaison ne devient pertinente que pour des conditions comparables.",
+  "check": [
+    "Je nettoie sans rayer.",
+    "Je vérifie la référence.",
+    "Je centre la limite nette.",
+    "Je relève T et λ.",
+    "Je limite la conclusion sur la pureté."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Éviter tout contact des solvants avec l’œil ou la peau ; vérifier leur compatibilité avec les joints et prismes. Les liquides volatils se manipulent avec les protections et la ventilation prévues.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche indice de refraction.pdf",
+    "assets/documents/cdd-premiere-CH4 Separation et purification_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-synthese",
+  "title": "Conduire et exploiter une synthèse d’ester",
+  "subtitle": "Réaction, reflux, traitement, purification et rendement sur produit sec.",
+  "category": "CDD · Synthétiser",
+  "time": 75,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-synthese-reflux.svg",
+  "preview": false,
+  "objective": "Relier les opérations d’une synthèse organique au bilan de matière et au contrôle du produit.",
+  "principle": "Le chauffage accélère une transformation ; un catalyseur modifie la cinétique. Pour une estérification équilibrée, conversion et pertes de traitement limitent la quantité isolée.",
+  "equipment": [
+    [
+      "Ballon, agitation, chauffe réglable et support élévateur",
+      "Maintenir une chauffe stable et pouvoir l’écarter."
+    ],
+    [
+      "Réfrigérant à boules, eau et pinces",
+      "Condenser les vapeurs vers le ballon ; montage ouvert."
+    ],
+    [
+      "Réactifs et éventuel catalyseur identifiés",
+      "Calculer les quantités ; le catalyseur ne compte pas comme réactif stœchiométrique."
+    ],
+    [
+      "Matériel de traitement et de contrôle",
+      "Choisir extraction, distillation, CCM ou autre contrôle d’après le protocole."
+    ]
+  ],
+  "steps": [
+    [
+      "Analyser avant de manipuler",
+      "Écrire l’équation, définir les masses molaires et calculer nᵢ/νᵢ pour le réactif limitant. Les quantités, l’ordre d’ajout et le temps de chauffe restent ceux du sujet."
+    ],
+    [
+      "Préparer le montage",
+      "Introduire les produits suivant les consignes et l’agitation autorisée, monter le réfrigérant et raccorder eau en bas/sortie en haut. Ne pas boucher le sommet."
+    ],
+    [
+      "Chauffer",
+      "Obtenir le reflux prévu sans débordement ; surveiller agitation, eau et refroidissement. Le temps se compte à partir du repère indiqué dans le protocole."
+    ],
+    [
+      "Suivre si demandé",
+      "Prélever uniquement selon la méthode autorisée et comparer par CCM/spectre. L’arrêt n’est pas décidé à partir d’une seule couleur non étalonnée."
+    ],
+    [
+      "Traiter le mélange",
+      "Laisser refroidir, puis appliquer les opérations prescrites pour isoler le produit. Distinguer réaction, lavage, séchage et purification."
+    ],
+    [
+      "Contrôler et peser",
+      "Mesurer une masse de produit sec ; réunir des indices d’identité et de pureté avant de calculer le rendement."
+    ],
+    [
+      "Rédiger le bilan",
+      "Présenter quantité théorique, quantité expérimentale, rendement, limites et amélioration possible. Ne pas confondre rendement élevé, économie d’atomes et faible impact environnemental."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-bilan-matiere.svg\" data-caption=\"Réactif limitant et quantité maximale de produit\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-bilan-matiere.svg\" alt=\"Réactif limitant et quantité maximale de produit\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Réactif limitant et quantité maximale de produit · toucher pour agrandir</figcaption></figure><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-rendement.svg\" data-caption=\"Du produit théorique au produit réellement isolé\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-rendement.svg\" alt=\"Du produit théorique au produit réellement isolé\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Du produit théorique au produit réellement isolé · toucher pour agrandir</figcaption></figure><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$x_{\\max}=\\min_i\\left(\\frac{n_i}{\\nu_i}\\right),\\quad n_{P,\\max}=\\nu_Px_{\\max},\\quad \\eta=\\frac{n_{P,\\exp}}{n_{P,\\max}}.$$</span></div><p>Application documentée, arôme banane :1,05 g d’acide éthanoïque et 0,81 g de 3-méthylbutan-1-ol. Avec M≈60,0 et 88,0 g/mol, l’alcool est limitant, n≈9,20 mmol ; mester,max≈1,20 g pour Mester≈130 g/mol. La masse isolée0,78 g donne η≈65%. Ce calcul ne fournit ni un protocole de chauffe ni un résultat de TP personnel.</p><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-economie-atomes.svg\" data-caption=\"Économie d’atomes : indicateur stœchiométrique distinct du rendement\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-economie-atomes.svg\" alt=\"Économie d’atomes : indicateur stœchiométrique distinct du rendement\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Économie d’atomes : indicateur stœchiométrique distinct du rendement · toucher pour agrandir</figcaption></figure><a class=\"chip\" href=\"#chapter/premiere-cdd-ch5/cours\">Revoir le chapitre 5 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch6/cours\">Revoir le chapitre 6 de CDD</a><p><a class=\"chip\" href=\"#lab/reflux\">Montage général de chauffage à reflux</a></p></div>",
+  "errors": [
+    "Confondre excès en masse et excès en quantité stœchiométrique.",
+    "Croire qu’un catalyseur augmente nécessairement la conversion d’équilibre.",
+    "Fermer le réfrigérant.",
+    "Calculer le rendement à partir d’un produit humide ou impur.",
+    "Dire qu’un rendement de 100% rend automatiquement une synthèse verte."
+  ],
+  "question": "Pourquoi peut-on perdre du rendement même si la réaction est très avancée ?",
+  "answer": "Une partie du produit peut rester dissoute, se perdre lors des transferts ou être éliminée avec des fractions ; le rendement isolé comprend la réaction et le traitement.",
+  "check": [
+    "Je calcule le limitant.",
+    "Je distingue catalyse et équilibre.",
+    "Je règle le reflux.",
+    "Je justifie le traitement.",
+    "Je calcule le rendement sur produit sec."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Écarter toute flamme des solvants inflammables. Fixer la verrerie sans contrainte, vérifier ses raccords et laisser refroidir avant démontage. Ne jamais fermer hermétiquement un montage chauffé. Les schémas de mécanisme ne sont pas des recettes expérimentales. Catalyse acide, oxydants, réducteurs et dérivés d’acide nécessitent les conditions particulières du protocole encadré ; ne pas déduire des dosages pratiques de l’équation seule.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH6.1 Syntheses organiques_synthese.pdf",
+    "assets/documents/cdd-premiere-CH6 Syntheses organiques_exercices.pdf",
+    "assets/documents/cdd-premiere-CH5 Syntheses et environnement_synthèse.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-oxydation",
+  "title": "Comparer l’oxydation ménagée des alcools",
+  "subtitle": "Classes d’alcools, produit attendu, témoins et contrôle de fonction.",
+  "category": "CDD · Synthétiser",
+  "time": 40,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-oxydation.svg",
+  "preview": false,
+  "objective": "Prévoir puis vérifier qualitativement le changement de fonction d’un alcool.",
+  "principle": "Une oxydation ménagée sans rupture du squelette transforme un alcool primaire en aldéhyde puis éventuellement acide, et un secondaire en cétone ; un tertiaire ne suit pas cette voie ordinaire.",
+  "equipment": [
+    [
+      "Alcools identifiés et protocole fourni",
+      "Reconnaître la classe sur le carbone portant OH, pas la longueur de chaîne."
+    ],
+    [
+      "Oxydant et milieu prescrits",
+      "Les produits dépendent des conditions, de la quantité d’oxydant et de l’élimination éventuelle du produit."
+    ],
+    [
+      "Tubes/récipients, témoins et chauffe éventuelle",
+      "Comparer des conditions contrôlées, sans mélanger les protocoles."
+    ],
+    [
+      "Méthode de contrôle IR, CCM ou test autorisé",
+      "Confirmer une modification de fonction avec plusieurs indices."
+    ]
+  ],
+  "steps": [
+    [
+      "Identifier la classe",
+      "Dessiner le groupe OH et compter les carbones liés au carbone porteur : primaire1, secondaire2, tertiaire3 ; le méthanol est un cas particulier."
+    ],
+    [
+      "Prévoir",
+      "Primaire : aldéhyde si les conditions l’isolent, sinon oxydation possible jusqu’à l’acide. Secondaire : cétone. Tertiaire : pas d’oxydation ménagée habituelle sans rupture de liaison C–C."
+    ],
+    [
+      "Préparer les comparaisons",
+      "Étiqueter réactifs et témoins ; suivre strictement le protocole du laboratoire pour volumes, milieu et ordre d’addition. Les fiches donnent des exemples de réactions, pas un protocole unique."
+    ],
+    [
+      "Réaliser et observer",
+      "Appliquer uniquement les conditions fournies ; noter chaque observation et la comparer au témoin. Un changement de couleur de l’oxydant n’identifie pas à lui seul le produit organique."
+    ],
+    [
+      "Contrôler le produit",
+      "Exploiter l’analyse prévue ; en IR, discuter OH/C=O et les bandes complémentaires. Pour distinguer aldéhyde/acide/cétone, ne pas se limiter à la présence de C=O."
+    ],
+    [
+      "Conclure",
+      "Relier classe, conditions et fonction obtenue ; distinguer absence d’évolution observable, transformation lente et impossibilité dans le modèle étudié."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-alcools.svg\" data-caption=\"Élimination, substitution et réaction acide-base d’un alcool\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-alcools.svg\" alt=\"Élimination, substitution et réaction acide-base d’un alcool\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Élimination, substitution et réaction acide-base d’un alcool · toucher pour agrandir</figcaption></figure><div class=\"rule-box\">Alcool primaire : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$\\mathrm{RCH_2OH\\rightarrow RCHO\\rightarrow RCOOH}$</span> ; secondaire : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$\\mathrm{R_2CHOH\\rightarrow R_2CO}$</span>. Ces flèches sont un bilan de fonctions, pas des équations redox équilibrées.</div><p>Les exemples contenant du chrome(VI) de la synthèse sont étudiés pour comprendre les transformations. Ils ne constituent pas une recommandation de manipulation : le choix d’un oxydant et du traitement des déchets doit tenir compte des dangers et des alternatives autorisées.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch6/cours\">Revoir le chapitre 6 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a></div>",
+  "errors": [
+    "Classer l’alcool d’après toute la chaîne.",
+    "Oublier la sur-oxydation d’un aldéhyde.",
+    "Identifier le produit avec la seule couleur du milieu.",
+    "Écrire « tertiaire jamais oxydable » sans préciser les conditions ménagées."
+  ],
+  "question": "Pourquoi un alcool primaire ne donne-t-il pas toujours uniquement un aldéhyde ?",
+  "answer": "L’aldéhyde peut à son tour être oxydé ; nature et excès de l’oxydant, milieu et retrait du produit déterminent la suite de la transformation.",
+  "check": [
+    "Je repère le carbone porteur de OH.",
+    "Je prévois les fonctions possibles.",
+    "Je précise les conditions.",
+    "J’utilise un témoin.",
+    "Je confirme avec une analyse."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Les oxydants et milieux acides peuvent être corrosifs et présenter des dangers graves ; aucun essai hors du protocole encadré. Les déchets contenant des métaux ou oxydants suivent une filière dédiée. Ne pas préparer un mélange réactif à partir du seul schéma de cours.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH6.1 Syntheses organiques_synthese.pdf",
+    "assets/documents/cdd-premiere-CH6.2 Reactivite des alcools_synthese.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-tests",
+  "title": "Tests qualitatifs : témoins et limites",
+  "subtitle": "Échantillon, témoin positif, blanc et interprétation prudente.",
+  "category": "CDD · Analyser",
+  "time": 35,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-tests.svg",
+  "preview": false,
+  "objective": "Détecter une espèce ou une famille sans confondre signal, spécificité et concentration.",
+  "principle": "Un réactif produit une observation dans certaines conditions ; les témoins vérifient le fonctionnement du test et les contaminations.",
+  "equipment": [
+    [
+      "Échantillons et réactif de reconnaissance",
+      "Identifier espèces recherchées, matrice et réactions possibles."
+    ],
+    [
+      "Blanc, référence positive et tubes propres",
+      "Comparer des volumes et conditions semblables."
+    ],
+    [
+      "Pipettes ou compte-gouttes distincts",
+      "Éviter contamination croisée et addition excessive."
+    ],
+    [
+      "Nuancier, chronomètre ou dispositif de lecture",
+      "Respecter délai, éclairage et domaine de réponse si bandelette."
+    ]
+  ],
+  "steps": [
+    [
+      "Définir la question",
+      "Nommer l’espèce recherchée, le signal attendu et les interférences possibles ; ne pas confondre dureté exprimée en CaCO₃ et présence de carbonate de calcium dissous."
+    ],
+    [
+      "Préparer les témoins",
+      "Un blanc contient la matrice/solvant sans l’espèce recherchée ; une référence positive vérifie que le réactif peut répondre. Étiqueter avant toute addition."
+    ],
+    [
+      "Appliquer",
+      "Mettre les quantités prescrites dans des récipients propres puis ajouter le réactif sans contaminer le flacon ; garder mêmes conditions entre tubes."
+    ],
+    [
+      "Observer",
+      "Comparer aspect, précipité ou couleur dans le délai prévu. Une bandelette se lit au délai de sa notice et avec son nuancier, pas à partir d’une couleur mémorisée."
+    ],
+    [
+      "Vérifier",
+      "Si le blanc répond, rechercher contamination ou interférence ; si le positif ne répond pas, le test n’est pas validé. Une absence de signal ne signifie pas absence certaine."
+    ],
+    [
+      "Conclure",
+      "Indiquer « détecté dans les conditions du test » ou « non détecté », et signaler limite de détection, interférences et éventuelle analyse quantitative complémentaire."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\">Exemples ioniques : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$\\mathrm{Ag^++Cl^-\\rightarrow AgCl(s)}$</span> ; <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$\\mathrm{Cu^{2+}+2HO^-\\rightarrow Cu(OH)_2(s)}$</span>.</div><p>Le précipité blanc d’AgCl est un indice pour Cl⁻, mais d’autres espèces peuvent interférer ; le pH, la matrice et les conditions du test comptent. Un test positif peut être qualitatif ou semi-quantitatif selon la méthode, pas automatiquement une mesure exacte de concentration.</p><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-mesure.svg\" data-caption=\"De la question analytique à un résultat accompagné de ses limites\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-mesure.svg\" alt=\"De la question analytique à un résultat accompagné de ses limites\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>De la question analytique à un résultat accompagné de ses limites · toucher pour agrandir</figcaption></figure><a class=\"chip\" href=\"#chapter/premiere-cdd-ch7/cours\">Revoir le chapitre 7 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a></div>",
+  "errors": [
+    "Conclure avec un test sans témoin.",
+    "Utiliser le même compte-gouttes pour tout.",
+    "Croire qu’un test négatif prouve l’absence.",
+    "Prendre une bandelette pour un appareil de mesure exact.",
+    "Conclure à la potabilité complète à partir d’un seul paramètre."
+  ],
+  "question": "Quelle est la différence entre blanc et témoin positif ?",
+  "answer": "Le blanc vérifie l’absence de réponse due au milieu ou à une contamination ; le positif vérifie que le test répond à une espèce connue.",
+  "check": [
+    "Je définis le signal attendu.",
+    "Je prépare un blanc.",
+    "Je vérifie le témoin positif.",
+    "Je respecte le délai de lecture.",
+    "Je distingue non-détection et absence."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Les sels d’argent, de cuivre et autres réactifs se manipulent aux concentrations et quantités prescrites ; récupérer leurs déchets. Les réactifs de révélation organique ne se préparent pas à partir de cette fiche générale.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "assets/documents/cdd-premiere-CH7 Analyses physicochimiques_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-spectro",
+  "title": "Dosage spectrophotométrique par étalonnage",
+  "subtitle": "Gamme, λmax, blanc, cuves propres et interpolation.",
+  "category": "CDD · Doser",
+  "time": 55,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-spectro.svg",
+  "preview": false,
+  "objective": "Déterminer une concentration à partir d’une gamme étalon et d’une mesure d’absorbance.",
+  "principle": "À longueur d’onde, trajet optique et milieu fixés, l’absorbance est proportionnelle à la concentration dans le domaine validé.",
+  "equipment": [
+    [
+      "Solution mère, pipettes, propipette et fioles",
+      "Préparer des concentrations connues par dilution et homogénéiser."
+    ],
+    [
+      "Spectrophotomètre et cuves compatibles avec λ",
+      "Mesurer le rapport des intensités transmises ; respecter le trajet optique."
+    ],
+    [
+      "Blanc de matrice",
+      "Contenir solvant et réactifs hors espèce dosée, autant que possible dans les mêmes conditions."
+    ],
+    [
+      "Échantillon, tableur et référence de contrôle",
+      "Interpoler dans la gamme et vérifier la méthode."
+    ]
+  ],
+  "steps": [
+    [
+      "Choisir λ",
+      "Tracer ou exploiter le spectre et retenir une longueur d’onde adaptée, souvent λmax pour la sensibilité ; vérifier sélectivité, cuve et domaine de l’appareil."
+    ],
+    [
+      "Préparer la gamme",
+      "Calculer les dilutions, prélever avec la verrerie jaugée, compléter et homogénéiser ; noter les unités et concentrations réellement préparées."
+    ],
+    [
+      "Faire le blanc",
+      "Régler l’appareil à λ et réaliser le zéro avec le blanc approprié ; il compense cuve, solvant et réactifs, pas une interférence quelconque."
+    ],
+    [
+      "Mesurer les étalons",
+      "Rincer/conditionner la cuve, essuyer les faces optiques, retirer les bulles, conserver orientation et trajet optique ; mesurer du dilué vers le concentré si le protocole le prévoit."
+    ],
+    [
+      "Ajuster et valider",
+      "Tracer A=f(c), ajuster le modèle et examiner les résidus. Ne pas forcer l’origine uniquement pour respecter la forme du cours si les données indiquent un décalage."
+    ],
+    [
+      "Mesurer l’inconnue",
+      "Mesurer dans les mêmes conditions. Si la réponse sort du domaine validé, diluer avec un facteur connu et remesurer ; ne pas extrapoler loin des étalons."
+    ],
+    [
+      "Calculer et conclure",
+      "Interpoler la concentration mesurée puis appliquer le facteur de dilution ; préciser unité, dilution, validité et sources d’incertitude."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-absorbance.svg\" data-caption=\"Définition de A, lumière incidente et lumière transmise\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-absorbance.svg\" alt=\"Définition de A, lumière incidente et lumière transmise\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Définition de A, lumière incidente et lumière transmise · toucher pour agrandir</figcaption></figure><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-etalonnage.svg\" data-caption=\"Gamme et lecture de la concentration inconnue\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-etalonnage.svg\" alt=\"Gamme et lecture de la concentration inconnue\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Gamme et lecture de la concentration inconnue · toucher pour agrandir</figcaption></figure><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$A=\\log_{10}(I_0/I)=\\varepsilon\\ell c;\\quad A=ac+b\\Rightarrow c_x=(A_x-b)/a;\\quad c_{\\mathrm{initiale}}=F\\,c_x.$$</span></div><p>A est sans unité ; pour c en mol/L et ℓ en cm, ε en L·mol⁻¹·cm⁻¹. La limite10⁻²mol/L de la fiche est un repère simplifié, pas une condition suffisante ou universelle : domaine linéaire, absence de diffusion/turbidité, milieu et composition chimique doivent être contrôlés. La couleur perçue correspond à la lumière transmise, pas au maximum absorbé.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch9/cours\">Revoir le chapitre 9 de CDD</a><p><a class=\"chip\" href=\"#chapter/maths-logarithmes/cours\">Revoir le logarithme décimal</a> <a class=\"chip\" href=\"#lab/mi-spectrophotometrie\">Lien avec la chaîne de mesure MI</a></p><p>Définition et unités : <a href=\"https://goldbook.iupac.org/terms/view/B00626\" target=\"_blank\" rel=\"noopener\">IUPAC · loi de Beer–Lambert</a>.</p></div>",
+  "errors": [
+    "Oublier le blanc.",
+    "Toucher les faces transparentes.",
+    "Confondre hauteur remplie et trajet optique.",
+    "Extrapoler hors gamme.",
+    "Oublier le facteur de dilution.",
+    "Changer λ entre étalons et inconnue."
+  ],
+  "question": "Pourquoi diluer une inconnue trop absorbante ?",
+  "answer": "Pour ramener la réponse dans le domaine étalonné et validé ; on multiplie ensuite la concentration mesurée par le facteur de dilution.",
+  "check": [
+    "Je choisis λ et la cuve.",
+    "Je prépare une gamme connue.",
+    "Je réalise le blanc.",
+    "Je garde les conditions fixes.",
+    "J’interpole et je corrige la dilution."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Tenir liquides et doigts loin des connexions ; ne pas ouvrir les sources UV. Les cuves en quartz ou verre sont fragiles ; vérifier la compatibilité chimique et spectrale du matériau.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-Fiche spectrophotométrie.pdf",
+    "assets/documents/cdd-premiere-CH 9 Dosage par etalonnage_synthese.pdf",
+    "assets/documents/cdd-premiere-CH 9 Dosage par etalonnage_exercices.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-conductimetrie",
+  "title": "Mesurer la conductivité d’une eau",
+  "subtitle": "Cellule, température, étalon et qualité d’échantillonnage.",
+  "category": "CDD · Analyser",
+  "time": 40,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-conductimetre.svg",
+  "preview": false,
+  "objective": "Comparer des eaux ou doser une solution ionique par étalonnage lorsque le modèle est validé.",
+  "principle": "La conductivité dépend des ions présents, de leur concentration et de la température ; une même valeur peut correspondre à plusieurs compositions.",
+  "equipment": [
+    [
+      "Conductimètre et cellule",
+      "Mesurer la conductance et la convertir avec la constante de cellule si nécessaire."
+    ],
+    [
+      "Solution de référence certifiée et thermomètre",
+      "Vérifier/régler la cellule à la température de référence."
+    ],
+    [
+      "Béchers propres et eau de rinçage",
+      "Limiter les contaminations ; ne pas verser le liquide de mesure dans son flacon initial."
+    ],
+    [
+      "Échantillons et éventuelle gamme",
+      "Conserver composition, dilution et température documentées."
+    ]
+  ],
+  "steps": [
+    [
+      "Définir",
+      "Préciser si on mesure G ou σ, l’unité affichée et la compensation thermique éventuelle. Pour une eau, conserver origine et mode de prélèvement."
+    ],
+    [
+      "Vérifier la cellule",
+      "Contrôler état et constante selon la notice ; étalonner avec la solution prévue et sa valeur à la bonne température."
+    ],
+    [
+      "Rincer",
+      "Rincer sans contaminer, puis conditionner si demandé ; plonger à la profondeur prévue, bulles retirées et électrodes sans contact avec le fond."
+    ],
+    [
+      "Stabiliser",
+      "Attendre la stabilité et relever simultanément la température. Ne pas appliquer une compensation générique sans connaître son réglage."
+    ],
+    [
+      "Mesurer et répéter",
+      "Relever valeur et unité ; rincer entre échantillons. Répéter ou mesurer un contrôle pour distinguer dispersion et dérive."
+    ],
+    [
+      "Exploiter",
+      "Comparer aux références à même température ; pour un dosage par gamme, interpoler seulement si la composition ionique et la gamme le permettent. Ne pas déduire la potabilité de σ seule."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$G=I/U,\\quad \\sigma=K_{\\mathrm{cellule}}G;\\quad \\sigma\\simeq\\sum_i\\lambda_i[i]\\quad\\text{(solution suffisamment diluée).}$$</span></div><p>En unités SI : G en S, Kcellule en m⁻¹, σ en S/m, λᵢ en S·m²/mol et [i] en mol/m³.1mS/cm=0,1S/m ;1µS/cm=10⁻⁴S/m. Une valeur élevée peut indiquer beaucoup d’ions sans identifier lesquels ; une faible conductivité n’exclut pas des contaminants non ioniques.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch7/cours\">Revoir le chapitre 7 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch9/cours\">Revoir le chapitre 9 de CDD</a><p><a class=\"chip\" href=\"#lab/conducti\">Lien avec le titrage conductimétrique</a></p></div>",
+  "errors": [
+    "Confondre conductance et conductivité.",
+    "Oublier la température.",
+    "Garder une bulle dans la cellule.",
+    "Convertir mS/cm comme mS/m.",
+    "Conclure à une eau potable sur ce seul paramètre."
+  ],
+  "question": "Pourquoi faut-il comparer des conductivités à température connue ?",
+  "answer": "La mobilité des ions varie avec la température ; un écart de mesure peut provenir de cette variation plutôt que de la composition.",
+  "check": [
+    "Je relève la bonne grandeur.",
+    "Je vérifie la référence.",
+    "Je retire les bulles.",
+    "Je note la température.",
+    "Je limite la conclusion sur l’eau."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Utiliser les solutions de référence et leur filière de déchets ; ne pas immerger les connecteurs. La cellule se nettoie selon sa notice, sans abrasion des surfaces actives.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH7 Analyses physicochimiques_synthese.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "assets/documents/cdd-premiere-CH 9 Dosage par etalonnage_synthese.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-titrage",
+  "title": "Titrage direct colorimétrique ou pH-métrique",
+  "subtitle": "Burette, prise d’essai jaugée, agitation, équivalence et incertitudes.",
+  "category": "CDD · Doser",
+  "time": 60,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-titrage.svg",
+  "preview": false,
+  "objective": "Déterminer la concentration d’une espèce par une réaction rapide, quantitative et sélective.",
+  "principle": "À l’équivalence, les quantités de titrant versé et d’espèce titrée initiale sont dans les proportions stœchiométriques de la réaction.",
+  "equipment": [
+    [
+      "Burette graduée, support et titrant connu",
+      "Délivrer le volume par différence de lectures ; chasser la bulle de la pointe."
+    ],
+    [
+      "Pipette jaugée et propipette",
+      "Prélever exactement la prise d’essai, pas avec une éprouvette."
+    ],
+    [
+      "Bécher/erlenmeyer et agitation",
+      "Homogénéiser sans projections."
+    ],
+    [
+      "pH-mètre étalonné ou indicateur adapté",
+      "Repérer expérimentalement le voisinage de l’équivalence."
+    ],
+    [
+      "Eau de rinçage et support de relevé",
+      "Rincer les parois et noter les couples volume/signal."
+    ]
+  ],
+  "steps": [
+    [
+      "Écrire la réaction",
+      "Identifier titré A et titrant B ; équilibrer aA+bB→produits, vérifier rapidité, caractère quantitatif et absence de réactions parasites."
+    ],
+    [
+      "Préparer la burette",
+      "Rincer avec le titrant, remplir, purger la pointe et retirer l’entonnoir. Lire le ménisque à hauteur des yeux et noter Vinitial ; le zéro n’est pas indispensable si la différence est connue."
+    ],
+    [
+      "Prélever",
+      "Conditionner la pipette avec la solution titrée, prélever VA et transférer selon son mode de délivrance ; ajouter de l’eau pour immerger la sonde seulement si le protocole l’autorise."
+    ],
+    [
+      "Installer le suivi",
+      "Rincer l’électrode étalonnée, l’immerger sans contact avec le barreau ; ou ajouter quelques gouttes d’un indicateur dont la zone de virage convient au saut attendu."
+    ],
+    [
+      "Réaliser",
+      "Agiter régulièrement. Effectuer un repérage puis un dosage précis sur une nouvelle prise ; réduire les ajouts près de l’équivalence. Ne pas combiner les volumes de deux prises différentes."
+    ],
+    [
+      "Repérer VE",
+      "Colorimétrie : virage persistant selon le critère du sujet. pH-métrie : exploiter pH(V), tangentes ou extremum de dpH/dV adapté au sens du titrage ; garder une résolution de volume suffisante."
+    ],
+    [
+      "Calculer et discuter",
+      "Utiliser la stœchiométrie et la dilution éventuelle ; rendre un résultat arrondi et documenter répétabilité, titrant, verrerie et repérage. L’équivalence n’a pas toujours un pH de 7."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-equivalence.svg\" data-caption=\"Équivalence : proportions et changement de réactif limitant\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-equivalence.svg\" alt=\"Équivalence : proportions et changement de réactif limitant\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Équivalence : proportions et changement de réactif limitant · toucher pour agrandir</figcaption></figure><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$\\frac{c_AV_A}{a}=\\frac{c_BV_E}{b}\\quad\\Rightarrow\\quad c_A=\\frac ab\\frac{c_BV_E}{V_A}.$$</span></div><p>Chapitre10 :20,0 mL d’acide éthanoïque, soude à 1,0×10⁻²mol/L, VE=10,0 mL et réaction 1:1 donnent cA=5,0×10⁻³mol/L. Ajouter de l’eau au bécher ne change pas nA, mais modifie le pH et la forme du signal ; cela ne remplace pas le volume de prise dans le calcul.</p><p>Application aspirine du chapitre8 : une prise de 20 mL provenant de 500 mL est titrée avec la soude0,0100 mol/L ; mcomprimé=cA×0,500×M dans le modèle du sujet. Le protocole doit justifier dissolution quantitative et absence de réactions concurrentes ; la saponification de l’ester peut interférer dans d’autres conditions.</p><a class=\"chip\" href=\"#chapter/premiere-cdd-ch10/cours\">Revoir le chapitre 10 de CDD</a><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a><p><a class=\"chip\" href=\"#lab/ph\">Montage général de titrage pH-métrique</a> <a class=\"chip\" href=\"#chapter/maths-derivees/cours\">Revoir la dérivée</a></p></div>",
+  "errors": [
+    "Confondre la graduation finale avec VE = Vfinal − Vinitial.",
+    "Utiliser une éprouvette pour la prise d’essai.",
+    "Oublier les coefficients a et b.",
+    "Prendre pH=7 comme définition de l’équivalence.",
+    "Choisir un indicateur uniquement d’après sa couleur.",
+    "Présenter un endpoint comme équivalence exacte sans discuter son décalage."
+  ],
+  "question": "Pourquoi peut-on ajouter un peu d’eau dans le bécher sans changer la relation à l’équivalence ?",
+  "answer": "La quantité de matière titrée prélevée reste la même si aucune réaction ni perte n’a lieu. La relation utilise VA initial ; le signal pH et sa pente peuvent cependant changer.",
+  "check": [
+    "Je connais la réaction.",
+    "Je purge la pointe.",
+    "Je prélève à la pipette jaugée.",
+    "Je réduis les ajouts près de VE.",
+    "Je justifie le calcul et le repérage."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Éviter projections d’acide ou de base ; fixer la burette. Les électrodes de verre sont fragiles. Si une référence au calomel est mentionnée dans l’ancien sujet, suivre la filière spécifique du laboratoire sans la démonter ; employer le dispositif actuel autorisé.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH10 Dosages par titrage_synthese.pdf",
+    "assets/documents/cdd-premiere-CH10 Dosage par titrage_exercices.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_exercices.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
+},
+{
+  "id": "cdd-premiere-mesure",
+  "title": "Valider une mesure et son incertitude",
+  "subtitle": "Mesurande, répétabilité, référence, modèle et compte rendu.",
+  "category": "CDD · Valider",
+  "time": 45,
+  "contexts": [
+    {
+      "year": "premiere",
+      "track": "spcl"
+    }
+  ],
+  "image": "cdd-premiere-incertitudes.svg",
+  "preview": false,
+  "objective": "Produire un résultat de mesure interprétable et distinguer dispersion, biais et incertitude.",
+  "principle": "Une série répétée estime la dispersion dans des conditions définies ; une référence apporte un contrôle du décalage, avec sa propre incertitude.",
+  "equipment": [
+    [
+      "Appareil adapté, notice et référence",
+      "Plage, résolution et tolérance contribuent à l’évaluation."
+    ],
+    [
+      "Échantillon stable et procédure écrite",
+      "Définir ce qui est mesuré et garder les conditions."
+    ],
+    [
+      "Thermomètre ou capteur d’ambiance si pertinent",
+      "Tracer les grandeurs qui influencent le résultat."
+    ],
+    [
+      "Tableau, calculatrice/tableur",
+      "Conserver les données brutes et calculer moyenne/écart-type."
+    ]
+  ],
+  "steps": [
+    [
+      "Définir le mesurande",
+      "Nommer grandeur, unité, objet et conditions : par exemple conductivité de telle eau à telle température, pas seulement « la qualité »."
+    ],
+    [
+      "Préparer",
+      "Vérifier gamme, zéro/référence et conditions de mesure ; distinguer vérification, étalonnage et ajustage. Une série stable peut rester biaisée."
+    ],
+    [
+      "Répéter",
+      "Réaliser N mesures indépendantes suivant la même procédure et noter les valeurs brutes. Ne pas transformer dix lectures du même affichage figé en dix expériences indépendantes."
+    ],
+    [
+      "Calculer",
+      "Calculer moyenne et écart-type expérimental s avec N−1 au dénominateur. Sous les hypothèses de répétabilité, uA(moyenne)=s/√N ; ne pas confondre avec la dispersion d’une mesure isolée."
+    ],
+    [
+      "Compléter",
+      "Identifier contributions instrumentales, références et autres effets ; appliquer la loi de propagation du modèle seulement avec les hypothèses adaptées et corrélations prises en compte."
+    ],
+    [
+      "Comparer",
+      "Si demandé, évaluer l’écart à une référence avec l’incertitude de l’écart. Pour une tolérance, suivre la règle de décision du sujet ; un simple chevauchement d’intervalles n’est pas une preuve universelle."
+    ],
+    [
+      "Rendre compte",
+      "Annoncer valeur, unité, incertitude et sa nature (u ou U=ku), k si pertinent et conditions. Arrondir raisonnablement sans masquer les données brutes."
+    ]
+  ],
+  "exploitation": "<div style=\"position:relative;min-width:0;max-width:100%;overflow-x:auto;overflow-wrap:anywhere;contain:inline-size\"><figure class=\"science-figure\"><button data-image=\"assets/diagrams/cdd-premiere-thermometre.svg\" data-caption=\"Exemple d’influence : immersion et lecture d’une température\" aria-label=\"Agrandir le schéma\"><img src=\"assets/diagrams/cdd-premiere-thermometre.svg\" alt=\"Exemple d’influence : immersion et lecture d’une température\" loading=\"lazy\" width=\"1200\" height=\"800\" style=\"height:auto\"></button><figcaption>Exemple d’influence : immersion et lecture d’une température · toucher pour agrandir</figcaption></figure><div class=\"rule-box\"><span style=\"position:relative;display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$$\\bar x=\\frac1N\\sum_i x_i,\\quad s=\\sqrt{\\frac{\\sum_i(x_i-\\bar x)^2}{N-1}},\\quad u_A(\\bar x)=\\frac{s}{\\sqrt N}.$$</span></div><p>La fidélité correspond à la faible dispersion ; la justesse au faible biais par rapport à une référence. Le mot « fiabilité » des anciens documents ne remplace pas ces définitions. Répéter améliore l’estimation de la moyenne mais ne corrige pas automatiquement un biais.</p><div class=\"rule-box\">Exemple de comparaison pour deux résultats indépendants : <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$z=|x_1-x_2|/\\sqrt{u_1^2+u_2^2}$</span>. Un critère tel que <span style=\"position:relative;display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;padding:3px 0\">$z\\le2$</span> doit être annoncé comme convention de compatibilité dans le contexte étudié.</div><a class=\"chip\" href=\"#chapter/premiere-cdd-ch8/cours\">Revoir le chapitre 8 de CDD</a><p><a class=\"chip\" href=\"#chapter/maths-statistiques/cours\">Revoir les statistiques</a> <a class=\"chip\" href=\"#lab/mi-serie-mesures\">Série de mesures en MI</a></p><p>Référence de vocabulaire : <a href=\"https://jcgm.bipm.org/vim/fr/\" target=\"_blank\" rel=\"noopener\">BIPM/JCGM · VIM3, fidélité, justesse, incertitude et étalonnage</a>.</p></div>",
+  "errors": [
+    "Confondre fidélité et justesse.",
+    "Prendre s pour l’incertitude de la moyenne.",
+    "Diviser toutes les contributions par √N.",
+    "Transformer une tolérance constructeur en u sans modèle.",
+    "Déclarer conforme uniquement parce que la moyenne est sous un seuil."
+  ],
+  "question": "Une série très groupée prouve-t-elle que le résultat est juste ?",
+  "answer": "Non. Elle indique une bonne fidélité dans ces conditions ; un décalage systématique peut subsister et nécessite un contrôle par référence et une évaluation adaptée.",
+  "check": [
+    "Je définis la grandeur mesurée.",
+    "Je garde les valeurs brutes.",
+    "Je distingue s et u de la moyenne.",
+    "Je cherche les biais.",
+    "J’indique la nature de l’incertitude."
+  ],
+  "safety": "Blouse et lunettes ; produits identifiés et FDS consultées. Travailler sous sorbonne lorsque les produits et le protocole l’exigent, avec des quantités et protections autorisées par le professeur. Ne jamais pipeter à la bouche ni goûter ou sentir directement un produit. Trier les déchets dans les filières du laboratoire, sans déduire une filière de la seule couleur d’un flacon. Pour une mesure électrique, utiliser uniquement le circuit et les plages autorisés. Pour une température, fixer la sonde, éviter les brûlures et respecter l’immersion prescrite par sa notice.",
+  "originals": [],
+  "sources": [
+    "assets/documents/cdd-premiere-CH8 Validite et limite_synthese.pdf",
+    "assets/documents/cdd-premiere-CH8 Validite et limite_exercices.pdf",
+    "assets/documents/cdd-premiere-CH7 Analyses physicochimiques_exercices.pdf",
+    "https://www.inrs.fr/media.html?refINRS=ED+953"
+  ]
 }
 ]
