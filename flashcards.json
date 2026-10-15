@@ -5815,5 +5815,3939 @@
   "category": "ece",
   "q": "Analyser : quel réflexe ?",
   "a": "Comparer les effets secondaires, noter les limites du modèle et conserver photos et réglages."
+},
+{
+  "id": "premiere-pcm-ch1-card-1",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que donne une formule brute ?",
+  "a": "Le nombre d’atomes de chaque élément et la charge globale pour un ion."
+},
+{
+  "id": "premiere-pcm-ch1-card-2",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Différence développée / semi-développée ?",
+  "a": "La développée montre toutes les liaisons ; la semi-développée regroupe les H avec l’atome qui les porte."
+},
+{
+  "id": "premiere-pcm-ch1-card-3",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Dans une formule topologique, que signifie un sommet non étiqueté ?",
+  "a": "Un carbone ; ses hydrogènes sont implicites jusqu’à la valence quatre."
+},
+{
+  "id": "premiere-pcm-ch1-card-4",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quels H doit-on garder en topologique ?",
+  "a": "Les H liés aux hétéroatomes, notamment OH et NH₂."
+},
+{
+  "id": "premiere-pcm-ch1-card-5",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Cram : trait, triangle plein, hachures ?",
+  "a": "Dans le plan ; vers le lecteur ; derrière le plan."
+},
+{
+  "id": "premiere-pcm-ch1-card-6",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Une formule brute donne-t-elle une structure unique ?",
+  "a": "Non : plusieurs isomères peuvent avoir la même formule brute."
+},
+{
+  "id": "premiere-pcm-ch1-card-7",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Groupe d’un alcool ?",
+  "a": "Hydroxyle –OH sur un carbone saturé ; suffixe -ol."
+},
+{
+  "id": "premiere-pcm-ch1-card-8",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Groupe et suffixe d’un aldéhyde ?",
+  "a": "Carbonyle terminal –CHO ; suffixe -al."
+},
+{
+  "id": "premiere-pcm-ch1-card-9",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Groupe et suffixe d’une cétone ?",
+  "a": "Carbonyle interne R–CO–R′ ; suffixe -one."
+},
+{
+  "id": "premiere-pcm-ch1-card-10",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Groupe et suffixe d’un acide carboxylique ?",
+  "a": "Carboxyle –COOH ; acide …-oïque."
+},
+{
+  "id": "premiere-pcm-ch1-card-11",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Groupe d’une amine primaire ?",
+  "a": "–NH₂ ; suffixe -amine."
+},
+{
+  "id": "premiere-pcm-ch1-card-12",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Définir un alcane acyclique.",
+  "a": "Hydrocarbure saturé, uniquement C/H et liaisons simples ; CₙH₂ₙ₊₂."
+},
+{
+  "id": "premiere-pcm-ch1-card-13",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Comment choisir la chaîne principale avec une fonction ?",
+  "a": "La plus longue chaîne contenant le groupe caractéristique prioritaire."
+},
+{
+  "id": "premiere-pcm-ch1-card-14",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Comment numéroter un alcool ramifié ?",
+  "a": "Donner d’abord le plus petit indice au carbone portant OH, puis aux ramifications."
+},
+{
+  "id": "premiere-pcm-ch1-card-15",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi CHO et COOH sont-ils en position 1 ?",
+  "a": "Le carbone du groupe terminal appartient à la chaîne et débute sa numérotation."
+},
+{
+  "id": "premiere-pcm-ch1-card-16",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Radicaux pour 1 à 6 carbones ?",
+  "a": "Méth-, éth-, prop-, but-, pent-, hex-."
+},
+{
+  "id": "premiere-pcm-ch1-card-17",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Radicaux pour 7 à 10 carbones ?",
+  "a": "Hept-, oct-, non-, déc-."
+},
+{
+  "id": "premiere-pcm-ch1-card-18",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Noms des ramifications –CH₃ et –CH₂CH₃ ?",
+  "a": "Méthyl et éthyl."
+},
+{
+  "id": "premiere-pcm-ch1-card-19",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "À quoi servent di-, tri- en nomenclature ?",
+  "a": "À indiquer deux ou trois ramifications identiques, avec leurs indices."
+},
+{
+  "id": "premiere-pcm-ch1-card-20",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Formule du 3-méthylpentanal ?",
+  "a": "$\\mathrm{CH_3-CH_2-CH(CH_3)-CH_2-CHO}$."
+},
+{
+  "id": "premiere-pcm-ch1-card-21",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Formule du 3-éthylpentan-2-one ?",
+  "a": "$\\mathrm{CH_3-CO-CH(CH_2CH_3)-CH_2-CH_3}$."
+},
+{
+  "id": "premiere-pcm-ch1-card-22",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quelle est la formule semi-développée du méthane ?",
+  "a": "CH₄ ; le carbone porte quatre H."
+},
+{
+  "id": "premiere-pcm-ch1-card-23",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Combien d’électrons possède un atome neutre ?",
+  "a": "Z, autant que de protons."
+},
+{
+  "id": "premiere-pcm-ch1-card-24",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Ordre de remplissage pour Z≤18 ?",
+  "a": "1 s, 2 s, 2p, 3 s, 3p ; s au plus 2 électrons, p au plus 6."
+},
+{
+  "id": "premiere-pcm-ch1-card-25",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que sont les électrons de valence ?",
+  "a": "Les électrons de la couche de plus grand nombre principal n, pour les éléments étudiés."
+},
+{
+  "id": "premiere-pcm-ch1-card-26",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Configuration de N et valence ?",
+  "a": "1s²2s²2p³ ; cinq électrons de valence."
+},
+{
+  "id": "premiere-pcm-ch1-card-27",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Configuration de Mg ?",
+  "a": "1s²2s²2p⁶3s² ; deux électrons de valence."
+},
+{
+  "id": "premiere-pcm-ch1-card-28",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Même configuration signifie-t-elle mêmes neutrons ?",
+  "a": "Non : des isotopes neutres peuvent avoir la même configuration électronique."
+},
+{
+  "id": "premiere-pcm-ch1-card-29",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que montre Lewis ?",
+  "a": "Les doublets liants, non liants et les charges, répartis à partir des électrons de valence."
+},
+{
+  "id": "premiere-pcm-ch1-card-30",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Comment ajuster le compte électronique d’un ion ?",
+  "a": "Ajouter un électron par charge − ; en enlever un par charge +."
+},
+{
+  "id": "premiere-pcm-ch1-card-31",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Combien de doublets non liants sur O dans un alcool neutre ?",
+  "a": "Deux, avec deux liaisons simples."
+},
+{
+  "id": "premiere-pcm-ch1-card-32",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Combien de doublets sur N dans NH₃ ?",
+  "a": "Un doublet non liant et trois liaisons N–H."
+},
+{
+  "id": "premiere-pcm-ch1-card-33",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que représentent n et m dans AXₙEₘ ?",
+  "a": "n : atomes voisins du centre A ; m : doublets non liants de A."
+},
+{
+  "id": "premiere-pcm-ch1-card-34",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Une liaison triple compte pour combien de domaines VSEPR ?",
+  "a": "Un domaine électronique, même si elle contient trois doublets liants."
+},
+{
+  "id": "premiere-pcm-ch1-card-35",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Type VSEPR et géométrie de NH₃ ?",
+  "a": "AX₃E ; pyramide à base triangulaire."
+},
+{
+  "id": "premiere-pcm-ch1-card-36",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Type et géométrie de HCN autour de C ?",
+  "a": "AX₂ ; linéaire."
+},
+{
+  "id": "premiere-pcm-ch1-card-37",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "AX₄ : géométrie ?",
+  "a": "Tétraédrique, angle idéal ≈109,5°."
+},
+{
+  "id": "premiere-pcm-ch1-card-38",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "AX₂E : géométrie moléculaire ?",
+  "a": "Coudée ; trois domaines électroniques d’arrangement trigonal plan."
+},
+{
+  "id": "premiere-pcm-ch1-card-39",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "AX₂E₂ : exemple et géométrie ?",
+  "a": "H₂O ; coudée, avec quatre domaines électroniques."
+},
+{
+  "id": "premiere-pcm-ch1-card-40",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi BCl₃ ne satisfait-il pas l’octet ?",
+  "a": "B est entouré de six électrons dans trois liaisons : exception à la règle."
+},
+{
+  "id": "premiere-pcm-ch1-card-41",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Les formes mésomères sont-elles des molécules qui alternent ?",
+  "a": "Non : représentations contributives d’une structure électronique délocalisée unique."
+},
+{
+  "id": "premiere-pcm-ch1-card-42",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que reste fixe entre formes mésomères ?",
+  "a": "Les noyaux, l’enchaînement et la charge totale ; seuls les doublets et liaisons multiples changent."
+},
+{
+  "id": "premiere-pcm-ch1-card-43",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quelle flèche relie les formes mésomères ?",
+  "a": "$\\leftrightarrow$, à distinguer d’une flèche d’équilibre chimique."
+},
+{
+  "id": "premiere-pcm-ch1-card-44",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Définir l’électronégativité, symbole, unité.",
+  "a": "Tendance à attirer les électrons d’une liaison ; χ ; sans unité sur l’échelle de Pauling."
+},
+{
+  "id": "premiere-pcm-ch1-card-45",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quel atome porte δ− dans C–O ?",
+  "a": "O, plus électronégatif ; C porte δ+."
+},
+{
+  "id": "premiere-pcm-ch1-card-46",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "δ− et charge − d’un ion sont-elles identiques ?",
+  "a": "Non : δ− est une charge partielle de liaison ; − une charge entière globale."
+},
+{
+  "id": "premiere-pcm-ch1-card-47",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Des liaisons polarisées suffisent-elles à rendre une molécule polaire ?",
+  "a": "Non : leurs dipôles peuvent se compenser par symétrie."
+},
+{
+  "id": "premiere-pcm-ch1-card-48",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi CF₄ est-il apolaire ?",
+  "a": "Ses quatre dipôles C–F se compensent dans la géométrie tétraédrique symétrique."
+},
+{
+  "id": "premiere-pcm-ch1-card-49",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi H₂O est-elle polaire ?",
+  "a": "Les dipôles O–H ne se compensent pas dans sa géométrie coudée."
+},
+{
+  "id": "premiere-pcm-ch1-card-50",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Interactions entre molécules d’alcane ?",
+  "a": "Van der Waals, notamment dispersion ; pas de liaison H dans le modèle usuel."
+},
+{
+  "id": "premiere-pcm-ch1-card-51",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Interactions entre molécules d’alcool ?",
+  "a": "Van der Waals et liaisons hydrogène par O–H."
+},
+{
+  "id": "premiere-pcm-ch1-card-52",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Donneur et accepteur de liaison H dans le modèle lycée ?",
+  "a": "Donneur : H lié à O/N/F ; accepteur : atome électronégatif avec doublet disponible."
+},
+{
+  "id": "premiere-pcm-ch1-card-53",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Ordres de grandeur scolaires des interactions ?",
+  "a": "Van der Waals : ordre quelques kJ·mol⁻¹ ; liaison H : souvent dizaines ; covalente : souvent centaines."
+},
+{
+  "id": "premiere-pcm-ch1-card-54",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Une vaporisation rompt-elle les liaisons covalentes des molécules ?",
+  "a": "Non : elle sépare les molécules en affaiblissant les interactions entre elles."
+},
+{
+  "id": "premiere-pcm-ch1-card-55",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi un alcool bout-il plus haut que l’alcane comparable ?",
+  "a": "Des liaisons H renforcent la cohésion, en plus de van der Waals."
+},
+{
+  "id": "premiere-pcm-ch1-card-56",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi la ramification abaisse-t-elle souvent l’ébullition ?",
+  "a": "À formule identique, elle réduit la surface de contact et les interactions de dispersion."
+},
+{
+  "id": "premiere-pcm-ch1-card-57",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que sont des isomères de constitution ?",
+  "a": "Même formule brute, enchaînements d’atomes différents."
+},
+{
+  "id": "premiere-pcm-ch1-card-58",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Trois types scolaires d’isomérie de constitution ?",
+  "a": "Chaîne, position, fonction."
+},
+{
+  "id": "premiere-pcm-ch1-card-59",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que sont des stéréoisomères ?",
+  "a": "Même enchaînement, dispositions spatiales différentes."
+},
+{
+  "id": "premiere-pcm-ch1-card-60",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Que sont deux conformations ?",
+  "a": "Deux dispositions d’une même molécule obtenues par rotation autour de liaisons simples."
+},
+{
+  "id": "premiere-pcm-ch1-card-61",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Conformation éclipsée ou décalée : laquelle est usuellement moins énergétique ?",
+  "a": "La décalée, car les liaisons sont moins alignées et les répulsions diminuent."
+},
+{
+  "id": "premiere-pcm-ch1-card-62",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Conformation ou configuration : critère ?",
+  "a": "Peut-on passer de l’une à l’autre par simple rotation sans changer les liaisons ? Oui : conformation."
+},
+{
+  "id": "premiere-pcm-ch1-card-63",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Définir un carbone asymétrique et sa notation.",
+  "a": "Carbone tétraédrique à quatre groupes différents ; C*."
+},
+{
+  "id": "premiere-pcm-ch1-card-64",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Définir la chiralité.",
+  "a": "Non-superposabilité à l’image dans un miroir."
+},
+{
+  "id": "premiere-pcm-ch1-card-65",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Une molécule à un seul C* ?",
+  "a": "Chirale ; elle possède deux énantiomères."
+},
+{
+  "id": "premiere-pcm-ch1-card-66",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Plusieurs C* garantissent-ils la chiralité ?",
+  "a": "Non : certaines molécules possèdent une symétrie permettant la superposition à l’image."
+},
+{
+  "id": "premiere-pcm-ch1-card-67",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Définir des énantiomères.",
+  "a": "Stéréoisomères images non superposables dans un miroir."
+},
+{
+  "id": "premiere-pcm-ch1-card-68",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quelles propriétés partagent les énantiomères en milieu achiral ?",
+  "a": "Propriétés usuelles physiques/chimiques ; pouvoir rotatoire de signe opposé. Les propriétés biologiques peuvent différer."
+},
+{
+  "id": "premiere-pcm-ch1-card-69",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Qu’est-ce qu’un mélange racémique ?",
+  "a": "Un mélange équimolaire des deux énantiomères."
+},
+{
+  "id": "premiere-pcm-ch1-card-70",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Pourquoi le glycérol n’a-t-il pas de C* ?",
+  "a": "Son carbone central porte deux groupes CH₂OH identiques."
+},
+{
+  "id": "premiere-pcm-ch1-card-71",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quel C* dans l’acide lactique ?",
+  "a": "Le CH de CH₃–CH(OH)–COOH, lié à H/OH/CH₃/COOH."
+},
+{
+  "id": "premiere-pcm-ch1-card-72",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Qu’est-ce qu’un acide α-aminé ?",
+  "a": "Un composé dont le groupe amino est sur le carbone adjacent au carboxyle : H₂N–CH(R)–COOH."
+},
+{
+  "id": "premiere-pcm-ch1-card-73",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Propanone : formules brute et semi-développée ?",
+  "a": "C₃H₆O et CH₃–C(=O)–CH₃ ; la représentation topologique a deux extrémités et un C carbonylé central."
+},
+{
+  "id": "premiere-pcm-ch1-card-74",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Comment dessiner Cram du méthane ?",
+  "a": "C au centre, deux H dans le plan, un H sur un coin plein et un H sur un coin hachuré ; géométrie tétraédrique."
+},
+{
+  "id": "premiere-pcm-ch1-card-75",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Comment obtenir l’énantiomère d’un C lié à Cl/H/CH₃/C₂H₅ ?",
+  "a": "Inverser deux positions dans Cram sans changer l’enchaînement ; les quatre groupes différents rendent ce C asymétrique."
+},
+{
+  "id": "premiere-pcm-ch1-card-76",
+  "chapter": "premiere-pcm-ch1",
+  "category": "premiere-pcm",
+  "q": "Quelles propriétés dépendent des interactions intermoléculaires ?",
+  "a": "Notamment la solubilité et les températures/énergies de changement d’état."
+},
+{
+  "id": "premiere-pcm-ch2-card-1",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Que représentent A et Z ?",
+  "a": "A : protons+neutrons ; Z : protons, numéro atomique."
+},
+{
+  "id": "premiere-pcm-ch2-card-2",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Nombre de neutrons d’un noyau ?",
+  "a": "A−Z."
+},
+{
+  "id": "premiere-pcm-ch2-card-3",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définition d’un élément ?",
+  "a": "Ensemble des atomes et ions de même nombre Z de protons."
+},
+{
+  "id": "premiere-pcm-ch2-card-4",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définition d’isotopes ?",
+  "a": "Même Z, nombres A et de neutrons différents."
+},
+{
+  "id": "premiere-pcm-ch2-card-5",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Ioniser un atome change-t-il son noyau ?",
+  "a": "Non : le nombre d’électrons change, pas Z/A."
+},
+{
+  "id": "premiere-pcm-ch2-card-6",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Charge du noyau ?",
+  "a": "Positive, +Ze."
+},
+{
+  "id": "premiere-pcm-ch2-card-7",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir la mole.",
+  "a": "Quantité contenant exactement6,02214076×10²³ entités élémentaires spécifiées."
+},
+{
+  "id": "premiere-pcm-ch2-card-8",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Relation entre N et n ?",
+  "a": "$N=nN_A$, avec n en mol et N sans unité."
+},
+{
+  "id": "premiere-pcm-ch2-card-9",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir M et son unité usuelle.",
+  "a": "Masse par mole ; g·mol⁻¹."
+},
+{
+  "id": "premiere-pcm-ch2-card-10",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Comment calculer M d’une molécule ?",
+  "a": "Sommer chaque masse molaire atomique multipliée par son indice."
+},
+{
+  "id": "premiere-pcm-ch2-card-11",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Pourquoi M du chlore vaut-elle environ 35,5 ?",
+  "a": "Moyenne pondérée des masses de ses isotopes, suivant leur abondance."
+},
+{
+  "id": "premiere-pcm-ch2-card-12",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Relation n, m, M ?",
+  "a": "$n=m/M$ ; m en g avec M en g·mol⁻¹."
+},
+{
+  "id": "premiere-pcm-ch2-card-13",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Relation ρ, m, V ?",
+  "a": "$\\rho=m/V$ ; m=ρV."
+},
+{
+  "id": "premiere-pcm-ch2-card-14",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Unité SI de la masse volumique ?",
+  "a": "kg·m⁻³."
+},
+{
+  "id": "premiere-pcm-ch2-card-15",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Combien vaut1 g·mL⁻¹ en g·L⁻¹ et kg·m⁻³ ?",
+  "a": "1000 g·L⁻¹ et 1000 kg·m⁻³."
+},
+{
+  "id": "premiere-pcm-ch2-card-16",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir la densité d’un liquide ou solide.",
+  "a": "d=ρ/ρeau, deux masses volumiques dans la même unité ; d sans unité."
+},
+{
+  "id": "premiere-pcm-ch2-card-17",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Quantité de liquide pur à partir de ρ et V ?",
+  "a": "$n=\\rho V/M$."
+},
+{
+  "id": "premiere-pcm-ch2-card-18",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Quantité à partir de la densité et V ?",
+  "a": "$n=d\\rho_{\\rm eau}V/M$."
+},
+{
+  "id": "premiere-pcm-ch2-card-19",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Comment intégrer une pureté massique de 96% ?",
+  "a": "Multiplier la masse totale par0,96 avant de diviser par M."
+},
+{
+  "id": "premiere-pcm-ch2-card-20",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Masse volumique et concentration massique : différence ?",
+  "a": "Masse totale du liquide / volume contre masse du soluté / volume final de solution."
+},
+{
+  "id": "premiere-pcm-ch2-card-21",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir une solution aqueuse.",
+  "a": "Mélange homogène dont le solvant est l’eau."
+},
+{
+  "id": "premiere-pcm-ch2-card-22",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Différence solvant / soluté ?",
+  "a": "Composante liquide majoritaire / espèce dissoute."
+},
+{
+  "id": "premiere-pcm-ch2-card-23",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Trois étapes de dissolution ?",
+  "a": "Séparation des entités, solvatation puis dispersion."
+},
+{
+  "id": "premiere-pcm-ch2-card-24",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Que signifie (aq) ?",
+  "a": "Espèce dissoute et hydratée dans l’eau."
+},
+{
+  "id": "premiere-pcm-ch2-card-25",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Dissolution moléculaire détruit-elle la molécule ?",
+  "a": "Pas dans le modèle de simple dissolution : la molécule est solvatée."
+},
+{
+  "id": "premiere-pcm-ch2-card-26",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Dissolution de CaCl₂ ?",
+  "a": "$\\mathrm{CaCl_2(s)\\to Ca^{2+}(aq)+2Cl^-(aq)}$."
+},
+{
+  "id": "premiere-pcm-ch2-card-27",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Une mole de CaCl₂ donne combien d’ions ?",
+  "a": "Une mole de Ca²⁺ et deux moles de Cl⁻, si dissolution totale."
+},
+{
+  "id": "premiere-pcm-ch2-card-28",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Interaction importante entre eau et ions ?",
+  "a": "Ion–dipôle : les molécules d’eau orientent leurs charges partielles autour des ions."
+},
+{
+  "id": "premiere-pcm-ch2-card-29",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Tout sel est-il très soluble dans l’eau ?",
+  "a": "Non : la solvatation et l’énergie du réseau interviennent ; un solvant polaire ne garantit pas une forte solubilité."
+},
+{
+  "id": "premiere-pcm-ch2-card-30",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Le dichlorométhane est-il apolaire ?",
+  "a": "Non : CH₂Cl₂ possède un dipôle total non nul ; les C–Cl ne se compensent pas."
+},
+{
+  "id": "premiere-pcm-ch2-card-31",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir hydrophile, hydrophobe et amphiphile.",
+  "a": "Bonne affinité pour l’eau ; faible affinité pour l’eau ; tête hydrophile et partie hydrophobe."
+},
+{
+  "id": "premiere-pcm-ch2-card-32",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définition et unité de concentration molaire ?",
+  "a": "c=n/Vsolution ; mol·L⁻¹ si n en mol et V en L."
+},
+{
+  "id": "premiere-pcm-ch2-card-33",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définition et unité de cₘ ?",
+  "a": "cₘ=mSoluté/Vsolution ; g·L⁻¹ si m en g et V en L."
+},
+{
+  "id": "premiere-pcm-ch2-card-34",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Lien cₘ, c et M ?",
+  "a": "$c_m=cM$ donc c=cₘ/M."
+},
+{
+  "id": "premiere-pcm-ch2-card-35",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Volume de solvant et volume de solution sont-ils identiques ?",
+  "a": "Pas exactement en général : utiliser le volume final de solution."
+},
+{
+  "id": "premiere-pcm-ch2-card-36",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Quelle masse peser pour une dissolution à c,V ?",
+  "a": "$m=cMV$, pour un soluté pur et totalement dissous."
+},
+{
+  "id": "premiere-pcm-ch2-card-37",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Relation de dilution ?",
+  "a": "$c_{\\text{mère}}V_{\\text{prélevé}}=c_{\\rm fille}V_{\\rm final}$."
+},
+{
+  "id": "premiere-pcm-ch2-card-38",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir le facteur de dilution F.",
+  "a": "F=cmère/cfille=Vfinal/Vprélevé."
+},
+{
+  "id": "premiere-pcm-ch2-card-39",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Verrerie de dilution précise ?",
+  "a": "Pipette jaugée avec propipette pour prélever ; fiole jaugée pour le volume final."
+},
+{
+  "id": "premiere-pcm-ch2-card-40",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Pourquoi rincer la pipette avec la mère ?",
+  "a": "Pour ne pas diluer le prélèvement par de l’eau résiduelle."
+},
+{
+  "id": "premiere-pcm-ch2-card-41",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Pourquoi homogénéiser après le trait ?",
+  "a": "Pour avoir la même concentration dans toute la solution."
+},
+{
+  "id": "premiere-pcm-ch2-card-42",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Définir la solubilité molaire.",
+  "a": "Concentration molaire limite à l’équilibre pour une espèce, un solvant et des conditions donnés."
+},
+{
+  "id": "premiere-pcm-ch2-card-43",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Unité de s et sₘ ?",
+  "a": "mol·L⁻¹ et g·L⁻¹ ; sₘ=sM."
+},
+{
+  "id": "premiere-pcm-ch2-card-44",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Comment calculer mmax dans V de solution ?",
+  "a": "$m_{\\max}=s_mV=sMV$."
+},
+{
+  "id": "premiere-pcm-ch2-card-45",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Une solution saturée a-t-elle c>s ?",
+  "a": "Non : la phase liquide est à sa limite c=s ; un excès de solide peut rester."
+},
+{
+  "id": "premiere-pcm-ch2-card-46",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "La solubilité dépend-elle toujours du pH ?",
+  "a": "Seulement dans certains cas, notamment si un équilibre acido-basique mobilise une espèce du solide."
+},
+{
+  "id": "premiere-pcm-ch2-card-47",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Chauffer augmente-t-il toujours la solubilité ?",
+  "a": "Non : beaucoup de solides oui, mais exceptions ; gaz généralement moins solubles."
+},
+{
+  "id": "premiere-pcm-ch2-card-48",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Pourquoi refroidir pour recristalliser ?",
+  "a": "Si le produit est soluble à chaud et peu à froid, le refroidissement provoque sa cristallisation."
+},
+{
+  "id": "premiere-pcm-ch2-card-49",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Rôle d’un chauffage à reflux ?",
+  "a": "Accélérer/chauffer à l’ébullition en condensant les vapeurs qui retournent au récipient."
+},
+{
+  "id": "premiere-pcm-ch2-card-50",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Pourquoi choisir DCM pour la trimyristine dans le sujet ?",
+  "a": "Le tableau la donne très soluble dans DCM, plus que dans l’éthanol ; ses longues chaînes favorisent l’affinité pour un solvant organique adapté."
+},
+{
+  "id": "premiere-pcm-ch2-card-51",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Rôle du Büchner ?",
+  "a": "Séparer le solide du liquide par filtration sous pression réduite."
+},
+{
+  "id": "premiere-pcm-ch2-card-52",
+  "chapter": "premiere-pcm-ch2",
+  "category": "premiere-pcm",
+  "q": "Quel est le volume pertinent pour c=m/(MV) ?",
+  "a": "Le volume final de solution ; Vsolvant est seulement une approximation si le sujet ne donne pas Vsolution."
+},
+{
+  "id": "premiere-pcm-ch3-card-1",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "À25 °C : acide, neutre, basique selon pH ?",
+  "a": "pH<7 ; pH=7 ; pH>7."
+},
+{
+  "id": "premiere-pcm-ch3-card-2",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Le pH a-t-il une unité ?",
+  "a": "Non : il est sans dimension."
+},
+{
+  "id": "premiere-pcm-ch3-card-3",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Relation pH et[H₃O⁺] dans le modèle dilué ?",
+  "a": "$\\mathrm{pH}\\approx-\\log([\\mathrm{H_3O^+}]/c^\\circ)$, c°=1 mol·L⁻¹."
+},
+{
+  "id": "premiere-pcm-ch3-card-4",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Comment obtenir[H₃O⁺] à partir du pH ?",
+  "a": "$[\\mathrm{H_3O^+}]\\approx10^{-\\mathrm{pH}}$ en mol·L⁻¹."
+},
+{
+  "id": "premiere-pcm-ch3-card-5",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Si pH augmente de 1,[H₃O⁺] devient quoi ?",
+  "a": "Elle est divisée par10."
+},
+{
+  "id": "premiere-pcm-ch3-card-6",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Si[H₃O⁺] est multipliée par100, pH devient quoi ?",
+  "a": "Il diminue de 2."
+},
+{
+  "id": "premiere-pcm-ch3-card-7",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définir un acide de Brønsted.",
+  "a": "Espèce capable de céder un proton H⁺."
+},
+{
+  "id": "premiere-pcm-ch3-card-8",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définir une base de Brønsted.",
+  "a": "Espèce capable de capter un proton H⁺."
+},
+{
+  "id": "premiere-pcm-ch3-card-9",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Comment écrire un couple conjugué ?",
+  "a": "Acide/base ; les deux diffèrent d’un H⁺."
+},
+{
+  "id": "premiere-pcm-ch3-card-10",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Demi-équation du couple AH/A⁻ ?",
+  "a": "$\\mathrm{AH\\rightleftharpoons A^-+H^+}$, écriture formelle."
+},
+{
+  "id": "premiere-pcm-ch3-card-11",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Charge de la base par rapport à l’acide ?",
+  "a": "Inférieure d’une unité."
+},
+{
+  "id": "premiere-pcm-ch3-card-12",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Base conjuguée de NH₄⁺ ?",
+  "a": "NH₃."
+},
+{
+  "id": "premiere-pcm-ch3-card-13",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Base conjuguée de CH₃COOH ?",
+  "a": "CH₃COO⁻."
+},
+{
+  "id": "premiere-pcm-ch3-card-14",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Les deux couples de l’eau ?",
+  "a": "H₃O⁺/H₂O et H₂O/HO⁻."
+},
+{
+  "id": "premiere-pcm-ch3-card-15",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définir une espèce amphotère.",
+  "a": "Elle peut céder ou capter un proton suivant le partenaire."
+},
+{
+  "id": "premiere-pcm-ch3-card-16",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Pourquoi H₂PO₄⁻ est-elle amphotère ?",
+  "a": "Base de H₃PO₄ et acide de HPO₄²⁻."
+},
+{
+  "id": "premiere-pcm-ch3-card-17",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Équation d’autoprotolyse ?",
+  "a": "$2\\mathrm{H_2O\\rightleftharpoons H_3O^++HO^-}$."
+},
+{
+  "id": "premiere-pcm-ch3-card-18",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Kₑ à 25 °C dans le modèle dilué ?",
+  "a": "10⁻¹⁴ ;[H₃O⁺][HO⁻]=10⁻¹⁴ avec concentrations en mol·L⁻¹."
+},
+{
+  "id": "premiere-pcm-ch3-card-19",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Kₑ dépend-il de la température ?",
+  "a": "Oui ; ne pas utiliser10⁻¹⁴ automatiquement à une autre température."
+},
+{
+  "id": "premiere-pcm-ch3-card-20",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définition de neutralité valable à toute température ?",
+  "a": "[H₃O⁺]=[HO⁻] ; pHneutre=pKₑ/2."
+},
+{
+  "id": "premiere-pcm-ch3-card-21",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "pH neutre vaut-il toujours7 ?",
+  "a": "Non :7 à 25 °C dans le modèle usuel."
+},
+{
+  "id": "premiere-pcm-ch3-card-22",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Comment calculer[HO⁻] à 25 °C ?",
+  "a": "10⁻¹⁴/[H₃O⁺] en utilisant les valeurs numériques mol·L⁻¹."
+},
+{
+  "id": "premiere-pcm-ch3-card-23",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Différence acide fort / faible ?",
+  "a": "Réaction avec l’eau quasi totale / limitée dans les conditions étudiées."
+},
+{
+  "id": "premiere-pcm-ch3-card-24",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Fort signifie-t-il concentré ?",
+  "a": "Non : force chimique et concentration sont deux propriétés différentes."
+},
+{
+  "id": "premiere-pcm-ch3-card-25",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Réaction d’un acide faible AH avec l’eau ?",
+  "a": "$\\mathrm{AH+H_2O\\rightleftharpoons A^-+H_3O^+}$."
+},
+{
+  "id": "premiere-pcm-ch3-card-26",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Réaction de NH₃ avec l’eau ?",
+  "a": "$\\mathrm{NH_3+H_2O\\rightleftharpoons NH_4^++HO^-}$."
+},
+{
+  "id": "premiere-pcm-ch3-card-27",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Exemples d’acides forts usuels ?",
+  "a": "HCl, HNO₃ ; première acidité de H₂SO₄."
+},
+{
+  "id": "premiere-pcm-ch3-card-28",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Exemples d’acides faibles ?",
+  "a": "Acides carboxyliques, NH₄⁺, système CO₂(aq), H₃PO₄."
+},
+{
+  "id": "premiere-pcm-ch3-card-29",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Exemples de bases faibles ?",
+  "a": "NH₃, CO₃²⁻, PO₄³⁻."
+},
+{
+  "id": "premiere-pcm-ch3-card-30",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Que fait la dissolution de NaOH ?",
+  "a": "Elle libère Na⁺ et HO⁻ ; ne pas écrire une molécule NaOH restant majoritaire dans la solution diluée."
+},
+{
+  "id": "premiere-pcm-ch3-card-31",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "H₂SO₄ libère-t-il toujours totalement deux H⁺ ?",
+  "a": "Non : première cession forte ; la seconde est un équilibre dont l’importance dépend des conditions."
+},
+{
+  "id": "premiere-pcm-ch3-card-32",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définition du pKₐ ?",
+  "a": "pKₐ=−logKₐ ; égal au pH quand acide et base conjuguée ont même concentration dans le modèle dilué."
+},
+{
+  "id": "premiere-pcm-ch3-card-33",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Acide prédominant : condition ?",
+  "a": "pH<pKₐ."
+},
+{
+  "id": "premiere-pcm-ch3-card-34",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Base prédominante : condition ?",
+  "a": "pH>pKₐ."
+},
+{
+  "id": "premiere-pcm-ch3-card-35",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "pH=pKₐ : que conclure ?",
+  "a": "[Acide]=[Base] ; aucune des deux ne prédomine."
+},
+{
+  "id": "premiere-pcm-ch3-card-36",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Relation du rapport base/acide ?",
+  "a": "$\\mathrm{pH}=pK_a+\\log([A^-]/[AH])$ dans le modèle dilué."
+},
+{
+  "id": "premiere-pcm-ch3-card-37",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "pH=pKₐ+1 : rapport base/acide ?",
+  "a": "10."
+},
+{
+  "id": "premiere-pcm-ch3-card-38",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Le pKₐ d’un acide fort est-il inexistant ?",
+  "a": "Non : il peut être défini ; son comportement dans l’eau est nivelé et sa dissociation quasi complète."
+},
+{
+  "id": "premiere-pcm-ch3-card-39",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Trois formes d’un acide α-aminé ?",
+  "a": "NH₃⁺–CH(R)–COOH ; NH₃⁺–CH(R)–COO⁻ ; NH₂–CH(R)–COO⁻."
+},
+{
+  "id": "premiere-pcm-ch3-card-40",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Qu’est-ce qu’un zwitterion ?",
+  "a": "Une espèce avec charges + et − internes, charge globale nulle, aussi appelée amphion."
+},
+{
+  "id": "premiere-pcm-ch3-card-41",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Glycine à pH 7,4 avec pKₐ 2,4 et 9,7 ?",
+  "a": "NH₃⁺–CH₂–COO⁻ prédomine."
+},
+{
+  "id": "premiere-pcm-ch3-card-42",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Glycine à pH 9,7 ?",
+  "a": "Amphion et forme anionique ont la même concentration."
+},
+{
+  "id": "premiere-pcm-ch3-card-43",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Effet usuel d’une dilution d’acide simple à l’eau ?",
+  "a": "pH augmente vers la neutralité ; l’autoprotolyse devient importante à grande dilution."
+},
+{
+  "id": "premiere-pcm-ch3-card-44",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Effet usuel d’une dilution de base simple ?",
+  "a": "pH diminue vers la neutralité."
+},
+{
+  "id": "premiere-pcm-ch3-card-45",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Définir une solution tampon.",
+  "a": "Mélange qui résiste à de petits ajouts d’acide/base et à une dilution modérée grâce à un couple faible présent en quantité suffisante."
+},
+{
+  "id": "premiere-pcm-ch3-card-46",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Préparer un tampon proche de pKₐ ?",
+  "a": "Mélanger des quantités égales d’acide faible et de sa base conjuguée."
+},
+{
+  "id": "premiere-pcm-ch3-card-47",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Un tampon résiste-t-il à toute quantité d’acide ?",
+  "a": "Non : sa capacité est limitée ; une forme peut être épuisée."
+},
+{
+  "id": "premiere-pcm-ch3-card-48",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Diluer conserve-t-il la capacité tampon ?",
+  "a": "Non : le rapport peut rester proche donc pH peu changé, mais la capacité diminue."
+},
+{
+  "id": "premiere-pcm-ch3-card-49",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Avant une mesure au pH-mètre ?",
+  "a": "Étalonner avec tampons adaptés, rincer, immerger correctement et attendre la stabilisation."
+},
+{
+  "id": "premiere-pcm-ch3-card-50",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Pourquoi éviter le frottement de l’électrode ?",
+  "a": "Pour ne pas abîmer la membrane ; tamponner délicatement après rinçage."
+},
+{
+  "id": "premiere-pcm-ch3-card-51",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Papier pH et pH-mètre donnent-ils la même précision ?",
+  "a": "Non : papier pH estime par couleur ; pH-mètre étalonné permet une mesure plus précise."
+},
+{
+  "id": "premiere-pcm-ch3-card-52",
+  "chapter": "premiere-pcm-ch3",
+  "category": "premiere-pcm",
+  "q": "Comment construire une réaction acido-basique ?",
+  "a": "Identifier les deux couples, associer donneur/accepteur, éliminer le H⁺ formel et contrôler atomes/charges."
+},
+{
+  "id": "premiere-pcm-ch4-card-1",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Que signifie cinétique chimique ?",
+  "a": "Étude de la vitesse des transformations chimiques."
+},
+{
+  "id": "premiere-pcm-ch4-card-2",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Réaction rapide ou lente : critère ?",
+  "a": "Durée comparée au temps de réponse/résolution de la méthode de suivi."
+},
+{
+  "id": "premiere-pcm-ch4-card-3",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "À volume constant, évolution usuelle d’un réactif/produit ?",
+  "a": "Réactif diminue ; produit augmente dans le sens observé."
+},
+{
+  "id": "premiere-pcm-ch4-card-4",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Vitesse d’apparition de P ?",
+  "a": "$v_{\\rm app}=d[P]/dt$."
+},
+{
+  "id": "premiere-pcm-ch4-card-5",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Vitesse de disparition de R ?",
+  "a": "$v_{\\rm disp}=-d[R]/dt$."
+},
+{
+  "id": "premiere-pcm-ch4-card-6",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Pourquoi le signe moins pour un réactif ?",
+  "a": "Sa concentration décroît, donc sa dérivée est négative ; la vitesse de disparition est positive."
+},
+{
+  "id": "premiere-pcm-ch4-card-7",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Unité usuelle d’une vitesse de concentration avec t en s ?",
+  "a": "mol·L⁻¹·s⁻¹ ; unité SI stricte mol·m⁻³·s⁻¹."
+},
+{
+  "id": "premiere-pcm-ch4-card-8",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Si le graphe porte n en mol et t en h, unité de pente ?",
+  "a": "mol·h⁻¹, pas mol·L⁻¹·s⁻¹ sans volume et conversion."
+},
+{
+  "id": "premiere-pcm-ch4-card-9",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Transformer mol·L⁻¹·min⁻¹ en par seconde ?",
+  "a": "Diviser par60."
+},
+{
+  "id": "premiere-pcm-ch4-card-10",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Transformer mol·h⁻¹ en mol·s⁻¹ ?",
+  "a": "Diviser par3600."
+},
+{
+  "id": "premiere-pcm-ch4-card-11",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Instantanée ou moyenne : quelles droites ?",
+  "a": "Tangente pour instantanée ; sécante entre deux mesures pour moyenne."
+},
+{
+  "id": "premiere-pcm-ch4-card-12",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Comment lire une pente de tangente ?",
+  "a": "Choisir deux points éloignés sur la droite et calculerΔordonnée/Δtemps."
+},
+{
+  "id": "premiere-pcm-ch4-card-13",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Les deux points de tangente sont-ils nécessairement des données de la courbe ?",
+  "a": "Non : ils appartiennent à la tangente."
+},
+{
+  "id": "premiere-pcm-ch4-card-14",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Estimation centrée à pas régulierΔt ?",
+  "a": "$c'(t_i)\\approx(c_{i+1}-c_{i-1})/(2\\Delta t)$."
+},
+{
+  "id": "premiere-pcm-ch4-card-15",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Peut-on calculer une différence centrée au premier point ?",
+  "a": "Non sans point antérieur ; une différence avant donne une autre approximation."
+},
+{
+  "id": "premiere-pcm-ch4-card-16",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Une dérivée nulle garantit-elle un extremum ?",
+  "a": "Non : f(t)=t³ a f′(0)=0 sans extremum."
+},
+{
+  "id": "premiere-pcm-ch4-card-17",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "2R→P : comparer les vitesses de disparition/apparition.",
+  "a": "vdisp(R)=2vapp(P), à volume constant."
+},
+{
+  "id": "premiere-pcm-ch4-card-18",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Définition générale de t½ ?",
+  "a": "Temps tel que x(t½)=xf/2, avancement final effectivement atteint."
+},
+{
+  "id": "premiere-pcm-ch4-card-19",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Produit initialement absent : ordonnée de demi-réaction ?",
+  "a": "[P]f/2."
+},
+{
+  "id": "premiere-pcm-ch4-card-20",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Produit déjà présent : ordonnée de demi-réaction ?",
+  "a": "([P]₀+[P]f)/2."
+},
+{
+  "id": "premiere-pcm-ch4-card-21",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Réactif et réaction limitée : ordonnée de demi-réaction ?",
+  "a": "([R]₀+[R]f)/2 ; pas seulement[R]₀/2."
+},
+{
+  "id": "premiere-pcm-ch4-card-22",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "n₀1,00 mol et nf0,35 mol : demi-réaction à quelle quantité ?",
+  "a": "0,675 mol ; xf=0,65 mol."
+},
+{
+  "id": "premiere-pcm-ch4-card-23",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Un dernier point suffit-il à définir le plateau ?",
+  "a": "Non : vérifier la stabilité finale ou un bilan justifiant la valeur finale."
+},
+{
+  "id": "premiere-pcm-ch4-card-24",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Croisement courbes réactif/produit = t½ ?",
+  "a": "Pas en général : utiliser l’avancement et la valeur finale."
+},
+{
+  "id": "premiere-pcm-ch4-card-25",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Définir un facteur cinétique.",
+  "a": "Paramètre dont la valeur influence la vitesse de réaction."
+},
+{
+  "id": "premiere-pcm-ch4-card-26",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Deux facteurs principaux du cours ?",
+  "a": "Température et concentration des réactifs."
+},
+{
+  "id": "premiere-pcm-ch4-card-27",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Pourquoi la vitesse diminue-t-elle souvent avec le temps ?",
+  "a": "Les réactifs sont consommés ; leurs concentrations diminuent, et l’équilibre peut être approché."
+},
+{
+  "id": "premiere-pcm-ch4-card-28",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Le chauffage accélère-t-il une réaction usuelle à composition comparable ?",
+  "a": "Généralement oui dans le domaine étudié ; attention aux systèmes enzymatiques et aux limites."
+},
+{
+  "id": "premiere-pcm-ch4-card-29",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Pourquoi le mélange chaud peut-il être plus lent à date tardive ?",
+  "a": "Il a déjà consommé davantage de réactifs ; on compare des compositions différentes."
+},
+{
+  "id": "premiere-pcm-ch4-card-30",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Définir un catalyseur.",
+  "a": "Espèce qui accélère une transformation et est régénérée dans le bilan global."
+},
+{
+  "id": "premiere-pcm-ch4-card-31",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Le catalyseur peut-il intervenir dans des étapes élémentaires ?",
+  "a": "Oui ; il est régénéré globalement, pas absent du mécanisme."
+},
+{
+  "id": "premiere-pcm-ch4-card-32",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Tout catalyseur accélère-t-il toute réaction ?",
+  "a": "Non : il agit sur certaines transformations."
+},
+{
+  "id": "premiere-pcm-ch4-card-33",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Catalyse homogène ?",
+  "a": "Réactifs et catalyseur dans la même phase."
+},
+{
+  "id": "premiere-pcm-ch4-card-34",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Catalyse hétérogène ?",
+  "a": "Phases différentes ; souvent à l’interface avec un solide."
+},
+{
+  "id": "premiere-pcm-ch4-card-35",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Catalyse enzymatique ?",
+  "a": "Catalyse par une enzyme, sous conditions adaptées de température/pH."
+},
+{
+  "id": "premiere-pcm-ch4-card-36",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Rôle de la saccharase ?",
+  "a": "Catalyser l’hydrolyse du saccharose en glucose et fructose."
+},
+{
+  "id": "premiere-pcm-ch4-card-37",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Un catalyseur change-t-il la constante d’équilibre ?",
+  "a": "Non : il accélère l’approche ; plateau final identique à température et état initial identiques."
+},
+{
+  "id": "premiere-pcm-ch4-card-38",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Pourquoi prendre un blanc en spectrophotométrie ?",
+  "a": "Pour retrancher les contributions du solvant, de la cuve et des espèces de fond non suivies."
+},
+{
+  "id": "premiere-pcm-ch4-card-39",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Quel choix expérimental aide à mesurer v₀ ?",
+  "a": "Un pas de temps petit au début et un temps mort de mélange/acquisition contrôlé."
+},
+{
+  "id": "premiere-pcm-ch4-card-40",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Quel choix aide à mesurer t½ ?",
+  "a": "Une durée de suivi suffisante pour connaître le plateau final."
+},
+{
+  "id": "premiere-pcm-ch4-card-41",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Estérification éthanol/acide éthanoïque : produits ?",
+  "a": "Éthanoate d’éthyle et eau ; transformation généralement limitée."
+},
+{
+  "id": "premiere-pcm-ch4-card-42",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "Pourquoi ne pas lire300 s sans réserve pour l’ex6 ?",
+  "a": "La réaction est annoncée limitée et la concentration finale manque ;300 s suppose cf≈0."
+},
+{
+  "id": "premiere-pcm-ch4-card-43",
+  "chapter": "premiere-pcm-ch4",
+  "category": "premiere-pcm",
+  "q": "À quoi sert le bouton dérivées en maths ?",
+  "a": "À revoir tangente, taux de variation et dérivée sans créer un deuxième cours de maths."
+},
+{
+  "id": "premiere-pcm-ch5-card-1",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Qu’est-ce que le système étudié ?",
+  "a": "L’objet ou l’ensemble d’objets choisi pour l’étude ; ses limites doivent être annoncées."
+},
+{
+  "id": "premiere-pcm-ch5-card-2",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Qu’est-ce qu’un référentiel ?",
+  "a": "Un objet de référence muni d’un repère d’espace et d’une mesure du temps, par rapport auquel on décrit le mouvement."
+},
+{
+  "id": "premiere-pcm-ch5-card-3",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Que signifie « référentiel terrestre » ?",
+  "a": "Référentiel lié au sol terrestre."
+},
+{
+  "id": "premiere-pcm-ch5-card-4",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Définir la trajectoire.",
+  "a": "Ensemble des positions successives du point étudié dans le référentiel choisi."
+},
+{
+  "id": "premiere-pcm-ch5-card-5",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quels deux adjectifs utiliser pour qualifier un mouvement ?",
+  "a": "Un pour la trajectoire (rectiligne, circulaire…), un pour l’évolution de la vitesse (uniforme, accéléré, décéléré)."
+},
+{
+  "id": "premiere-pcm-ch5-card-6",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Comment reconnaître une vitesse constante sur un pointage ?",
+  "a": "Les espacements sont égaux si les positions sont relevées à intervalles de temps égaux."
+},
+{
+  "id": "premiere-pcm-ch5-card-7",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Comment calculer la vitesse moyenne scalaire ?",
+  "a": "$v_{moy}=d_{parcourue}/\\Delta t$."
+},
+{
+  "id": "premiere-pcm-ch5-card-8",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Comment convertir des km/h en m/s ?",
+  "a": "Diviser par 3,6 ; dans l’autre sens, multiplier par 3,6."
+},
+{
+  "id": "premiere-pcm-ch5-card-9",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quelle est la différence entre distance parcourue et déplacement ?",
+  "a": "La distance suit la trajectoire ; le déplacement relie directement le départ à l’arrivée."
+},
+{
+  "id": "premiere-pcm-ch5-card-10",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Après un tour complet, le vecteur vitesse moyenne est-il nul ?",
+  "a": "Oui, car le déplacement est nul. La vitesse moyenne scalaire reste positive."
+},
+{
+  "id": "premiere-pcm-ch5-card-11",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quelles sont les caractéristiques du vecteur vitesse ?",
+  "a": "Origine au point étudié ; tangente à la trajectoire ; sens du mouvement ; norme égale à la vitesse."
+},
+{
+  "id": "premiere-pcm-ch5-card-12",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Le vecteur vitesse est-il constant en mouvement circulaire uniforme ?",
+  "a": "Non : sa norme est constante, mais sa direction varie."
+},
+{
+  "id": "premiere-pcm-ch5-card-13",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Calculer la vitesse en mouvement circulaire uniforme.",
+  "a": "$v=2\\pi R/T$, avec R en m et T en s."
+},
+{
+  "id": "premiere-pcm-ch5-card-14",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Comment estimer la vitesse avec deux positions proches ?",
+  "a": "$\\vec v_n\\simeq\\overrightarrow{M_nM_{n+1}}/\\Delta t$."
+},
+{
+  "id": "premiere-pcm-ch5-card-15",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "La longueur dessinée d’une flèche est-elle sa valeur physique ?",
+  "a": "Elle la représente selon une échelle annoncée ; la vitesse s’exprime en m/s, pas en cm de dessin."
+},
+{
+  "id": "premiere-pcm-ch5-card-16",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Qu’est-ce qu’une interaction ?",
+  "a": "Deux systèmes agissent réciproquement l’un sur l’autre ; l’interaction peut être de contact ou à distance."
+},
+{
+  "id": "premiere-pcm-ch5-card-17",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Que représente une force ?",
+  "a": "Une action mécanique exercée sur un système, modélisée par un vecteur."
+},
+{
+  "id": "premiere-pcm-ch5-card-18",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quelle est l’unité d’une force ?",
+  "a": "Le newton (N)."
+},
+{
+  "id": "premiere-pcm-ch5-card-19",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Que signifie F A/B ?",
+  "a": "$\\vec F_{A/B}$ est ici la force exercée par A sur B."
+},
+{
+  "id": "premiere-pcm-ch5-card-20",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quelles forces retenir dans le bilan du système B ?",
+  "a": "Uniquement les forces exercées SUR B par des systèmes extérieurs."
+},
+{
+  "id": "premiere-pcm-ch5-card-21",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Deux forces réciproques se compensent-elles dans le bilan d’un seul corps ?",
+  "a": "Non : elles s’exercent sur deux corps différents."
+},
+{
+  "id": "premiere-pcm-ch5-card-22",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Énoncer le principe d’inertie.",
+  "a": "Dans un référentiel galiléen, forces compensées ⇔ centre d’inertie au repos ou en mouvement rectiligne uniforme."
+},
+{
+  "id": "premiere-pcm-ch5-card-23",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Forces compensées implique-t-il objet immobile ?",
+  "a": "Non : il peut aussi se déplacer en ligne droite à vitesse constante."
+},
+{
+  "id": "premiere-pcm-ch5-card-24",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Quelle information apporte un changement de direction de la vitesse ?",
+  "a": "Le vecteur vitesse varie ; l’accélération et la résultante des forces ne sont pas nulles."
+},
+{
+  "id": "premiere-pcm-ch5-card-25",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Pourquoi un casque profilé aide-t-il un skieur ?",
+  "a": "Il réduit la force de traînée exercée par l’air."
+},
+{
+  "id": "premiere-pcm-ch5-card-26",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch5",
+  "q": "Le point d’application d’une force est-il toujours arbitraire ?",
+  "a": "Non. On regroupe les forces au point du modèle ponctuel ; pour un solide étendu, le point d’application peut modifier la rotation."
+},
+{
+  "id": "premiere-pcm-ch6-card-1",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Que signifie r dans v = dr/dt ?",
+  "a": "$\\vec r=\\overrightarrow{OM}$ est le vecteur position : il relie l’origine O au point M à l’instant t."
+},
+{
+  "id": "premiere-pcm-ch6-card-2",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelles sont les coordonnées du vecteur position en 2D ?",
+  "a": "$(x(t);y(t))$, en m ; $\\vec r=x\\vec i+y\\vec j$."
+},
+{
+  "id": "premiere-pcm-ch6-card-3",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment obtenir le vecteur vitesse à partir de la position ?",
+  "a": "$\\vec v=d\\vec r/dt$ ; dériver chaque coordonnée."
+},
+{
+  "id": "premiere-pcm-ch6-card-4",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment calculer vₓ et vᵧ ?",
+  "a": "$v_x=x\\prime(t)$ ; $v_y=y\\prime(t)$."
+},
+{
+  "id": "premiere-pcm-ch6-card-5",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment calculer la valeur de la vitesse en 2D ?",
+  "a": "$v=\\sqrt{v_x^2+v_y^2}$, toujours positive ou nulle."
+},
+{
+  "id": "premiere-pcm-ch6-card-6",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle est la différence entre v et vₓ ?",
+  "a": "v est une norme ; vₓ est une coordonnée qui peut être négative. Sur un seul axe, v = |vₓ|."
+},
+{
+  "id": "premiere-pcm-ch6-card-7",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle est l’unité d’une position ?",
+  "a": "Le mètre (m)."
+},
+{
+  "id": "premiere-pcm-ch6-card-8",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle est l’unité d’une vitesse ?",
+  "a": "Le mètre par seconde (m·s⁻¹)."
+},
+{
+  "id": "premiere-pcm-ch6-card-9",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment obtenir l’accélération ?",
+  "a": "$\\vec a=d\\vec v/dt=d^2\\vec r/dt^2$."
+},
+{
+  "id": "premiere-pcm-ch6-card-10",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment calculer aₓ et aᵧ ?",
+  "a": "$a_x=v_x\\prime=x\\prime\\prime$ ; $a_y=v_y\\prime=y\\prime\\prime$."
+},
+{
+  "id": "premiere-pcm-ch6-card-11",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle est l’unité d’une accélération ?",
+  "a": "Le mètre par seconde carrée (m·s⁻²)."
+},
+{
+  "id": "premiere-pcm-ch6-card-12",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Que représente la pente de la tangente à x(t) ?",
+  "a": "La coordonnée de vitesse $v_x(t)$."
+},
+{
+  "id": "premiere-pcm-ch6-card-13",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Que représente la pente de la tangente à vₓ(t) ?",
+  "a": "La coordonnée d’accélération $a_x(t)$."
+},
+{
+  "id": "premiere-pcm-ch6-card-14",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Une sécante donne-t-elle une vitesse instantanée exacte ?",
+  "a": "Non : elle donne une vitesse moyenne entre deux dates ; la tangente donne la dérivée à une date."
+},
+{
+  "id": "premiere-pcm-ch6-card-15",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Une accélération négative signifie-t-elle toujours ralentir ?",
+  "a": "Non : cela dépend du signe de la vitesse sur l’axe. vₓ et aₓ de même signe donnent une vitesse de valeur croissante."
+},
+{
+  "id": "premiere-pcm-ch6-card-16",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quel est le vecteur accélération en mouvement rectiligne uniforme ?",
+  "a": "Le vecteur nul."
+},
+{
+  "id": "premiere-pcm-ch6-card-17",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Où pointe l’accélération en mouvement circulaire uniforme ?",
+  "a": "Vers le centre de la trajectoire, perpendiculairement à la vitesse."
+},
+{
+  "id": "premiere-pcm-ch6-card-18",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment construire Δv ?",
+  "a": "Translater $\\vec v_n$ et $\\vec v_{n+1}$ au même point ; relier l’extrémité de $\\vec v_n$ à celle de $\\vec v_{n+1}$."
+},
+{
+  "id": "premiere-pcm-ch6-card-19",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Relation de Chasles ?",
+  "a": "$\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$."
+},
+{
+  "id": "premiere-pcm-ch6-card-20",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment calculer une accélération moyenne sur un axe ?",
+  "a": "$a_{x,moy}=(v_{x,B}-v_{x,A})/(t_B-t_A)$."
+},
+{
+  "id": "premiere-pcm-ch6-card-21",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle équation horaire si aₓ = 0 ?",
+  "a": "$x(t)=x_0+v_0t$ ; ne pas oublier la position initiale."
+},
+{
+  "id": "premiere-pcm-ch6-card-22",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle équation de vitesse à accélération constante ?",
+  "a": "$v_x(t)=v_0+a_0t$."
+},
+{
+  "id": "premiere-pcm-ch6-card-23",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quelle équation de position à accélération constante ?",
+  "a": "$x(t)=x_0+v_0t+\\frac12a_0t^2$."
+},
+{
+  "id": "premiere-pcm-ch6-card-24",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "À quoi servent les constantes d’intégration en physique ?",
+  "a": "À satisfaire les conditions initiales de vitesse et de position."
+},
+{
+  "id": "premiere-pcm-ch6-card-25",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Pour un lancer vertical, que vaut la vitesse au sommet ?",
+  "a": "La vitesse est nulle au sommet ; l’accélération reste dirigée vers le bas et vaut g en norme."
+},
+{
+  "id": "premiere-pcm-ch6-card-26",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "L’équation x(t) constante implique quelle trajectoire dans le plan xy ?",
+  "a": "Le point reste sur une droite verticale x = constante."
+},
+{
+  "id": "premiere-pcm-ch6-card-27",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Comment obtenir l’équation y(x) d’un projectile ?",
+  "a": "Exprimer t en fonction de x puis remplacer t dans y(t)."
+},
+{
+  "id": "premiere-pcm-ch6-card-28",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Que signifie accélération « en g » ?",
+  "a": "Rapport $a/g$ ; 1 g correspond à environ 9,8 m·s⁻²."
+},
+{
+  "id": "premiere-pcm-ch6-card-29",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Quel étalonnage faut-il pour un pointage vidéo ?",
+  "a": "Une longueur connue dans le plan du mouvement et la durée entre les images."
+},
+{
+  "id": "premiere-pcm-ch6-card-30",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Pourquoi fixer la caméra perpendiculairement au mouvement ?",
+  "a": "Pour réduire la perspective et les erreurs de conversion des pixels en distances."
+},
+{
+  "id": "premiere-pcm-ch6-card-31",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "L’accélération seule permet-elle de distinguer démarrage et prise de vitesse ?",
+  "a": "Non : connaître la vitesse initiale est nécessaire."
+},
+{
+  "id": "premiere-pcm-ch6-card-32",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "À un angle de raccord sur une courbe v(t), existe-t-il une dérivée unique ?",
+  "a": "Non si les pentes à gauche et à droite sont différentes ; il faut distinguer avant et juste après le raccord."
+},
+{
+  "id": "premiere-pcm-ch6-card-33",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Que révèle une dérivée de position négative ?",
+  "a": "Une coordonnée de vitesse négative : le point se déplace vers le sens négatif de cet axe."
+},
+{
+  "id": "premiere-pcm-ch6-card-34",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Les coordonnées changent-elles si l’origine seule est déplacée ?",
+  "a": "Les positions changent ; les vitesses et accélérations restent les mêmes si les axes restent orientés de la même façon."
+},
+{
+  "id": "premiere-pcm-ch7-card-1",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle relation lie deux forces réciproques ?",
+  "a": "$\\vec F_{A/B}=-\\vec F_{B/A}$ ; elles s’appliquent à deux systèmes différents."
+},
+{
+  "id": "premiere-pcm-ch7-card-2",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle est la loi de gravitation pour les normes ?",
+  "a": "$F=Gm_Am_B/d^2$."
+},
+{
+  "id": "premiere-pcm-ch7-card-3",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle est l’unité SI de G ?",
+  "a": "$\\mathrm{N\\,m^2\\,kg^{-2}}$."
+},
+{
+  "id": "premiere-pcm-ch7-card-4",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle direction et quel sens a la gravitation ?",
+  "a": "Direction de la droite reliant les centres ; sens attractif, vers le corps qui exerce la force."
+},
+{
+  "id": "premiere-pcm-ch7-card-5",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle distance utiliser dans F = GmM/d² ?",
+  "a": "La distance entre les centres ; à l’altitude h au-dessus d’un astre sphérique, d = R + h."
+},
+{
+  "id": "premiere-pcm-ch7-card-6",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Si la distance double, que devient la force gravitationnelle ?",
+  "a": "Elle est divisée par 4 à masses constantes."
+},
+{
+  "id": "premiere-pcm-ch7-card-7",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Si chaque masse double, que devient la gravitation ?",
+  "a": "Elle est multipliée par 4 à distance constante."
+},
+{
+  "id": "premiere-pcm-ch7-card-8",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "La force de la Terre sur toi dépasse-t-elle ta force sur la Terre ?",
+  "a": "Non : les deux normes sont égales. Les accélérations diffèrent à cause des masses."
+},
+{
+  "id": "premiere-pcm-ch7-card-9",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle différence entre masse et poids ?",
+  "a": "Masse en kg ; poids = force gravitationnelle en N, dépendant du champ local."
+},
+{
+  "id": "premiere-pcm-ch7-card-10",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Expression vectorielle du poids ?",
+  "a": "$\\vec P=m\\vec g$."
+},
+{
+  "id": "premiere-pcm-ch7-card-11",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Expression de la valeur du poids ?",
+  "a": "$P=mg$."
+},
+{
+  "id": "premiere-pcm-ch7-card-12",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelles sont les direction et sens du poids près du sol ?",
+  "a": "Verticale, vers le bas."
+},
+{
+  "id": "premiere-pcm-ch7-card-13",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle est la valeur usuelle de g sur Terre ?",
+  "a": "Environ 9,81 N/kg = 9,81 m/s² près du niveau de la mer."
+},
+{
+  "id": "premiere-pcm-ch7-card-14",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Comment calculer g à la surface d’un astre sphérique ?",
+  "a": "$g=GM/R^2$."
+},
+{
+  "id": "premiere-pcm-ch7-card-15",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Comment calculer g à l’altitude h ?",
+  "a": "$g=GM/(R+h)^2$."
+},
+{
+  "id": "premiere-pcm-ch7-card-16",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "La masse d’un astronaute change-t-elle sur Mars ?",
+  "a": "Non ; son poids change parce que le champ de pesanteur est différent."
+},
+{
+  "id": "premiere-pcm-ch7-card-17",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "La gravitation est-elle nulle en orbite ?",
+  "a": "Non ; elle assure l’accélération du satellite vers la Terre."
+},
+{
+  "id": "premiere-pcm-ch7-card-18",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Pourquoi ressent-on l’apesanteur en orbite ?",
+  "a": "Satellite et occupants chutent ensemble ; aucun support n’appuie sur l’occupant dans le modèle idéal."
+},
+{
+  "id": "premiere-pcm-ch7-card-19",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle direction a la réaction normale d’un support ?",
+  "a": "Perpendiculaire au support, dirigée du support vers l’objet."
+},
+{
+  "id": "premiere-pcm-ch7-card-20",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "La réaction totale d’un support est-elle toujours normale ?",
+  "a": "Non : avec frottement, elle possède aussi une composante tangentielle."
+},
+{
+  "id": "premiere-pcm-ch7-card-21",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Une réaction normale vaut-elle toujours mg ?",
+  "a": "Non : pente, autres forces et accélération verticale peuvent changer sa valeur."
+},
+{
+  "id": "premiere-pcm-ch7-card-22",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle direction et quel sens a la tension d’un câble ?",
+  "a": "Le long du câble, tirant l’objet vers l’attache ; un câble tendu tire, il ne pousse pas."
+},
+{
+  "id": "premiere-pcm-ch7-card-23",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quelle direction et quel sens a la poussée d’Archimède ?",
+  "a": "Verticale vers le haut."
+},
+{
+  "id": "premiere-pcm-ch7-card-24",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Expression de la poussée d’Archimède ?",
+  "a": "$\\Pi=\\rho_{fluide}V_{immerge}g$."
+},
+{
+  "id": "premiere-pcm-ch7-card-25",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Que représente le volume dans la loi d’Archimède ?",
+  "a": "Le volume immergé, donc le volume de fluide déplacé."
+},
+{
+  "id": "premiere-pcm-ch7-card-26",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Pour un glaçon flottant immobile, quelle relation lie Π et P ?",
+  "a": "Π = P ; les vecteurs sont opposés si ce sont les seules forces du modèle."
+},
+{
+  "id": "premiere-pcm-ch7-card-27",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Pourquoi l’air chaud aide-t-il une montgolfière à décoller ?",
+  "a": "Sa masse volumique diminue : le poids de l’air intérieur baisse, tandis que la poussée dépend de l’air extérieur."
+},
+{
+  "id": "premiere-pcm-ch7-card-28",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Quel seuil permet une montée depuis le repos ?",
+  "a": "La poussée doit dépasser strictement le poids ; égalité = équilibre."
+},
+{
+  "id": "premiere-pcm-ch7-card-29",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Dans quel sens agit la traînée d’un fluide ?",
+  "a": "Dans le modèle usuel, à l’opposé de la vitesse relative de l’objet par rapport au fluide."
+},
+{
+  "id": "premiere-pcm-ch7-card-30",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Que vaut la traînée au départ depuis le repos dans un air immobile ?",
+  "a": "Zéro dans le modèle f = kv²."
+},
+{
+  "id": "premiere-pcm-ch7-card-31",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Pourquoi l’hélium est-il le meilleur gaz proposé pour un ballon ?",
+  "a": "Sa faible masse volumique minimise la masse de gaz embarquée."
+},
+{
+  "id": "premiere-pcm-ch7-card-32",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Un ballon gonflé à l’hélium s’envole-t-il forcément ?",
+  "a": "Non : la poussée doit aussi compenser le poids de l’enveloppe et du matériel."
+},
+{
+  "id": "premiere-pcm-ch7-card-33",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Comment déduire la masse d’un astre d’un satellite circulaire ?",
+  "a": "$M=Rv^2/G=4\\pi^2R^3/(GT^2)$."
+},
+{
+  "id": "premiere-pcm-ch7-card-34",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch7",
+  "q": "Une force perpendiculaire à la vitesse augmente-t-elle forcément sa valeur ?",
+  "a": "Non : elle peut changer uniquement la direction, comme dans le mouvement circulaire uniforme."
+},
+{
+  "id": "premiere-pcm-ch8-card-1",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Conditions usuelles de la deuxième loi de Newton ?",
+  "a": "Système de masse constante, centre d’inertie étudié, référentiel galiléen ou assimilé galiléen."
+},
+{
+  "id": "premiere-pcm-ch8-card-2",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Énoncer la deuxième loi de Newton.",
+  "a": "$\\sum\\vec F_{ext}=m\\vec a_G$."
+},
+{
+  "id": "premiere-pcm-ch8-card-3",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Qu’est-ce que la résultante des forces ?",
+  "a": "La somme vectorielle des forces extérieures exercées sur le système."
+},
+{
+  "id": "premiere-pcm-ch8-card-4",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Quelle relation lie directions de la résultante et de l’accélération ?",
+  "a": "Elles ont la même direction et le même sens ; leurs normes vérifient Fᵣₑₛ = ma."
+},
+{
+  "id": "premiere-pcm-ch8-card-5",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Peut-on additionner les valeurs de deux forces sans leurs directions ?",
+  "a": "Pas en général : on additionne les vecteurs ou leurs coordonnées signées."
+},
+{
+  "id": "premiere-pcm-ch8-card-6",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Si m double à force résultante fixée, que devient a ?",
+  "a": "L’accélération est divisée par deux."
+},
+{
+  "id": "premiere-pcm-ch8-card-7",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Résultante nulle implique-t-il vitesse nulle ?",
+  "a": "Non : la vitesse est constante, possiblement non nulle."
+},
+{
+  "id": "premiere-pcm-ch8-card-8",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Dans quel cas une force change seulement la direction de la vitesse ?",
+  "a": "Lorsqu’elle est perpendiculaire à la vitesse, comme la résultante centripète d’un mouvement circulaire uniforme."
+},
+{
+  "id": "premiere-pcm-ch8-card-9",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Définir la chute libre.",
+  "a": "Modèle d’un mouvement où le système est soumis uniquement à son poids."
+},
+{
+  "id": "premiere-pcm-ch8-card-10",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Un objet lancé vers le haut peut-il être en chute libre ?",
+  "a": "Oui, après la perte de contact, si seul son poids est retenu."
+},
+{
+  "id": "premiere-pcm-ch8-card-11",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "En chute libre, quel est le vecteur accélération ?",
+  "a": "$\\vec a=\\vec g$."
+},
+{
+  "id": "premiere-pcm-ch8-card-12",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "L’accélération de chute libre dépend-elle de la masse ?",
+  "a": "Non : la masse se simplifie dans m g⃗ = m a⃗."
+},
+{
+  "id": "premiere-pcm-ch8-card-13",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Quels mouvements donnent des forces compensées ?",
+  "a": "Le repos ou le mouvement rectiligne uniforme du centre d’inertie, dans un référentiel galiléen."
+},
+{
+  "id": "premiere-pcm-ch8-card-14",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Chute depuis le repos, axe vers le bas : a_z ?",
+  "a": "$a_z=g$."
+},
+{
+  "id": "premiere-pcm-ch8-card-15",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Chute depuis le repos, axe vers le bas : v_z ?",
+  "a": "$v_z(t)=gt$."
+},
+{
+  "id": "premiere-pcm-ch8-card-16",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Chute depuis le repos, origine au départ et axe vers le bas : z(t) ?",
+  "a": "$z(t)=\\frac12gt^2$."
+},
+{
+  "id": "premiere-pcm-ch8-card-17",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Lâcher à hauteur H, axe vers le haut : z(t) ?",
+  "a": "$z(t)=H-\\frac12gt^2$."
+},
+{
+  "id": "premiere-pcm-ch8-card-18",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Que déterminent les conditions initiales lors d’une primitive ?",
+  "a": "Les constantes d’intégration, donc la vitesse et la position particulières du système."
+},
+{
+  "id": "premiere-pcm-ch8-card-19",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Durée de chute libre depuis le repos sur H ?",
+  "a": "$t=\\sqrt{2H/g}$."
+},
+{
+  "id": "premiere-pcm-ch8-card-20",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Vitesse finale de chute libre depuis le repos sur H ?",
+  "a": "$v=\\sqrt{2gH}$."
+},
+{
+  "id": "premiere-pcm-ch8-card-21",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Doubler la hauteur de chute double-t-il la durée ?",
+  "a": "Non : la durée est multipliée par √2, car t ∝ √H."
+},
+{
+  "id": "premiere-pcm-ch8-card-22",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Une plume et un marteau tombent-ils ensemble dans le vide ?",
+  "a": "Oui à mêmes conditions initiales et dans le même champ de pesanteur."
+},
+{
+  "id": "premiere-pcm-ch8-card-23",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Pourquoi pas généralement dans l’air ?",
+  "a": "La résistance de l’air est proportionnellement beaucoup plus importante pour la plume."
+},
+{
+  "id": "premiere-pcm-ch8-card-24",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Ascenseur, axe vers le haut : relation de tension ?",
+  "a": "$T=m(g+a_z)$ pour cabine + passager, en négligeant les autres forces."
+},
+{
+  "id": "premiere-pcm-ch8-card-25",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Ascenseur qui démarre vers le bas : T comparé à mg ?",
+  "a": "T < mg."
+},
+{
+  "id": "premiere-pcm-ch8-card-26",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Ascenseur qui freine en descendant : T comparé à mg ?",
+  "a": "T > mg, car l’accélération est vers le haut."
+},
+{
+  "id": "premiere-pcm-ch8-card-27",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Axe inversé : les vecteurs physiques s’inversent-ils ?",
+  "a": "Non : leurs coordonnées changent ; les vecteurs réels gardent leurs directions et leurs sens."
+},
+{
+  "id": "premiere-pcm-ch8-card-28",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Une vitesse vers le bas et une accélération vers le haut sont-elles possibles ?",
+  "a": "Oui : c’est une descente qui ralentit."
+},
+{
+  "id": "premiere-pcm-ch8-card-29",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Quel effet du parachute sur k dans f = kv² ?",
+  "a": "k augmente ; la traînée est plus forte à vitesse donnée et la vitesse limite diminue."
+},
+{
+  "id": "premiere-pcm-ch8-card-30",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Quelle condition au régime de chute limite, poussée négligeable ?",
+  "a": "Poids et traînée se compensent : mg = f, donc a = 0."
+},
+{
+  "id": "premiere-pcm-ch8-card-31",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Vitesse limite pour f = kv² ?",
+  "a": "$v_{lim}=\\sqrt{mg/k}$."
+},
+{
+  "id": "premiere-pcm-ch8-card-32",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Vitesse limite pour f = CρSv²/2 ?",
+  "a": "$v_{lim}=\\sqrt{2mg/(C\\rho S)}$."
+},
+{
+  "id": "premiere-pcm-ch8-card-33",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Lancer vertical, axe vers le haut : v_z(t) ?",
+  "a": "$v_z=v_0-gt$."
+},
+{
+  "id": "premiere-pcm-ch8-card-34",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Date du sommet d’un lancer vertical ?",
+  "a": "$t_{max}=v_0/g$ si v₀ est dirigée vers le haut."
+},
+{
+  "id": "premiere-pcm-ch8-card-35",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Altitude maximale d’un lancer depuis H ?",
+  "a": "$z_{max}=H+v_0^2/(2g)$."
+},
+{
+  "id": "premiere-pcm-ch8-card-36",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Pourquoi le chronomètre jusqu’au son surestime-t-il la durée de chute ?",
+  "a": "Il comprend aussi le temps de propagation du son depuis l’impact jusqu’à l’observateur."
+},
+{
+  "id": "premiere-pcm-ch9-card-1",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Définir l’énergie cinétique.",
+  "a": "Énergie stockée du fait du mouvement, dépendant du référentiel."
+},
+{
+  "id": "premiere-pcm-ch9-card-2",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression de l’énergie cinétique ?",
+  "a": "$E_c=\\frac12mv^2$, m en kg et v en m/s."
+},
+{
+  "id": "premiere-pcm-ch9-card-3",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quelle est l’unité d’une énergie ?",
+  "a": "Le joule (J)."
+},
+{
+  "id": "premiere-pcm-ch9-card-4",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Si la vitesse double à masse constante, que devient E_c ?",
+  "a": "Elle est multipliée par 4."
+},
+{
+  "id": "premiere-pcm-ch9-card-5",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Si la masse double à vitesse constante, que devient E_c ?",
+  "a": "Elle est multipliée par 2."
+},
+{
+  "id": "premiere-pcm-ch9-card-6",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Une vitesse de coordonnée négative donne-t-elle une énergie négative ?",
+  "a": "Non : E_c dépend du carré de la norme de la vitesse."
+},
+{
+  "id": "premiere-pcm-ch9-card-7",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Le travail est-il un stockage d’énergie ?",
+  "a": "Non : c’est un mode de transfert d’énergie par une force pendant un déplacement."
+},
+{
+  "id": "premiere-pcm-ch9-card-8",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression du travail d’une force constante ?",
+  "a": "$W_{AB}(\\vec F)=\\vec F\\cdot\\overrightarrow{AB}=F\\,AB\\cos\\alpha$."
+},
+{
+  "id": "premiere-pcm-ch9-card-9",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quelles unités utiliser dans W = F AB cos α ?",
+  "a": "F en N, AB en m ; W en J."
+},
+{
+  "id": "premiere-pcm-ch9-card-10",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Un produit scalaire est-il un vecteur ?",
+  "a": "Non : c’est un nombre, avec l’unité produit des unités des deux grandeurs physiques."
+},
+{
+  "id": "premiere-pcm-ch9-card-11",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Produit scalaire en coordonnées orthonormées ?",
+  "a": "$\\vec u\\cdot\\vec v=u_xv_x+u_yv_y+u_zv_z$."
+},
+{
+  "id": "premiere-pcm-ch9-card-12",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quand le travail est-il moteur ?",
+  "a": "Quand W > 0, notamment pour un angle force–déplacement inférieur à 90°."
+},
+{
+  "id": "premiere-pcm-ch9-card-13",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quand le travail est-il résistant ?",
+  "a": "Quand W < 0, notamment pour un angle force–déplacement supérieur à 90°."
+},
+{
+  "id": "premiere-pcm-ch9-card-14",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quand une force non nulle a-t-elle un travail nul sur un déplacement non nul ?",
+  "a": "Quand elle est perpendiculaire au déplacement : α = 90°."
+},
+{
+  "id": "premiere-pcm-ch9-card-15",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Travail d’une force parallèle et opposée au déplacement ?",
+  "a": "$W=-F\\,AB$."
+},
+{
+  "id": "premiere-pcm-ch9-card-16",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Travail d’une force parallèle de même sens que le déplacement ?",
+  "a": "$W=F\\,AB$."
+},
+{
+  "id": "premiere-pcm-ch9-card-17",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression du travail du poids, z vers le haut ?",
+  "a": "$W_{AB}(\\vec P)=mg(z_A-z_B)$."
+},
+{
+  "id": "premiere-pcm-ch9-card-18",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Le travail du poids dépend-il du chemin ?",
+  "a": "Non dans un champ uniforme : il dépend de la masse, de g et des altitudes de départ et d’arrivée."
+},
+{
+  "id": "premiere-pcm-ch9-card-19",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Travail du poids pendant une montée ?",
+  "a": "Négatif, donc résistant."
+},
+{
+  "id": "premiere-pcm-ch9-card-20",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Travail du poids pendant une descente ?",
+  "a": "Positif, donc moteur."
+},
+{
+  "id": "premiere-pcm-ch9-card-21",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Travail du poids si les altitudes initiale et finale sont identiques ?",
+  "a": "Nul sur l’ensemble du trajet, même si le trajet a monté et descendu."
+},
+{
+  "id": "premiere-pcm-ch9-card-22",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Une réaction normale travaille-t-elle sur un support fixe ?",
+  "a": "Non si le déplacement est tangent au support : force et déplacement sont perpendiculaires."
+},
+{
+  "id": "premiere-pcm-ch9-card-23",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "La réaction totale d’un support avec frottement a-t-elle forcément un travail nul ?",
+  "a": "Non : la composante de frottement peut fournir un travail résistant."
+},
+{
+  "id": "premiere-pcm-ch9-card-24",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Énoncer le théorème de l’énergie cinétique.",
+  "a": "$E_{c,B}-E_{c,A}=\\sum W_{AB}(\\vec F_{ext})$ dans les conditions du modèle."
+},
+{
+  "id": "premiere-pcm-ch9-card-25",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Si la somme des travaux est négative, que devient E_c ?",
+  "a": "Elle diminue ; la valeur de la vitesse diminue à masse constante."
+},
+{
+  "id": "premiere-pcm-ch9-card-26",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Un travail moteur isolé garantit-il que le système accélère ?",
+  "a": "Non : la somme des travaux de toutes les forces doit être considérée."
+},
+{
+  "id": "premiere-pcm-ch9-card-27",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression de l’énergie potentielle de pesanteur ?",
+  "a": "$E_{pp}=mgz+C$ pour un axe z vers le haut et un champ uniforme."
+},
+{
+  "id": "premiere-pcm-ch9-card-28",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression de l’énergie mécanique ?",
+  "a": "$E_m=E_c+E_{pp}$."
+},
+{
+  "id": "premiere-pcm-ch9-card-29",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quand l’énergie mécanique se conserve-t-elle dans ce modèle ?",
+  "a": "Quand seuls le poids et des forces de travail nul agissent ; aucun travail dissipatif n’est retenu."
+},
+{
+  "id": "premiere-pcm-ch9-card-30",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Les frottements détruisent-ils l’énergie ?",
+  "a": "Non : ils réduisent l’énergie mécanique en transférant vers l’énergie interne et l’extérieur."
+},
+{
+  "id": "premiere-pcm-ch9-card-31",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Comment définir la puissance moyenne ?",
+  "a": "Énergie transférée par unité de temps ; elle indique la rapidité du transfert."
+},
+{
+  "id": "premiere-pcm-ch9-card-32",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Expression de la puissance moyenne d’un travail ?",
+  "a": "$\\mathcal P_{moy}=W/\\Delta t$."
+},
+{
+  "id": "premiere-pcm-ch9-card-33",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quelle est l’unité d’une puissance ?",
+  "a": "Le watt (W) ; 1 W = 1 J/s."
+},
+{
+  "id": "premiere-pcm-ch9-card-34",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Puissance d’une force de même sens qu’une vitesse constante ?",
+  "a": "$\\mathcal P=Fv$."
+},
+{
+  "id": "premiere-pcm-ch9-card-35",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Puissance instantanée générale d’une force ?",
+  "a": "$\\mathcal P=\\vec F\\cdot\\vec v$."
+},
+{
+  "id": "premiere-pcm-ch9-card-36",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Différence entre poids P et puissance 𝒫 ?",
+  "a": "P désigne ici une force en N ; 𝒫 désigne un transfert par unité de temps en W."
+},
+{
+  "id": "premiere-pcm-ch9-card-37",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Un lâcher depuis le repos doit vérifier quelles relations cohérentes ?",
+  "a": "$v=gt$, $H=gt^2/2$ et $H=v^2/(2g)$ ; des données incompatibles doivent être signalées."
+},
+{
+  "id": "premiere-pcm-ch9-card-38",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quelle différence entre joule et watt ?",
+  "a": "Joule : quantité d’énergie ; watt : rapidité de son transfert."
+},
+{
+  "id": "premiere-pcm-ch6-card-35",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch6",
+  "q": "Coordonnées d’un vecteur de norme u faisant un angle α avec +x ?",
+  "a": "$u_x=u\\cos\\alpha$, $u_y=u\\sin\\alpha$ en repère orthonormé."
+},
+{
+  "id": "premiere-pcm-ch8-card-37",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch8",
+  "q": "Pourquoi une primitive de cos(ωt + φ) comporte-t-elle 1/ω ?",
+  "a": "La dérivée de $\\sin(\\omega t+\\varphi)$ vaut $\\omega\\cos(\\omega t+\\varphi)$ ; le facteur $1/\\omega$ compense cette multiplication."
+},
+{
+  "id": "premiere-pcm-ch9-card-39",
+  "category": "premiere-pcm",
+  "chapter": "premiere-pcm-ch9",
+  "q": "Quel réglage de la calculatrice vérifier dans W = F AB cos α ?",
+  "a": "L’unité de l’angle : mode degrés si α est donné en degrés, mode radians si α est donné en radians."
+},
+{
+  "id": "premiere-pcm-ch10-card-1",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition d’une onde mécanique progressive ?",
+  "a": "Propagation d’une perturbation dans un milieu matériel sans transport global de matière dans le modèle."
+},
+{
+  "id": "premiere-pcm-ch10-card-2",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Une onde mécanique peut-elle traverser le vide ?",
+  "a": "Non : elle nécessite un milieu matériel."
+},
+{
+  "id": "premiere-pcm-ch10-card-3",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "L’onde transporte-t-elle de l’énergie ?",
+  "a": "Oui, elle peut transmettre énergie et information sans transport global du milieu."
+},
+{
+  "id": "premiere-pcm-ch10-card-4",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Onde longitudinale ?",
+  "a": "Déformation parallèle à la direction de propagation."
+},
+{
+  "id": "premiere-pcm-ch10-card-5",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Onde transversale ?",
+  "a": "Déformation perpendiculaire à la direction de propagation."
+},
+{
+  "id": "premiere-pcm-ch10-card-6",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Une compression sur un ressort est-elle longitudinale ?",
+  "a": "Oui, si compression et propagation suivent le ressort."
+},
+{
+  "id": "premiere-pcm-ch10-card-7",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Le son dans l’air est-il transverse ?",
+  "a": "Non, il est longitudinal."
+},
+{
+  "id": "premiere-pcm-ch10-card-8",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Vitesse d’un point de corde et célérité sont-elles identiques ?",
+  "a": "Non : déplacement local et propagation de la perturbation sont deux mouvements distincts."
+},
+{
+  "id": "premiere-pcm-ch10-card-9",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition du retard τ ?",
+  "a": "$\\tau=t_B-t_A$ : durée de parcours de la même perturbation de A vers B."
+},
+{
+  "id": "premiere-pcm-ch10-card-10",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Calcul de la célérité ?",
+  "a": "$v=AB/\\tau$, avec AB en m et τ en s."
+},
+{
+  "id": "premiere-pcm-ch10-card-11",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Signal en B pour une propagation sans déformation ?",
+  "a": "$s_B(t)=s_A(t-\\tau)$."
+},
+{
+  "id": "premiere-pcm-ch10-card-12",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition de la période ?",
+  "a": "Plus petite durée de répétition du signal en un point, en s."
+},
+{
+  "id": "premiere-pcm-ch10-card-13",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition de la fréquence ?",
+  "a": "Nombre de périodes par seconde, en Hz."
+},
+{
+  "id": "premiere-pcm-ch10-card-14",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Relation f et T ?",
+  "a": "$f=1/T$."
+},
+{
+  "id": "premiere-pcm-ch10-card-15",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition de la longueur d’onde ?",
+  "a": "Plus petite distance séparant des états identiques à un même instant, en m."
+},
+{
+  "id": "premiere-pcm-ch10-card-16",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Relation λ, v et f ?",
+  "a": "$\\lambda=v/f=vT$."
+},
+{
+  "id": "premiere-pcm-ch10-card-17",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Quel axe permet de lire T ?",
+  "a": "Le temps, sur un signal observé en un point fixe."
+},
+{
+  "id": "premiere-pcm-ch10-card-18",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Quel axe permet de lire λ ?",
+  "a": "La position, sur un profil à un instant fixé."
+},
+{
+  "id": "premiere-pcm-ch10-card-19",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Définition de l’amplitude ?",
+  "a": "Écart maximal à l’état d’équilibre ; unité liée à la grandeur étudiée."
+},
+{
+  "id": "premiere-pcm-ch10-card-20",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Amplitude sonore : quelle unité pour la pression ?",
+  "a": "Pa ; une déformation de corde s’exprime plutôt en m."
+},
+{
+  "id": "premiere-pcm-ch10-card-21",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Célérité usuelle du son dans l’air ?",
+  "a": "Environ 340 m/s ; elle dépend notamment de la température."
+},
+{
+  "id": "premiere-pcm-ch10-card-22",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Son dans l’eau : plus rapide ou plus lent que dans l’air ?",
+  "a": "Plus rapide : environ 1500 m/s contre 340 m/s dans les conditions de la fiche."
+},
+{
+  "id": "premiere-pcm-ch10-card-23",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "La hauteur d’un son dépend de quoi ?",
+  "a": "De sa fréquence : fréquence élevée → aigu."
+},
+{
+  "id": "premiere-pcm-ch10-card-24",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Le volume sonore est décrit par quelle grandeur ?",
+  "a": "Le niveau sonore L, en dB, mesuré au sonomètre."
+},
+{
+  "id": "premiere-pcm-ch10-card-25",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Domaine audible humain usuel ?",
+  "a": "Environ 20 Hz à 20 kHz, avec des limites dépendant de l’auditeur."
+},
+{
+  "id": "premiere-pcm-ch10-card-26",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Infrasons et ultrasons ?",
+  "a": "Infrasons sous ~20 Hz ; ultrasons au-dessus de ~20 kHz."
+},
+{
+  "id": "premiere-pcm-ch10-card-27",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Pour un écho, pourquoi diviser le trajet par deux ?",
+  "a": "La durée mesurée correspond à l’aller-retour."
+},
+{
+  "id": "premiere-pcm-ch10-card-28",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Une onde périodique est-elle toujours sinusoïdale ?",
+  "a": "Non : la sinusoïde est un cas particulier."
+},
+{
+  "id": "premiere-pcm-ch10-card-29",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "À célérité constante, f augmente : λ ?",
+  "a": "λ diminue, car λ=v/f."
+},
+{
+  "id": "premiere-pcm-ch10-card-30",
+  "chapter": "premiere-pcm-ch10",
+  "category": "premiere-pcm",
+  "q": "Lire plusieurs périodes : quel intérêt ?",
+  "a": "Réduire la part relative de l’incertitude de lecture, puis diviser par le nombre de périodes."
+},
+{
+  "id": "premiere-pcm-ch11-card-1",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Une onde EM nécessite-t-elle de la matière ?",
+  "a": "Non : elle peut se propager dans le vide."
+},
+{
+  "id": "premiere-pcm-ch11-card-2",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Célérité EM dans le vide ?",
+  "a": "$c=3{,}00\\times10^8\\ \\mathrm{m\\,s^{-1}}$ dans les données des exercices."
+},
+{
+  "id": "premiere-pcm-ch11-card-3",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Relation f et T ?",
+  "a": "$f=1/T$."
+},
+{
+  "id": "premiere-pcm-ch11-card-4",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Relation λ₀ et f ?",
+  "a": "$\\lambda_0=c/f$ dans le vide."
+},
+{
+  "id": "premiere-pcm-ch11-card-5",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Fréquence conservée en changeant de milieu ?",
+  "a": "Oui ; célérité et longueur d’onde peuvent changer."
+},
+{
+  "id": "premiere-pcm-ch11-card-6",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Dans un milieu d’indice n, célérité ?",
+  "a": "$v=c/n$ et $\\lambda=\\lambda_0/n$."
+},
+{
+  "id": "premiere-pcm-ch11-card-7",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Amplitude du champ électrique : unité ?",
+  "a": "V/m ; amplitude = écart maximal du champ oscillant à son équilibre."
+},
+{
+  "id": "premiere-pcm-ch11-card-8",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Ordre croissant d’énergie par photon ?",
+  "a": "Radio, micro-ondes, IR, visible, UV, X, gamma ; frontières conventionnelles."
+},
+{
+  "id": "premiere-pcm-ch11-card-9",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Longueur d’onde augmente : énergie du photon ?",
+  "a": "Elle diminue, car E=hc/λ₀."
+},
+{
+  "id": "premiere-pcm-ch11-card-10",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Limites du visible utilisées dans les fiches ?",
+  "a": "Environ400–800 nm, avec d’autres limites possibles selon la convention."
+},
+{
+  "id": "premiere-pcm-ch11-card-11",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Source primaire ?",
+  "a": "Source qui émet son propre rayonnement."
+},
+{
+  "id": "premiere-pcm-ch11-card-12",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Monochromatique idéal ?",
+  "a": "Une seule fréquence ; λ unique dans un milieu donné."
+},
+{
+  "id": "premiere-pcm-ch11-card-13",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Un laser est-il rigoureusement monochromatique ?",
+  "a": "Il est souvent approché ainsi ; sa largeur spectrale réelle reste non nulle."
+},
+{
+  "id": "premiere-pcm-ch11-card-14",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Une lumière blanche a-t-elle toujours un spectre continu ?",
+  "a": "Non : plusieurs bandes ou primaires bien dosées peuvent être perçues blanches."
+},
+{
+  "id": "premiere-pcm-ch11-card-15",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Rôle du système dispersif ?",
+  "a": "Séparer les composantes selon leur longueur d’onde."
+},
+{
+  "id": "premiere-pcm-ch11-card-16",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Exemples de systèmes dispersifs ?",
+  "a": "Prisme ou réseau."
+},
+{
+  "id": "premiere-pcm-ch11-card-17",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Spectre d’émission ?",
+  "a": "Spectre de la lumière émise par une source."
+},
+{
+  "id": "premiere-pcm-ch11-card-18",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Spectre d’absorption ?",
+  "a": "Spectre du rayonnement transmis après passage dans un milieu absorbant."
+},
+{
+  "id": "premiere-pcm-ch11-card-19",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Raies colorées sur fond noir ?",
+  "a": "Spectre de raies d’émission."
+},
+{
+  "id": "premiere-pcm-ch11-card-20",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Raies noires sur un continuum ?",
+  "a": "Spectre de raies d’absorption."
+},
+{
+  "id": "premiere-pcm-ch11-card-21",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Incandescence dans le modèle ?",
+  "a": "Émission thermique ; un corps chaud peut donner un spectre continu."
+},
+{
+  "id": "premiere-pcm-ch11-card-22",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Température d’une source thermique augmente : spectre ?",
+  "a": "Il s’enrichit vers les courtes longueurs d’onde."
+},
+{
+  "id": "premiere-pcm-ch11-card-23",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Luminescence : toujours quelques raies fines ?",
+  "a": "Non : une DEL peut émettre une bande large."
+},
+{
+  "id": "premiere-pcm-ch11-card-24",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Gaz dilué excité : spectre usuel ?",
+  "a": "Raies caractéristiques des transitions et espèces présentes."
+},
+{
+  "id": "premiere-pcm-ch11-card-25",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Une solution magenta absorbe surtout quelle composante ?",
+  "a": "Le vert dans le modèle soustractif idéal."
+},
+{
+  "id": "premiere-pcm-ch11-card-26",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Émission et absorption d’une même transition : même λ ?",
+  "a": "Oui : même écart d’énergie ; les intensités et populations réelles peuvent différer."
+},
+{
+  "id": "premiere-pcm-ch11-card-27",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Qu’est-ce qu’un photon ?",
+  "a": "Un quantum du rayonnement, de masse au repos nulle, charge nulle et énergie non nulle."
+},
+{
+  "id": "premiere-pcm-ch11-card-28",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Loi de Planck–Einstein ?",
+  "a": "$E_\\gamma=hf$."
+},
+{
+  "id": "premiere-pcm-ch11-card-29",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Énergie en fonction de λ dans le vide ?",
+  "a": "$E_\\gamma=hc/\\lambda_0$."
+},
+{
+  "id": "premiere-pcm-ch11-card-30",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Planck : valeur et unité dans le sujet ?",
+  "a": "$h=6{,}63\\times10^{-34}\\ \\mathrm{J\\,s}$."
+},
+{
+  "id": "premiere-pcm-ch11-card-31",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Conversion eV→J ?",
+  "a": "Multiplier par $1{,}60\\times10^{-19}$."
+},
+{
+  "id": "premiere-pcm-ch11-card-32",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Conversion J→eV ?",
+  "a": "Diviser par $1{,}60\\times10^{-19}$."
+},
+{
+  "id": "premiere-pcm-ch11-card-33",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "État fondamental ?",
+  "a": "État de plus basse énergie ; les autres sont excités."
+},
+{
+  "id": "premiere-pcm-ch11-card-34",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Que signifie énergie atomique quantifiée ?",
+  "a": "Seulement certains niveaux sont permis."
+},
+{
+  "id": "premiere-pcm-ch11-card-35",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Montée de niveau : émission ou absorption ?",
+  "a": "Absorption d’un photon correspondant à l’écart."
+},
+{
+  "id": "premiere-pcm-ch11-card-36",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Descente : signe de l’énergie du photon ?",
+  "a": "Positive : $E_\\gamma=E_{\\rm haut}-E_{\\rm bas}$."
+},
+{
+  "id": "premiere-pcm-ch11-card-37",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Pourquoi un photon ne peut-il pas toujours être absorbé ?",
+  "a": "Son énergie doit correspondre à une transition permise depuis l’état initial, dans le modèle."
+},
+{
+  "id": "premiere-pcm-ch11-card-38",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Deux photons successifs : condition ?",
+  "a": "Un niveau intermédiaire permis doit exister."
+},
+{
+  "id": "premiere-pcm-ch11-card-39",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Pourquoi E1=0 n’est-il pas une absence d’énergie physique ?",
+  "a": "L’origine des énergies est choisie arbitrairement."
+},
+{
+  "id": "premiere-pcm-ch11-card-40",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "À fréquence fixe, lumière plus intense : E d’un photon ?",
+  "a": "E reste hf ; le flux de photons peut augmenter."
+},
+{
+  "id": "premiere-pcm-ch11-card-41",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "c=3×10³ dans les exercices13–15 : que faire ?",
+  "a": "Signaler la coquille et utiliser3×10⁸ m/s."
+},
+{
+  "id": "premiere-pcm-ch11-card-42",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Une plus haute fréquence garantit-elle un plus grand risque ?",
+  "a": "Non : énergie d’un photon augmente, mais intensité, durée et absorption comptent aussi."
+},
+{
+  "id": "premiere-pcm-ch11-card-43",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "IR intenses : forcément inoffensifs ?",
+  "a": "Non : effets thermiques possibles."
+},
+{
+  "id": "premiere-pcm-ch11-card-44",
+  "chapter": "premiere-pcm-ch11",
+  "category": "premiere-pcm",
+  "q": "Quel spectre transmet le sirop420–560nm sous la lampeHg du sujet ?",
+  "a": "Les raies proches435 et 546nm ; les autres sont retirées."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-1",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Pourquoi rincer coupelle et entonnoir ?",
+  "a": "Pour conserver la quantité de soluté pesée : tout le solide doit être transféré dans le volume final."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-2",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Calculer : que faire et pourquoi ?",
+  "a": "Déterminer m=cMV pour une concentration molaire, ou m=tV pour une concentration massique ; convertir V et lire la formule du réactif, y compris l’eau d’hydratation."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-3",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Peser : que faire et pourquoi ?",
+  "a": "Tarer puis introduire le solide dans la coupelle ; noter masse et précision de la balance."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-4",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Transférer : que faire et pourquoi ?",
+  "a": "Verser dans la fiole à l’aide de l’entonnoir ; rincer coupelle et entonnoir pour emporter tout le soluté."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-5",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Dissoudre : que faire et pourquoi ?",
+  "a": "Ajouter une partie de l’eau, agiter jusqu’à dissolution complète ; laisser revenir à température ambiante si la dissolution échauffe le milieu."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-6",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Ajuster : que faire et pourquoi ?",
+  "a": "Compléter près du trait, puis goutte à goutte ; œil à hauteur, bas du ménisque au trait pour une solution limpide à ménisque concave."
+},
+{
+  "id": "pcm-premiere-dissolution-ece-7",
+  "chapter": "pcm-premiere-dissolution",
+  "category": "ece",
+  "q": "Préparer une solution par dissolution — Homogénéiser : que faire et pourquoi ?",
+  "a": "Boucher, retourner plusieurs fois et étiqueter avec espèce, concentration et date."
+},
+{
+  "id": "pcm-premiere-dilution-ece-1",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Quelle grandeur se conserve lors d’une dilution simple ?",
+  "a": "La quantité de matière du soluté prélevé, pas sa concentration."
+},
+{
+  "id": "pcm-premiere-dilution-ece-2",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Calculer : que faire et pourquoi ?",
+  "a": "Utiliser cmVm=cfVf et choisir une verrerie adaptée : Vm=(cf/cm)Vf, avec des volumes dans la même unité."
+},
+{
+  "id": "pcm-premiere-dilution-ece-3",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Préparer : que faire et pourquoi ?",
+  "a": "Rincer la pipette avec la mère ; utiliser une fiole propre éventuellement humide d’eau distillée. Identifier pipette à un trait ou à deux traits et son mode de délivrance."
+},
+{
+  "id": "pcm-premiere-dilution-ece-4",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Prélever : que faire et pourquoi ?",
+  "a": "Aspirer avec la propipette ; régler le ménisque au trait, pipette verticale et œil à hauteur."
+},
+{
+  "id": "pcm-premiere-dilution-ece-5",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Délivrer : que faire et pourquoi ?",
+  "a": "Laisser s’écouler selon la calibration de la pipette ; ne pas souffler la dernière goutte pour une pipette jaugée ordinaire à écoulement."
+},
+{
+  "id": "pcm-premiere-dilution-ece-6",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Compléter : que faire et pourquoi ?",
+  "a": "Ajouter de l’eau, mélanger, puis ajuster au trait Vf à température ambiante."
+},
+{
+  "id": "pcm-premiere-dilution-ece-7",
+  "chapter": "pcm-premiere-dilution",
+  "category": "ece",
+  "q": "Préparer une solution par dilution — Homogénéiser : que faire et pourquoi ?",
+  "a": "Boucher et retourner plusieurs fois ; étiqueter cf et l’espèce."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-1",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Pourquoi les vapeurs doivent-elles retomber dans le récipient ?",
+  "a": "Pour maintenir un mélange chauffé sans perdre le solvant comme dans une distillation."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-2",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Lire le protocole : que faire et pourquoi ?",
+  "a": "Le sujet décrit uniquement la première étape vers la 3-carbéthoxycoumarine ; la décarboxylation conduisant à la coumarine n’est pas donnée."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-3",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Introduire : que faire et pourquoi ?",
+  "a": "Sous les conditions du laboratoire, placer barreau, 8,0 g d’aldéhyde salicylique, 11,2 g de propanedioate de diéthyle et 30 mL d’éthanol absolu dans l’erlen rodé100 mL."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-4",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Agiter : que faire et pourquoi ?",
+  "a": "Agiter jusqu’à milieu limpide ; ajouter goutte à goutte4 mL de solution éthanolique de pipéridine avec la pipette prévue."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-5",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Monter : que faire et pourquoi ?",
+  "a": "Adapter le réfrigérant à boules, fixer le montage et brancher eau par le bas, sortie par le haut. Garder un trajet ouvert à l’atmosphère, sans boucher l’ensemble."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-6",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Chauffer : que faire et pourquoi ?",
+  "a": "Dans le bain-marie, sous agitation, maintenir le reflux20 min après son établissement ; suivre la régulation prescrite et la circulation d’eau."
+},
+{
+  "id": "pcm-premiere-coumarine-ece-7",
+  "chapter": "pcm-premiere-coumarine",
+  "category": "ece",
+  "q": "Synthèse : première étape vers la coumarine — Terminer : que faire et pourquoi ?",
+  "a": "Arrêter la chauffe et laisser refroidir avant toute opération suivante ; ne pas inventer une isolation finale ni une masse de produit, absentes de cet extrait."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-1",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Pourquoi la propanone permet-elle la recristallisation ?",
+  "a": "La trimyristine y est soluble à chaud puis très peu soluble à froid dans les données du sujet ; le refroidissement forme les cristaux."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-2",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Extraire : que faire et pourquoi ?",
+  "a": "Selon le sujet : 20,0 g de muscade en poudre et 100 mL de dichlorométhane dans le ballon250 mL ; reflux30 min avec refroidissement efficace."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-3",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Filtrer : que faire et pourquoi ?",
+  "a": "Filtrer sous hotte ; rincer le ballon avec 20 mL de dichlorométhane pour limiter les pertes de l’espèce extraite."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-4",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Concentrer : que faire et pourquoi ?",
+  "a": "Évaporer le solvant par distillation simple ; le sujet conserve environ 10 mL de liquide huileux jaune. Arrêter avant mise à sec."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-5",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Dissoudre à chaud : que faire et pourquoi ?",
+  "a": "Ajouter progressivement50 mL de propanone selon les conditions prévues ; rendre le contenu homogène à chaud. Écarter toute flamme et éviter les projections."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-6",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Cristalliser : que faire et pourquoi ?",
+  "a": "Placer dans le bain d’eau glacée après préparation autorisée ; la solubilité diminue et des cristaux blancs apparaissent."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-7",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Filtrer sous vide : que faire et pourquoi ?",
+  "a": "Mettre le papier adapté sur Büchner, l’humidifier avec le solvant prévu, vérifier l’étanchéité, aspirer puis verser ; casser le vide avant l’arrêt de l’aspiration."
+},
+{
+  "id": "pcm-premiere-trimyristine-ece-8",
+  "chapter": "pcm-premiere-trimyristine",
+  "category": "ece",
+  "q": "Extraire et purifier la trimyristine — Sécher et peser : que faire et pourquoi ?",
+  "a": "Sécher à l’étuve uniquement aux conditions indiquées, après retrait des solvants selon le protocole ; refroidir et peser. Conserver masse et éventuelles observations."
+},
+{
+  "id": "pcm-premiere-ph-ece-1",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Pourquoi faut-il étalonner avant de mesurer ?",
+  "a": "Pour relier la réponse électrique de l’électrode à des pH de référence dans le domaine et à la température utilisés."
+},
+{
+  "id": "pcm-premiere-ph-ece-2",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Préparer : que faire et pourquoi ?",
+  "a": "Vérifier l’état de l’électrode, sa solution de conservation et la température ; suivre la notice de l’appareil."
+},
+{
+  "id": "pcm-premiere-ph-ece-3",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Étalonner : que faire et pourquoi ?",
+  "a": "Utiliser les tampons prévus, souvent deux points encadrant le domaine ; attendre chaque stabilisation et ne pas reverser les tampons utilisés."
+},
+{
+  "id": "pcm-premiere-ph-ece-4",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Rincer : que faire et pourquoi ?",
+  "a": "Rincer l’électrode entre tampons et échantillons ; tamponner doucement l’extérieur, sans frotter le bulbe."
+},
+{
+  "id": "pcm-premiere-ph-ece-5",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Mesurer : que faire et pourquoi ?",
+  "a": "Immerger le bulbe et la jonction selon la notice ; éviter paroi, fond et barreau. Attendre une lecture stable, sans ajouter de solution de calibration à l’échantillon."
+},
+{
+  "id": "pcm-premiere-ph-ece-6",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Noter : que faire et pourquoi ?",
+  "a": "Relever pH, température, solution et précision d’affichage ; interpréter avec les incertitudes."
+},
+{
+  "id": "pcm-premiere-ph-ece-7",
+  "chapter": "pcm-premiere-ph",
+  "category": "ece",
+  "q": "Mesurer le pH d’une solution — Ranger : que faire et pourquoi ?",
+  "a": "Rincer puis conserver suivant la notice ; ne pas laisser l’électrode sécher."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-1",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Comment lire t½ sur une courbe où la concentration diminue de c0 à cf non nul ?",
+  "a": "Repérer le niveau (c0+cf)/2, son intersection avec la courbe, puis la date correspondante."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-2",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Choisir le signal : que faire et pourquoi ?",
+  "a": "Identifier l’espèce suivie et λ de mesure ; vérifier que l’absorbance varie de façon exploitable et reste dans le domaine de mesure."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-3",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Faire le blanc : que faire et pourquoi ?",
+  "a": "Utiliser la référence du protocole, avec les mêmes cuves et conditions optiques."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-4",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Déclencher : que faire et pourquoi ?",
+  "a": "Définir clairement t=0 ; réaliser le mélange de la même façon et noter le retard d’acquisition s’il existe."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-5",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Acquérir : que faire et pourquoi ?",
+  "a": "Relever A(t) sans déplacer ni retourner aléatoirement la cuve ; limiter traces, bulles et variations de température."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-6",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Convertir : que faire et pourquoi ?",
+  "a": "Utiliser l’étalonnage A=ac+b ou le modèle validé ; ne pas assimiler le signal à la concentration sans justification."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-7",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Exploiter : que faire et pourquoi ?",
+  "a": "Tracer c(t) ou ξ(t), estimer la pente par une tangente et déterminer le niveau correspondant à la moitié de l’évolution finale."
+},
+{
+  "id": "pcm-premiere-cinetique-ece-8",
+  "chapter": "pcm-premiere-cinetique",
+  "category": "ece",
+  "q": "Suivre une transformation par spectrophotométrie — Comparer : que faire et pourquoi ?",
+  "a": "Modifier un seul facteur, conserver les autres conditions, puis comparer les vitesses et t½ ; signaler les plateaux ou données finales non connus."
+},
+{
+  "id": "pcm-premiere-pointage-ece-1",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Que désigne r dans ce pointage ?",
+  "a": "Le vecteur position OM allant de l’origine du repère au point suivi, avec ses coordonnées en mètres."
+},
+{
+  "id": "pcm-premiere-pointage-ece-2",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Préparer : que faire et pourquoi ?",
+  "a": "Choisir système, point M et référentiel ; fixer la caméra de face, axe de visée perpendiculaire au plan du mouvement."
+},
+{
+  "id": "pcm-premiere-pointage-ece-3",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Calibrer : que faire et pourquoi ?",
+  "a": "Placer l’étalon dans ce plan, régler l’échelle, l’origine O et le sens des axes ; éviter une échelle prise sur un arrière-plan distant."
+},
+{
+  "id": "pcm-premiere-pointage-ece-4",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Dater : que faire et pourquoi ?",
+  "a": "Lire la fréquence réelle d’acquisition et vérifier les métadonnées ; Δt=1/f_images si le pas est constant."
+},
+{
+  "id": "pcm-premiere-pointage-ece-5",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Pointer : que faire et pourquoi ?",
+  "a": "Suivre le même point image après image ; conserver les données, ne pas corriger arbitrairement les points pour obtenir une droite."
+},
+{
+  "id": "pcm-premiere-pointage-ece-6",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Calculer : que faire et pourquoi ?",
+  "a": "Pour un intervalle : déplacement rj−ri, vitesse vectorielle moyenne=(rj−ri)/(tj−ti). Une différence avant approxime surtout la vitesse au milieu du pas."
+},
+{
+  "id": "pcm-premiere-pointage-ece-7",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Représenter : que faire et pourquoi ?",
+  "a": "Tracer la trajectoire et dessiner les vecteurs avec une échelle annoncée ; interpréter distance parcourue et déplacement séparément."
+},
+{
+  "id": "pcm-premiere-pointage-ece-8",
+  "chapter": "pcm-premiere-pointage",
+  "category": "ece",
+  "q": "Pointage en Première : trajectoire et vitesse — Contrôler : que faire et pourquoi ?",
+  "a": "Examiner les erreurs de pointage, le parallaxe et le pas temporel ; indiquer une précision adaptée."
+},
+{
+  "id": "pcm-premiere-ressort-ece-1",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Pourquoi la pente F(Δℓ) a-t-elle l’unité N/m ?",
+  "a": "Elle représente une variation de force divisée par une variation d’allongement ; c’est la raideur k dans le modèle linéaire."
+},
+{
+  "id": "pcm-premiere-ressort-ece-2",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Vérifier : que faire et pourquoi ?",
+  "a": "Contrôler l’appareil, sa charge maximale et son zéro ; mesurer ℓ0 sans charge dans les conditions prescrites."
+},
+{
+  "id": "pcm-premiere-ressort-ece-3",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Charger : que faire et pourquoi ?",
+  "a": "Ajouter une masse connue, attendre l’équilibre et limiter les oscillations ; ne pas dépasser la plage autorisée."
+},
+{
+  "id": "pcm-premiere-ressort-ece-4",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Mesurer : que faire et pourquoi ?",
+  "a": "Relever ℓ et calculer Δℓ=ℓ−ℓ0 ; convertir les cm en m si k doit être en N/m."
+},
+{
+  "id": "pcm-premiere-ressort-ece-5",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Associer : que faire et pourquoi ?",
+  "a": "Calculer P=mg avec m en kg ; à l’équilibre vertical, la norme de la traction vaut P."
+},
+{
+  "id": "pcm-premiere-ressort-ece-6",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Ajuster : que faire et pourquoi ?",
+  "a": "Répéter ; tracer F en fonction de Δℓ et estimer la pente k dans le domaine linéaire."
+},
+{
+  "id": "pcm-premiere-ressort-ece-7",
+  "chapter": "pcm-premiere-ressort",
+  "category": "ece",
+  "q": "Étalonner un ressort et mesurer une force — Utiliser : que faire et pourquoi ?",
+  "a": "Pour un allongement inconnu, déduire F par l’étalonnage et discuter lecture/zéro/hystérésis."
+},
+{
+  "id": "pcm-premiere-archimede-ece-1",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Pourquoi la lecture du dynamomètre diminue-t-elle ?",
+  "a": "La poussée du fluide aide à soutenir le solide : à l’équilibre R=P−FA, alors que P=mg reste identique."
+},
+{
+  "id": "pcm-premiere-archimede-ece-2",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Mesurer dans l’air : que faire et pourquoi ?",
+  "a": "Faire le zéro puis relever la traction Rair ; négliger la poussée de l’air seulement si acceptable."
+},
+{
+  "id": "pcm-premiere-archimede-ece-3",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Immerger : que faire et pourquoi ?",
+  "a": "Descendre le solide dans le fluide sans contact avec fond/parois, retirer les bulles et garder le dynamomètre hors du liquide."
+},
+{
+  "id": "pcm-premiere-archimede-ece-4",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Lire : que faire et pourquoi ?",
+  "a": "Attendre l’équilibre et noter Rliquide ; recommencer à plusieurs immersions si demandé."
+},
+{
+  "id": "pcm-premiere-archimede-ece-5",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Déterminer V : que faire et pourquoi ?",
+  "a": "Relever le volume réellement immergé ou le volume déplacé ; ne pas employer le volume total si l’objet n’est pas entièrement immergé."
+},
+{
+  "id": "pcm-premiere-archimede-ece-6",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Calculer : que faire et pourquoi ?",
+  "a": "FA≈Rair−Rliquide ; comparer à ρVimmergég avec unités cohérentes."
+},
+{
+  "id": "pcm-premiere-archimede-ece-7",
+  "chapter": "pcm-premiere-archimede",
+  "category": "ece",
+  "q": "Mettre en évidence la poussée d’Archimède — Conclure : que faire et pourquoi ?",
+  "a": "Dessiner P vers le bas, FA et R vers le haut ; distinguer la norme du poids mg de la traction dite poids apparent."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-1",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Pourquoi peut-on avoir Epp négative ?",
+  "a": "L’origine d’altitude est choisie : un point sous z=0 donne mgz<0, sans contradiction ; les variations sont les grandeurs utiles."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-2",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Fixer le modèle : que faire et pourquoi ?",
+  "a": "Choisir le système et référentiel de laboratoire ; annoncer la phase étudiée, par exemple vol sans contact avant la réception."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-3",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Acquérir : que faire et pourquoi ?",
+  "a": "Calibrer la vidéo, mesurer m et définir z vers le haut avec origine annoncée ; déclencher le mouvement dans la zone autorisée."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-4",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Estimer v : que faire et pourquoi ?",
+  "a": "Calculer les vitesses à partir des positions et du pas réel ; éviter de mélanger une date centrée avec une date d’intervalle."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-5",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Calculer : que faire et pourquoi ?",
+  "a": "Ec=mv²/2 et Epp=mgz ; v est une norme ou inclut toutes ses composantes, m est en kg et z en m."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-6",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Comparer : que faire et pourquoi ?",
+  "a": "Tracer Ec,Epp et Em=Ec+Epp ; vérifier une constance dans les limites du pointage et de la dérivation."
+},
+{
+  "id": "pcm-premiere-energie-chute-ece-7",
+  "chapter": "pcm-premiere-energie-chute",
+  "category": "ece",
+  "q": "Étudier le bilan énergétique d’une chute — Interpréter : que faire et pourquoi ?",
+  "a": "Une baisse significative de Em peut traduire du travail des frottements ; l’énergie totale du système élargi reste conservée, avec transferts thermiques. Ne pas analyser l’impact avec le seul modèle de vol."
+},
+{
+  "id": "pcm-premiere-onde-ece-1",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Que prouve un repère qui revient près de sa position initiale ?",
+  "a": "Le milieu effectue un mouvement local ; la propagation de la perturbation ne correspond pas à son transport global."
+},
+{
+  "id": "pcm-premiere-onde-ece-2",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Préparer : que faire et pourquoi ?",
+  "a": "Fixer le milieu selon le dispositif, choisir deux repères et mesurer AB ; annoncer direction de propagation."
+},
+{
+  "id": "pcm-premiere-onde-ece-3",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Perturber : que faire et pourquoi ?",
+  "a": "Créer une petite impulsion transverse sur la corde ou longitudinale dans le ressort, sans projeter le matériel."
+},
+{
+  "id": "pcm-premiere-onde-ece-4",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Observer : que faire et pourquoi ?",
+  "a": "Suivre la perturbation et un point marqué séparément ; noter les directions de mouvement."
+},
+{
+  "id": "pcm-premiere-onde-ece-5",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Dater : que faire et pourquoi ?",
+  "a": "Identifier la même impulsion en A puis B, avant réflexion sur l’extrémité ; utiliser une acquisition dont le pas convient."
+},
+{
+  "id": "pcm-premiere-onde-ece-6",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Calculer : que faire et pourquoi ?",
+  "a": "Convertir AB et τ, puis v=AB/τ ; répéter pour discuter la dispersion de lecture."
+},
+{
+  "id": "pcm-premiere-onde-ece-7",
+  "chapter": "pcm-premiere-onde",
+  "category": "ece",
+  "q": "Observer une onde sur corde ou ressort — Périodiser : que faire et pourquoi ?",
+  "a": "Si autorisé, produire un signal périodique et distinguer T mesuré en un point de λ mesurée à un instant."
+},
+{
+  "id": "pcm-premiere-retard-ece-1",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Pourquoi une impulsion peut-elle être plus simple qu’un sinus continu ?",
+  "a": "Son front identifie un événement ; un sinus répété peut faire confondre des périodes et rendre le retard ambigu."
+},
+{
+  "id": "pcm-premiere-retard-ece-2",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Aligner : que faire et pourquoi ?",
+  "a": "Placer A et B suivant la propagation et mesurer leur séparation acoustique ; éviter des trajets obliques différents."
+},
+{
+  "id": "pcm-premiere-retard-ece-3",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Brancher : que faire et pourquoi ?",
+  "a": "Relier les voies suivant la notice ; régler déclenchement, échelles et couplage, sans relier des sorties incompatibles."
+},
+{
+  "id": "pcm-premiere-retard-ece-4",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Émettre : que faire et pourquoi ?",
+  "a": "Utiliser une impulsion ou un paquet ; repérer la première arrivée avant les échos."
+},
+{
+  "id": "pcm-premiere-retard-ece-5",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Lire : que faire et pourquoi ?",
+  "a": "Marquer le même événement sur les voies ; τ=(nombre de divisions)×(temps par division) ou utiliser les curseurs."
+},
+{
+  "id": "pcm-premiere-retard-ece-6",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Calculer : que faire et pourquoi ?",
+  "a": "v=AB/τ ; conversions cm→m et ms/µs→s. Répéter avec plusieurs séparations si le sujet le permet."
+},
+{
+  "id": "pcm-premiere-retard-ece-7",
+  "chapter": "pcm-premiere-retard",
+  "category": "ece",
+  "q": "Mesurer un retard sonore avec deux microphones — Vérifier : que faire et pourquoi ?",
+  "a": "Comparer à l’ordre de grandeur du son dans l’air et discuter délai des interfaces/échos ; un sinus peut créer une ambiguïté de plusieurs périodes."
+},
+{
+  "id": "pcm-premiere-spectres-ece-1",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Comment distinguer spectre d’émission et spectre d’absorption dans le montage ?",
+  "a": "L’émission étudie directement la source ; l’absorption compare la lumière transmise après le milieu à la référence incidente."
+},
+{
+  "id": "pcm-premiere-spectres-ece-2",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Monter : que faire et pourquoi ?",
+  "a": "Aligner source, fente et système dispersif ; utiliser les supports et occultations prévus."
+},
+{
+  "id": "pcm-premiere-spectres-ece-3",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Observer émission : que faire et pourquoi ?",
+  "a": "Sans échantillon, relever continuum, bandes ou raies sur le même réglage ; identifier la source."
+},
+{
+  "id": "pcm-premiere-spectres-ece-4",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Étalonner λ : que faire et pourquoi ?",
+  "a": "Employer les graduations validées ou une référence du dispositif ; un décalage à l’écran ne donne pas directement des nm."
+},
+{
+  "id": "pcm-premiere-spectres-ece-5",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Observer absorption : que faire et pourquoi ?",
+  "a": "Placer le milieu entre source et spectroscope selon le protocole ; comparer au rayonnement de référence sans changer arbitrairement la géométrie."
+},
+{
+  "id": "pcm-premiere-spectres-ece-6",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Représenter : que faire et pourquoi ?",
+  "a": "Tracer un axe λ orienté, reporter les raies lumineuses ou sombres et légender émission/absorption ; conserver les valeurs approximatives comme telles."
+},
+{
+  "id": "pcm-premiere-spectres-ece-7",
+  "chapter": "pcm-premiere-spectres",
+  "category": "ece",
+  "q": "Observer et comparer des spectres — Interpréter : que faire et pourquoi ?",
+  "a": "Comparer plusieurs raies aux tables et relier le signal transmis à la couleur ; ne pas identifier un gaz sur une seule raie."
 }
 ]
