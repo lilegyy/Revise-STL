@@ -120,6 +120,30 @@
           "correction": "<div class='redac-bac'><div class='etape-titre'>Étape 1 : Lecture graphique et formule</div><div class='etape-contenu'>Le retard $\\tau$ est le nombre de divisions multiplié par le balayage : $\\tau = 5,9 \\times 1 = 5,9$ ms.<br>La formule de la célérité est $v = \\frac{D}{\\tau}$.<br>On convertit $\\tau$ en secondes : $5,9.10^{-3}$ s.</div><div class='etape-titre'>Étape 2 : A.N. et Analyse Milieu</div><div class='etape-contenu'>1. Célérité dans l'air : $v = \\frac{2,00}{5,9.10^{-3}} \\approx 339$ m/s.<br>2. Dans l'eau, $v_{eau} = 4 \\times v_{air}$. Puisque $\\tau = \\frac{D}{v}$, le retard est <b>inversement proportionnel</b> à la vitesse.</div><div class='conclusion-bac'>1. La célérité mesurée est de 339 m/s, cohérent avec la vitesse du son dans l'air.<br>2. Dans l'eau, l'onde allant 4 fois plus vite, le retard sera divisé par 4 (environ 1,47 ms). Les deux signaux apparaîtront beaucoup plus rapprochés sur l'oscilloscope !</div></div>"
         }
       ]
+    },
+    {
+      "id": "ondes-ch3",
+      "titre": "Chapitre 3 : Ondes acoustiques",
+      "description": "Sons, spectres, intensité sonore et ondes stationnaires.",
+      "cours": "<div class=\"bristol\"><h4 class=\"bristol-title\">1 · Propagation du son</h4><p>Une onde acoustique est une onde mécanique : elle nécessite un milieu matériel. Dans un gaz, les compressions et dilatations se propagent longitudinalement, sans transport global de matière. Sa célérité dépend du milieu et de sa température ; dans l’air sec à 20 °C, elle vaut environ 340 m/s.</p><p>Pour une onde périodique : $f=1/T$ et $v=\\lambda f$.</p></div><div class=\"bristol\"><h4 class=\"bristol-title\">2 · Spectre, hauteur et timbre</h4><p>Un son musical périodique présente un fondamental de fréquence $f_1$ et des harmoniques de fréquences $f_n=n f_1$. Le spectre représente leurs amplitudes en fonction de la fréquence. Un son pur est sinusoïdal et possède une seule raie ; un son complexe possède plusieurs composantes.</p><p>La <b>hauteur</b> dépend de la fréquence fondamentale : plus elle est élevée, plus le son est aigu. Le <b>timbre</b> dépend notamment des amplitudes relatives des harmoniques : deux instruments peuvent jouer la même note avec des timbres différents.</p></div><div class=\"bristol\"><h4 class=\"bristol-title\">3 · Intensité et niveau sonore</h4><p>L’intensité $I=P/S$ s’exprime en W/m². Pour une source ponctuelle qui émet uniformément dans toutes les directions, sans absorption : $I=P/(4\\pi d^2)$.</p><p>$L=10\\log_{10}(I/I_0)$ en dB, avec $I_0=10^{-12}$ W/m² ; réciproquement $I=I_0 10^{L/10}$. Les intensités s’additionnent, pas les niveaux en dB : doubler l’intensité augmente le niveau d’environ 3 dB. Le risque auditif dépend du niveau et de la durée d’exposition.</p></div><div class=\"bristol\"><h4 class=\"bristol-title\">4 · Ondes stationnaires et résonance</h4><p>Une onde stationnaire résulte de la superposition d’ondes incidente et réfléchie. Les nœuds ont une amplitude nulle ; les ventres ont une amplitude maximale. Deux nœuds successifs sont séparés de $\\lambda/2$, un nœud et le ventre voisin de $\\lambda/4$. Une corde excitée résonne fortement aux fréquences de ses modes propres.</p><p>Corde fixée aux deux bouts : $L=n\\lambda_n/2$ et $f_n=n v/(2L)$, avec $n=1,2,3,\\ldots$. Le fondamental comporte un fuseau ; les modes suivants ont des fréquences multiples de $f_1$.</p></div><div class=\"bristol\"><h4 class=\"bristol-title\">5 · Colonnes d’air</h4><p>Pour la pression acoustique, une extrémité ouverte est approximativement un nœud et une extrémité fermée un ventre. Deux extrémités ouvertes : $f_n=n v/(2L)$. Une extrémité ouverte et une fermée : $f_n=(2n-1)v/(4L)$, avec $n=1,2,3,\\ldots$ : seuls les multiples impairs du fondamental sont présents dans ce modèle idéal. Une colonne plus courte donne une fréquence fondamentale plus élevée.</p><p><a href=\"assets/documents/ondes-acoustiques-cours.pdf\" target=\"_blank\" rel=\"noopener\">Cours original avec schémas et exercice du violon</a> · <a href=\"assets/documents/ondes-acoustiques-exercices.pdf\" target=\"_blank\" rel=\"noopener\">Exercices originaux avec graphiques</a></p></div>",
+      "exercices": [
+        {
+          "enonce": "Un son a une fréquence fondamentale de 440 Hz. Donner les fréquences des trois premiers harmoniques et expliquer ce qui distingue deux instruments jouant cette note.",
+          "correction": "Les fréquences sont 440, 880 et 1 320 Hz. Les amplitudes relatives des harmoniques peuvent différer : les timbres sont différents."
+        },
+        {
+          "enonce": "Une intensité sonore vaut 10⁻⁶ W/m². Calculer son niveau sonore avec I₀ = 10⁻¹² W/m². Quel niveau obtient-on si deux sources indépendantes identiques produisent chacune cette intensité ?",
+          "correction": "L = 10 log₁₀(10⁶) = 60 dB. Les intensités s’ajoutent : L = 60 + 10 log₁₀(2) ≈ 63 dB."
+        },
+        {
+          "enonce": "Une corde de 0,55 m fixée aux deux extrémités vibre au fondamental à 440 Hz. Calculer la célérité de l’onde sur la corde.",
+          "correction": "Au fondamental, λ = 2L = 1,10 m. Donc v = λf = 484 m/s."
+        },
+        {
+          "enonce": "Une colonne d’air idéale de 0,85 m est ouverte à une extrémité et fermée à l’autre. Avec v = 340 m/s, calculer les deux premières fréquences de résonance.",
+          "correction": "f₁ = v/(4L) = 100 Hz. La fréquence suivante vaut 3f₁ = 300 Hz."
+        }
+      ]
     }
   ],
   "sp": [
